@@ -4,6 +4,9 @@
           `echo "Hello World" | tee hello.txt` - write "Hello World" to hello.txt and print it to stdout  
           `echo "Hello World" | tee -a hello.txt` - append "Hello World" to hello.txt and print it to stdout  
 
+- `cut`- remove sections from each line of files (install with `sudo apt install cut`)
+         `cut -d' ' -f1 <filename>` - cut first column from file f1 means field 1, d means delimiter
+         Data in a file is supposed to be separated by a delimiter. The default delimiter is tab.          
 
 #### Sed is a stream editor for filtering and transforming text (install with `sudo apt install sed`)
 - `sed 's/old/new/g' <filename>` - replace all occurrences of old with new in file s - substitute, g - global

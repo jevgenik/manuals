@@ -1,4 +1,4 @@
- === Linux commands ====
+=== Linux commands ====
  `grep` - print lines matching a pattern (e.g. `grep "Hello" hello.txt` - print lines containing "Hello" in hello.txt)  
  `lsb_release -a` - show Linux distribution information  
  `cat /etc/os-release` - show Linux distribution information)  
@@ -90,9 +90,7 @@ the same functionality as apt-get, and possibly more.
           `wget -O <filename> <url>` - download file from url and save it as filename
           or simply `wget <url>` - download file from url and save it with original name
   
- `tee` - read from standard input and write to standard output and files (install with `sudo apt install tee`)
-         `echo "Hello World" | tee hello.txt` - write "Hello World" to hello.txt and print it to stdout
-         `echo "Hello World" | tee -a hello.txt` - append "Hello World" to hello.txt and print it to stdout
+
 
   --Shortcuts in Linux Ubuntu Gui
   `Ctrl + H` - show hidden files
