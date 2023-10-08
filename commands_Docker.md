@@ -1,3 +1,7 @@
+- **ARG** is only available during the build process, not after the image is built.  
+is used to pass arguments to the Dockerfile from the docker-compose.yml file or from the command line.  
+E.g. `docker build --build-arg BASE_IMAGE="nvidia_x86_64_humble_nv2" -t humble_realsense:latest .`  
+
 --- Docker commmands ---
 
 --- Buid image
@@ -14,12 +18,12 @@ xhost +local:root
 OR
 xhost +
 
-docker run -it --rm --privileged --network host --runtime=nvidia --gpus all --env="DISPLAY" --env="QT_X11_NO_MITSHM=1" --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw" aarch64_humble_realsense:latest
-(--rm Automatically remove the container when it exits)
-(--gpus # flag when you start a container to access GPU resources. Specify how many GPUs to use (all - use all GPUs))
-(--privileged flag gives all capabilities to the container, and it also lifts all the limitations enforced by the device cgroup controller. 
-(--volume="/tmp/.X11-unix:/tmp/.X11-unix:rw" read-write mode (i.e. the container can write as well as read files on the host))
-In other words, the container can then do almost everything that the host can do)
+docker run -it --rm --privileged --network host --runtime=nvidia --gpus all --env="DISPLAY" --env="QT_X11_NO_MITSHM=1" --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw" aarch64_humble_realsense:latest  
+(--rm Automatically remove the container when it exits)  
+(--gpus # flag when you start a container to access GPU resources. Specify how many GPUs to use (all - use all GPUs))  
+(--privileged flag gives all capabilities to the container, and it also lifts all the limitations enforced by the device cgroup controller.   
+(--volume="/tmp/.X11-unix:/tmp/.X11-unix:rw" read-write mode (i.e. the container can write as well as read files on the host))  
+In other words, the container can then do almost everything that the host can do)  
 
 To capture docker build logs to a file
  `docker build -f Dockerfile.bfb_camera_d435i -t bfb_camera_d435i:latest ../.. 2>&1 | tee build.log`

@@ -1,6 +1,8 @@
-- `tee` - read from standard input and write to standard output and files (install with `sudo apt install tee`)  
-         `echo "Hello World" | tee hello.txt` - write "Hello World" to hello.txt and print it to stdout  
-         `echo "Hello World" | tee -a hello.txt` - append "Hello World" to hello.txt and print it to stdout  
+- `tee` - read from standard input and write to standard output and files
+          install with `sudo apt install tee`  
+          Convenient to write logs to file and print them to stdout at the same time (python script.py | tee log.txt)  
+          `echo "Hello World" | tee hello.txt` - write "Hello World" to hello.txt and print it to stdout  
+          `echo "Hello World" | tee -a hello.txt` - append "Hello World" to hello.txt and print it to stdout  
 
 
 #### Sed is a stream editor for filtering and transforming text (install with `sudo apt install sed`)
