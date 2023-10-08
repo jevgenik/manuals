@@ -22,7 +22,7 @@ For example if you have a branch called new-feature and you want to merge it int
 you first want to switch to the main branch and then merge into it:
 
 `git checkout new-branch` (e.g. new-feature)
-# ...develop some code...
+ ...develop some code...
 
 1. `git add –A`
 2. `git commit –m "Some commit message"`
@@ -35,7 +35,7 @@ Switched to branch 'main'
 2. `git init` - initialize local repository
 3. `git add .` - add all files to staging area
 4. `git commit -m "first commit"` - commit changes
-6. `git branch -M main` - rename branch `master` to `main
-5. On github.com create new repository "my_new_repository"
+6. `git branch -M main` - rename branch 'master' to 'main'
+5. On github.com create new repository 'my_new_repository'
 6. `git remote add origin https://github.com/jevgenik/my_new_repository.git` - add remote repository
 7. `git push --set-upstream origin main` or `git push -u origin main` - push changes to remote repository
