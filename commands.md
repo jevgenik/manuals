@@ -1,5 +1,5 @@
  === Linux commands ====
- `grep` - print lines matching a pattern (e.g. `grep "Hello" hello.txt` - print lines containing "Hello" in hello.txt)
+ `grep` - print lines matching a pattern (e.g. `grep "Hello" hello.txt` - print lines containing "Hello" in hello.txt)  
  `lsb_release -a` - show Linux distribution information  
  `cat /etc/os-release` - show Linux distribution information)  
  `tail -f /var/log/syslog` - show last 10 lines of syslog and continuously print new lines as they are appended to syslog  
@@ -15,13 +15,13 @@
   `tmux new -s <session_name>` - create new tmux session with specified name  
   `tmux rename-session -t <old_session_name> <new_session_name>` - rename tmux session  
   `tmux detach` - detach from tmux session (keep session running in background) or simply `CTRL-B d`  
-  `tmux windows` - list all windows in tmux session
-  `tmux new-window` - create new window in tmux session, or simply `CTRL-B c`
-  `Ctrl-b %` - split tmux window vertically
-  `Ctrl-b "` - split tmux window horizontally
-  `Ctrl-b <arrow key>` - switch between tmux windows
-  `Ctrl-b : list-command` - list all tmux commands
-  `Ctrl-b : [` - enter copy mode (use arrow keys to navigate, press `v` to select text, press `y` to copy selected text)
+  `tmux windows` - list all windows in tmux session  
+  `tmux new-window` - create new window in tmux session, or simply `CTRL-B c`  
+  `Ctrl-b %` - split tmux window vertically  
+  `Ctrl-b "` - split tmux window horizontally  
+  `Ctrl-b <arrow key>` - switch between tmux windows  
+  `Ctrl-b : list-command` - list all tmux commands  
+  `Ctrl-b : [` - enter copy mode (use arrow keys to navigate, press `v` to select text, press `y` to copy selected text)  
 
 #### Sed is a stream editor for filtering and transforming text (install with `sudo apt install sed`)
 - `sed 's/old/new/g' <filename>` - replace all occurrences of old with new in file s - substitute, g - global
@@ -48,12 +48,10 @@
 <!-- ![Alt Text](images/gazebo_and_ros.png) -->
 <!--img src="images/gazebo_and_ros.png" alt="Alt Text" width="300" height="200"-->
 
--- Software management --
+### Software management 
 Apt - Advanced Package Tool (apt is a command-line utility for installing, updating, removing, and otherwise managing  
-                            deb packages on Ubuntu, Debian, and related Linux distributions)  
-- `apt-get` - command-line tool for handling packages (apt-get is a command-line tool for handling packages, and may be  
-            considered the user's "back-end" to other tools using the APT library)  
-apt is a newer command-line tool that provides the same functionality as apt-get, and possibly more.  
+deb packages on Ubuntu, Debian, and related Linux distributions) apt is a newer command-line tool that provides 
+the same functionality as apt-get, and possibly more.  
 - `apt update` - update list of available packages
 - `apt upgrade` - upgrade all installed packages
 - `apt search <package_name>` - search for package in repositories
@@ -71,47 +69,47 @@ apt is a newer command-line tool that provides the same functionality as apt-get
 - `dpkg` - install, remove, and inspect deb packages (dpkg is a low-level tool for installing, removing, and inspecting deb packages)
 - `dpkg -i <package_name>` - install package (e.g. `dpkg -i google-chrome-stable_current_amd64.deb`)
 
--- Process management --
- `ps aux` - show all running processes (a - show processes of all users, u - show processes of current user, 
+### Process management
+- `ps aux` - show all running processes (a - show processes of all users, u - show processes of current user, 
                                         x - show processes not attached to a terminal)
- `top` - display Linux processes (top -  display Linux processes in real time)
-        `top -p <PID>` - display Linux process with specified PID
-        `top -u <username>` - display Linux processes of specified user                                        
-        `Shift + M` - sort processes by memory usage
-        `Shift + P` - sort processes by CPU usage
- `pstree` - display a tree diagram of running processes
- `pstree <PID>` - This will show the process tree starting from the specified PID
- `kill -l` - list all signals
- `kill <PID>` - terminate process with specified PID (by default sends SIGTERM (15) signal to the process, same as `kill -SIGTERM <PID>`) 
- `kill -SIGINT <PID>` - terminate process with specified PID (sends SIGINT (2) signal to the process) this is the default signal 
-                        sent by the `Ctrl + C` command. The primary purpose of SIGINT is to notify a process that 
-                        the user has requested an interruption.  SIGINT is a gentle nudge asking the process to stop. If that fails, 
-                        SIGTERM is a more forceful, but still polite request for the process to terminate (it still provides the process 
+- `top` - display Linux processes (top -  display Linux processes in real time)  
+  `top -p <PID>` - display Linux process with specified PID  
+  `top -u <username>` - display Linux processes of specified user    
+  `Shift + M` - sort processes by memory usage  
+  `Shift + P` - sort processes by CPU usage  
+- `pstree` - display a tree diagram of running processes  
+  `pstree <PID>` - This will show the process tree starting from the specified PID
+- `kill -l` - list all signals  
+  `kill <PID>` - terminate process with specified PID (by default sends SIGTERM (15) signal to the process, same as `kill -SIGTERM <PID>`)  
+  `kill -SIGINT <PID>` - terminate process with specified PID (sends SIGINT (2) signal to the process) this is the default signal  
+                        sent by the `Ctrl + C` command. The primary purpose of SIGINT is to notify a process that  
+                        the user has requested an interruption.  SIGINT is a gentle nudge asking the process to stop. If that fails,  
+                        SIGTERM is a more forceful, but still polite request for the process to terminate (it still provides the process  
                         with a chance to tidy up (save data) before shutting down). 
-                        Finally, if all else fails, SIGKILL terminates the process with no questions asked.
- `kill -9 <PID>` (same as `kill -SIGKILL <PID>`) - terminate process with specified PID (sends SIGKILL (9) signal to the process)
-                  this is a "forceful" or "hard" kill signal because it immediately terminates the processes without allowing them 
-                  to perform any cleanup tasks, to save any data or graceful shutdown procedures.
- `killal` - send a signal to all processes running any of the specified commands
- `killall chrome` -  terminate all running instances of the Google Chrome browser on your Linux system
- `killall -9 process_name` - This signal is commonly known as a "forceful" or "hard" kill signal because it immediately 
-                             terminates the processes without allowing them to perform any cleanup tasks or graceful shutdown procedures.
- `Ctrl + Z` - bash job control. To suspend a foreground process running in a terminal. Stops the process and returns you 
-              to the current shell. You can now type `fg` to continue process, or type `bg` to continue the process in the background
-              Ctrl+Z is a useful way to temporarily halt a process without terminating it, allowing you to continue using the terminal 
-              for other tasks and then later bring the suspended process back when needed.
-              - If you have a process running in the foreground in your terminal, such as a long-running command or program, 
-              pressing Ctrl+Z will suspend that process.
-              - You will see a message indicating that the process has been stopped, along with a job number, typically 
-              something like [1]+ Stopped command
-              - The suspended process is now in the background, and you can use the `bg` command to resume it in the background 
-              or the `fg` command to bring it back to the foreground.
- `Ctrl + C` - terminate a running process (SIGINT [Signal Interrupt - Signal Number 2] signal is sent to the process)
-              (SIGTERM [command kill sends TERM by default] is the preferred way as the process has the chance to terminate gracefully)
+                        Finally, if all else fails, SIGKILL terminates the process with no questions asked.  
+  `kill -9 <PID>` (same as `kill -SIGKILL <PID>`) - terminate process with specified PID (sends SIGKILL (9) signal to the process)  
+                  this is a "forceful" or "hard" kill signal because it immediately terminates the processes without allowing them  
+                  to perform any cleanup tasks, to save any data or graceful shutdown procedures.  
+- `killal` - send a signal to all processes running any of the specified commands  
+  `killall chrome` -  terminate all running instances of the Google Chrome browser on your Linux system  
+  `killall -9 process_name` - This signal is commonly known as a "forceful" or "hard" kill signal because it immediately  
+                             terminates the processes without allowing them to perform any cleanup tasks or graceful shutdown procedures.  
+- `Ctrl + Z` - bash job control. To suspend a foreground process running in a terminal. Stops the process and returns you  
+              to the current shell. You can now type `fg` to continue process, or type `bg` to continue the process in the background  
+              Ctrl+Z is a useful way to temporarily halt a process without terminating it, allowing you to continue using the terminal  
+              for other tasks and then later bring the suspended process back when needed.  
+              - If you have a process running in the foreground in your terminal, such as a long-running command or program,  
+              pressing Ctrl+Z will suspend that process.  
+              - You will see a message indicating that the process has been stopped, along with a job number, typically   
+              something like [1]+ Stopped command  
+              - The suspended process is now in the background, and you can use the `bg` command to resume it in the background  
+              or the `fg` command to bring it back to the foreground.  
+ - `Ctrl + C` - terminate a running process (SIGINT [Signal Interrupt - Signal Number 2] signal is sent to the process)  
+              (SIGTERM [command kill sends TERM by default] is the preferred way as the process has the chance to terminate gracefully)  
 
- `miniterm` - simple terminal program for the serial port (installed as part of pyserial package `sudo apt install python3-serial`)
-              can be used to send commands to the serial port (e.g. send to Arduino [Arduino is used as a motor controller])
-              `miniterm /dev/ttyACM0 115200` - open serial port with baudrate 115200
+ - `miniterm` - simple terminal program for the serial port (installed as part of pyserial package `sudo apt install python3-serial`)  
+              can be used to send commands to the serial port (e.g. send to Arduino [Arduino is used as a motor controller])  
+              `miniterm /dev/ttyACM0 115200` - open serial port with baudrate 115200  
 
  `wget` - command-line utility for downloading files from the web (install with `sudo apt install wget`)
           `wget -O <filename> <url>` - download file from url and save it as filename
