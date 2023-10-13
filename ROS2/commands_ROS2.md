@@ -31,10 +31,10 @@ Generate pdf file with TF transform tree
 `rviz -d <path_to_rviz_config_file>` - run rviz with config file (e.g. `rviz -d /ros_ws/src/bigfootbot_description/rviz/bigfootbot.rviz`)
 
 ### Name remapping
-`ros2 run rplidar_ros rplidar_node --ros-args -r __ns:=scanner2`  
-`--ros args` - allows you to pass arguments to the node  
-`-r __ns:=scanner2` this changes the namespace of the node rplidar_node to 'scanner2' (/scanner/rplidar_node)   
-`-r __node:=<new node name>` this renames the node to 'new_node_name'.  
+- `ros2 run rplidar_ros rplidar_node --ros-args -r __ns:=scanner2`  
+- `--ros args` - allows you to pass arguments to the node  
+- `-r __ns:=scanner2` this changes the namespace of the node rplidar_node to 'scanner2' (/scanner/rplidar_node)   
+- `-r __node:=<new node name>` this renames the node to 'new_node_name'.  
 Namespace allows you to run multiple instances of the same node with separate parameter spaces. 
 
 --- ROS2 params ---
