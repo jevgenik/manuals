@@ -1,5 +1,10 @@
---- ROS2 commands ---
-  --- TF2 commands ---
+### ROS2 commands
+- `ros2 run <package_name> <executable_name>` - run executable from package. Executable can written in C++ or Python
+- `ros2 msg show <message_name>` - show message definition (e.g. `ros2 msg show geometry_msgs/Twist`)
+- `ros2 node list` - list active nodes (e.g. `ros2 node list -t` - list active nodes with their types)  
+  `ros2 node info <node_name>` - show information about node (e.g. `ros2 node info /turtlesim` - show information about turtlesim node)
+
+  #### TF2 commands ####
   Generate pdf file with TF transform tree
   `ros2 run tf2_tools view_frames.py`
 
@@ -9,6 +14,9 @@
   --- ROS2 topic commands ---
   `ros2 topic echo /wheel/odometry`
   `ros2 topic echo /my_topic --no-arr` --no-addr - don't print array fields of messages
+  `ros2 topic list` - list active topics
+
+  in ros1 to list active topics: 
 
   Retrieve information about a topic
   `ros2 topic info /tf --verbose`
