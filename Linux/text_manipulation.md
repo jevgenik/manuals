@@ -21,14 +21,18 @@
 - `:help` - show help
 - `i` - insert mode. Means that you can type text. Press `Esc` to exit insert mode
 - `d` - delete line
-`: set number` - show line numbers
-- To select text in vim press `v` and use arrow keys to select text
-- To copy selected text press `y`
-- To insert copied text press `p`
-- To undo press `u`
-- To redo press `Ctrl + r`
-- To search for text in vim press `/` and type text to search for (e.g. `/Hello`)
-- To insert row press `o` (inserts row below) or `O` (inserts row above)
-- To delete row press `dd`
+- `: set number` - show line numbers
+- `v` - visual mode. Means that you can select text. Press `Esc` to exit visual mode
+        To select text press `v` and move cursor to select text 
+- `y` - yank (copy) selected text
+- `p` - paste copied text
+- `u` - undo
+- `Ctrl + r` - redo
+- `/` - search for text (e.g. `/Hello` + `Enter` - search for Hello)
+- `n` - go to next search result
+- `N` - go to previous search result
+- `:s/old/new/g` - replace all occurrences of old with new in file s - substitute, g - global
+- `o` - insert new line below current line
+- `dd` - delete line
 <!-- ![Alt Text](images/gazebo_and_ros.png) -->
 <!--img src="images/gazebo_and_ros.png" alt="Alt Text" width="300" height="200"-->
