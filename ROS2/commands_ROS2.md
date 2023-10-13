@@ -19,12 +19,12 @@
   `ros2 run tf2_ros tf2_echo <parent frame> <child frame>`
 
   #### ROS2 topic commands
-  `ros2 topic echo <topic_name>` - show messages published to topic
-  `ros2 topic echo <topic_name> --no-arr` - show messages published to topic without array brackets
-  `ros2 topic list` - list active topics
-  `ros2 topic list -t` - list active topics with their types
-  `ros2 topic info <topic_name>` - show information about topic (e.g. `ros2 topic info /turtle1/cmd_vel`)
-  `ros2 topic type <topic_name>` - show type of topic (e.g. `ros2 topic type /turtle1/cmd_vel`)
+  - `ros2 topic echo <topic_name>` - show messages published to topic
+  - `ros2 topic echo <topic_name> --no-arr` - show messages published to topic without array brackets
+  - `ros2 topic list` - list active topics
+  - `ros2 topic list -t` - list active topics with their types
+  - `ros2 topic info <topic_name>` - show information about topic (e.g. `ros2 topic info /turtle1/cmd_vel`)
+  - `ros2 topic type <topic_name>` - show type of topic (e.g. `ros2 topic type /turtle1/cmd_vel`)
 
   in ros1 to list active topics: 
 
