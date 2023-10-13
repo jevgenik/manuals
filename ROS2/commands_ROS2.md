@@ -5,6 +5,10 @@
   `ros2 node info <node_name>` - show information about node (e.g. `ros2 node info /turtlesim` - show information about turtlesim node)
 
   #### TF2 commands ####
+  > TF2 is the transform library, which lets the user keep track of multiple coordinate frames over time. TF2 maintains  
+  > the relationship between coordinate frames in a tree structure buffered  in time, and lets the user transform points, 
+  > vectors, etc between any two coordinate frames at any desired point in time.
+
   Generate pdf file with TF transform tree
   `ros2 run tf2_tools view_frames.py`
 
