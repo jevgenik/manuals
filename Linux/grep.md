@@ -1,6 +1,5 @@
 Regualr Expressions (regex) are a sequence of characters that define a search pattern.
 
-
 Grep is a command-line utility for searching plain-text data sets for lines that match a regular expression.  
 Its name comes from the ed command g/re/p (globally search a regular expression and print), which has the same effect:  
 doing a global search with the regular expression and printing all matching lines.  

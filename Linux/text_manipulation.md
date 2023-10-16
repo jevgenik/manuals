@@ -1,3 +1,6 @@
+- `touch` - create empty file (e.g. `touch file.txt`)
+            echo "Hello World" > file.txt - write "Hello World" to file.txt
+            echo "Hello World" >> file.txt - append "Hello World" to file.txt
 - `tee` - read from standard input and write to standard output and files
           install with `sudo apt install tee`  
           Convenient to write logs to file and print them to stdout at the same time (python script.py | tee log.txt)  
@@ -13,6 +16,10 @@
 - To delete a line with start and end pattern use `sed '/start_pattern/,/end_pattern/d' <filename>`
 
 #### Vim is is a highly configurable text editor built to make creating and changing any kind of text very efficient
+Modes in vim:
+- Command mode - for executing commands (e.g. `:q` - quit, `:w` - save) (default mode)
+- Insert mode - for inserting text (e.g. `i` - insert mode, `Esc` - exit insert mode)
+- Visual mode - for selecting blocks of text (e.g. `v` - visual mode, `Esc` - exit visual mode)
 - `vim <filename>` - open file in vim or create new file if it doesn't exist
 - `:q` - quit
 - `:w` - save
@@ -22,7 +29,7 @@
 - `i` - insert mode. Means that you can type text. Press `Esc` to exit insert mode
 - `d` - delete line
 - `: set number` - show line numbers
-- `v` - visual mode. Means that you can select text. Press `Esc` to exit visual mode
+- `v` - visual mode. Means that you can select text. Press `Esc` to exit visual mode 
         To select text press `v` and move cursor to select text 
 - `y` - yank (copy) selected text
 - `p` - paste copied text
