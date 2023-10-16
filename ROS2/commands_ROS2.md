@@ -37,6 +37,10 @@ Generate pdf file with TF transform tree
 - `-r __node:=<new node name>` this renames the node to 'new_node_name'.  
 Namespace allows you to run multiple instances of the same node with separate parameter spaces. 
 
+### Package commands
+- `ros2 pkg create --build-type ament_cmake <package_name>` - create package with cmake build system (default)
+- `ros2 pkg prefix <package name>` - get the installation location of package	
+
 --- ROS2 params ---
   To see the parameters belonging to your nodes
   `ros2 param list`
