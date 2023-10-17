@@ -1,6 +1,8 @@
 --- Git commands ---
-- `git remote -v` - show remote repositories  
-- `git branch -v` - show local branches  
+- `git remote -v` - show remote repositories
+- `git branch -v` - show local branches
+- `git branch -r` - show remote branches
+- `git branch -a` - show all branches (local and remote)
 - `git merge <branch_name>` - merge branch_name into current branch (commits history will be saved)  
                             simply put "Please add my changes to the branch I'm currently on."  
 - `git rebase <branch_name>` - rebase current branch on top of branch_name (commits history will be rewritten by new commits from branch_name)  
