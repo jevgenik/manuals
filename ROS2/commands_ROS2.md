@@ -39,6 +39,8 @@ Namespace allows you to run multiple instances of the same node with separate pa
 
 ### Package commands
 - `ros2 pkg create --build-type ament_cmake <package_name>` - create package with cmake build system (default)
+- `ros2 pkg create --build-type ament_python <package_name>` - create package with python build system
+- `ros2 pkg create --build-type ament_cmake  --dependencies urdf xacro <package_name>` - create package with cmake build system and dependencies urdf and xacro
 - `ros2 pkg prefix <package name>` - get the installation location of package	
 
 --- ROS2 params ---
