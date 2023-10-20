@@ -30,7 +30,8 @@ Modes in vim:
 - `i` - insert mode. Means that you can type text. Press `Esc` to exit insert mode
 - `d` - delete line
 - `:set number` - show line numbers
-- `:set tabstop=4` - set tabstop to 4 spaces (default is 8 spaces)
+- `:set tabstop=4` - set tabstop to 4 spaces (when you press tab it will insert 4 spaces) (default is 8 spaces)
+- `:set paste` - paste text without auto indent
 - `v` - visual character mode. Means that you can select characters of text. Press `Esc` to exit visual character mode 
         To select characters of text press `v` and move cursor to select characters of text
 - `V` - visual line mode. Means that you can select lines of text. Press `Esc` to exit visual line mode 
@@ -38,6 +39,7 @@ Modes in vim:
 - `Crl + v` - visual block mode. Means that you can select blocks of text. Press `Esc` to exit visual block mode 
         To select blocks of text press `Crl + v` and move cursor to select blocks of text
 - `y` - yank (copy) selected text
+- `x` - delete selected text
 - `p` - paste copied text
 - `u` - undo
 - `Ctrl + r` - redo
