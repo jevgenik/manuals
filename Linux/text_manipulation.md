@@ -22,15 +22,21 @@ Modes in vim:
 - Visual mode - for selecting blocks of text (e.g. `v` - visual mode, `Esc` - exit visual mode)
 - `vim <filename>` - open file in vim or create new file if it doesn't exist
 - `:q` - quit
+- `:q!` - quit without saving
 - `:w` - save
 - `:wq` - save and quit
 - `:q!` - quit without saving
 - `:help` - show help
 - `i` - insert mode. Means that you can type text. Press `Esc` to exit insert mode
 - `d` - delete line
-- `: set number` - show line numbers
-- `v` - visual mode. Means that you can select text. Press `Esc` to exit visual mode 
-        To select text press `v` and move cursor to select text 
+- `:set number` - show line numbers
+- `:set tabstop=4` - set tabstop to 4 spaces (default is 8 spaces)
+- `v` - visual character mode. Means that you can select characters of text. Press `Esc` to exit visual character mode 
+        To select characters of text press `v` and move cursor to select characters of text
+- `V` - visual line mode. Means that you can select lines of text. Press `Esc` to exit visual line mode 
+        To select lines of text press `V` and move cursor to select lines of text
+- `Crl + v` - visual block mode. Means that you can select blocks of text. Press `Esc` to exit visual block mode 
+        To select blocks of text press `Crl + v` and move cursor to select blocks of text
 - `y` - yank (copy) selected text
 - `p` - paste copied text
 - `u` - undo

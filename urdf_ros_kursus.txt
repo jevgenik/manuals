@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<robot name="fourwheeler">
+
+  <link name="base_link">
+    <visual>
+      <geometry>
+        <box size="0.430 0.320 0.140" />
+      </geometry>
+    </visual>
+  </link>
+
+</robot>
+
+<material name="blue">
+        <color rgba="0 0 0.8 1" />
+</material>
+
+<joint name="front_right_wheel_to_base" type="continuous">
+    <parent link="base_link" />
+    <child link="front_right_wheel" />
+    <origin xyz="0.1075 -0.1851 -0.05" rpy="1.57 0 0" />
+    <axis xyz="0 0 1" />
+  </joint>

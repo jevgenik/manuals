@@ -10,6 +10,21 @@
 - kinematic chain is a set of links connected by joints
 - serial manipulator is a kinematic chain with a single end-effector (e.g. robot arm)
 
+<div style="display: flex; align-items: flex-end;">
+  <figure>
+    <img src="images/kinematics_cartesian_axes.png" alt="Cartesian space" width="300">
+    <figcaption>Cartesian space</figcaption>
+  </figure>
+  <figure>
+    <img src="images/forwardkin.png" alt="Forward kinematics" width="300">
+    <figcaption>Forward kinematics</figcaption>
+  </figure>
+  <figure>
+    <img src="images/inversekin.png" alt="Inverse kinematics" width="300">
+    <figcaption>Inverse kinematics</figcaption>
+  </figure>
+</div>
+
 > Pose = Position + Orientation 
 > Position = (x, y, z)
 > Orientation = (roll, pitch, yaw)
@@ -29,8 +44,20 @@ URDF is an XML format for representing a robot model (file extension .urdf)
   - planar
 - transmission is a connection between a joint and an actuator
 
-<img src="images/links_and_joints.png" alt="Links and joints" width="300">
+<div style="display: flex; align-items: flex-end;">
+  <figure>
+    <img src="images/links_and_joints.png" alt="Links and joints" width="300">
+  </figure>
+  <figure>
+    <img src="images/joint.png" alt="Joint" width="400">
+  </figure>
+  <figure>
+    <img src="images/joint2.png" alt="Joint" width="400">
+  </figure>
+</div>
 
+> https://github.com/ros/urdf_tutorial/tree/ros2 - URDF tutorial (Learning URDF Step by Step)
+> `roslaunch urdf_tutorial display.launch model:=fourwheeler.urdf` - visualize urdf model in rviz
 
 ## XACRO - XML Macros for URDF
 Files with extension .xacro are XML files that can contain macros. Macros are used to simplify the creation of URDF files.
