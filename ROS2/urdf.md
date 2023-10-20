@@ -46,13 +46,13 @@ URDF is an XML format for representing a robot model (file extension .urdf)
 
 <div style="display: flex; align-items: flex-end;">
   <figure>
-    <img src="images/links_and_joints.png" alt="Links and joints" width="200">
+    <img src="images/links_and_joints.png" alt="Links and joints" width="250">
   </figure>
   <figure>
-    <img src="images/joint.png" alt="Joint" width="200">
+    <img src="images/joint.png" alt="Joint" width="250">
   </figure>
   <figure>
-    <img src="images/joint2.png" alt="Joint" width="200">
+    <img src="images/joint2.png" alt="Joint" width="250">
   </figure>
 </div>
 
