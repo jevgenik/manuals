@@ -30,7 +30,14 @@
 > Orientation = (roll, pitch, yaw)
 
 # URDF - Unified Robot Description Format
-URDF is an XML format for representing a robot model (file extension .urdf)
+> URDF is an XML format for representing a robot model (file extension .urdf)  
+
+ROS2 documentation:
+[Buildng a visual robot model from scratch](https://docs.ros.org/en/rolling/Tutorials/Intermediate/URDF/Building-a-Visual-Robot-Model-with-URDF-from-Scratch.html)
+
+URDF tutorial (Learning URDF Step by Step) [urdf_tutorial](https://github.com/ros/urdf_tutorial/tree/ros2) NB! this package depends on the package urdf_launch  
+`ros2 launch urdf_tutorial display.launch.py model:=urdf/01-myfirst.urdf` - visualize your urdf model in rviz  
+[urdf_launch](https://github.com/ros/urdf_launch) This package contains launch files and configurations for common URDF operations (launches robot_state_publisher, joint_state_publisher, rviz)
 
 - link is a rigid body with inertia (urdf example: `<link name="base_link">`)
 - joint is a connection between two links
@@ -55,9 +62,6 @@ URDF is an XML format for representing a robot model (file extension .urdf)
     <img src="images/joint2.png" alt="Joint" width="250">
   </figure>
 </div>
-
-> https://github.com/ros/urdf_tutorial/tree/ros2 - URDF tutorial (Learning URDF Step by Step)
-> `roslaunch urdf_tutorial display.launch model:=fourwheeler.urdf` - visualize urdf model in rviz
 
 ## XACRO - XML Macros for URDF
 Files with extension .xacro are XML files that can contain macros. Macros are used to simplify the creation of URDF files.
