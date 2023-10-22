@@ -66,5 +66,7 @@ URDF tutorial (Learning URDF Step by Step) [urdf_tutorial](https://github.com/ro
 ## XACRO - XML Macros for URDF
 Files with extension .xacro are XML files that can contain macros. Macros are used to simplify the creation of URDF files.
 
+`xacro myrobot.urdf.xacro > myrobot.urdf` - convert xacro file to urdf file
+
 <!-- ![Alt Text](images/xacro_macros.png) -->
 <img src="images/xacro_macros.png" alt="Alt Text" width="1000">

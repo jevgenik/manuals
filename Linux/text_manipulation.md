@@ -39,7 +39,7 @@ Modes in vim:
 - `Crl + v` - visual block mode. Means that you can select blocks of text. Press `Esc` to exit visual block mode 
         To select blocks of text press `Crl + v` and move cursor to select blocks of text
 - `y` - yank (copy) selected text
-- `x` - delete selected text
+- `x` - cut selected text
 - `p` - paste copied text
 - `u` - undo
 - `Ctrl + r` - redo

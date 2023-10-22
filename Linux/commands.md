@@ -1,5 +1,9 @@
 === Linux commands ====
- `grep` - print lines matching a pattern (e.g. `grep "Hello" hello.txt` - print lines containing "Hello" in hello.txt)  
+ `grep` - is a command-line utility for searching plain-text data sets for lines that match a regular expression. 
+          Its name comes from g/re/p (globally search a regular expression and print)
+          e.g. `grep "Hello" hello.txt` - print lines containing "Hello" in hello.txt)  
+ `eog` - Eye of GNOME, is the official image viewer for the GNOME desktop environment
+ `xdg-open` - opens a file or URL in the user's preferred application (e.g. `xdg-open hello.txt` - open hello.txt in the default text editor)
  `lsb_release -a` - show Linux distribution information  
  `cat /etc/os-release` - show Linux distribution information)  
  `tail -f /var/log/syslog` - show last 10 lines of syslog and continuously print new lines as they are appended to syslog  

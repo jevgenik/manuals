@@ -1,6 +1,5 @@
 ### ROS2 commands
 - `ros2 run <package_name> <executable_name>` - run executable from package. Executable can written in C++ or Python
-- `ros2 msg show <message_name>` - show message definition (e.g. `ros2 msg show geometry_msgs/Twist`)
 - `ros2 node list` - list active nodes 
   `ros2 node info <node_name>` - show information about node (e.g. `ros2 node info /turtlesim`)
 - `ros2 interface show <interface_name>` - show interface definition (e.g. `ros2 interface show geometry_msgs/msg/Twist`)
