@@ -38,7 +38,7 @@ Files with extension .xacro are XML files that can contain macros. Macros are us
 `xacro myrobot.urdf.xacro > myrobot.urdf` - convert xacro file to urdf file
 
 <!-- ![Alt Text](images/xacro_macros.png) -->
-<img src="images/xacro_macros.png" alt="Alt Text" width="1000">
+<img src="images/xacro_macros.png" alt="Alt Text" width="500">
 
 > Kinematics is the study of motion without considering the forces that cause the motion.  
 > **Inverse kinematics** is the process of determining the parameters of a jointed flexible  
