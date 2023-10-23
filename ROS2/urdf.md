@@ -70,3 +70,16 @@ Files with extension .xacro are XML files that can contain macros. Macros are us
 > Pose = Position + Orientation 
 > Position = (x, y, z)
 > Orientation = (roll, pitch, yaw)
+
+**Robot State Publisher** is a ROS node that publishes the state of a robot to tf.  
+[robot_state_publisher](https://github.com/ros/robot_state_publisher) loads URDF from the parameter server, subscribes to joint states, and publishes the state of all joints relative to the root link to tf.  
+
+**Joint State Publisher** Given a URDF in the robot_description parameter on the parameter server, this node will continually publish default values for all of the  
+movable joints in the URDF to the /joint_states topic  
+[joint_state_publisher](https://github.com/ros/joint_state_publisher/tree/ros2/joint_state_publisher)
+
+**Joint State Publisher GUI** is a GUI that allows you to modify the joint values of a robot. This node publishes joint states to the /joint_states topic.  
+[joint_state_publisher_gui](https://github.com/ros/joint_state_publisher/tree/ros2/joint_state_publisher_gui)
+
+<img src="images/robot_state_publisher.png" alt="Cartesian space" width="1000">
+
