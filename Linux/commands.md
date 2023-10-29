@@ -26,6 +26,7 @@
   `Ctrl-b <arrow key>` - switch between tmux windows  
   `Ctrl-b : list-command` - list all tmux commands  
   `Ctrl-b : [` - enter copy mode (use arrow keys to navigate, press `v` to select text, press `y` to copy selected text)  
+  `chmod u+x simple_velocity_publisher.py` - make script executable for user (u - user, + - add permission, x - execute)
 
 ### Software management 
 Apt - Advanced Package Tool (apt is a command-line utility for installing, updating, removing, and otherwise managing  

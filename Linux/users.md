@@ -36,3 +36,5 @@ Each line of the file contains the following fields:
 To see a list of users on the system, type the following command: `cut -d: -f1 /etc/passwd` 
 cut command is used to extract sections from each line of input. -d option specifies the delimiter, 
 -f option specifies the fields to print 
+
+`chmod u+x simple_velocity_publisher.py` - make script executable for user (u - user, + - add permission, x - execute)
