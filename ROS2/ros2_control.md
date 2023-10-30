@@ -4,4 +4,4 @@ ros2_control’s goal is to simplify integrating new hardware and overcome some 
 
 <!--img src="images/ros2_control_architecture.jpeg" alt="Alt Text"-->
 
-<![ros2_control architecture](images/ros2_control_architecture.jpeg)>
+![ros2_control architecture](images/ros2_control_architecture.jpeg)
