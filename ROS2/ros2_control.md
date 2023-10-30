@@ -12,7 +12,7 @@ ros2_control’s goal is to simplify integrating new hardware and overcome some 
                               As input it takes velocity commands for the robot body, which are translated to wheel commands for the differential drive base.  
                               Odometry is computed from hardware feedback and published  
                               Documentation: [diff_drive_controller](https://control.ros.org/master/doc/ros2_controllers/diff_drive_controller/doc/userdoc.html)
-- **Hardware components** represent abstraction of physical hardware in ros2_control framework. There are three types of  
+- **hardware components** represent abstraction of physical hardware in ros2_control framework. There are three types of  
                           hardware Actuator, Sensor and System  
                           Documentation: [Hardware Components](https://control.ros.org/master/doc/getting_started/getting_started.html#overview-hardware-components)  
 - **pluginlib** - pluginlib is a library for writing and dynamically loading plugins.  
