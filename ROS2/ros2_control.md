@@ -12,11 +12,12 @@ ros2_control’s goal is to simplify integrating new hardware and overcome some 
                               As input it takes velocity commands for the robot body, which are translated to wheel commands for the differential drive base.  
                               Odometry is computed from hardware feedback and published  
                               Documentation: [diff_drive_controller](https://control.ros.org/master/doc/ros2_controllers/diff_drive_controller/doc/userdoc.html)
+- **Hardware components** represent abstraction of physical hardware in ros2_control framework. There are three types of  
+                          hardware Actuator, Sensor and System  
 - **pluginlib** - pluginlib is a library for writing and dynamically loading plugins.  
                   Plugins are classes that are loaded at runtime using the C++ classloader.  
                   Plugins are useful for making code more modular and reusable.  
-                  For example, a plugin can be used to implement a controller for a robot.  
-                  The plugin can be loaded at runtime and used to control the robot.  
+                  For example, a plugin can be used to implement a hardware interface for a robot.                  
                   Documentation: [pluginlib](https://docs.ros.org/en/iron/Tutorials/Beginner-Client-Libraries/Pluginlib.html)                              
 
 
