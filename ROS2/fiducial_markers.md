@@ -18,12 +18,16 @@ AprilTag advantages:
 
 **fiducacial_msgs/Fiducial.msg** is the message type for a single fiducial marker.
 
-**Orientation** is represented by a quaternion (x, y, z, w). The quaternion is a 4-dimensional vector that represents a rotation in 3-dimensional space. The quaternion is normalized so that the magnitude of the vector is 1.0. The quaternion is used to represent the orientation of the marker because it is more compact than a 3-dimensional vector.
+**Orientation** is represented by a quaternion (x, y, z, w). The quaternion is a 4-dimensional vector that represents a rotation in 3-dimensional space.
 
-Pictures below show orientation in Euler angles (roll, pitch, yaw)
+Pictures below show orientation in Euler angles (roll, pitch, yaw). 
 
 <div style="display: flex; align-items: flex-end;">
   <img src="images/roll_pitch_yaw_1.png" alt="Roll Pitch Yaw" width="250">
   <img src="images/roll_pitch_yaw_2.png" alt="Roll Pitch Yaw" width="250">
-</div>
+</div>  
+
+> Euler angles are not used in ROS because they are not unique. For example, a rotation of 180 degrees around the z-axis is the  
+> same as a rotation of 180 degrees around the x-axis followed by a rotation of 180 degrees around the y-axis. This is called  
+> gimbal lock.
   
