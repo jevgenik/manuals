@@ -1,6 +1,6 @@
 Fiducial markers in computer vision are markers that are placed in the field of view of a camera and are used to estimate the pose (position and orientation) of the camera relative to the markers.
 
-![tf2](images/fiducial_markers.png)
+<img src="images/fiducial_markers.png" alt="Fiducial markers" width="550">
 
 ARtag and AprilTag are two popular libraries for fiducial markers. They are both based on the same algorithm, but ARtag is more mature and has more features. AprilTag is a newer library and is more actively developed. Both libraries are open source and are available on GitHub.
 
