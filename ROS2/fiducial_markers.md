@@ -18,6 +18,10 @@ AprilTag advantages:
 
 **fiducacial_msgs/Fiducial.msg** is the message type for a single fiducial marker.
 
+**Orientation** is represented by a quaternion (x, y, z, w). The quaternion is a 4-dimensional vector that represents a rotation in 3-dimensional space. The quaternion is normalized so that the magnitude of the vector is 1.0. The quaternion is used to represent the orientation of the marker because it is more compact than a 3-dimensional vector.
+
+Pictures below show orientation in Euler angles (roll, pitch, yaw)
+
 <div style="display: flex; align-items: flex-end;">
   <img src="images/roll_pitch_yaw_1.png" alt="Roll Pitch Yaw" width="250">
   <img src="images/roll_pitch_yaw_2.png" alt="Roll Pitch Yaw" width="250">
