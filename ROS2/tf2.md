@@ -8,5 +8,5 @@
 
 ## tf2 commands 
 
-- `ros2 run tf2_tools view_frames.py` - generate pdf file with TF transform tree
+- `ros2 run tf2_tools view_frames` - generate pdf file with TF transform tree
 - `ros2 run tf2_ros tf2_echo <parent frame> <child frame>` - reports the transform between any two frames broadcast over ROS
