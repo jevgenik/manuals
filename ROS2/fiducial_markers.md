@@ -1,4 +1,4 @@
-Fiducial markers in computer vision are markers that are placed in the field of view of a camera and are used to estimate the pose (position and orientation) of the camera relative to the markers.
+Fiducial (Latin word "fiducia," which means "trust" or "confidence") markers in computer vision are markers that are placed in the field of view of a camera and are used to estimate the pose (position and orientation) of the camera relative to the markers.
 
 <img src="images/fiducial_markers.png" alt="Fiducial markers" width="550">
 
