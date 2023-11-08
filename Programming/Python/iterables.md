@@ -1,4 +1,5 @@
-# Iterables are objects that can be iterated over, like lists, tuples, dictionaries, sets, strings, and generators.
+# Iterables
+are objects that can be iterated over, like lists, tuples, dictionaries, sets, strings, and generators.
 
 ## List
 A list is a collection of items that can be of different types.
