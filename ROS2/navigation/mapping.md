@@ -5,4 +5,4 @@ efficient routes and understand the layout of an area. They're handy when you ca
 than the exact distances.  
 > Origin of word "topology": Greek topos (place) + logos (study).
 
-<img src="../images/topological_map.png" alt="Topological map" width="500">
+<img src="../images/topological_map.jpg" alt="Topological map" width="500">
