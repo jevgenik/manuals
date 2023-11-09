@@ -8,6 +8,9 @@ A list is a collection of items that can be of different types.
   my_list = [1, 2, 3, 4, 5]
   my_list = ["Hello", "World"]
   my_list = [1, "Hello", 3.4, True]
+
+  # Accessing items
+  print(my_list[0]) # 1
   ```
 
 Featues:
@@ -18,11 +21,14 @@ Featues:
 ## Tuple
 A tuple is a collection of items that can be of different types.
     
-    ```python
-    my_tuple = (1, 2, 3, 4, 5)
-    my_tuple = ("Hello", "World")
-    my_tuple = (1, "Hello", 3.4, True)
-    ```
+  ```python
+  my_tuple = (1, 2, 3, 4, 5)
+  my_tuple = ("Hello", "World")
+  my_tuple = (1, "Hello", 3.4, True)
+  
+  # Accessing items
+  print(my_tuple[1]) # Hello
+  ```
 Featues:
 - Tuples are immutable, meaning that you can't change their content after creation.
 - Tuples are ordered, meaning that the items have a defined order, and that order will not change.
