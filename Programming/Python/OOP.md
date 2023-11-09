@@ -6,7 +6,8 @@ It also has methods like start_engine, stop_engine, and honk to perform actions 
 ``` Python
 
 class Car:
-    def __init__(self, make, model, year, color):
+    def __init__(self, make, model, year, color): # The __init__ method is called when an instance of the class is created.
+                                                  # It is also called the constructor.
         self.make = make
         self.model = model
         self.year = year
