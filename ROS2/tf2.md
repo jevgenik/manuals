@@ -12,10 +12,10 @@ from the base frame to all its related children, constitutes a **transform tree*
 <img src="images/transforms.png" alt="ROS transforms" width="700">
 
 # tf2
-> tf2 is the transform library, which lets the user keep track of multiple coordinate frames over time. tf2 maintains the  
-> relationship between coordinate frames in a tree structure buffered in time and lets the user transform points, vectors,   
-> etc. between any two coordinate frames at any desired point in time.  
-> Documentation: [tf2](https://docs.ros.org/en/iron/Concepts/Intermediate/About-Tf2.html?highlight=tf2)
+is the transform library, which lets the user keep track of multiple coordinate frames over time. tf2 maintains the  
+relationship between coordinate frames in a tree structure buffered in time and lets the user transform points, vectors,   
+etc. between any two coordinate frames at any desired point in time.  
+Documentation: [tf2](https://docs.ros.org/en/iron/Concepts/Intermediate/About-Tf2.html?highlight=tf2)
 
 ![tf2](images/AMR_tf2.png)
 
