@@ -19,7 +19,7 @@ from the base frame to all its related children, constitutes a **transform tree*
 
 ![tf2](images/AMR_tf2.png)
 
-**geometry_msgs/TransformStamped**  
+**Message geometry_msgs/TransformStamped**  
 [Documentation](https://docs.ros2.org/latest/api/geometry_msgs/msg/TransformStamped.html)  
 Expresses a transform from coordinate frame header.frame_id (parent frame)  
 to the coordinate frame child_frame_id at the time of header.stamp
