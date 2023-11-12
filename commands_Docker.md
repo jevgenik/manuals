@@ -44,8 +44,9 @@ docker-compose start
 docker-compose down
 
 --- List containers
-docker-compose ps
-docker ps -a
+`docker-compose ps`
+`docker ps -a` - list all containers (running and stopped)
+`docker container ls -a` - list all containers (running and stopped) it is alias for `docker ps -a`
 
 --- Inspect (containers, networks, images, volumes)
 `docker inspect <container name>` - show container info (IP address, etc)
@@ -55,3 +56,9 @@ docker ps -a
 `docker inspect <volume name>` - show volume info
 
 --- end of block 'docker commmands ---
+
+
+### Free up disk space
+`docker system prune` - cleans up dangling resources (unused data such as stopped containers, dangling images, networks, and more)
+`docker system prune -a` -a removes all unused images (those that are not associated with any container) not just the dangling ones.
+                         NB! all images will be removed
