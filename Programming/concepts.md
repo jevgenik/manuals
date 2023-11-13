@@ -40,7 +40,7 @@ print(f"My name is {name} and I am {age} years old.") # My name is John and I am
 ```
 
 ## Method / function overloading
-is the ability to create multiple methods/functions with the same name but with different parameters.
+is the ability to create multiple methods/functions with the same name but with different parameters.  
 NOTE Python does not support method overloading.
 
 C++
