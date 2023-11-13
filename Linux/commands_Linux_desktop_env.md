@@ -1,4 +1,7 @@
 ### Desktop environment
+
+![Liux Windowing System](../images/linux_windowing_system.png)
+
 - X windows system is a windowing system for bitmap displays, common on Unix-like operating systems. 
 - "X11" refers to a version pf the X protocol. Xorg is an open source implementation of X.
 - Display server or window server is a program whose primary task is to coordinate the input and output  
