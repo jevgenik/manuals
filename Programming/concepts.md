@@ -3,8 +3,6 @@
 callback function - a function that is passed as an argument to another function, to be "called back" at a later time.
 For example, in ROS, a callback function is passed to a subscriber. The subscriber will call the callback function when it receives a message.  
 
-example code:  
-
 Python
 
 ```Python 
