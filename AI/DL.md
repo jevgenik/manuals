@@ -2,7 +2,7 @@
 - deep learning algorithms can be regarded both as a sophisticated and **mathematically complex evolution of  
 machine learning algorithms**  
 - Describes algorithms that analyze data with a logic structure similar to how a human would draw conclusions.  
-- Can be supervised, semi-supervised or unsupervised.
+- Can be supervised, unsupervised, semi-supervised, self-supervised, or reinforcement.
 - To achieve this deep learning applications use a layered structure of algorithms called an **artificial neural network (ANN)**
 
 ### Artificial Neural Network (ANN)
