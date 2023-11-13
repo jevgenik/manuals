@@ -11,6 +11,6 @@ is the process of finding a path from a start point to a goal point through obst
 ## Local planning
 
 
-## NAV2 architecture
+## Navigation Stack
 
 <img src="../images/nav2_stack.png" alt="Nav2 stack">  
