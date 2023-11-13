@@ -3,7 +3,7 @@
 > Machine learning is intercection of computer science and statistics.  
 > Algorithm is learned to make a prediction without being explicitly programmed, only based on patterns in the data.
 
-[Introductinal video about AI/ML/DL](https://www.youtube.com/watch?time_continue=47&v=cDTp-qXXZU0&embeds_referring_euri=https%3A%2F%2Flevity.ai%2F&source_ve_path=MzY4NDIsMTI3Mjk5LDEyNzI5OSwzNjg0MiwzNjg0MiwzNjg0MiwzNjg0MiwxMzkxMTcsMzY4NDIsMTM5MTE3LDM2ODQyLDM2ODQyLDM2ODQyLDI4NjY2&feature=emb_logo)
+[Introduction video about AI/ML/DL](https://www.youtube.com/watch?time_continue=47&v=cDTp-qXXZU0&embeds_referring_euri=https%3A%2F%2Flevity.ai%2F&source_ve_path=MzY4NDIsMTI3Mjk5LDEyNzI5OSwzNjg0MiwzNjg0MiwzNjg0MiwzNjg0MiwxMzkxMTcsMzY4NDIsMTM5MTE3LDM2ODQyLDM2ODQyLDM2ODQyLDI4NjY2&feature=emb_logo)
 
 ![AI, ML, DL](../images/AI_ML_DL.png)  
 
