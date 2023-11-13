@@ -1,6 +1,6 @@
 # Deep Learning
-deep learning algorithms can be regarded both as a sophisticated and mathematically complex evolution of  
-machine learning algorithms.  
+deep learning algorithms can be regarded both as a sophisticated and **mathematically complex evolution of  
+machine learning algorithms**  
 
 describes algorithms that analyze data with a logic structure similar to how a human would draw conclusions.  
 This can happen both through supervised and unsupervised learning.  
