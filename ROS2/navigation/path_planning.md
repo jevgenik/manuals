@@ -1,7 +1,7 @@
 # Path planning 
-is the process of finding a path from a start point to a goal point through obstacles.
+is the process of finding a path from a start point to a goal point through obstacles. 
 
-![Path planning](../images/navigation.gif)  
+<img src="../images/navigation.gif" alt="Path planning" width="500">  
 
 ## Global planning
 
