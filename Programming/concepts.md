@@ -43,3 +43,30 @@ print(f"My name is {name} and I am {age} years old.") # My name is John and I am
 is the ability to create multiple methods/functions with the same name but with different parameters.
 NOTE Python does not support method overloading.
 
+C++
+
+```C++
+// Example of method overloading
+
+class MyClass
+{
+    public:
+        void my_method(int x)
+        {
+            // do something
+        }
+
+        void my_method(int x, int y)
+        {
+            // do something
+        }
+};
+
+int main()
+{
+    MyClass my_object;
+    my_object.my_method(1); // calls my_method(int x)
+    my_object.my_method(1, 2); // calls my_method(int x, int y)
+    return 0;
+}
+```
