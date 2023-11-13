@@ -38,3 +38,8 @@ print("My name is %s and I am %d years old." % (name, age)) # My name is John an
 print(f"My name is {name} and I am {age} years old.") # My name is John and I am 20 years old.
 # f is for format and it is used to interpolate variables into strings
 ```
+
+## Method / function overloading
+is the ability to create multiple methods/functions with the same name but with different parameters.
+NOTE Python does not support method overloading.
+
