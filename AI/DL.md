@@ -11,5 +11,6 @@ To achieve this deep learning applications use a layered structure of algorithms
 Hidden layers are called hidden, because their values aren’t directly observed in the training data (they are calculated during the training process).  
 In simple terms, the hidden layers are calculated values used by the network to make predictions.
 The more hidden layers a network has, the more complex the patterns it can recognize.
+ANNs are hungry for data. The more data you feed them, the better they perform.
 
 <img src="../images/ANN.png" alt="Neural Network" width="700">  
