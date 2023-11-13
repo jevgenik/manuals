@@ -8,9 +8,8 @@ than the exact distances.
 <img src="../images/topological_map.jpg" alt="Topological map" width="700">
 
 # Geometric maps
-are based on the precise geographic coordinates of features. They're useful for navigation systems that need to know the exact  
+are based on the **precise geographic coordinates of features**. They're useful for navigation systems that need to know the exact  
 distances between locations. They're also used in robotics to plan efficient routes and understand the layout of an area.
-Discrete map vs continuous map
 
 ### Descrete map 
 is like a grid, where the environment is divided into cells. Each cell represents a specific area, and the map is essentially  
@@ -24,5 +23,5 @@ This makes it computationally more tractable, especially for grid-based algorith
 
 
 ### Continuous map
-represents the environment as a smooth, mathematical function. Instead of breaking the world into discrete cells, you model it 
+represents the environment as a smooth, mathematical function. Instead of breaking the world into discrete cells, you model it  
 as a continuous surface. Continuous maps offer a more detailed representation, but they can be computationally demanding
