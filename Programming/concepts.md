@@ -27,7 +27,7 @@ ros::Subscriber sub = n.subscribe("topic_name", 1000, callback_function); // 100
 ## Interpolation of strings 
 Is the process of substituting values of variables into placeholders in a string.  
 
-Python:  
+Python
 
 ```Python
 name = "John"
