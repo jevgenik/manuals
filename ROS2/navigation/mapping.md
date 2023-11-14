@@ -25,3 +25,17 @@ This makes it computationally more tractable, especially for grid-based algorith
 ### Continuous map
 represents the environment as a smooth, mathematical function. Instead of breaking the world into discrete cells, you model it  
 as a continuous surface. Continuous maps offer a more detailed representation, but they can be computationally demanding
+
+# SLAM algorithms
+
+## gmapping 
+(g means grid because this algorithm uses a grid map)
+is a highly efficient Rao-Blackwellized particle filter to learn grid maps from laser range data  
+[Details](https://openslam-org.github.io/gmapping.html)
+
+Particle filter is a Monte Carlo algorithm that uses a set of particles (samples) to represent the belief distribution.
+
+
+# ROS2 Packages
+- depthimage_to_laserscan - converts depth image to laser scan  
+  [Github](https://github.com/ros-perception/depthimage_to_laserscan/tree/ros2)
