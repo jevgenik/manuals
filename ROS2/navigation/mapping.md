@@ -39,3 +39,8 @@ Particle filter is a Monte Carlo algorithm that uses a set of particles (samples
 # ROS2 Packages
 - depthimage_to_laserscan - converts depth image to laser scan  
   [Github](https://github.com/ros-perception/depthimage_to_laserscan/tree/ros2)
+
+- nav2_map_server - The Map Server provides maps to the rest of the Nav2 system using both topic and service interfaces.  
+  Map server will expose maps on the node bringup, but can also change maps using a load_map service during run-time,   
+  as well as save maps using a save_map server.  
+  [Github](https://github.com/ros-planning/navigation2/tree/main/nav2_map_server)
