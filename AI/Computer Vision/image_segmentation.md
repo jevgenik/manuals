@@ -4,16 +4,14 @@ By dividing an image into segments, you can process only the important segments 
 
 - Task:  
 Assigning a class label to each pixel in an image, dividing the image into segments corresponding to different objects or regions.
-Output:
 
 - Output:  
 A pixel-wise segmentation map where each pixel is assigned a specific class label.
-Use Cases:
 
 - Use cases:  
-Medical image analysis (identifying and segmenting tumors).
-Scene understanding.
-Robotics (environment perception).
+  - Medical image analysis (identifying and segmenting tumors).
+  - Scene understanding.
+  - Robotics (environment perception).
 
 - Algorithms:  
 U-Net, FCN (Fully Convolutional Network), and Mask R-CNN are common architectures for image segmentation.
