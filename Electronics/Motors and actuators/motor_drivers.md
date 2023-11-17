@@ -10,7 +10,7 @@ is a circuit that drives the [motor](electrical_motors.md) with higher current t
 </div>
 
 ## BLDC motor drivers {#bldc-motor-drivers}
-ESC or Electronic Speed Controller controls the [brushless motor](electrical_motors.md/#bldc-motors) movement or speed by activating the appropriate MOSFETs  
+**ESC or Electronic Speed Controller** controls the [brushless motor](electrical_motors.md/#bldc-motors) movement or speed by activating the appropriate MOSFETs  
 to create the rotating magnetic field so   that the motor rotates.  The higher the frequency or the quicker the ESC goes  
 through   the 6 intervals, the higher the speed of the motor will be.  
 
