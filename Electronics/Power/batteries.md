@@ -8,6 +8,8 @@
 
 ## Battery pack
 
-
+<div style="display: flex; align-items: flex-end;">
+  <img src="../../images/electronics/lion_battery_pack.png" alt="Li-ion battery pack">
+</div>
 
 # Lithium Polymer (LiPo) Battery
