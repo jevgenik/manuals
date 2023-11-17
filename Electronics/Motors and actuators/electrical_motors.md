@@ -21,7 +21,7 @@ Actually it is a DC motor with a built-in feedback mechanism that controls the s
 # BLDC motors
 
 <div style="display: flex; align-items: flex-end;">
-  <img src="../../images/electronics/bldc_motor.jpg" alt="BLDC motor" width="500"> 
+  <img src="../../images/electronics/bldc_motor.jpg" alt="BLDC motor" width="400"> 
   &nbsp; &nbsp;
   <img src="../../images/electronics/bldc_motor_disassembled.jpg" alt="BLDC motor disassembled" width="500">  
 </div>
