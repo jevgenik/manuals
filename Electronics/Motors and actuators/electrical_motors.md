@@ -1,4 +1,5 @@
 # DC motors
+[Motor Drivers](motor_drivers.md)
 
 <div style="display: flex; align-items: flex-end;">
   <img src="../../images/electronics/dc_motor_working_principle.jpg" alt="DC brushed motor" width="500">  
