@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>Software management &#8212; Robotics manuals 17.11.2023 documentation</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=4f649999" />
+    <link rel="stylesheet" type="text/css" href="../_static/alabaster.css?v=cb25574f" />
+    <script src="../_static/documentation_options.js?v=be71fc57"></script>
+    <script src="../_static/doctools.js?v=888ff710"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+   
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <p>=== Linux commands ====
+<code class="docutils literal notranslate"><span class="pre">grep</span></code> - is a command-line utility for searching plain-text data sets for lines that match a regular expression.
+Its name comes from g/re/p (globally search a regular expression and print)
+e.g. <code class="docutils literal notranslate"><span class="pre">grep</span> <span class="pre">&quot;Hello&quot;</span> <span class="pre">hello.txt</span></code> - print lines containing “Hello” in hello.txt)<br />
+<code class="docutils literal notranslate"><span class="pre">eog</span></code> - Eye of GNOME, is the official image viewer for the GNOME desktop environment
+<code class="docutils literal notranslate"><span class="pre">xdg-open</span></code> - opens a file or URL in the user’s preferred application (e.g. <code class="docutils literal notranslate"><span class="pre">xdg-open</span> <span class="pre">hello.txt</span></code> - open hello.txt in the default text editor)
+<code class="docutils literal notranslate"><span class="pre">lsb_release</span> <span class="pre">-a</span></code> - show Linux distribution information<br />
+<code class="docutils literal notranslate"><span class="pre">cat</span> <span class="pre">/etc/os-release</span></code> - show Linux distribution information)<br />
+<code class="docutils literal notranslate"><span class="pre">tail</span> <span class="pre">-f</span> <span class="pre">/var/log/syslog</span></code> - show last 10 lines of syslog and continuously print new lines as they are appended to syslog<br />
+<code class="docutils literal notranslate"><span class="pre">tail</span> <span class="pre">-15</span> <span class="pre">/var/log/syslog</span></code> - show last 15 lines of syslog<br />
+<code class="docutils literal notranslate"><span class="pre">stat</span></code> - display file or file system status (e.g. <code class="docutils literal notranslate"><span class="pre">stat</span> <span class="pre">/dev/ttyACM0</span></code> - show status of ttyACM0)<br />
+<code class="docutils literal notranslate"><span class="pre">tree</span></code> - list contents of directories in a tree-like format (install with <code class="docutils literal notranslate"><span class="pre">sudo</span> <span class="pre">apt</span> <span class="pre">install</span> <span class="pre">tree</span></code>)<br />
+<code class="docutils literal notranslate"><span class="pre">tree</span> <span class="pre">-L</span> <span class="pre">1</span></code> - show only first level of directories<br />
+<code class="docutils literal notranslate"><span class="pre">tmux</span></code> - terminal multiplexer, allows you to run multiple terminal sessions inside a single<br />
+terminal window or remote terminal session (install with <code class="docutils literal notranslate"><span class="pre">sudo</span> <span class="pre">apt</span> <span class="pre">install</span> <span class="pre">tmux</span></code>)<br />
+<code class="docutils literal notranslate"><span class="pre">tmux</span> <span class="pre">ls</span></code> - list all tmux sessions<br />
+<code class="docutils literal notranslate"><span class="pre">tmux</span> <span class="pre">attach</span> <span class="pre">-t</span> <span class="pre">&lt;session_name&gt;</span></code> - attach to tmux session with specified name<br />
+<code class="docutils literal notranslate"><span class="pre">tmux</span> <span class="pre">kill-session</span> <span class="pre">-t</span> <span class="pre">&lt;session_name&gt;</span></code> - kill tmux session with specified name<br />
+<code class="docutils literal notranslate"><span class="pre">tmux</span> <span class="pre">new</span> <span class="pre">-s</span> <span class="pre">&lt;session_name&gt;</span></code> - create new tmux session with specified name<br />
+<code class="docutils literal notranslate"><span class="pre">tmux</span> <span class="pre">rename-session</span> <span class="pre">-t</span> <span class="pre">&lt;old_session_name&gt;</span> <span class="pre">&lt;new_session_name&gt;</span></code> - rename tmux session<br />
+<code class="docutils literal notranslate"><span class="pre">tmux</span> <span class="pre">detach</span></code> - detach from tmux session (keep session running in background) or simply <code class="docutils literal notranslate"><span class="pre">CTRL-B</span> <span class="pre">d</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">tmux</span> <span class="pre">windows</span></code> - list all windows in tmux session<br />
+<code class="docutils literal notranslate"><span class="pre">tmux</span> <span class="pre">new-window</span></code> - create new window in tmux session, or simply <code class="docutils literal notranslate"><span class="pre">CTRL-B</span> <span class="pre">c</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">Ctrl-b</span> <span class="pre">%</span></code> - split tmux window vertically<br />
+<code class="docutils literal notranslate"><span class="pre">Ctrl-b</span> <span class="pre">&quot;</span></code> - split tmux window horizontally<br />
+<code class="docutils literal notranslate"><span class="pre">Ctrl-b</span> <span class="pre">&lt;arrow</span> <span class="pre">key&gt;</span></code> - switch between tmux windows<br />
+<code class="docutils literal notranslate"><span class="pre">Ctrl-b</span> <span class="pre">:</span> <span class="pre">list-command</span></code> - list all tmux commands<br />
+<code class="docutils literal notranslate"><span class="pre">Ctrl-b</span> <span class="pre">:</span> <span class="pre">[</span></code> - enter copy mode (use arrow keys to navigate, press <code class="docutils literal notranslate"><span class="pre">v</span></code> to select text, press <code class="docutils literal notranslate"><span class="pre">y</span></code> to copy selected text)<br />
+<code class="docutils literal notranslate"><span class="pre">chmod</span> <span class="pre">u+x</span> <span class="pre">simple_velocity_publisher.py</span></code> - make script executable for user (u - user, + - add permission, x - execute)</p>
+<section id="software-management">
+<h1>Software management<a class="headerlink" href="#software-management" title="Link to this heading">¶</a></h1>
+<p>Apt - Advanced Package Tool (apt is a command-line utility for installing, updating, removing, and otherwise managing<br />
+deb packages on Ubuntu, Debian, and related Linux distributions) apt is a newer command-line tool that provides
+the same functionality as apt-get, and possibly more.</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">apt</span> <span class="pre">update</span></code> - update list of available packages</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">apt</span> <span class="pre">upgrade</span></code> - upgrade all installed packages</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">apt</span> <span class="pre">search</span> <span class="pre">&lt;package_name&gt;</span></code> - search for package in repositories</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">apt</span> <span class="pre">list</span> <span class="pre">--installed</span></code> - list all installed packages</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">apt</span> <span class="pre">insall</span> <span class="pre">--no-install-recommends</span> <span class="pre">&lt;package_name&gt;</span></code> - install package without recommended packages and only packages
+required to satisfy dependencies for the specified package
+(useful in docker images to reduce image size)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">apt</span> <span class="pre">remove</span> <span class="pre">&lt;package_name&gt;</span></code> - remove package</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">apt</span> <span class="pre">purge</span> <span class="pre">&lt;package_name&gt;</span></code> - remove package and its configuration files</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">apt</span> <span class="pre">autoremove</span></code> - remove packages that were automatically installed to satisfy dependencies
+for other packages and are now no longer needed</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">apt-key</span> <span class="pre">add</span> <span class="pre">&lt;key_file&gt;</span></code> - add key_file to apt trusted keys (Key is a file containing a PGP key in ASCII armor format is needed<br />
+to authenticate the package repository. The apt-key add command is used to add the key)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">apt-key</span> <span class="pre">list</span></code> - list apt trusted keys</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">dpkg</span></code> - install, remove, and inspect deb packages (dpkg is a low-level tool for installing, removing, and inspecting deb packages)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">dpkg</span> <span class="pre">-i</span> <span class="pre">&lt;package_name&gt;</span></code> - install package (e.g. <code class="docutils literal notranslate"><span class="pre">dpkg</span> <span class="pre">-i</span> <span class="pre">google-chrome-stable_current_amd64.deb</span></code>)</p></li>
+</ul>
+</section>
+<section id="process-management">
+<h1>Process management<a class="headerlink" href="#process-management" title="Link to this heading">¶</a></h1>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">ps</span> <span class="pre">aux</span></code> - show all running processes (a - show processes of all users, u - show processes of current user,
+x - show processes not attached to a terminal)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">top</span></code> - display Linux processes (top -  display Linux processes in real time)<br />
+<code class="docutils literal notranslate"><span class="pre">top</span> <span class="pre">-p</span> <span class="pre">&lt;PID&gt;</span></code> - display Linux process with specified PID<br />
+<code class="docutils literal notranslate"><span class="pre">top</span> <span class="pre">-u</span> <span class="pre">&lt;username&gt;</span></code> - display Linux processes of specified user<br />
+<code class="docutils literal notranslate"><span class="pre">Shift</span> <span class="pre">+</span> <span class="pre">M</span></code> - sort processes by memory usage<br />
+<code class="docutils literal notranslate"><span class="pre">Shift</span> <span class="pre">+</span> <span class="pre">P</span></code> - sort processes by CPU usage</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">pstree</span></code> - display a tree diagram of running processes<br />
+<code class="docutils literal notranslate"><span class="pre">pstree</span> <span class="pre">&lt;PID&gt;</span></code> - This will show the process tree starting from the specified PID</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">kill</span> <span class="pre">-l</span></code> - list all signals<br />
+<code class="docutils literal notranslate"><span class="pre">kill</span> <span class="pre">&lt;PID&gt;</span></code> - terminate process with specified PID (by default sends SIGTERM (15) signal to the process, same as <code class="docutils literal notranslate"><span class="pre">kill</span> <span class="pre">-SIGTERM</span> <span class="pre">&lt;PID&gt;</span></code>)<br />
+<code class="docutils literal notranslate"><span class="pre">kill</span> <span class="pre">-SIGINT</span> <span class="pre">&lt;PID&gt;</span></code> - terminate process with specified PID (sends SIGINT (2) signal to the process) this is the default signal<br />
+sent by the <code class="docutils literal notranslate"><span class="pre">Ctrl</span> <span class="pre">+</span> <span class="pre">C</span></code> command. The primary purpose of SIGINT is to notify a process that<br />
+the user has requested an interruption.  SIGINT is a gentle nudge asking the process to stop. If that fails,<br />
+SIGTERM is a more forceful, but still polite request for the process to terminate (it still provides the process<br />
+with a chance to tidy up (save data) before shutting down).
+Finally, if all else fails, SIGKILL terminates the process with no questions asked.<br />
+<code class="docutils literal notranslate"><span class="pre">kill</span> <span class="pre">-9</span> <span class="pre">&lt;PID&gt;</span></code> (same as <code class="docutils literal notranslate"><span class="pre">kill</span> <span class="pre">-SIGKILL</span> <span class="pre">&lt;PID&gt;</span></code>) - terminate process with specified PID (sends SIGKILL (9) signal to the process)<br />
+this is a “forceful” or “hard” kill signal because it immediately terminates the processes without allowing them<br />
+to perform any cleanup tasks, to save any data or graceful shutdown procedures.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">killal</span></code> - send a signal to all processes running any of the specified commands<br />
+<code class="docutils literal notranslate"><span class="pre">killall</span> <span class="pre">chrome</span></code> -  terminate all running instances of the Google Chrome browser on your Linux system<br />
+<code class="docutils literal notranslate"><span class="pre">killall</span> <span class="pre">-9</span> <span class="pre">process_name</span></code> - This signal is commonly known as a “forceful” or “hard” kill signal because it immediately<br />
+terminates the processes without allowing them to perform any cleanup tasks or graceful shutdown procedures.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Ctrl</span> <span class="pre">+</span> <span class="pre">Z</span></code> - bash job control. To suspend a foreground process running in a terminal. Stops the process and returns you<br />
+to the current shell. You can now type <code class="docutils literal notranslate"><span class="pre">fg</span></code> to continue process, or type <code class="docutils literal notranslate"><span class="pre">bg</span></code> to continue the process in the background<br />
+Ctrl+Z is a useful way to temporarily halt a process without terminating it, allowing you to continue using the terminal<br />
+for other tasks and then later bring the suspended process back when needed.<br />
+- If you have a process running in the foreground in your terminal, such as a long-running command or program,<br />
+pressing Ctrl+Z will suspend that process.<br />
+- You will see a message indicating that the process has been stopped, along with a job number, typically<br />
+something like [1]+ Stopped command<br />
+- The suspended process is now in the background, and you can use the <code class="docutils literal notranslate"><span class="pre">bg</span></code> command to resume it in the background<br />
+or the <code class="docutils literal notranslate"><span class="pre">fg</span></code> command to bring it back to the foreground.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Ctrl</span> <span class="pre">+</span> <span class="pre">C</span></code> - terminate a running process (SIGINT [Signal Interrupt - Signal Number 2] signal is sent to the process)<br />
+(SIGTERM [command kill sends TERM by default] is the preferred way as the process has the chance to terminate gracefully)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">miniterm</span></code> - simple terminal program for the serial port (installed as part of pyserial package <code class="docutils literal notranslate"><span class="pre">sudo</span> <span class="pre">apt</span> <span class="pre">install</span> <span class="pre">python3-serial</span></code>)<br />
+can be used to send commands to the serial port (e.g. send to Arduino [Arduino is used as a motor controller])<br />
+<code class="docutils literal notranslate"><span class="pre">miniterm</span> <span class="pre">/dev/ttyACM0</span> <span class="pre">115200</span></code> - open serial port with baudrate 115200</p></li>
+</ul>
+<p><code class="docutils literal notranslate"><span class="pre">wget</span></code> - command-line utility for downloading files from the web (install with <code class="docutils literal notranslate"><span class="pre">sudo</span> <span class="pre">apt</span> <span class="pre">install</span> <span class="pre">wget</span></code>)
+<code class="docutils literal notranslate"><span class="pre">wget</span> <span class="pre">-O</span> <span class="pre">&lt;filename&gt;</span> <span class="pre">&lt;url&gt;</span></code> - download file from url and save it as filename
+or simply <code class="docutils literal notranslate"><span class="pre">wget</span> <span class="pre">&lt;url&gt;</span></code> - download file from url and save it with original name</p>
+<p>–Shortcuts in Linux Ubuntu Gui
+<code class="docutils literal notranslate"><span class="pre">Ctrl</span> <span class="pre">+</span> <span class="pre">H</span></code> - show hidden files
+<code class="docutils literal notranslate"><span class="pre">Ctrl</span> <span class="pre">+</span> <span class="pre">L</span></code> - go to address bar
+<code class="docutils literal notranslate"><span class="pre">Ctrl</span> <span class="pre">+</span> <span class="pre">Shift</span> <span class="pre">+</span> <span class="pre">C</span></code> - copy path of selected file in terminal
+<code class="docutils literal notranslate"><span class="pre">Ctrl</span> <span class="pre">+</span> <span class="pre">Shift</span> <span class="pre">+</span> <span class="pre">V</span></code> - paste path of selected file in terminal
+<code class="docutils literal notranslate"><span class="pre">Ctrl</span> <span class="pre">+</span> <span class="pre">Z</span></code> - stops the process and returns you to the current shell. You can now type fg to
+continue process, or type bg to continue the process in the background</p>
+<p>— Journal is a system service for collecting and storing log data (it is a part of systemd) —
+<code class="docutils literal notranslate"><span class="pre">journalctl</span></code> - query the systemd journal (systemd is a system and service manager for Linux operating systems, that is
+responsible for starting and stopping services and daemons, mounting and unmounting file systems,
+maintaining the system clock, and other system management tasks)
+<code class="docutils literal notranslate"><span class="pre">journalctl</span> <span class="pre">-fe</span></code> - show the latest journal entries and continuously print new entries as they are appended to the journal
+<code class="docutils literal notranslate"><span class="pre">journalctl</span> <span class="pre">-f</span></code> - show only new entries as they are appended to the journal
+<code class="docutils literal notranslate"><span class="pre">journalctl</span> <span class="pre">-b</span></code> - show messages from the current boot
+<code class="docutils literal notranslate"><span class="pre">journalctl</span> <span class="pre">-u</span> <span class="pre">&lt;service_name&gt;</span></code> - show logs of service (to get list of services use <code class="docutils literal notranslate"><span class="pre">systemctl</span> <span class="pre">list-units</span> <span class="pre">--type=service</span></code>)
+E.g. <code class="docutils literal notranslate"><span class="pre">journalctl</span> <span class="pre">-b</span> <span class="pre">-u</span> <span class="pre">docker.service</span></code> - show logs of docker service from the current boot</p>
+<p>Systemd is a replacement for init. It is intended to provide a better framework for expressing services’ dependencies,
+allowing for faster boot times through parallelization. It replaces the init system inherited from UNIX System V and Berkeley
+Software Distribution (BSD)
+Init and Systemd are both init daemons but it is better to use the latter since it is commonly used in recent Linux Distros.
+Init uses service whereas Systemd uses systemctl to manage Linux services
+The /sbin/init is a symbolic link to the actual init process. You can follow the symbolic link and see real process.
+I am using the stat command and you can see that /sbin/init is linked to /lib/systemd/systemd in Ubuntu.
+This is an indication that systemd is in use</p>
+<p>— Systemctl is a systemd utility that is responsible for Controlling the systemd system and service manager —
+Service manager is a background process that manages the life cycle of services in the system
+<code class="docutils literal notranslate"><span class="pre">systemctl</span> <span class="pre">list-units</span></code>- lists all currently loaded in memory systemd units, which includes both active and inactive units
+<code class="docutils literal notranslate"><span class="pre">systemctl</span> <span class="pre">list-units</span> <span class="pre">--type=service</span></code> - show list of services that are currently loaded
+<code class="docutils literal notranslate"><span class="pre">systemctl</span> <span class="pre">list-unit-files</span></code> - lists all available systemd unit files on your system. Unit files define services, targets,
+sockets, timers, and other systemd units that can be activated.
+units are represented by unit files, which are stored in the /usr/lib/systemd/system/ and /etc/systemd/system/ directories.
+they are merely configuration files that describe the unit and define its behavior
+(e.g. /etc/systemd/system/docker.service, .socket, .target, etc)<br />
+<code class="docutils literal notranslate"><span class="pre">systemctl</span> <span class="pre">status</span> <span class="pre">&lt;service_name&gt;</span></code> - show status of service
+<code class="docutils literal notranslate"><span class="pre">systemctl</span> <span class="pre">enable</span> <span class="pre">&lt;service_name&gt;</span></code> - enable service to start automatically at boot
+<code class="docutils literal notranslate"><span class="pre">systemctl</span> <span class="pre">disable</span> <span class="pre">&lt;service_name&gt;</span></code> - disable service to start automatically at boot
+<code class="docutils literal notranslate"><span class="pre">systemctl</span> <span class="pre">start</span> <span class="pre">&lt;service_name&gt;</span></code> - start service
+<code class="docutils literal notranslate"><span class="pre">systemctl</span> <span class="pre">stop</span> <span class="pre">&lt;service_name&gt;</span></code> - stop service
+<code class="docutils literal notranslate"><span class="pre">systemctl</span> <span class="pre">get-default</span></code> - show default target (default target is a special systemd unit that is loaded by default when
+the system boots. It is similar to runlevel in the init system)
+Target is a special kind of unit that does not do anything itself but instead acts as a
+collection of other units. It is used to group units together and to simplify the boot process.
+<code class="docutils literal notranslate"><span class="pre">systemctl</span> <span class="pre">set-default</span> <span class="pre">&lt;target_name&gt;</span></code> - set default target (e.g. <code class="docutils literal notranslate"><span class="pre">systemctl</span> <span class="pre">set-default</span> <span class="pre">multi-user.target</span></code>
+- set default target to multi-user.target)
+<code class="docutils literal notranslate"><span class="pre">systemctl</span> <span class="pre">list-units</span> <span class="pre">--type=target</span></code> - show list of targets (shown only active targets)
+<code class="docutils literal notranslate"><span class="pre">systemctl</span> <span class="pre">list-dependencies</span> <span class="pre">&lt;target_name&gt;</span></code> - show list of units that are dependencies of target
+(e.g. <code class="docutils literal notranslate"><span class="pre">systemctl</span> <span class="pre">list-dependencies</span> <span class="pre">multi-user.target</span></code>)</p>
+<p>— RPi —
+<code class="docutils literal notranslate"><span class="pre">vcgencmd</span></code> is a command-line utility used on Raspberry Pi devices that runs the VideoCore GPU on the Raspberry Pi.
+VideoCore is a low-power mobile multimedia processor originally developed for the Raspberry Pi project.
+It allows you to query various hardware-related information, such as firmware revision, temperature.
+<code class="docutils literal notranslate"><span class="pre">vcgencmd</span> <span class="pre">commands</span></code> - show all available commands
+<code class="docutils literal notranslate"><span class="pre">vcgencmd</span> <span class="pre">measure_temp</span></code> - show CPU temperature
+<code class="docutils literal notranslate"><span class="pre">vcgencmd</span> <span class="pre">get_throttled</span></code> - show under-voltage and over-temperature flags (if 0x0 - everything is ok, if 0x50000 - under-voltage,
+if 0x50005 - under-voltage and over-temperature,
+if 0x50001 - under-voltage and currently throttled, if 0x50006 - under-voltage, over-temperature and currently throttled)
+(throttled means that CPU frequency is reduced because of under-voltage or over-temperature)</p>
+<p>To set RPi to boot to console (without GUI)
+<code class="docutils literal notranslate"><span class="pre">sudo</span> <span class="pre">systemctl</span> <span class="pre">set-default</span> <span class="pre">multi-user.target</span></code> - set default target to multi-user.target (multi-user.target is a target that
+provides a console login and is the default target for non-graphical Raspberry Pi OS images)</p>
+<p>— Networking
+– Scan hosts in the network –
+<code class="docutils literal notranslate"><span class="pre">nmap</span> <span class="pre">-sn</span> <span class="pre">192.168.5.0/24</span></code> - performs a ping scan to find live hosts in the range 192.168.5.0
+-sn: Ping Scan - disable port scan<br />
+<code class="docutils literal notranslate"><span class="pre">nmap</span> <span class="pre">-p</span> <span class="pre">22</span> <span class="pre">192.168.5.0/24</span></code> - scan for hosts with port 22 (SSH) open</p>
+<p>– systemd-networkd is part of the systemd init system and offers a minimalistic approach to network configuration
+and management, often used in server environments
+- <code class="docutils literal notranslate"><span class="pre">/etc/systemd/network/</span></code> - network configuration files are stored in this directory
+- <code class="docutils literal notranslate"><span class="pre">systemctl</span> <span class="pre">status</span> <span class="pre">systemd-networkd.service</span></code> - show status of systemd-networkd service</p>
+<p>– NetworkManager is a daemon that sits on top of libudev and other Linux kernel interfaces and provides a
+high-level interface for the configuration of the network interfaces
+- <code class="docutils literal notranslate"><span class="pre">/etc/NetworkManager/</span></code> - NetworkManager configuration files are stored in this directory
+- <code class="docutils literal notranslate"><span class="pre">/etc/NetworkManager/system-connections/</span></code>: This directory holds configuration files for network connections,
+each represented as a separate file. These files are usually named after the connection’s name.
+- <code class="docutils literal notranslate"><span class="pre">systemctl</span> <span class="pre">status</span> <span class="pre">NetworkManager.service</span></code> - show status of NetworkManager service
+- <code class="docutils literal notranslate"><span class="pre">mcli</span></code> is a command-line tool for controlling NetworkManager and reporting network status.
+- <code class="docutils literal notranslate"><span class="pre">nmcli</span> <span class="pre">device</span> <span class="pre">show</span></code> - show all network interfaces
+- <code class="docutils literal notranslate"><span class="pre">nmcli</span> <span class="pre">connection</span> <span class="pre">show</span></code> - show all connections
+- <code class="docutils literal notranslate"><span class="pre">nmcli</span> <span class="pre">connection</span> <span class="pre">up</span> <span class="pre">&lt;connection_name&gt;</span></code> - activate connection
+- <code class="docutils literal notranslate"><span class="pre">nmcli</span> <span class="pre">connection</span> <span class="pre">down</span> <span class="pre">&lt;connection_name&gt;</span></code> - deactivate connection
+- <code class="docutils literal notranslate"><span class="pre">nmtui</span></code> - text user interface for NetworkManager</p>
+<p>– Netplan is a network configuration utility for Linux. It is used to configure the network interfaces
+through YAML files. From YAML description Netplan will generate all the necessary configuration for your
+chosen renderer tool (NetworkManager or networkd).
+- <code class="docutils literal notranslate"><span class="pre">/etc/netplan/</span></code> - config files (.yaml) are located in this directory
+- <code class="docutils literal notranslate"><span class="pre">netplan</span> <span class="pre">apply</span></code> - apply changes</p>
+<p>=== WSL2 ===
+– Attach USB devices
+— From an administrator command prompt on Windows, run this command.
+— It will list all the USB devices connected to Windows.
+usbipd wsl list</p>
+<p>— Select the bus ID of the device you’d like to attach to WSL and run this command.
+— You’ll be prompted by WSL for a password to run a sudo command.
+usbipd wsl attach –busid <busid></p>
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="../index.html">Robotics manuals</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2023, Jevgeni Kalbin.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 7.2.5</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="../_sources/Linux/commands.md.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

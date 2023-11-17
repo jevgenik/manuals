@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>Free up disk space &#8212; Robotics manuals 17.11.2023 documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=4f649999" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css?v=cb25574f" />
+    <script src="_static/documentation_options.js?v=be71fc57"></script>
+    <script src="_static/doctools.js?v=888ff710"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <ul class="simple">
+<li><p><strong>ARG</strong> is only available during the build process, not after the image is built.<br />
+is used to pass arguments to the Dockerfile from the docker-compose.yml file or from the command line.<br />
+E.g. <code class="docutils literal notranslate"><span class="pre">docker</span> <span class="pre">build</span> <span class="pre">--build-arg</span> <span class="pre">BASE_IMAGE=&quot;nvidia_x86_64_humble_nv2&quot;</span> <span class="pre">-t</span> <span class="pre">humble_realsense:latest</span> <span class="pre">.</span></code></p></li>
+</ul>
+<p>— Docker commmands —</p>
+<p>— Buid image
+docker build -f Dockerfile.aarch64.humble.nav2.realsense -t humble_realsense:latest –build-arg BASE_IMAGE=”nvidia_x86_64_humble_nv2” ..</p>
+<p>Rebuild docker image:
+<code class="docutils literal notranslate"><span class="pre">docker</span> <span class="pre">build</span> <span class="pre">--no-cache</span> <span class="pre">-t</span> <span class="pre">humble_realsense:latest</span> <span class="pre">..</span></code></p>
+<p>— Run new terminal in the running container
+docker exec -it &lt;container-name/ID&gt; bash</p>
+<p>— Run docker containers with GUI —
+xhost +local:root
+OR
+xhost +</p>
+<p>docker run -it –rm –privileged –network host –runtime=nvidia –gpus all –env=”DISPLAY” –env=”QT_X11_NO_MITSHM=1” –volume=”/tmp/.X11-unix:/tmp/.X11-unix:rw” aarch64_humble_realsense:latest<br />
+(–rm Automatically remove the container when it exits)<br />
+(–gpus # flag when you start a container to access GPU resources. Specify how many GPUs to use (all - use all GPUs))<br />
+(–privileged flag gives all capabilities to the container, and it also lifts all the limitations enforced by the device cgroup controller.<br />
+(–volume=”/tmp/.X11-unix:/tmp/.X11-unix:rw” read-write mode (i.e. the container can write as well as read files on the host))<br />
+In other words, the container can then do almost everything that the host can do)</p>
+<p>To capture docker build logs to a file
+<code class="docutils literal notranslate"><span class="pre">docker</span> <span class="pre">build</span> <span class="pre">-f</span> <span class="pre">Dockerfile.bfb_camera_d435i</span> <span class="pre">-t</span> <span class="pre">bfb_camera_d435i:latest</span> <span class="pre">../..</span> <span class="pre">2&gt;&amp;1</span> <span class="pre">|</span> <span class="pre">tee</span> <span class="pre">build.log</span></code>
+2&gt;&amp;1 redirects stderr to stdout, and then | tee build.log pipes stdout to tee, which writes it to build.log and also displays it on the screen.</p>
+<p>— end of block ‘run docker containers wit GUI —</p>
+<p>— Create and start containers
+docker compose -f docker-compose_lenovo.yml up # Version2</p>
+<p>docker-compose up
+docker-compose up –build (Build images before starting containers.)</p>
+<p>— Start the stopped containers, can’t create new ones
+docker-compose start</p>
+<p>— Stop and remove containers, networks, images, and volumes
+docker-compose down</p>
+<p>— List containers
+<code class="docutils literal notranslate"><span class="pre">docker-compose</span> <span class="pre">ps</span></code>
+<code class="docutils literal notranslate"><span class="pre">docker</span> <span class="pre">ps</span> <span class="pre">-a</span></code> - list all containers (running and stopped)
+<code class="docutils literal notranslate"><span class="pre">docker</span> <span class="pre">container</span> <span class="pre">ls</span> <span class="pre">-a</span></code> - list all containers (running and stopped) it is alias for <code class="docutils literal notranslate"><span class="pre">docker</span> <span class="pre">ps</span> <span class="pre">-a</span></code></p>
+<p>— Inspect (containers, networks, images, volumes)
+<code class="docutils literal notranslate"><span class="pre">docker</span> <span class="pre">inspect</span> <span class="pre">&lt;container</span> <span class="pre">name&gt;</span></code> - show container info (IP address, etc)
+docker container inspect 2186a1927d6a | grep compose
+<code class="docutils literal notranslate"><span class="pre">docker</span> <span class="pre">inspect</span> <span class="pre">&lt;network</span> <span class="pre">name&gt;</span></code> - show network info
+<code class="docutils literal notranslate"><span class="pre">docker</span> <span class="pre">inspect</span> <span class="pre">&lt;image</span> <span class="pre">name&gt;</span></code> - show image info
+<code class="docutils literal notranslate"><span class="pre">docker</span> <span class="pre">inspect</span> <span class="pre">&lt;volume</span> <span class="pre">name&gt;</span></code> - show volume info</p>
+<p>— end of block ‘docker commmands —</p>
+<section id="free-up-disk-space">
+<h1>Free up disk space<a class="headerlink" href="#free-up-disk-space" title="Link to this heading">¶</a></h1>
+<p><code class="docutils literal notranslate"><span class="pre">docker</span> <span class="pre">system</span> <span class="pre">prune</span></code> - cleans up dangling resources (unused data such as stopped containers, dangling images, networks, and more)
+<code class="docutils literal notranslate"><span class="pre">docker</span> <span class="pre">system</span> <span class="pre">prune</span> <span class="pre">-a</span></code> -a removes all unused images (those that are not associated with any container) not just the dangling ones.
+NB! all images will be removed</p>
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">Robotics manuals</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2023, Jevgeni Kalbin.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 7.2.5</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="_sources/commands_Docker.md.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

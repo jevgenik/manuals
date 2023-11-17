@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>Path planning &#8212; Robotics manuals 17.11.2023 documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=4f649999" />
+    <link rel="stylesheet" type="text/css" href="../../_static/alabaster.css?v=cb25574f" />
+    <script src="../../_static/documentation_options.js?v=be71fc57"></script>
+    <script src="../../_static/doctools.js?v=888ff710"></script>
+    <script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+   
+  <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="path-planning">
+<h1>Path planning<a class="headerlink" href="#path-planning" title="Link to this heading">¶</a></h1>
+<p>is the process of finding a path from a start point to a goal point through obstacles.</p>
+<img src="../images/path_planning.png" alt="Path planning">
+<img src="../images/navigation.gif" alt="Path planning" width="400">  
+<section id="global-planning">
+<h2>Global planning<a class="headerlink" href="#global-planning" title="Link to this heading">¶</a></h2>
+</section>
+<section id="local-planning">
+<h2>Local planning<a class="headerlink" href="#local-planning" title="Link to this heading">¶</a></h2>
+</section>
+<section id="navigation-stack">
+<h2>Navigation Stack<a class="headerlink" href="#navigation-stack" title="Link to this heading">¶</a></h2>
+<img src="../images/nav2_stack.png" alt="Nav2 stack">  
+</section>
+<section id="ros2-packages">
+<h2>ROS2 packages<a class="headerlink" href="#ros2-packages" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p><strong>nav2_bt_navigator</strong> (replaces move_base)
+The BT Navigator receives a goal pose and navigates the robot to the specified destination(s). To do so,<br />
+the module reads an XML description of the Behavior Tree from a file, as specified by a Node parameter, and passes that to a generic<br />
+BehaviorTreeEngine class which uses the Behavior-Tree.CPP library to dynamically create and execute the BT. The BT XML can also be<br />
+specified on a per-task basis so that your robot may have many different types of navigation or autonomy behaviors on a per-task basis<br />
+<a class="reference external" href="https://github.com/ros-planning/navigation2/tree/main/nav2_bt_navigator">Github</a></p></li>
+</ul>
+</section>
+<section id="ros1">
+<h2>ROS1<a class="headerlink" href="#ros1" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p><strong>move_base</strong>
+provides an implementation of an action (see the actionlib package) that, given a goal in the world, will attempt to reach it with<br />
+a mobile base. The move_base node links together a global and local planner to accomplish its global navigation task.</p></li>
+</ul>
+</section>
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="../../index.html">Robotics manuals</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../../index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2023, Jevgeni Kalbin.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 7.2.5</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="../../_sources/ROS2/navigation/path_planning.md.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

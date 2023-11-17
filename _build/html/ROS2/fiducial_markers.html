@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>&lt;no title&gt; &#8212; Robotics manuals 17.11.2023 documentation</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=4f649999" />
+    <link rel="stylesheet" type="text/css" href="../_static/alabaster.css?v=cb25574f" />
+    <script src="../_static/documentation_options.js?v=be71fc57"></script>
+    <script src="../_static/doctools.js?v=888ff710"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+   
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <p>Fiducial (Latin word “fiducia,” which means “trust” or “confidence”) markers in computer vision are markers that are placed in the field of view of a camera and are used to estimate the pose (position and orientation) of the camera relative to the markers.</p>
+<img src="images/fiducial_markers.png" alt="Fiducial markers" width="550">
+<p>ARtag and AprilTag are two popular libraries for fiducial markers. They are both based on the same algorithm, but ARtag is more mature and has more features. AprilTag is a newer library and is more actively developed. Both libraries are open source and are available on GitHub.</p>
+<p>ARtag advantages:</p>
+<ul class="simple">
+<li><p>More mature</p></li>
+<li><p>More stable</p></li>
+<li><p>More documentation</p></li>
+<li><p>More tutorials</p></li>
+</ul>
+<p>AprilTag advantages:</p>
+<ul class="simple">
+<li><p>More active development</p></li>
+<li><p>More features</p></li>
+<li><p>More flexible</p></li>
+<li><p>More accurate</p></li>
+</ul>
+<p><strong>fiducacial_msgs/Fiducial.msg</strong> is the message type for a single fiducial marker.</p>
+<p><strong>Orientation</strong> is represented by a quaternion (x, y, z, w). The quaternion is a 4-dimensional vector that represents a rotation in 3-dimensional space.</p>
+<p>Pictures below show orientation in Euler angles (roll, pitch, yaw).</p>
+<div style="display: flex; align-items: flex-end;">
+  <img src="images/roll_pitch_yaw_1.png" alt="Roll Pitch Yaw" width="250">
+  <img src="images/roll_pitch_yaw_2.png" alt="Roll Pitch Yaw" width="250">
+</div>  
+<blockquote>
+<div><p>Euler angles are not used in ROS because they are not unique. For example, a rotation of 180 degrees around the z-axis is the<br />
+same as a rotation of 180 degrees around the x-axis followed by a rotation of 180 degrees around the y-axis. This is called<br />
+gimbal lock.</p>
+</div></blockquote>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="../index.html">Robotics manuals</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2023, Jevgeni Kalbin.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 7.2.5</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="../_sources/ROS2/fiducial_markers.md.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

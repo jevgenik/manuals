@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>Topological maps &#8212; Robotics manuals 17.11.2023 documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=4f649999" />
+    <link rel="stylesheet" type="text/css" href="../../_static/alabaster.css?v=cb25574f" />
+    <script src="../../_static/documentation_options.js?v=be71fc57"></script>
+    <script src="../../_static/doctools.js?v=888ff710"></script>
+    <script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+   
+  <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="topological-maps">
+<h1>Topological maps<a class="headerlink" href="#topological-maps" title="Link to this heading">¶</a></h1>
+<p>focus on the spatial relationships and connectivity between different locations, emphasizing the relative positions of features<br />
+rather than their precise geographic coordinates. These maps are often used in navigation systems  and robotics to plan<br />
+efficient routes and understand the layout of an area. They’re handy when you care more about the connections between places<br />
+than the exact distances.</p>
+<blockquote>
+<div><p>Origin of word “topology”: Greek topos (place) + logos (study).</p>
+</div></blockquote>
+<img src="../images/topological_map.jpg" alt="Topological map" width="700">
+</section>
+<section id="geometric-maps">
+<h1>Geometric maps<a class="headerlink" href="#geometric-maps" title="Link to this heading">¶</a></h1>
+<p>are based on the <strong>precise geographic coordinates of features</strong>. They’re useful for navigation systems that need to know the exact<br />
+distances between locations. They’re also used in robotics to plan efficient routes and understand the layout of an area.</p>
+<section id="descrete-map">
+<h2>Descrete map<a class="headerlink" href="#descrete-map" title="Link to this heading">¶</a></h2>
+<p>is like a grid, where the environment is divided into cells. Each cell represents a specific area, and the map is essentially<br />
+a collection of these cells, each with some attribute (like occupancy probability in a slam scenario).<br />
+It’s like mapping the world with a bunch of tiny squares or hexagons.
+This makes it computationally more tractable, especially for grid-based algorithms.</p>
+<section id="occupancy-grid-map">
+<h3>Occupancy grid map<a class="headerlink" href="#occupancy-grid-map" title="Link to this heading">¶</a></h3>
+<img src="../images/occupancy_grid_map.png" alt="Occupancy grid map" width="300">
+</section>
+</section>
+<section id="continuous-map">
+<h2>Continuous map<a class="headerlink" href="#continuous-map" title="Link to this heading">¶</a></h2>
+<p>represents the environment as a smooth, mathematical function. Instead of breaking the world into discrete cells, you model it<br />
+as a continuous surface. Continuous maps offer a more detailed representation, but they can be computationally demanding</p>
+</section>
+</section>
+<section id="slam-algorithms">
+<h1>SLAM algorithms<a class="headerlink" href="#slam-algorithms" title="Link to this heading">¶</a></h1>
+<section id="gmapping">
+<h2>gmapping<a class="headerlink" href="#gmapping" title="Link to this heading">¶</a></h2>
+<p>(g means grid because this algorithm uses a grid map)
+is a highly efficient Rao-Blackwellized particle filter to learn grid maps from laser range data<br />
+<a class="reference external" href="https://openslam-org.github.io/gmapping.html">Details</a></p>
+<p>Particle filter is a Monte Carlo algorithm that uses a set of particles (samples) to represent the belief distribution.</p>
+</section>
+</section>
+<section id="ros2-packages">
+<h1>ROS2 Packages<a class="headerlink" href="#ros2-packages" title="Link to this heading">¶</a></h1>
+<ul class="simple">
+<li><p><strong>depthimage_to_laserscan</strong> - converts depth image to laser scan<br />
+<a class="reference external" href="https://github.com/ros-perception/depthimage_to_laserscan/tree/ros2">Github</a></p></li>
+<li><p><strong>nav2_map_server</strong> - The Map Server provides maps to the rest of the Nav2 system using both topic and service interfaces.<br />
+Map server will expose maps on the node bringup, but can also change maps using a load_map service during run-time,<br />
+as well as save maps using a save_map server.<br />
+<a class="reference external" href="https://github.com/ros-planning/navigation2/tree/main/nav2_map_server">Github</a></p></li>
+</ul>
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="../../index.html">Robotics manuals</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../../index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2023, Jevgeni Kalbin.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 7.2.5</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="../../_sources/ROS2/navigation/mapping.md.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

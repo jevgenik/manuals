@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>ros2_control &#8212; Robotics manuals 17.11.2023 documentation</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=4f649999" />
+    <link rel="stylesheet" type="text/css" href="../_static/alabaster.css?v=cb25574f" />
+    <script src="../_static/documentation_options.js?v=be71fc57"></script>
+    <script src="../_static/doctools.js?v=888ff710"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+   
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="ros2-control">
+<h1>ros2_control<a class="headerlink" href="#ros2-control" title="Link to this heading">¶</a></h1>
+<p>The ros2_control is a framework for (real-time) control of robots using (ROS 2)
+ros2_control’s goal is to simplify integrating new hardware and overcome some drawbacks.</p>
+<blockquote>
+<div><p>Documentation: <a class="reference external" href="https://ros-controls.github.io/control.ros.org/index.html">ros2_control</a></p>
+</div></blockquote>
+<!--img src="images/ros2_control_architecture.jpeg" alt="Alt Text"-->
+<ul class="simple">
+<li><p><strong>controller</strong></p></li>
+<li><p><strong>controller_manager</strong> - the controller manager loads controllers and manages their life cycle</p></li>
+<li><p><strong>joint_state_broadcaster</strong> - the broadcaster reads all state interfaces and reports them on /joint_states<br />
+and /dynamic_joint_states</p></li>
+<li><p><strong>diff_drive_controller</strong> - controller for mobile robots with differential drive.<br />
+As input it takes velocity commands for the robot body, which are translated to wheel commands for the differential drive base.<br />
+Odometry is computed from hardware feedback and published<br />
+Documentation: <a class="reference external" href="https://control.ros.org/master/doc/ros2_controllers/diff_drive_controller/doc/userdoc.html">diff_drive_controller</a></p></li>
+<li><p><strong>hardware components</strong> represent abstraction of physical hardware in ros2_control framework. There are three types of<br />
+hardware Actuator, Sensor and System<br />
+Documentation: <a class="reference external" href="https://control.ros.org/master/doc/getting_started/getting_started.html#overview-hardware-components">Hardware Components</a></p></li>
+<li><p><strong>pluginlib</strong> - pluginlib is a library for writing and dynamically loading plugins.<br />
+Plugins are classes that are loaded at runtime using the C++ classloader.<br />
+Plugins are useful for making code more modular and reusable.<br />
+For example, a plugin can be used to implement a hardware interface for a robot.<br />
+Documentation: <a class="reference external" href="https://docs.ros.org/en/iron/Tutorials/Beginner-Client-Libraries/Pluginlib.html">pluginlib</a></p></li>
+</ul>
+<p><img alt="ros2_control architecture" src="../_images/ros2_control_architecture.jpeg" /></p>
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="../index.html">Robotics manuals</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2023, Jevgeni Kalbin.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 7.2.5</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="../_sources/ROS2/ros2_control.md.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
