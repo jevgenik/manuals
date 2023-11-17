@@ -6,7 +6,7 @@ is a circuit that drives the [motor](electrical_motors.md) with higher current t
 <div style="display: flex; align-items: flex-end;">  
   <img src="../../images/electronics/motor_driver_L298N.jpg" alt="Motor driver L298N" width="300">  
   &nbsp; &nbsp;  
-  <img src="../../images/electronics/motor_driver_and_arduino.png" alt="Motor driver L298N and Arduino" width="690">  
+  <img src="../../images/electronics/motor_driver_and_arduino.png" alt="Motor driver L298N and Arduino" width="695">  
 </div>
 
 ## BLDC motor drivers {#bldc-motor-drivers}
