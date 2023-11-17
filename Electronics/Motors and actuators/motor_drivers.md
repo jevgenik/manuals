@@ -15,7 +15,7 @@ to create the rotating magnetic field so   that the motor rotates.  The higher t
 through   the 6 intervals, the higher the speed of the motor will be.  
 
 <div style="display: flex; align-items: flex-end;">
-  <img src="../../images/electronics/bldc_and_esc.jpg" alt="BLDC motor and ESC" width="700"> 
+  <img src="../../images/electronics/bldc_and_esc.jpg" alt="BLDC motor and ESC" width="400"> 
   &nbsp; &nbsp;
-  <img src="../../images/electronics/bldc_and_arduino.png" alt="BLDC motor and Arduino" width="700"> 
+  <img src="../../images/electronics/bldc_and_arduino.png" alt="BLDC motor and Arduino" width="400"> 
 </div>
