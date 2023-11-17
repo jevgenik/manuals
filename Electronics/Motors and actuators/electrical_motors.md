@@ -1,4 +1,5 @@
-# DC motors
+# DC motors (brushed)
+is a motor that rotates when a DC voltage is applied to its terminals.  
 [Motor Drivers](motor_drivers.md)
 
 <div style="display: flex; align-items: flex-end;">
@@ -19,7 +20,7 @@ Actually it is a DC motor with a built-in feedback mechanism that controls the s
   <img src="../../images/electronics/servo_parts.jpg" alt="Servo motor components" width="500">  
 </div>
 
-# BLDC motors {#bldc-motors}
+# BLDC motors (brushless) {#bldc-motors}
 To drive a BLDC motor, the [ESC (Electronic Speed Controller)](motor_drivers.md/#bldc-motor-drivers) is used.
 
 <div style="display: flex; align-items: flex-end;">
