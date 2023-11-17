@@ -19,8 +19,8 @@ Actually it is a DC motor with a built-in feedback mechanism that controls the s
   <img src="../../images/electronics/servo_parts.jpg" alt="Servo motor components" width="500">  
 </div>
 
-# BLDC motors
-To drive a BLDC motor, the [ESC (Electronic Speed Controller)](motor_drivers.md#bldc-motor-drivers) is used.
+# BLDC motors {#bldc-motors}
+To drive a BLDC motor, the [ESC (Electronic Speed Controller)](motor_drivers.md/#bldc-motor-drivers) is used.
 
 <div style="display: flex; align-items: flex-end;">
   <img src="../../images/electronics/bldc_motor.jpg" alt="BLDC motor" width="300"> 
