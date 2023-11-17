@@ -20,21 +20,11 @@ Actually it is a DC motor with a built-in feedback mechanism that controls the s
 </div>
 
 # BLDC motors
+To drive a BLDC motor, the [ESC (Electronic Speed Controller)](motor_drivers.md#bldc-motor-drivers) is used.
 
 <div style="display: flex; align-items: flex-end;">
   <img src="../../images/electronics/bldc_motor.jpg" alt="BLDC motor" width="300"> 
   &nbsp; &nbsp;
   <img src="../../images/electronics/bldc_motor_disassembled.jpg" alt="BLDC motor disassembled" width="400">  
   <img src="../../images/electronics/bldc_motor_working_principle.gif" alt="BLDC motor disassembled" width="400">  
-</div>
-
-## ESC (Electronic Speed Controller)
-An ESC or an Electronic Speed Controller controls the brushless motor movement or speed by activating the appropriate MOSFETs  
-to create the rotating magnetic field so   that the motor rotates.  The higher the frequency or the quicker the ESC goes  
-through   the 6 intervals, the higher the speed of the motor will be.  
-
-<div style="display: flex; align-items: flex-end;">
-  <img src="../../images/electronics/bldc_and_esc.jpg" alt="BLDC motor and ESC" width="700"> 
-  &nbsp; &nbsp;
-  <img src="../../images/electronics/bldc_and_arduino.png" alt="BLDC motor and Arduino" width="700"> 
 </div>
