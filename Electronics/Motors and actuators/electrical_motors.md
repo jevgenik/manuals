@@ -15,7 +15,13 @@ Actually it is a DC motor with a built-in feedback mechanism that controls the s
 <div style="display: flex; align-items: flex-end;">
   <img src="../../images/electronics/servomotor.png" alt="Servo motor">  
   &nbsp; &nbsp;
-  <img src="../../images/electronics/servo_parts.jpg" alt="Servo motor" width="500">  
+  <img src="../../images/electronics/servo_parts.jpg" alt="Servo motor components" width="500">  
 </div>
 
 # BLDC motors
+
+<div style="display: flex; align-items: flex-end;">
+  <img src="../../images/electronics/bldc_motor.jpg" alt="BLDC motor" width="500"> 
+  &nbsp; &nbsp;
+  <img src="../../images/electronics/bldc_motor_disassembled.jpg" alt="BLDC motor disassembled" width="500">  
+</div>
