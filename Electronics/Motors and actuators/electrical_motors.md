@@ -8,12 +8,12 @@
 
 <img src="../../images/electronics/flemming_left_hand_rule.png" alt="DC brushed motor" width="440">  
 
-# Servo motors
+# Servomotors
 is a motor that can be controlled to rotate to a specific angle. 
 Actually it is a DC motor with a built-in feedback mechanism that controls the speed and position of the motor.
 
 <div style="display: flex; align-items: flex-end;">
-  <img src="../../images/electronics/servo_motor.png" alt="Servo motor">  
+  <img src="../../images/electronics/servomotor.png" alt="Servo motor">  
   &nbsp; &nbsp;
   <img src="../../images/electronics/servo_parts.jpg" alt="Servo motor" width="500">  
 </div>
