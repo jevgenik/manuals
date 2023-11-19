@@ -1,17 +1,16 @@
 DC motors (brushed)
 ===================
-
-A DC motor (brushed) is a motor that rotates when a DC voltage is applied to its terminals.
+DC motor (brushed) is a motor that rotates when a DC voltage is applied to its terminals.
 
 :ref:`Motor Drivers <motor_drivers>`
 
-.. figure:: ../../images/electronics/dc_motor_working_principle.jpg
+.. image:: ../../images/electronics/dc_motor_working_principle.jpg
    :alt: DC brushed motor
    :width: 500
 
-   .. figure:: ../../images/electronics/dc_brushed_motor.jpg
-      :alt: Working principle of DC brushed motor
-      :width: 440
+.. figure:: ../../images/electronics/dc_brushed_motor.jpg
+   :alt: Working principle of DC brushed motor
+   :width: 440
 
 .. figure:: ../../images/electronics/flemming_left_hand_rule.png
    :alt: DC brushed motor
@@ -32,7 +31,7 @@ A servomotor is a motor that can be controlled to rotate to a specific angle. Ac
 BLDC motors (brushless)
 ========================
 
-To drive a BLDC motor, the :ref:`ESC (Electronic Speed Controller) <motor_drivers>` is used.
+To drive a BLDC motor, the :ref:`ESC (Electronic Speed Controller) <bldc_motor_drivers>` is used.
 
 .. figure:: ../../images/electronics/bldc_motor.jpg
    :alt: BLDC motor
