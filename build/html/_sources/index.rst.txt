@@ -9,22 +9,28 @@ Guide into robotics
 .. toctree::
    :maxdepth: 1
 
-   files/overview
+   /files/overview
+
+.. toctree::
+   :maxdepth: 3
+   :caption: Software
+
+   /files/software/index
 
 .. toctree::
    :maxdepth: 2
    :caption: Electronics
       
-   files/electronics/motors_and_actuators/electric_motors
-   files/electronics/motors_and_actuators/motor_drivers
-   files/electronics/motors_and_actuators/motor_controllers
-   files/electronics/sensors/ultrasonic_sensors
+   /files/electronics/motors_and_actuators/electric_motors
+   /files/electronics/motors_and_actuators/motor_drivers
+   /files/electronics/motors_and_actuators/motor_controllers
+   /files/electronics/sensors/ultrasonic_sensors
 
 .. toctree::
    :maxdepth: 2
    :caption: Mechanics
 
-   files/mechanics/forces
+   /files/mechanics/forces
 
 
 Indices and tables
