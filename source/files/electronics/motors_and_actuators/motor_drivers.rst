@@ -9,12 +9,12 @@ DC motor drivers
 is a circuit that drives the :ref:`motor <electric_motors>` with higher current than the microcontroller can provide.
 
 .. image:: ../../images/electronics/motor_driver_L298N.jpg
-  :alt: Motor driver L298N
-  :width: 230
+   :alt: Motor driver L298N
+   :width: 230
 
 .. image:: ../../images/electronics/motor_driver_and_arduino.png
-  :alt: Motor driver L298N and Arduino
-  :width: 460
+   :alt: Motor driver L298N and Arduino
+   :width: 460
 
 .. _bldc_motor_drivers:
 
@@ -25,10 +25,10 @@ to create the rotating magnetic field so   that the motor rotates.  The higher t
 through   the 6 intervals, the higher the speed of the motor will be.  
 
 .. image:: ../../images/electronics/bldc_and_esc.jpg
-  :alt: BLDC motor and ESC
-  :width: 700
+   :alt: BLDC motor and ESC
+   :width: 700
   
 .. image:: ../../images/electronics/bldc_and_arduino.png
-  :alt: BLDC motor and Arduino
-  :width: 700
+   :alt: BLDC motor and Arduino
+   :width: 700
   
