@@ -6,7 +6,6 @@
 Guide into robotics
 ===================
 
-
 .. toctree::
    :maxdepth: 1
 
@@ -19,6 +18,7 @@ Guide into robotics
    files/electronics/motors_and_actuators/electric_motors
    files/electronics/motors_and_actuators/motor_drivers
    files/electronics/motors_and_actuators/motor_controllers
+   files/electronics/sensors/ultrasonic_sensors
 
 .. toctree::
    :maxdepth: 2

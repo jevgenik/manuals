@@ -28,5 +28,6 @@ They both build upon **Docutils** to parse and write documents.
 
 Read the Docs
 =============
-Read the Docs is a free service that builds and hosts documentation for software projects.
-
+is an open-sourced free software documentation hosting platform. It generates documentation written with the Sphinx documentation 
+generator, MkDocs, or Jupyter Book
+`Documentation <https://docs.readthedocs.io/en/stable/index.html>`_
