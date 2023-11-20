@@ -91,16 +91,16 @@
 <h1>Text manipulation<a class="headerlink" href="#text-manipulation" title="Link to this heading"></a></h1>
 <ul class="simple">
 <li><dl class="simple">
-<dt><cite>touch</cite> - create empty file (e.g. <cite>touch file.txt</cite>)</dt><dd><p>echo “Hello World” &gt; file.txt - write “Hello World” to file.txt
+<dt><code class="docutils literal notranslate"><span class="pre">touch</span></code> - create empty file (e.g. <code class="docutils literal notranslate"><span class="pre">touch</span> <span class="pre">file.txt</span></code>)</dt><dd><p>echo “Hello World” &gt; file.txt - write “Hello World” to file.txt
 echo “Hello World” &gt;&gt; file.txt - append “Hello World” to file.txt</p>
 </dd>
 </dl>
 </li>
 <li><dl class="simple">
-<dt><cite>tee</cite> - read from standard input and write to standard output and files</dt><dd><p>install with <cite>sudo apt install tee</cite>
+<dt><code class="docutils literal notranslate"><span class="pre">tee</span></code> - read from standard input and write to standard output and files</dt><dd><p>install with <code class="docutils literal notranslate"><span class="pre">`sudo</span> <span class="pre">apt</span> <span class="pre">install</span> <span class="pre">tee</span></code>
 Convenient to write logs to file and print them to stdout at the same time (python script.py | tee log.txt)
-<cite>echo “Hello World” | tee hello.txt</cite> - write “Hello World” to hello.txt and print it to stdout
-<cite>echo “Hello World” | tee -a hello.txt</cite> - append “Hello World” to hello.txt and print it to stdout</p>
+<code class="docutils literal notranslate"><span class="pre">echo</span> <span class="pre">&quot;Hello</span> <span class="pre">World&quot;</span> <span class="pre">|</span> <span class="pre">tee</span> <span class="pre">hello.txt</span></code> - write “Hello World” to hello.txt and print it to stdout
+<code class="docutils literal notranslate"><span class="pre">echo</span> <span class="pre">&quot;Hello</span> <span class="pre">World&quot;</span> <span class="pre">|</span> <span class="pre">tee</span> <span class="pre">-a</span> <span class="pre">hello.txt</span></code> - append “Hello World” to hello.txt and print it to stdout</p>
 </dd>
 </dl>
 </li>
