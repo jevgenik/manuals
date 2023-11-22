@@ -3,21 +3,22 @@ Text manipulation
 =================
 
 - ``touch`` - create empty file (e.g. ``touch file.txt``)
-            echo "Hello World" > file.txt - write "Hello World" to file.txt
-            echo "Hello World" >> file.txt - append "Hello World" to file.txt
+            ``echo "Hello World" > file.txt`` - write "Hello World" to file.txt
+            ``echo "Hello World" >> file.txt`` - append "Hello World" to file.txt
 - ``tee`` - read from standard input and write to standard output and files
           install with ``sudo apt install tee``
-          Convenient to write logs to file and print them to stdout at the same time (python script.py | tee log.txt)  
+          Convenient to write logs to file and print them to stdout at the same time 
+          ``python script.py | tee log.txt`` - write output of script.py to log.txt and print it to stdout
           ``echo "Hello World" | tee hello.txt`` - write "Hello World" to hello.txt and print it to stdout  
           ``echo "Hello World" | tee -a hello.txt`` - append "Hello World" to hello.txt and print it to stdout  
 
-- `cut`- remove sections from each line of files (install with `sudo apt install cut`)
-         `cut -d' ' -f1 <filename>` - cut first column from file f1 means field 1, d means delimiter
+- ``cut``- remove sections from each line of files (install with ``sudo apt install cut``)
+         ``cut -d' ' -f1 <filename>`` - cut first column from file f1 means field 1, d means delimiter
          Data in a file is supposed to be separated by a delimiter. The default delimiter is tab.          
 
-#### Sed is a stream editor for filtering and transforming text (install with `sudo apt install sed`)
-- `sed 's/old/new/g' <filename>` - replace all occurrences of old with new in file s - substitute, g - global
-- To delete a line with start and end pattern use `sed '/start_pattern/,/end_pattern/d' <filename>`
+``Sed`` is a stream editor for filtering and transforming text (install with ``sudo apt install sed``)
+- ``sed 's/old/new/g' <filename>`` - replace all occurrences of old with new in file s - substitute, g - global
+- To delete a line with start and end pattern use ``sed '/start_pattern/,/end_pattern/d' <filename>``
 
 #### Vim is is a highly configurable text editor built to make creating and changing any kind of text very efficient
 Modes in vim:
