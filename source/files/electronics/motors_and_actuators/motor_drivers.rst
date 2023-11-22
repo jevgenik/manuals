@@ -8,13 +8,19 @@ DC motor drivers
 ================
 is a circuit that drives the :ref:`motor <electric_motors>` with higher current than the microcontroller can provide.
 
-.. image:: ../../images/electronics/motor_driver_L298N.jpg
+.. figure:: ../../images/electronics/motor_driver_L298N.jpg
    :alt: Motor driver L298N
-   :width: 230
+   :width: 400
 
-.. image:: ../../images/electronics/motor_driver_and_arduino.png
+   L298N motor driver
+
+.. figure:: ../../images/electronics/motor_driver_and_arduino.png
    :alt: Motor driver L298N and Arduino
-   :width: 460
+   :width: 100%
+
+   L298N motor driver and Arduino
+
+   `Interface L298N with Arduino (detailed explanation) <https://lastminuteengineers.com/l298n-dc-stepper-driver-arduino-tutorial/>`_
 
 .. _bldc_motor_drivers:
 
