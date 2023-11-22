@@ -54,3 +54,13 @@ BLDC motors (brushless)
 
 .. note:: 
    To drive electrical motors, you need to use a motor driver. See :ref:`Motor Drivers <motor_drivers>`.
+
+
+Linear actuators
+================
+
+.. image:: ../../images/electronics/linear_actuator.png
+   :alt: Linear actuator
+   :width: 100%
+
+
