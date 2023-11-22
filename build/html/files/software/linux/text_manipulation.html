@@ -91,30 +91,40 @@
 <h1>Text manipulation<a class="headerlink" href="#text-manipulation" title="Link to this heading"></a></h1>
 <ul class="simple">
 <li><dl class="simple">
-<dt><code class="docutils literal notranslate"><span class="pre">touch</span></code> - create empty file (e.g. <code class="docutils literal notranslate"><span class="pre">touch</span> <span class="pre">file.txt</span></code>)</dt><dd><p><code class="docutils literal notranslate"><span class="pre">echo</span> <span class="pre">&quot;Hello</span> <span class="pre">World&quot;</span> <span class="pre">&gt;</span> <span class="pre">file.txt</span></code> - write “Hello World” to file.txt
-<code class="docutils literal notranslate"><span class="pre">echo</span> <span class="pre">&quot;Hello</span> <span class="pre">World&quot;</span> <span class="pre">&gt;&gt;</span> <span class="pre">file.txt</span></code> - append “Hello World” to file.txt</p>
+<dt><code class="docutils literal notranslate"><span class="pre">touch</span></code> - create empty file (e.g. <code class="docutils literal notranslate"><span class="pre">touch</span> <span class="pre">file.txt</span></code>)</dt><dd><ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">echo</span> <span class="pre">&quot;Hello</span> <span class="pre">World&quot;</span> <span class="pre">&gt;</span> <span class="pre">file.txt</span></code> - write “Hello World” to file.txt</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">echo</span> <span class="pre">&quot;Hello</span> <span class="pre">World&quot;</span> <span class="pre">&gt;&gt;</span> <span class="pre">file.txt</span></code> - append “Hello World” to file.txt</p></li>
+</ul>
 </dd>
 </dl>
 </li>
 <li><dl class="simple">
-<dt><code class="docutils literal notranslate"><span class="pre">tee</span></code> - read from standard input and write to standard output and files</dt><dd><p>install with <code class="docutils literal notranslate"><span class="pre">sudo</span> <span class="pre">apt</span> <span class="pre">install</span> <span class="pre">tee</span></code>
-Convenient to write logs to file and print them to stdout at the same time
-<code class="docutils literal notranslate"><span class="pre">python</span> <span class="pre">script.py</span> <span class="pre">|</span> <span class="pre">tee</span> <span class="pre">log.txt</span></code> - write output of script.py to log.txt and print it to stdout
-<code class="docutils literal notranslate"><span class="pre">echo</span> <span class="pre">&quot;Hello</span> <span class="pre">World&quot;</span> <span class="pre">|</span> <span class="pre">tee</span> <span class="pre">hello.txt</span></code> - write “Hello World” to hello.txt and print it to stdout
-<code class="docutils literal notranslate"><span class="pre">echo</span> <span class="pre">&quot;Hello</span> <span class="pre">World&quot;</span> <span class="pre">|</span> <span class="pre">tee</span> <span class="pre">-a</span> <span class="pre">hello.txt</span></code> - append “Hello World” to hello.txt and print it to stdout</p>
+<dt><code class="docutils literal notranslate"><span class="pre">tee</span></code> - read from standard input and write to standard output and files install with <code class="docutils literal notranslate"><span class="pre">sudo</span> <span class="pre">apt</span> <span class="pre">install</span> <span class="pre">tee</span></code></dt><dd><ul>
+<li><p>Convenient to write logs to file and print them to stdout at the same time</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">python</span> <span class="pre">script.py</span> <span class="pre">|</span> <span class="pre">tee</span> <span class="pre">log.txt</span></code> - write output of script.py to log.txt and print it to stdout</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">echo</span> <span class="pre">&quot;Hello</span> <span class="pre">World&quot;</span> <span class="pre">|</span> <span class="pre">tee</span> <span class="pre">hello.txt</span></code> - write “Hello World” to hello.txt and print it to stdout</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">echo</span> <span class="pre">&quot;Hello</span> <span class="pre">World&quot;</span> <span class="pre">|</span> <span class="pre">tee</span> <span class="pre">-a</span> <span class="pre">hello.txt</span></code> - append “Hello World” to hello.txt and print it to stdout</p></li>
+</ul>
 </dd>
 </dl>
 </li>
 <li><dl class="simple">
-<dt><code class="docutils literal notranslate"><span class="pre">cut</span></code>- remove sections from each line of files (install with <code class="docutils literal notranslate"><span class="pre">sudo</span> <span class="pre">apt</span> <span class="pre">install</span> <span class="pre">cut</span></code>)</dt><dd><p><code class="docutils literal notranslate"><span class="pre">cut</span> <span class="pre">-d'</span> <span class="pre">'</span> <span class="pre">-f1</span> <span class="pre">&lt;filename&gt;</span></code> - cut first column from file f1 means field 1, d means delimiter
-Data in a file is supposed to be separated by a delimiter. The default delimiter is tab.</p>
+<dt><code class="docutils literal notranslate"><span class="pre">cut</span></code>- remove sections from each line of files (install with <code class="docutils literal notranslate"><span class="pre">sudo</span> <span class="pre">apt</span> <span class="pre">install</span> <span class="pre">cut</span></code>)</dt><dd><ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">cut</span> <span class="pre">-d'</span> <span class="pre">'</span> <span class="pre">-f1</span> <span class="pre">&lt;filename&gt;</span></code> - cut first column from file f1 means field 1, d means delimiter</p></li>
+<li><p>Data in a file is supposed to be separated by a delimiter. The default delimiter is tab.</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt><code class="docutils literal notranslate"><span class="pre">sed</span></code> is a stream editor for filtering and transforming text (install with <code class="docutils literal notranslate"><span class="pre">sudo</span> <span class="pre">apt</span> <span class="pre">install</span> <span class="pre">sed</span></code>)</dt><dd><ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">sed</span> <span class="pre">'s/old/new/g'</span> <span class="pre">&lt;filename&gt;</span></code> - replace all occurrences of old with new in file s - substitute, g - global</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">sed</span> <span class="pre">'/start_pattern/,/end_pattern/d'</span> <span class="pre">&lt;filename&gt;</span></code> - delete a line with start and end pattern use</p></li>
+</ul>
 </dd>
 </dl>
 </li>
 </ul>
-<p><code class="docutils literal notranslate"><span class="pre">Sed</span></code> is a stream editor for filtering and transforming text (install with <code class="docutils literal notranslate"><span class="pre">sudo</span> <span class="pre">apt</span> <span class="pre">install</span> <span class="pre">sed</span></code>)
-- <code class="docutils literal notranslate"><span class="pre">sed</span> <span class="pre">'s/old/new/g'</span> <span class="pre">&lt;filename&gt;</span></code> - replace all occurrences of old with new in file s - substitute, g - global
-- To delete a line with start and end pattern use <code class="docutils literal notranslate"><span class="pre">sed</span> <span class="pre">'/start_pattern/,/end_pattern/d'</span> <span class="pre">&lt;filename&gt;</span></code></p>
 <p>#### Vim is is a highly configurable text editor built to make creating and changing any kind of text very efficient
 Modes in vim:
 - Command mode - for executing commands (e.g. <cite>:q</cite> - quit, <cite>:w</cite> - save) (default mode)
