@@ -14,6 +14,13 @@ is a circuit that drives the :ref:`motor <electric_motors>` with higher current 
 
    L298N motor driver
 
+.. warning::
+   If the motor supply voltage is up to 12V we can enable the 5V regulator and the 5V pin can be used as output, 
+   for example for powering our Arduino board. But if the motor voltage is greater than 12V we must disconnect 
+   the jumper because those voltages will cause damage to the onboard 5V regulator
+
+   Also, do not supply power to both the VSS (5V-35V) and VS (5V) pins while the jumper is in place.
+
 .. figure:: ../../images/electronics/motor_driver_and_arduino.png
    :alt: Motor driver L298N and Arduino
    :width: 100%

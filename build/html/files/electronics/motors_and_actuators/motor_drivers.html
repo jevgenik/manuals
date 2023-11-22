@@ -100,6 +100,13 @@
 <p><span class="caption-text">L298N motor driver</span><a class="headerlink" href="#id3" title="Link to this image"></a></p>
 </figcaption>
 </figure>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>If the motor supply voltage is up to 12V we can enable the 5V regulator and the 5V pin can be used as output,
+for example for powering our Arduino board. But if the motor voltage is greater than 12V we must disconnect
+the jumper because those voltages will cause damage to the onboard 5V regulator</p>
+<p>Also, do not supply power to both the VSS (5V-35V) and VS (5V) pins while the jumper is in place.</p>
+</div>
 <figure class="align-default" id="id4">
 <a class="reference internal image-reference" href="../../../_images/motor_driver_and_arduino.png"><img alt="Motor driver L298N and Arduino" src="../../../_images/motor_driver_and_arduino.png" style="width: 100%;" /></a>
 <figcaption>
