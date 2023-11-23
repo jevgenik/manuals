@@ -23,10 +23,8 @@ Guide into robotics
    :maxdepth: 2
    :caption: Electronics
       
-   /files/electronics/motors_and_actuators/electric_motors
-   /files/electronics/motors_and_actuators/motor_drivers
-   /files/electronics/motors_and_actuators/motor_controllers
-   /files/electronics/sensors/ultrasonic_sensors
+   /files/electronics/motors_and_actuators/index
+   /files/electronics/sensors/index
 
 .. toctree::
    :maxdepth: 2
