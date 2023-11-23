@@ -47,7 +47,9 @@
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Software</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../index.html">Software</a></li>
+<li class="toctree-l1"><a class="reference internal" href="index.html">Linux</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ai/index.html">AI and Machine Learning</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ros2/index.html">ROS 2</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Electronics</span></p>
 <ul>
@@ -79,7 +81,6 @@
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
       <li><a href="../../../index.html" class="icon icon-home" aria-label="Home"></a></li>
-          <li class="breadcrumb-item"><a href="../index.html">Software</a></li>
           <li class="breadcrumb-item"><a href="index.html">Linux</a></li>
       <li class="breadcrumb-item active">Text manipulation</li>
       <li class="wy-breadcrumbs-aside">
@@ -103,7 +104,7 @@
 </dl>
 </li>
 <li><dl class="simple">
-<dt><code class="docutils literal notranslate"><span class="pre">tee</span></code> - read from standard input and write to standard output and files install with <code class="docutils literal notranslate"><span class="pre">sudo</span> <span class="pre">apt</span> <span class="pre">install</span> <span class="pre">tee</span></code></dt><dd><ul>
+<dt><code class="docutils literal notranslate"><span class="pre">tee</span></code> - read from standard input and write to standard output and files</dt><dd><ul>
 <li><p>Convenient to write logs to file and print them to stdout at the same time</p></li>
 <li><p><code class="docutils literal notranslate"><span class="pre">python</span> <span class="pre">script.py</span> <span class="pre">|</span> <span class="pre">tee</span> <span class="pre">log.txt</span></code> - write output of script.py to log.txt and print it to stdout</p></li>
 <li><p><code class="docutils literal notranslate"><span class="pre">echo</span> <span class="pre">&quot;Hello</span> <span class="pre">World&quot;</span> <span class="pre">|</span> <span class="pre">tee</span> <span class="pre">hello.txt</span></code> - write “Hello World” to hello.txt and print it to stdout</p></li>
@@ -113,7 +114,7 @@
 </dl>
 </li>
 <li><dl class="simple">
-<dt><code class="docutils literal notranslate"><span class="pre">cut</span></code>- remove sections from each line of files (install with <code class="docutils literal notranslate"><span class="pre">sudo</span> <span class="pre">apt</span> <span class="pre">install</span> <span class="pre">cut</span></code>)</dt><dd><ul>
+<dt><code class="docutils literal notranslate"><span class="pre">cut</span></code>- remove sections from each line of files</dt><dd><ul>
 <li><p><code class="docutils literal notranslate"><span class="pre">cut</span> <span class="pre">-d'</span> <span class="pre">'</span> <span class="pre">-f1</span> <span class="pre">&lt;filename&gt;</span></code> - cut first column from file f1 means field 1, d means delimiter</p></li>
 <li><p>Data in a file is supposed to be separated by a delimiter. The default delimiter is tab.</p></li>
 </ul>
@@ -121,7 +122,7 @@
 </dl>
 </li>
 <li><dl class="simple">
-<dt><code class="docutils literal notranslate"><span class="pre">sed</span></code> is a stream editor for filtering and transforming text (install with <code class="docutils literal notranslate"><span class="pre">sudo</span> <span class="pre">apt</span> <span class="pre">install</span> <span class="pre">sed</span></code>)</dt><dd><ul>
+<dt><code class="docutils literal notranslate"><span class="pre">sed</span></code> is a stream editor for filtering and transforming text</dt><dd><ul>
 <li><p><code class="docutils literal notranslate"><span class="pre">sed</span> <span class="pre">'s/old/new/g'</span> <span class="pre">&lt;filename&gt;</span></code> - replace all occurrences of old with new in file s - substitute, g - global</p></li>
 <li><p><code class="docutils literal notranslate"><span class="pre">sed</span> <span class="pre">'/start_pattern/,/end_pattern/d'</span> <span class="pre">&lt;filename&gt;</span></code> - delete a line with start and end pattern use</p></li>
 </ul>

@@ -7,3 +7,4 @@ Software
 
    /files/software/linux/index
    /files/software/ros2/index
+   /files/software/ai/index

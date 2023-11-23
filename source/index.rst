@@ -15,7 +15,9 @@ Guide into robotics
    :maxdepth: 3
    :caption: Software
 
-   /files/software/index
+   /files/software/linux/index
+   /files/software/ai/index
+   /files/software/ros2/index
 
 .. toctree::
    :maxdepth: 2
