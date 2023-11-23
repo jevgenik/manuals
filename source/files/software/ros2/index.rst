@@ -15,3 +15,4 @@ The ROS goal is to provide a standard for robotics software development, that yo
    :maxdepth: 1
 
    /files/software/ros2/commands
+   /files/software/ros2/moveit/index

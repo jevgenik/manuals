@@ -2,11 +2,13 @@
 Useful links
 ============
 
-* `EMQX (open-source MQTT broker) <https://www.emqx.io/>`_
+* `EMQX <https://www.emqx.io/>`_ is MQTT broker for IoT
   
   - `Hackster page <https://www.hackster.io/emqtech>`_
   
-* `Hackster (community dedicated to learning hardware) <https://www.hackster.io/>`_
+* `Hackster <https://www.hackster.io/>`_ is a community dedicated to learning hardware, from beginner to pro
   
-* `Roboflow <https://roboflow.com/>`_ platform for building and deploying computer vision models.
+* `Roboflow <https://roboflow.com/>`_ is a platform for building and deploying computer vision models.
+
+* `Fridzing <https://fritzing.org/>`_ is an electronics design and prototyping platform for makers, hobbyists, and educators
     
