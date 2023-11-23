@@ -10,6 +10,7 @@ Guide into robotics
    :maxdepth: 1
 
    /files/overview
+   /files/useful
 
 .. toctree::
    :maxdepth: 3

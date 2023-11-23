@@ -6,7 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'Robotics manuals'
+project = 'Robotics and AI manuals'
 copyright = '2023, Jevgeni Kalbin'
 author = 'Jevgeni Kalbin'
 release = '18.11.2023'
