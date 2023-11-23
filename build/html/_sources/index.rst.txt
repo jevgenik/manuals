@@ -32,6 +32,11 @@ Guide into robotics
 
    /files/mechanics/forces
 
+.. toctree::
+   :maxdepth: 2
+   :caption: Projects
+
+   /files/projects/projects
 
 Indices and tables
 ==================
