@@ -39,6 +39,13 @@ Guide into robotics
 
    /files/projects/projects
 
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Building product
+
+   /files/product/product.rst
+
 Indices and tables
 ==================
 
