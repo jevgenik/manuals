@@ -42,7 +42,7 @@ Guide into robotics
 
 .. toctree::
    :maxdepth: 2
-   :caption: Building product
+   :caption: Building a product
 
    /files/product/product.rst
 
