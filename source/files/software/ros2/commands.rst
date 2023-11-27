@@ -2,18 +2,20 @@
 ROS2 commands
 =============
 
-### ROS2 commands
-- `ros2 run <package_name> <executable_name>` - run executable from package. Executable can written in C++ or Python
-- `ros2 node list` - list active nodes  
-  `ros2 node info <node_name>` - show information about node (e.g. `ros2 node info /turtlesim`)  
-- `ros2 interface show <interface_name>` - show interface definition (e.g. `ros2 interface show geometry_msgs/msg/Twist`)
-- `ros2 wtf` or `ros2 doctor` - show diagnostic information about the ROS 2 system
-- `:=` - remapping arguments (e.g. `ros2 run turtlesim turtlesim_node __ns:=/turtle1` - run turtlesim_node with namespace /turtle1)
+ROS2 commands
+=============
+* ``ros2 run <package_name> <executable_name>`` - run executable from package. Executable can written in C++ or Python
+* ``ros2 node list`` - list active nodes  
+  - ``ros2 node info <node_name>`` - show information about node (e.g. `ros2 node info /turtlesim`)  
+* ``ros2 interface show <interface_name>`` - show interface definition (e.g. `ros2 interface show geometry_msgs/msg/Twist`)
+* ``ros2 wtf`` or ``ros2 doctor`` - show diagnostic information about the ROS 2 system
+* ``:=`` - remapping arguments (e.g. ``ros2 run turtlesim turtlesim_node __ns:=/turtle1`` - run turtlesim_node with namespace /turtle1)
 
-### TF2 commands
-> TF2 is the transform library, which lets the user keep track of multiple coordinate frames over time. TF2 maintains  
-> the relationship between coordinate frames in a tree structure buffered  in time, and lets the user transform points, 
-> vectors, etc between any two coordinate frames at any desired point in time.
+TF2 commands
+============
+    TF2 is the transform library, which lets the user keep track of multiple coordinate frames over time. TF2 maintains  
+    the relationship between coordinate frames in a tree structure buffered  in time, and lets the user transform points, 
+    vectors, etc between any two coordinate frames at any desired point in time.
 
 Generate pdf file with TF transform tree
 `ros2 run tf2_tools view_frames.py`
