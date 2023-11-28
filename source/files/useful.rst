@@ -8,7 +8,7 @@ Useful links
   
 * `Hackster <https://www.hackster.io/>`_ is a community dedicated to learning hardware, from beginner to pro
   
-* `Roboflow <https://roboflow.com/>`_ is a platform for building and deploying computer vision models. Good for images annotation.
+* `Roboflow <https://roboflow.com/>`_ is a platform for building and deploying computer vision models. Good for annotating images
 
 * `Fridzing <https://fritzing.org/>`_ is an electronics design and prototyping platform for makers, hobbyists, and educators
 
