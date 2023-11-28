@@ -27,11 +27,13 @@ Guide into robotics
    /files/electronics/motors_and_actuators/index
    /files/electronics/sensors/index
 
+
 .. toctree::
    :maxdepth: 2
    :caption: Mechanics
 
    /files/mechanics/forces
+
 
 .. toctree::
    :maxdepth: 2
@@ -45,6 +47,13 @@ Guide into robotics
    :caption: Building a product
 
    /files/product/product.rst
+
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Learning By Doing
+
+   /files/learning_by_doing/learning_by_doing.rst
 
 Indices and tables
 ==================
