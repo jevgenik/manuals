@@ -1,0 +1,17 @@
+name: Build and Deploy Sphinx Documentation
+
+# Execute this workflow automatically when we push to muster
+on:
+  push:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
