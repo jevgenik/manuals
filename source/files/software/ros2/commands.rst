@@ -13,15 +13,16 @@ ROS2 commands
 
 TF2 commands
 ============
+
     TF2 is the transform library, which lets the user keep track of multiple coordinate frames over time. TF2 maintains  
     the relationship between coordinate frames in a tree structure buffered  in time, and lets the user transform points, 
     vectors, etc between any two coordinate frames at any desired point in time.
 
-Generate pdf file with TF transform tree
-`ros2 run tf2_tools view_frames.py`
+* Generate pdf file with TF transform tree
+``ros2 run tf2_tools view_frames.py``
 
-`tf_echo` reports the transform between any two frames broadcast over ROS
-  `ros2 run tf2_ros tf2_echo <parent frame> <child frame>`
+``tf_echo`` reports the transform between any two frames broadcast over ROS
+  ``ros2 run tf2_ros tf2_echo <parent frame> <child frame>``
 
 ### ROS2 topic commands
 - `ros2 topic echo <topic_name>` - show messages published to topic
