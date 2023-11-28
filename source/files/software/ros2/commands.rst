@@ -4,8 +4,9 @@ ROS2 commands
 
 ROS2 commands
 =============
-* ``ros2 run <package_name> <executable_name>`` - run executable from package. Executable can written in C++ or Python
-* ``ros2 node list`` - list active nodes  
+
+* ``ros2 run <package_name> <executable_name>`` - run executable from package. Executable can written in C++ or Python  
+* ``ros2 node list`` - list active nodes    
   - ``ros2 node info <node_name>`` - show information about node (e.g. `ros2 node info /turtlesim`)  
 * ``ros2 interface show <interface_name>`` - show interface definition (e.g. `ros2 interface show geometry_msgs/msg/Twist`)
 * ``ros2 wtf`` or ``ros2 doctor`` - show diagnostic information about the ROS 2 system
@@ -21,17 +22,18 @@ TF2 commands
 * Generate pdf file with TF transform tree
 ``ros2 run tf2_tools view_frames.py``
 
-``tf_echo`` reports the transform between any two frames broadcast over ROS
-  ``ros2 run tf2_ros tf2_echo <parent frame> <child frame>``
+* ``tf_echo`` reports the transform between any two frames broadcast over ROS
+* ``ros2 run tf2_ros tf2_echo <parent frame> <child frame>``
 
-### ROS2 topic commands
-- `ros2 topic echo <topic_name>` - show messages published to topic
-- `ros2 topic echo <topic_name> --no-arr` - show messages published to topic without array brackets
-- `ros2 topic list` - list active topics
-- `ros2 topic list --verbose` - list active topics with their types
-- `ros2 topic list -t` - list active topics with their types
-- `ros2 topic info <topic_name>` - show information about topic (e.g. `ros2 topic info /turtle1/cmd_vel`)
-- `ros2 topic type <topic_name>` - show type of topic (e.g. `ros2 topic type /turtle1/cmd_vel`)
+ROS2 topic commands
+===================
+* ``ros2 topic echo <topic_name>`` - show messages published to topic
+* ``ros2 topic echo <topic_name> --no-arr`` - show messages published to topic without array brackets
+* ``ros2 topic list`` - list active topics
+* ``ros2 topic list --verbose`` - list active topics with their types
+* ``ros2 topic list -t`` - list active topics with their types
+* ``ros2 topic info <topic_name>`` - show information about topic (e.g. `ros2 topic info /turtle1/cmd_vel`)
+* ``ros2 topic type <topic_name>`` - show type of topic (e.g. `ros2 topic type /turtle1/cmd_vel`)
  
 ### Rviz commands
 `rviz -d <path_to_rviz_config_file>` - run rviz with config file (e.g. `rviz -d /ros_ws/src/bigfootbot_description/rviz/bigfootbot.rviz`)
