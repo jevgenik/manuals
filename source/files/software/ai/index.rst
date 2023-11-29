@@ -14,4 +14,5 @@ and then changes its approach and tests it again, and again. It always tries to 
 .. toctree::
    :maxdepth: 1
 
+   /files/software/ai/deep_learning
    /files/software/ai/computer_vision/computer_vision
