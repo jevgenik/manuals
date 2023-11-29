@@ -30,7 +30,7 @@ jobs:
           pip install --upgrade sphinx
           pip3 install --upgrade sphinx-rtd-theme
           pip3 install --upgrade nbsphinx
-          pip3 install --upgrade smyst-nb
+          pip3 install --upgrade myst-nb
          
         # nbsphinx is needed to convert jupyter notebooks to html
 
