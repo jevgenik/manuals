@@ -29,8 +29,8 @@ jobs:
           pip install --upgrade pip
           pip install --upgrade sphinx
           pip install --upgrade sphinx-rtd-theme
-          pip install --upgrade nbsphinx          
-        
+          
+        # pip install --upgrade nbsphinx          
         # pip install --upgrade pandoc
         # nbsphinx is needed to convert jupyter notebooks to html
         # pandoc is needed to convert markdown to html

@@ -11,7 +11,6 @@ Guide into robotics
 
    files/overview
    files/useful
-   files/testing_vision_starter
 
 .. toctree::
    :maxdepth: 3

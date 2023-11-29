@@ -14,7 +14,8 @@ release = '18.11.2023'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = ["nbsphinx"]
+extensions = []
+#extensions = ["nbsphinx"]
 
 templates_path = ['_templates']
 exclude_patterns = []
