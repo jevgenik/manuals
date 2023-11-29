@@ -2,7 +2,7 @@
 are objects that can be iterated over, like lists, tuples, dictionaries, sets, strings, and generators.
 
 ## List
-A list is a collection of items that can be of different types.
+A list is a collection of items that can be of different types (heterogeneous).
   
   ```python
   my_list = [1, 2, 3, 4, 5]
@@ -18,8 +18,13 @@ Featues:
 - Lists are ordered, meaning that the items have a defined order, and that order will not change.
 - Lists allow duplicate values, meaning that you can have two items that are the same.
 
+## Array
+Array is a collection of items of the same type (homogeneous)
+Array is faster than list.
+Array must be declared before they can be used.
+
 ## Tuple
-A tuple is a collection of items that can be of different types.
+A tuple is a collection of items that can be of different types (heterogeneous).
     
   ```python
   my_tuple = (1, 2, 3, 4, 5)
