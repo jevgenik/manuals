@@ -13,4 +13,6 @@ Useful links
 * `Fridzing <https://fritzing.org/>`_ is an electronics design and prototyping platform for makers, hobbyists, and educators
 
 * `Figma <https://www.figma.com/>`_  is a collaborative web application for interface design
-    
+
+* `Google Colab <https://colab.research.google.com/>`_  is a hosted Jupyter Notebook service that requires no setup to use and provides 
+                                                        free access to computing resources, including GPUs and TPUs.
