@@ -10,7 +10,7 @@ Deep learning models can **recognize complex patterns** in pictures, text, sound
 
 *  Can be supervised, unsupervised, semi-supervised, self-supervised, or reinforcement.
 
-*  To achieve this deep learning applications use a layered structure of algorithms called an **artificial neural network (ANN)**
+*  To achieve this deep learning applications use a layered structure of algorithms called an artificial neural network (ANN).
 
 
 Artificial Neural Network (ANN)
