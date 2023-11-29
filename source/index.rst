@@ -17,7 +17,7 @@ Guide into robotics
    :caption: Software
 
    /files/software/linux/index
-   /files/software/ai/index
+   /files/software/ai/ai
    /files/software/ros2/index
 
 .. toctree::
