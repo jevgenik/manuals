@@ -9,51 +9,52 @@ Guide into robotics
 .. toctree::
    :maxdepth: 1
 
-   /files/overview
-   /files/useful
+   files/overview
+   files/useful
+   files/testing_vision_starter
 
 .. toctree::
    :maxdepth: 3
    :caption: Software
 
-   /files/software/linux/index
-   /files/software/ai/ai
-   /files/software/ros2/index
+   files/software/linux/index
+   files/software/ai/ai
+   files/software/ros2/index
 
 .. toctree::
    :maxdepth: 2
    :caption: Electronics
       
-   /files/electronics/motors_and_actuators/index
-   /files/electronics/sensors/index
+   files/electronics/motors_and_actuators/index
+   files/electronics/sensors/index
 
 
 .. toctree::
    :maxdepth: 2
    :caption: Mechanics
 
-   /files/mechanics/forces
+   files/mechanics/forces
 
 
 .. toctree::
    :maxdepth: 2
    :caption: Projects
 
-   /files/projects/projects
+   files/projects/projects
 
 
 .. toctree::
    :maxdepth: 2
    :caption: Building a product
 
-   /files/product/product.rst
+   files/product/product.rst
 
 
 .. toctree::
    :maxdepth: 2
    :caption: Learning By Doing
 
-   /files/learning_by_doing/learning_by_doing.rst
+   files/learning_by_doing/learning_by_doing.rst
 
 Indices and tables
 ==================
