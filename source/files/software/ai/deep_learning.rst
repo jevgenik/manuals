@@ -1,11 +1,10 @@
 =============
 Deep Learning
 =============
-Deep learning is a method in artificial intelligence (AI) that teaches computers to process data in a way that is inspired by the human brain. 
-Deep learning models can recognize complex patterns in pictures, text, sounds, and other data to produce accurate insights and predictions
+Deep learning is a method in artificial intelligence (AI) that teaches computers to process data in a way that is **inspired by the human brain**. 
+Deep learning models can **recognize complex patterns** in pictures, text, sounds, and other data to produce accurate insights and predictions
 
-* deep learning algorithms can be regarded both as a sophisticated and **mathematically complex evolution of  
-machine learning algorithms**  
+* deep learning algorithms can be regarded both as a sophisticated and **mathematically complex evolution of machine learning algorithms**  
 
 *  Describes algorithms that analyze data with a logic structure similar to how a human would draw conclusions.  
 
