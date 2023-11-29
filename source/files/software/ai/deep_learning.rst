@@ -28,6 +28,9 @@ Artificial Neural Network (ANN)
 .. image:: /files/images/ann.png
    :alt: Artificial Neural Network (ANN)
 
+.. image:: /files/images/ml_vs_trad_programming.jpg 
+   :alt: Machine Learning vs Traditional Programming
+
 
 Advantages of deep learning:
 
