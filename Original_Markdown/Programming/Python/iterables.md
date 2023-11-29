@@ -18,11 +18,6 @@ Featues:
 - Lists are ordered, meaning that the items have a defined order, and that order will not change.
 - Lists allow duplicate values, meaning that you can have two items that are the same.
 
-## Array
-Array is a collection of items of the same type (homogeneous)
-Array is faster than list.
-Array must be declared before they can be used.
-
 ## Tuple
 A tuple is a collection of items that can be of different types (heterogeneous).
     
@@ -43,3 +38,15 @@ Featues:
 > Tuples are more memory efficient than the lists. When it comes to the time efficiency, tuples have a slight advantage  
 > over the lists especially when we consider lookup value. If you have data that shouldn't change,  
 > you should choose tuple data type over lists
+
+## Array
+Array is a collection of items of the same type (homogeneous)
+Array is faster than list.
+Array must be declared before they can be used because they are not part of the standard Python.
+
+```python
+from array import array
+
+int_array = array('i', [1, 2, 3, 4, 5])
+gloat_array = array('f', [1.1, 2.2, 3.3, 4.4, 5.5])
+```
