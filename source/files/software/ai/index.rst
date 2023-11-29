@@ -2,6 +2,12 @@
 AI and Machine Learning
 =======================
 
+What is machine learning?
+=========================
+Machine learning means that a computer program improves through experience; it does not need a programmer 
+to alter the program for it to improve. The computer tests a way to complete a task, measures its success, 
+and then changes its approach and tests it again, and again. It always tries to improve on its measurement of success.
+
 .. toctree::
    :maxdepth: 1
 
