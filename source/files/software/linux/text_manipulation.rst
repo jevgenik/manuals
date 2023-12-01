@@ -1,6 +1,7 @@
 =================
 Text manipulation
 =================
+.. _linux_text_manipulation:
 
 * ``touch`` - create empty file (e.g. ``touch file.txt``)
             - ``echo "Hello World" > file.txt`` - write "Hello World" to file.txt

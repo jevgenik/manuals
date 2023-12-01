@@ -85,7 +85,7 @@ To capture docker build logs to a file
 --------------------------------------
 
 ``docker build -f Dockerfile.bfb_camera_d435i -t bfb_camera_d435i:latest ../.. 2>&1 | tee build.log`` 2>&1 redirects stderr to stdout, 
-and then | tee build.log pipes stdout to tee, which writes it to build.log and also displays it on the screen.
+and then | tee build.log pipes stdout to :ref:`tee <linux_text_manipulation>`, which writes it to build.log and also displays it on the screen.
 
 
 --- Create and start containers
