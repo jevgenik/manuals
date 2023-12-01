@@ -52,10 +52,12 @@ docker-compose start
 --- Stop and remove containers, networks, images, and volumes
 docker-compose down
 
---- List containers
-`docker-compose ps`
-`docker ps -a` - list all containers (running and stopped)
-`docker container ls -a` - list all containers (running and stopped) it is alias for `docker ps -a`
+List containers
+---------------
+
+``docker-compose ps`` - list running containers 
+``docker ps -a`` - list all containers (running and stopped)
+``docker container ls -a`` - list all containers (running and stopped) it is alias for ``docker ps -a``
 
 --- Inspect (containers, networks, images, volumes)
 `docker inspect <container name>` - show container info (IP address, etc)
