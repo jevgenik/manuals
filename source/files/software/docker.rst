@@ -46,8 +46,8 @@ To disable access, run ``xhost -``
   
    * - ``--gpus`` flag when you start a container to access GPU resources. Specify how many GPUs to use (all - use all GPUs)  
   
-   * ``--volume="/tmp/.X11-unix:/tmp/.X11-unix:rw"`` read-write mode (i.e. the container can write as well as read files on the host)
-                                                     In other words, the container can then do almost everything that the host can do)  
+   * ``--volume="/tmp/.X11-unix:/tmp/.X11-unix:rw"`` read-write mode (i.e. the container can write as well as read files on the host)  
+   In other words, the container can then do almost everything that the host can do)  
 
 To capture docker build logs to a file
  `docker build -f Dockerfile.bfb_camera_d435i -t bfb_camera_d435i:latest ../.. 2>&1 | tee build.log`
