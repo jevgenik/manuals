@@ -29,17 +29,21 @@ Buid image
 
 * ``docker exec -it <container-name/ID> bash`` - run bash in a running container
 
---- Run docker containers with GUI ---
-xhost +local:root 
-OR
-xhost +
+Run docker container
+--------------------
 
-docker run -it --rm --privileged --network host --runtime=nvidia --gpus all --env="DISPLAY" --env="QT_X11_NO_MITSHM=1" --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw" aarch64_humble_realsense:latest  
-(--rm Automatically remove the container when it exits)  
-(--gpus # flag when you start a container to access GPU resources. Specify how many GPUs to use (all - use all GPUs))  
-(--privileged flag gives all capabilities to the container, and it also lifts all the limitations enforced by the device cgroup controller.   
-(--volume="/tmp/.X11-unix:/tmp/.X11-unix:rw" read-write mode (i.e. the container can write as well as read files on the host))  
-In other words, the container can then do almost everything that the host can do)  
+Run docker containers with GUI
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+1. ``xhost +local:root`` OR ``xhost +`` - allow any user to connect to your X server (This is not recommended for security reasons)
+                                          To disable access, run ``xhost -``
+
+2. ``docker run -it --rm --privileged --network host --runtime=nvidia --gpus all --env="DISPLAY" --env="QT_X11_NO_MITSHM=1" --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw" nav_cont:latest ``
+   - ``--rm`` - automatically remove the container when it exits
+   - ``--gpus`` flag when you start a container to access GPU resources. Specify how many GPUs to use (all - use all GPUs)  
+   - ``--privileged`` flag gives all capabilities to the container, and it also lifts all the limitations enforced by the device cgroup controller.   
+   - ``--volume="/tmp/.X11-unix:/tmp/.X11-unix:rw"`` read-write mode (i.e. the container can write as well as read files on the host)
+                                                     In other words, the container can then do almost everything that the host can do)  
 
 To capture docker build logs to a file
  `docker build -f Dockerfile.bfb_camera_d435i -t bfb_camera_d435i:latest ../.. 2>&1 | tee build.log`
