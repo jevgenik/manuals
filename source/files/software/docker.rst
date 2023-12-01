@@ -69,6 +69,7 @@ docker-compose start
 --- Stop and remove containers, networks, images, and volumes
 docker-compose down
 
+
 List containers
 ---------------
   
@@ -78,17 +79,22 @@ List containers
 
 * ``docker compose ps`` - list containers for a Compose project, with current status and exposed ports
 
---- Inspect (containers, networks, images, volumes)
-`docker inspect <container name>` - show container info (IP address, etc)
-   docker container inspect 2186a1927d6a | grep compose 
-`docker inspect <network name>` - show network info
-`docker inspect <image name>` - show image info
-`docker inspect <volume name>` - show volume info
 
---- end of block 'docker commmands ---
+Inspect (containers, networks, images, volumes)
+-----------------------------------------------
+
+* ``docker inspect <container name> or <id>`` - show container info (IP address, etc)
+
+* ``docker inspect <network name> or <id>`` - show network info
+
+* ``docker inspect <image name> or <id>`` - show image info
+
+* ``docker inspect <volume name> or <id>`` - show volume info
 
 
-### Free up disk space
-`docker system prune` - cleans up dangling resources (unused data such as stopped containers, dangling images, networks, and more)
-`docker system prune -a` -a removes all unused images (those that are not associated with any container) not just the dangling ones.
-                         NB! all images will be removed
+Free up disk space
+------------------
+
+* ``docker system prune`` - cleans up dangling resources (unused data such as stopped containers, dangling images, networks, and more)
+
+* ``docker system prune -a`` -a removes all unused images (those that are not associated with any container) not just the dangling ones. NB! all images will be removed
