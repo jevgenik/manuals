@@ -13,8 +13,6 @@ Docker commmands
 Buid image
 ----------
 
-ARG is 
-
 * ``docker build -f Dockerfile.nav -t nav:latest --build-arg BASE_IMAGE="nvidia_x86" ..`` - build image passing build-tiome variable BASE_IMAGE to docker file
 
 .. note:: 
