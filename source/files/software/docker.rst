@@ -42,12 +42,15 @@ To disable access, run ``xhost -``
    
    * ``--rm`` - automatically remove the container when it exits   
   
-   * ``--privileged`` flag gives all capabilities to the container, and it also lifts all the limitations enforced by the device cgroup controller.   
+   * ``--privileged`` flag gives all capabilities to the container (i.e. device access)
   
    * ``--gpus`` flag when you start a container to access GPU resources. Specify how many GPUs to use (all - use all GPUs)  
+
+   * ``env="DISPLAY"`` - pass the DISPLAY environment variable to the container
   
-   * ``--volume="/tmp/.X11-unix:/tmp/.X11-unix:rw"`` read-write mode (i.e. the container can write as well as read files on the host)  
-   In other words, the container can then do almost everything that the host can do)  
+   * ``--volume="/tmp/.X11-unix:/tmp/.X11-unix:rw"`` this volume is needed to share the X11 socket with the container
+   read-write mode (i.e. the container can write as well as read files on the host)
+   
 
 To capture docker build logs to a file
  `docker build -f Dockerfile.bfb_camera_d435i -t bfb_camera_d435i:latest ../.. 2>&1 | tee build.log`
