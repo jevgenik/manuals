@@ -82,10 +82,11 @@ Free up disk space
 
 
 To capture docker build logs to a file
- `docker build -f Dockerfile.bfb_camera_d435i -t bfb_camera_d435i:latest ../.. 2>&1 | tee build.log`
- 2>&1 redirects stderr to stdout, and then | tee build.log pipes stdout to tee, which writes it to build.log and also displays it on the screen.
+--------------------------------------
 
---- end of block 'run docker containers wit GUI ---
+``docker build -f Dockerfile.bfb_camera_d435i -t bfb_camera_d435i:latest ../.. 2>&1 | tee build.log`` 2>&1 redirects stderr to stdout, 
+and then | tee build.log pipes stdout to tee, which writes it to build.log and also displays it on the screen.
+
 
 --- Create and start containers
 docker compose -f docker-compose_lenovo.yml up # Version2
