@@ -8,6 +8,10 @@ and other dependencies, and ship it all out as one package. By doing so, thanks 
 can rest assured that the **application will run on any other Linux machine** regardless of any customized 
 settings that machine might have that could differ from the machine used for writing and testing the code.
 
+
+.. image:: /files/images/docker
+   :alt: Docker
+
 Docker commmands
 ================
 
