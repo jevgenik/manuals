@@ -13,15 +13,14 @@ Docker commmands
 Buid image
 ----------
 
-* ``docker build -f Dockerfile.nav -t nav:latest --build-arg BASE_IMAGE="nvidia_x86" ..`` - build image passing build-tiome variable BASE_IMAGE to docker file
+* ``docker build -f Dockerfile.nav -t nav_cont:latest --build-arg BASE_IMAGE="nvidia_x86" ..`` - build image passing build-time variable BASE_IMAGE to docker file
 
 .. note:: 
    Build-time variable *ARG BASE_IMAGE* in a docker file is accessable only during build time
   
-* ``docker build --no-cache -t humble_realsense:latest ..`` - rebuild image without cache (useful when you want to rebuild image with new dependencies)
+* ``docker build --no-cache -t nav_cont:latest ..`` - rebuild image without cache (useful when you want to rebuild image with new dependencies)
 
---- Run new terminal in the running container
-docker exec -it <container-name/ID> bash
+* ``docker exec -it <container-name/ID> bash`` - run bash in a running container
 
 --- Run docker containers with GUI ---
 xhost +local:root 
