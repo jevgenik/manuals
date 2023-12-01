@@ -49,25 +49,6 @@ To disable access, run ``xhost -``
    * ``env="DISPLAY"`` - pass the DISPLAY environment variable to the container
   
    * ``--volume="/tmp/.X11-unix:/tmp/.X11-unix:rw"`` this volume is needed to share the X11 socket with the container. Read-write mode (i.e. the container can write as well as read files on the host)
-   
-
-To capture docker build logs to a file
- `docker build -f Dockerfile.bfb_camera_d435i -t bfb_camera_d435i:latest ../.. 2>&1 | tee build.log`
- 2>&1 redirects stderr to stdout, and then | tee build.log pipes stdout to tee, which writes it to build.log and also displays it on the screen.
-
---- end of block 'run docker containers wit GUI ---
-
---- Create and start containers
-docker compose -f docker-compose_lenovo.yml up # Version2
-
-docker-compose up
-docker-compose up --build (Build images before starting containers.)
-
---- Start the stopped containers, can't create new ones
-docker-compose start
-
---- Stop and remove containers, networks, images, and volumes
-docker-compose down
 
 
 List containers
@@ -98,3 +79,22 @@ Free up disk space
 * ``docker system prune`` - cleans up dangling resources (unused data such as stopped containers, dangling images, networks, and more)
 
 * ``docker system prune -a`` -a removes all unused images (those that are not associated with any container) not just the dangling ones. NB! all images will be removed
+
+
+To capture docker build logs to a file
+ `docker build -f Dockerfile.bfb_camera_d435i -t bfb_camera_d435i:latest ../.. 2>&1 | tee build.log`
+ 2>&1 redirects stderr to stdout, and then | tee build.log pipes stdout to tee, which writes it to build.log and also displays it on the screen.
+
+--- end of block 'run docker containers wit GUI ---
+
+--- Create and start containers
+docker compose -f docker-compose_lenovo.yml up # Version2
+
+docker-compose up
+docker-compose up --build (Build images before starting containers.)
+
+--- Start the stopped containers, can't create new ones
+docker-compose start
+
+--- Stop and remove containers, networks, images, and volumes
+docker-compose down
