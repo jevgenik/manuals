@@ -87,14 +87,18 @@ To capture docker build logs to a file
 and then | tee build.log pipes stdout to :ref:`tee <linux_text_manipulation>`, which writes it to build.log and also displays it on the screen.
 
 
---- Create and start containers
-docker compose -f docker-compose_lenovo.yml up # Version2
+Docker compose 
+--------------
 
-docker-compose up
-docker-compose up --build (Build images before starting containers.)
+Create. start, stop and remove containers
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
---- Start the stopped containers, can't create new ones
-docker-compose start
+* ``docker compose -f docker-compose_lenovo.yml up``
 
---- Stop and remove containers, networks, images, and volumes
-docker-compose down
+* ``docker compose up``
+
+* ``docker compose up --build`` (Build images before starting containers.)
+
+* ``docker compose start``- start the stopped containers, can't create new ones
+
+* ``docker compose down`` - stop and remove containers, networks, images, and volumes
