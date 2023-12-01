@@ -48,7 +48,7 @@ To disable access, run ``xhost -``
 
    * ``env="DISPLAY"`` - pass the DISPLAY environment variable to the container
   
-   * ``--volume="/tmp/.X11-unix:/tmp/.X11-unix:rw"`` this volume is needed to share the X11 socket with the container read-write mode (i.e. the container can write as well as read files on the host)
+   * ``--volume="/tmp/.X11-unix:/tmp/.X11-unix:rw"`` this volume is needed to share the X11 socket with the container. Read-write mode (i.e. the container can write as well as read files on the host)
    
 
 To capture docker build logs to a file
