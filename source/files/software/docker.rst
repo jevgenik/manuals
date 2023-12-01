@@ -44,7 +44,7 @@ To disable access, run ``xhost -``
   
    * ``--privileged`` flag gives all capabilities to the container, and it also lifts all the limitations enforced by the device cgroup controller.   
   
-   * - ``--gpus`` flag when you start a container to access GPU resources. Specify how many GPUs to use (all - use all GPUs)  
+   * ``--gpus`` flag when you start a container to access GPU resources. Specify how many GPUs to use (all - use all GPUs)  
   
    * ``--volume="/tmp/.X11-unix:/tmp/.X11-unix:rw"`` read-write mode (i.e. the container can write as well as read files on the host)  
    In other words, the container can then do almost everything that the host can do)  
