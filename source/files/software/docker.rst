@@ -9,7 +9,7 @@ can rest assured that the **application will run on any other Linux machine** re
 settings that machine might have that could differ from the machine used for writing and testing the code.
 
 
-.. image:: /files/images/docker
+.. image:: /files/images/docker.png
    :alt: Docker
 
 Docker commmands
