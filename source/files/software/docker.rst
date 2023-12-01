@@ -35,8 +35,7 @@ Run docker container
 Run docker containers with GUI
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-#. ``xhost +local:root`` OR ``xhost +`` - allow any user to connect to your X server (This is not recommended for security reasons)  
-To disable access, run ``xhost -``
+#. ``xhost +local:root`` OR ``xhost +`` - allow any user to connect to your X server (This is not recommended for security reasons) To disable access, run ``xhost -``
 
 #. ``docker run -it --rm --privileged --network host --runtime=nvidia --gpus all --env="DISPLAY" --env="QT_X11_NO_MITSHM=1" --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw" nav_cont:latest``
    
