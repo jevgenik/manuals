@@ -14,7 +14,7 @@ settings that machine might have that could differ from the machine used for wri
 .. image:: /files/images/docker_build_and_run.jpg
    :alt: Docker Build and Run
 
-Docker commmands
+Docker commands
 ================
 
 Buid image
