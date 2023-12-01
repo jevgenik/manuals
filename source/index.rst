@@ -19,6 +19,7 @@ Guide into robotics
    files/software/linux/index
    files/software/ai/ai
    files/software/ros2/index
+   files/software/docker
 
 .. toctree::
    :maxdepth: 2
