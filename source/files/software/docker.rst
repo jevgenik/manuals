@@ -79,6 +79,8 @@ Free up disk space
 
 * ``docker system prune -a`` -a removes all unused images (those that are not associated with any container) not just the dangling ones. NB! all images will be removed
 
+* ``docker builder du``
+
 
 To capture docker build logs to a file
 --------------------------------------
