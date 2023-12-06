@@ -33,3 +33,9 @@ Advantages of deep learning:
 * Automatic feature extraction (no need to manually define features)
 
 * High accuracy
+
+
+CNN (Convolutional Neural Network)
+==================================
+
+CNNs are a type of deep learning neural network that have been successfully applied to analyzing visual imagery.
