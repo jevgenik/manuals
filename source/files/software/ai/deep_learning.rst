@@ -39,3 +39,6 @@ CNN (Convolutional Neural Network)
 ==================================
 
 CNNs are a type of deep learning neural network that have been successfully applied to analyzing visual imagery.
+
+.. image:: /files/images/cnn.png
+   :alt: Convolutional Neural Network (CNN)
