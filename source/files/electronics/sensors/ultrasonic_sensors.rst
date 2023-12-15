@@ -5,7 +5,7 @@ is a sensor that measures the distance to an object by using sound waves. It emi
 The sensor measures the time it takes for the sound wave to bounce back and calculates the distance to the object based  
 on the speed of sound.  
 
-.. note:: 
+.. tip:: 
    Speed of sound is approximately 343 m/s (1235 km/h) at 20°C.  
 
 .. image:: ../../images/electronics/ultrasonic_sensor.png   
