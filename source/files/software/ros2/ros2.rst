@@ -7,12 +7,14 @@ between robotics applications.
 
 The ROS goal is to provide a standard for robotics software development, that you can use on any robot.
 
-.. image:: /files/images/ros/what_is_ros.png
+.. image:: images/what_is_ros.png
    :alt: What is ROS?
    :width: 100%
 
 .. toctree::
    :maxdepth: 1
 
-   /files/software/ros2/commands
-   /files/software/ros2/moveit/index
+   commands
+   moveit/index
+   navigation/navigation
+   navigation/instructions
