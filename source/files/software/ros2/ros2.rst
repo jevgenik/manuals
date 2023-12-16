@@ -15,6 +15,7 @@ The ROS goal is to provide a standard for robotics software development, that yo
    :maxdepth: 1
 
    commands
+   ros_graph
    moveit/index
    navigation/navigation
    navigation/instructions
