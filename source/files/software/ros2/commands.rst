@@ -79,8 +79,9 @@ developing application software with a graphical user interface (GUI)
 
 rqt is a meta package that depends on all available e.g rqt_graph, rqt_image_view, etc
 
-* ``ros2 run rqt_graph rqt_graph`` - show graph of nodes and topics (rqt_graph is a part of rqt_graph package) rqt_graph is a dynamic
-GUI plugin for visualizing the ROS computation graph (dynamic plugin is a plugin that can be loaded and unloaded at runtime)
+* ``ros2 run rqt_graph rqt_graph`` - show graph of nodes and topics (rqt_graph is a part of rqt_graph package)  
+  
+  - rqt_graph is a dynamic GUI plugin for visualizing the ROS computation graph (dynamic plugin is a plugin that can be loaded and unloaded at runtime)
 
 * ``ros2 run rqt_image_view rqt_image_view`` - show image from camera (rqt_image_view is a part of rqt_image_view package)
 
