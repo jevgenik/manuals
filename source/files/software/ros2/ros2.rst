@@ -13,7 +13,8 @@ The ROS goal is to provide a standard for robotics software development, that yo
 
 .. toctree::
    :maxdepth: 1
-
+   
+   services
    commands
    ros_graph
    moveit/index
