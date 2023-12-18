@@ -17,12 +17,6 @@ Global planning
 Local planning
 ==============
 
-Navigation Stack
-================
-
-.. image:: ../images/nav2_stack.png
-   :width: 700
-   :alt: Nav2 stack
 
 ROS 2 packages
 --------------
