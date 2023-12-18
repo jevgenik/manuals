@@ -13,10 +13,10 @@ Guide into robotics
    files/useful
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 2
    :caption: Software
 
-   files/software/linux/index
+   files/software/linux/linux
    files/software/ai/ai
    files/software/ros2/ros2
    files/software/docker
