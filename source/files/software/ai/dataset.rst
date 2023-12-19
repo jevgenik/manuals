@@ -6,7 +6,8 @@ Dataset is a collection of data that is used to train a machine learning model. 
 training and testing. The training dataset is used to train the model, while the testing dataset is used to evaluate  
 the model's performance.
 
-    Origin of word "dataset": Latin data (things given) + set (group of things).
+.. tip::
+   Origin of word "dataset": Latin data (things given) + set (group of things).
 
 **ImageNet** is a dataset of over 15 million labeled high-resolution images belonging to roughly 22,000 categories. 
 The images were collected from the web and labeled by human labelers using Amazon’s Mechanical Turk crowd-sourcing tool. 
