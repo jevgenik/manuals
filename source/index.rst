@@ -17,6 +17,7 @@ Guide into robotics
    :caption: Software
 
    files/software/linux/linux
+   files/software/git/git
    files/software/ai/ai
    files/software/ros2/ros2
    files/software/docker
