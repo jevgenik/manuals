@@ -12,7 +12,7 @@ The ROS goal is to provide a standard for robotics software development, that yo
    :width: 100%
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    
    services
    commands

@@ -12,7 +12,7 @@ and then changes its approach and tests it again, and again. It always tries to 
    :alt: Machine Learning vs Traditional Programming
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
 
    dataset
    model

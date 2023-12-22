@@ -21,14 +21,18 @@ A package is a collection of Python modules: while a module is a single Python f
 
 
 Virtual environment
-===================	
+===================
 Virtual environment is a tool that helps to keep dependencies required by different projects separate by creating isolated 
 Python virtual environments for them. This is one of the most important tools that most of the Python developers use.
+
 
 .. figure:: images/python_virtual_environment.png
    :alt: Python Virtual environment
 
+Table of contents
+=================
+
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
 
    iterables
