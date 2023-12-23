@@ -23,6 +23,7 @@ Guide into robotics
    files/software/docker
    files/software/coding/coding
    files/software/django/django
+   files/software/databases/databases
 
 .. toctree::
    :maxdepth: 2

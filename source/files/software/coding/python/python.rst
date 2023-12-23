@@ -20,6 +20,12 @@ A package is a collection of Python modules: while a module is a single Python f
    Structure of Python package. Source: `Python Geeks <https://pythongeeks.org/python-packages/>`_
 
 
+PIP
+===
+PIP is a package manager for Python packages, or modules if you like. It is used to install and manage software packages written in Python.
+You can install, uninstall and upgrade packages with the help of ``pip`` command. It also helps to manage dependency between packages.
+
+
 Virtual environment
 ===================
 Virtual environment is a tool that helps to keep dependencies required by different projects separate by creating isolated 
