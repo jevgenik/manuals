@@ -36,6 +36,14 @@ history that Django can roll through to update your database schema to match you
 
 View
 ====
+A view is a “type” of web page in your Django application that generally serves a specific function and has a specific template.
+
+For example, in a blog application, you might have the following views:
+
+* Blog homepage - displays the latest few entries.
+* Entry “detail” page - permalink page for a single entry.
+* Year-based archive page – displays all months with entries in the given year.
+
 A View is a handler function that accepts HTTP requests, processes them, and returns the HTTP response. 
 It retrieves the necessary data to fulfill the request using Models and renders them on the user interface using Templates.
 It can also create an HTML page using an HTML template dynamically, and populate it with data fetched from the model.
@@ -93,6 +101,7 @@ Django сommands
 
 
 3 steps to make a model change:
+-------------------------------
 
 #. Change your models (in models.py).
 #. Run ``py manage.py makemigrations`` to create migrations for those changes
