@@ -1,7 +1,7 @@
 ======
 Django
 ======
-Django is a free and open-source, Python-based web framework that follows the model–template–views architectural pattern.
+Django is a free and open-source, Python-based web framework that follows the Model-View-Template (MVT) architectural pattern.
 
 .. tip::
    Django is named after Django Reinhardt, a jazz manouche guitarist from the 1930s to early 1950s.
@@ -12,31 +12,59 @@ Django is a free and open-source, Python-based web framework that follows the mo
 `Writing your first Django app <https://docs.djangoproject.com/en/5.0/intro/tutorial01/>`_
 
 
+Control flow in MVT architecture
+================================
+
+.. figure:: images/control_flow_in_mvt.png
+   :alt: Control flow in MVT architecture
+   
+   Django MVT. `Source <https://www.educative.io/answers/what-is-mvt-structure-in-django>`_
+
+#. The user interacts with a Django application using a URL that is passed to the MVT architecture. A URL mapper is used to redirect the requests to the appropriate view based on the request URL.
+#. If an appropriate view is found, it will be invoked.
+#. The View will interact with the Model and retrieve the necessary data from the database via Model.
+#. The View will render an appropriate template along with the retrieved data to the user.
+
+Model
+======
+A model is the single, definitive source of information about your data. It contains the essential fields and behaviors of the data you’re storing. 
+Django follows the **DRY (Don’t repeat yourself) Principle**. The goal is to define your data model in one place and automatically derive things from it.
+
+This includes the migrations - unlike in Ruby On Rails, for example, migrations are entirely derived from your models file, and are essentially a  
+history that Django can roll through to update your database schema to match your current models.
+
+
+View
+====
+A View is a handler function that accepts HTTP requests, processes them, and returns the HTTP response. 
+It retrieves the necessary data to fulfill the request using Models and renders them on the user interface using Templates.
+It can also create an HTML page using an HTML template dynamically, and populate it with data fetched from the model.
+
+Template
+========
+A Template is a text file that defines the structure or layout of the user interface. The text file can be any type of file; for example HTML, XML, etc.  
+It can accept data from the view and render it using jinja syntax.
+
+
 .. figure:: images/django_file_structure.png
-   :alt: Django File Structure
+   :alt: Django File Structure   
    
    Django File Structure. `Source <https://www.tutorialspoint.com/django/django_file_structure.htm>`_
 
-
-.. tip::
-   A model is the single, definitive source of information about your data. It contains the essential fields and behaviors of the data you’re storing. 
-   Django follows the DRY (Don’t repeat yourself) Principle. The goal is to define your data model in one place and automatically derive things from it.
-  
-   This includes the migrations - unlike in Ruby On Rails, for example, migrations are entirely derived from your models file, and are essentially a  
-   history that Django can roll through to update your database schema to match your current models.
 
 .. tip::
    Django apps are “pluggable”: You can use an app in multiple projects, and you can distribute apps, because they don’t have to be tied to a given Django installation.
 
    To include the app in our project, we need to add a reference to its configuration class in the INSTALLED_APPS setting
 
-Django installation
-===================
+
+Installation
+============
 
 #. Install Python 3.6 or higher (e.g ``sudo apt-get install python3.6`` or on Windows `download <https://www.python.org/downloads/windows/>`_ and install)
 #. Install Django (e.g. ``pip install django``)
 
-Django commands
+Django сommands
 ===============
 
 * ``django-admin startproject <project_name>`` - create a new project
@@ -79,3 +107,13 @@ Databse API
 * ``<ModelName>.objects.all()`` - returns objects from the database (e.g. ``Question.objects.all()``) (``SELECT * FROM Question``)
 * ``<ModelName>.objects.get(<field_name>=<value>)`` - returns a single object matching the given keyword arguments (e.g. ``Question.objects.get(id=1)``)
   (``SELECT * FROM Question WHERE id=1``)
+
+Admin site
+==========	
+Admin site is a built-in app that Django provides for administrative activities. It can be used to create, view, update and delete records.
+
+Creating an admin user
+
+#. Run ``py manage.py createsuperuser`` and enter the username, email and password for the admin user.
+#. ``python manage.py runserver`` - start the development server
+#. Open in a web browser ``http://localhost:8000/admin`` and enter the username and password to login to the admin site.
