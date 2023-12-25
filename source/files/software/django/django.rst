@@ -7,9 +7,9 @@ Django is a free and open-source, Python-based web framework that follows the Mo
    Django is named after Django Reinhardt, a jazz manouche guitarist from the 1930s to early 1950s.
 
 
-`Official website <https://www.djangoproject.com/>`_
-
-`Writing your first Django app <https://docs.djangoproject.com/en/5.0/intro/tutorial01/>`_
+* `Official website <https://www.djangoproject.com/>`_
+* `Django Packages (directory of reusable apps, sites, tools, and more) <https://djangopackages.org/>`_
+* `Tutorial: Writing your first Django app <https://docs.djangoproject.com/en/5.0/intro/tutorial01/>`_
 
 
 Control flow in MVT architecture
@@ -33,6 +33,8 @@ Django follows the **DRY (Don’t repeat yourself) Principle**. The goal is to d
 This includes the migrations - unlike in Ruby On Rails, for example, migrations are entirely derived from your models file, and are essentially a  
 history that Django can roll through to update your database schema to match your current models.
 
+`Documentation <https://docs.djangoproject.com/en/5.0/topics/db/models/>`_
+
 
 View
 ====
@@ -48,10 +50,15 @@ A View is a handler function that accepts HTTP requests, processes them, and ret
 It retrieves the necessary data to fulfill the request using Models and renders them on the user interface using Templates.
 It can also create an HTML page using an HTML template dynamically, and populate it with data fetched from the model.
 
+`Documentation <https://docs.djangoproject.com/en/5.0/topics/http/views/>`_
+
 Template
 ========
 A Template is a text file that defines the structure or layout of the user interface. The text file can be any type of file; for example HTML, XML, etc.  
-It can accept data from the view and render it using jinja syntax.
+It can accept data from the view and render it using `jinja <https://jinja.palletsprojects.com/en/3.1.x/>`_ syntax.
+
+* `Template guide <https://docs.djangoproject.com/en/5.0/topics/templates/>`_  
+* `Built-in template tags and filters <https://docs.djangoproject.com/en/5.0/ref/templates/builtins/#ref-templates-builtins-tags/>`_
 
 
 .. figure:: images/django_file_structure.png
