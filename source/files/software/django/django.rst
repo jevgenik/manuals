@@ -108,8 +108,18 @@ Django сommands
   debugging, introspection, or testing Django code.
 
 
-3 steps to make a model change:
--------------------------------
+To create new app and add it to the project
+-------------------------------------------
+
+#. ``py manage.py startapp <app_name>`` - create a new app (e.g. polls)
+#. Add the app to the INSTALLED_APPS setting in the project settings.py file (e.g. ``'polls.apps.PollsConfig',``) 
+#. Create a URLconf in the app directory (e.g. polls/urls.py)
+#. Add a path() to polls/urls.py (e.g. ``path('', views.index, name='index'),``)
+#. Add path to the project urls.py (e.g. ``path('polls/', include('polls.urls')),``)
+
+
+3 steps to make a model change
+------------------------------
 
 #. Change your models (in models.py).
 #. Run ``py manage.py makemigrations`` to create migrations for those changes
