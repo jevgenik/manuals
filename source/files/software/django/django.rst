@@ -50,7 +50,8 @@ A View is a handler function that accepts HTTP requests, processes them, and ret
 It retrieves the necessary data to fulfill the request using Models and renders them on the user interface using Templates.
 It can also create an HTML page using an HTML template dynamically, and populate it with data fetched from the model.
 
-`Documentation <https://docs.djangoproject.com/en/5.0/topics/http/views/>`_
+* `Documentation <https://docs.djangoproject.com/en/5.0/topics/http/views/>`_
+* `Handling HTTP requests <https://docs.djangoproject.com/en/5.0/topics/http/>`_
 
 Template
 ========
