@@ -7,13 +7,15 @@ work among programmers who are collaboratively developing source code during sof
 Git commands
 ============
 
-* ``git remote -v`` - show remote repositories
+* ``git remote -v`` - show remote repositories (``git remote -vv`` - show remote repositories with more details)
   
 * ``git branch -v`` - show local branches
   
 * ``git branch -r`` - show remote branches
   
 * ``git branch -a`` - show all branches (local and remote)
+
+* ``git fetch`` - fetch changes from remote repository
   
 * ``git merge <branch_name>`` - merge branch_name into current branch (commits history will be saved)  
   simply put "Please add my changes to the branch I'm currently on."  
@@ -29,8 +31,8 @@ Git commands
 
 * ``git branch -m <old_name> <new_name>`` - rename branch 
 
-To create a new repository "my_new_repository" local and remote on github.com
------------------------------------------------------------------------------
+To create a new repository local and remote on github.com
+---------------------------------------------------------
 
 #. Create new folder "my_new_repository"
 #. ``git init`` - initialize local repository
@@ -51,3 +53,22 @@ To develop a new feature
 #. ``git commit –m "Some commit message"`` - commit changes
 #. ``git checkout main`` - switch to main branch
 #. ``git merge new-branch`` (e.g. new-feature) - merge new-feature into main
+
+
+Credentials
+===========
+
+* ``git config --global user.name "John Doe"`` - set user name
+* ``git config --global user.email "john.doe@gmail.com"`` - set user email
+* ``git config --global credential.helper store`` - store credentials in plain text file (``~/.git-credentials``)  
+
+.. warning::  
+   ~/.git-credentials is not secure, but it is convenient, especially if you have many repositories.  
+   If you want to use this option, you should consider encrypting your home directory.  
+   See `Encrypting your home directory <https://help.ubuntu.com/community/EncryptedHome>`_ for more information.
+
+To remove credentials from plain text file
+------------------------------------------
+
+* ``git config --global --unset credential.helper`` - unset credential helper
+* ``rm ~/.git-credentials`` - remove plain text file with credentials

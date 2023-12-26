@@ -20,6 +20,9 @@ Commands:
 
 * ``chown`` - change file owner and group (e.g. ``chown myuser:mygroup myfile.txt`` - change owner of myfile.txt to myuser and group to mygroup)
 
+* ``chmod u+x simple_velocity_publisher.py`` - make script executable for user (u - user, + - add permission, x - execute)
+  
+
 ``/home/username/.config`` - directory is typically used to store configuration files and settings specific to a user and their applications
 E.g. ``/home/username/.config/xfce4`` - directory that contains Xfce4 configuration files
 
@@ -49,4 +52,3 @@ To see a list of users on the system, type the following command: ``cut -d: -f1 
 cut command is used to extract sections from each line of input. -d option specifies the delimiter, 
 -f option specifies the fields to print 
 
-``chmod u+x simple_velocity_publisher.py`` - make script executable for user (u - user, + - add permission, x - execute)
