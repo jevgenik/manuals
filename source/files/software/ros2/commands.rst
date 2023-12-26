@@ -94,3 +94,4 @@ Add path to robot model (this line maybe added to ~/.bashrc or docker images ent
 .. code-block:: console
 
    export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:/ros_ws/src/bigfootbot_description/models/
+
