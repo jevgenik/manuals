@@ -68,6 +68,12 @@ It can accept data from the view and render it using `jinja <https://jinja.palle
    Django File Structure. `Source <https://www.tutorialspoint.com/django/django_file_structure.htm>`_
 
 
+Project vs App
+==============
+An app is a web application that does something – e.g., a blog system, a database of public records or a small poll app. 
+A project is a collection of configuration and apps for a particular website. A project can contain multiple apps. An app can be in multiple projects.
+
+
 .. tip::
    Django apps are “pluggable”: You can use an app in multiple projects, and you can distribute apps, because they don’t have to be tied to a given Django installation.
 
@@ -112,10 +118,13 @@ To create new app and add it to the project
 -------------------------------------------
 
 #. ``py manage.py startapp <app_name>`` - create a new app (e.g. polls)
-#. Add the app to the INSTALLED_APPS setting in the project settings.py file (e.g. ``'polls.apps.PollsConfig',``) 
 #. Create a URLconf in the app directory (e.g. polls/urls.py)
 #. Add a path() to polls/urls.py (e.g. ``path('', views.index, name='index'),``)
 #. Add path to the project urls.py (e.g. ``path('polls/', include('polls.urls')),``)
+#. Add app_name to the app urls.py (e.g. ``app_name = 'polls'``) this is optional but it allows to use namespaces in templates
+#. Add the app to the INSTALLED_APPS setting in the project settings.py file (e.g. ``'polls.apps.PollsConfig',``) 
+#. Create migration (``py manage.py makemigrations``)
+#. Apply migration (``py manage.py migrate``)
 
 
 3 steps to make a model change
@@ -131,9 +140,31 @@ Databse API
 
 `Django Database API <https://docs.djangoproject.com/en/5.0/topics/db/queries/>`_
 
-* ``<ModelName>.objects.all()`` - returns objects from the database (e.g. ``Question.objects.all()``) (``SELECT * FROM Question``)
+* ``<ModelName>.objects.all()`` - returns ``QuerySet`` of all objects in the database (e.g. ``Question.objects.all()``) (``SELECT * FROM Question``)
+
+* ``QuerySet`` - is a class that allows you to filter, order or limit the results returned from the database. It is a lazy operation, 
+  so you can chain filters together and Django won't actually run the query until the results are needed.
+
 * ``<ModelName>.objects.get(<field_name>=<value>)`` - returns a single object matching the given keyword arguments (e.g. ``Question.objects.get(id=1)``)
   (``SELECT * FROM Question WHERE id=1``)
+
+
+Django shortcut functions
+=========================
+shortcut functions are just a convenient wrapper around creating a ``HttpResponse`` object with the given content and ``content_type`` argument.
+
+`Django shortcut functions <https://docs.djangoproject.com/en/5.0/topics/http/shortcuts/>`_
+
+* ``get_object_or_404`` - is a shortcut function that allows you to get an object from the database based on a primary key or slug. 
+  If the object doesn't exist, it will return a 404 error as ``Http404`` exception.
+
+
+
+django.urls utility functions
+=============================
+
+* ``reverse()`` - allows retrieving url details from the url's.py file through the name value provided.
+  E.g. ``return HttpResponseRedirect(reverse("polls:results", args=(question.id,)))``
 
 Admin site
 ==========	
