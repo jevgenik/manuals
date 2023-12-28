@@ -68,6 +68,25 @@ It can accept data from the view and render it using `jinja <https://jinja.palle
    Django File Structure. `Source <https://www.tutorialspoint.com/django/django_file_structure.htm>`_
 
 
+Files in a Django project folder:
+
+* settings.py - contains the settings for this Django project (e.g. ``INSTALLED_APPS = ['polls.apps.PollsConfig',]``)
+* urls.py - contains the URL declarations for this Django project (e.g. ``path('polls/', include('polls.urls')),``)
+* manage.py - a command-line utility that lets you interact with this Django project in various ways (e.g. ``py manage.py runserver``)
+
+Files and folders in app folder (project subfolder):
+
+* admin.py - contains the admin site configuration (e.g. ``admin.site.register(Question)``)
+* apps.py - contains the app configuration (e.g. ``class PollsConfig(AppConfig):``)
+* models.py - contains the essential fields and behaviors of the data you’re storing (e.g. ``class Question(models.Model):``)
+* views.py - contains the request handling logic (e.g. ``def index(request):``)
+* urls.py - contains the URL declarations for this Django app (e.g. ``path('', views.index, name='index'),``)
+* tests.py - contains the tests (e.g. ``class QuestionModelTests(TestCase):``)
+* forms.py - contains form classes that are used to create HTML forms to be rendered in templates (e.g. ``class NameForm(forms.Form):``)
+* migrations - folder that contains the database migrations (e.g. ``0001_initial.py``)
+* templates - folder that contains the HTML templates (e.g. ``index.html``)
+
+
 Project vs App
 ==============
 An app is a web application that does something – e.g., a blog system, a database of public records or a small poll app. 
@@ -78,7 +97,6 @@ A project is a collection of configuration and apps for a particular website. A 
    Django apps are “pluggable”: You can use an app in multiple projects, and you can distribute apps, because they don’t have to be tied to a given Django installation.
 
    To include the app in our project, we need to add a reference to its configuration class in the INSTALLED_APPS setting
-
 
 Installation
 ============
@@ -152,19 +170,26 @@ Databse API
 Django shortcut functions
 =========================
 shortcut functions are just a convenient wrapper around creating a ``HttpResponse`` object with the given content and ``content_type`` argument.
+Usually called from within views.
 
-`Django shortcut functions <https://docs.djangoproject.com/en/5.0/topics/http/shortcuts/>`_
+`Shortcut functions <https://docs.djangoproject.com/en/5.0/topics/http/shortcuts/>`_
 
 * ``get_object_or_404`` - is a shortcut function that allows you to get an object from the database based on a primary key or slug. 
   If the object doesn't exist, it will return a 404 error as ``Http404`` exception.
 
+* ``render()`` - returns a ``HttpResponse`` object with the given template rendered with the given context.
+  E.g. ``return render(request, 'polls/index.html', context)``.
 
 
 django.urls utility functions
 =============================
+are used to manipulate urls.
+
+`URL utility functions <https://docs.djangoproject.com/en/5.0/ref/urlresolvers/>`_
 
 * ``reverse()`` - allows retrieving url details from the url's.py file through the name value provided.
   E.g. ``return HttpResponseRedirect(reverse("polls:results", args=(question.id,)))``
+
 
 Admin site
 ==========	
