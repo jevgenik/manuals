@@ -46,7 +46,7 @@ For example, in a blog application, you might have the following views:
 * Entry “detail” page - permalink page for a single entry.
 * Year-based archive page – displays all months with entries in the given year.
 
-A View is a handler function that accepts HTTP requests, processes them, and returns the HTTP response. 
+A View is a handler function that accepts HTTP requests (HttpRequest object), processes them, and returns the HTTP response (HttpResponse object). 
 It retrieves the necessary data to fulfill the request using Models and renders them on the user interface using Templates.
 It can also create an HTML page using an HTML template dynamically, and populate it with data fetched from the model.
 
@@ -190,6 +190,24 @@ are used to manipulate urls.
 * ``reverse()`` - allows retrieving url details from the url's.py file through the name value provided.
   E.g. ``return HttpResponseRedirect(reverse("polls:results", args=(question.id,)))``
 
+Request and response objects
+============================
+Django uses request and response objects to pass state through the system.
+
+When a page is requested, Django creates an HttpRequest object that contains metadata about the request. Then Django loads the appropriate view, 
+passing the HttpRequest as the first argument to the view function. Each view is responsible for returning an HttpResponse object.
+
+`Request and response objects <https://docs.djangoproject.com/en/5.0/ref/request-response/#django.http.HttpRequest.POST/>`_
+
+Class-based views
+=================
+Class-based views provide an alternative way to implement views as Python objects instead of functions. They do not replace function-based views, 
+but have certain differences and advantages when compared to function-based views:
+
+* Organization of code related to specific HTTP methods (GET, POST, etc.) can be addressed by separate methods instead of conditional branching.
+* Object oriented techniques such as mixins (multiple inheritance) can be used to factor code into reusable components.
+
+`Class-based views <https://docs.djangoproject.com/en/5.0/topics/class-based-views/>`_
 
 Admin site
 ==========	
