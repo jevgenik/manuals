@@ -9,3 +9,5 @@ Linux
    text_manipulation
    grep
    users
+   raid_management
+   disk_management
