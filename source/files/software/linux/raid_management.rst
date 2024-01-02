@@ -4,7 +4,8 @@ RAID management
 
 * ``RAID (Redundant Array of Independent Disks)`` - is a data storage virtualization technology that combines multiple physical disk drive components into one or more logical units for the purposes of data redundancy, performance improvement, or both.
 
-.. tip:: `mdadm` is a tool for managing Linux software RAID devices (eg. RAID 0, RAID 1, RAID 5, etc.)
+.. tip:: 
+   ``mdadm`` is a tool for managing Linux software RAID devices (eg. RAID 0, RAID 1, RAID 5, etc.)
 
 Commands:
 
@@ -24,9 +25,9 @@ Commands:
 * ``lsblk`` - list block devices
 * ``blkid`` - locate/print block device attributes
 
-****************************************************
+
 How to replace a faulty disk in RAID with a new one:
-****************************************************
+====================================================
 
 #. Identify a faulty disk: ``mdadm --detail /dev/md0`` or ``cat /proc/mdstat``
 #. Mark a disk as faulty: ``mdadm --manage /dev/md0 --fail /dev/sdX``
