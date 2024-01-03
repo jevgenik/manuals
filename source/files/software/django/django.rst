@@ -34,7 +34,8 @@ Django follows the **DRY (Don’t repeat yourself) Principle**. The goal is to d
 This includes the migrations - unlike in Ruby On Rails, for example, migrations are entirely derived from your models file, and are essentially a  
 history that Django can roll through to update your database schema to match your current models.
 
-`Documentation <https://docs.djangoproject.com/en/5.0/topics/db/models/>`_
+* `Documentation <https://docs.djangoproject.com/en/5.0/topics/db/models/>`_
+* `Model field reference <https://docs.djangoproject.com/en/5.0/ref/models/fields/>`_
 
 
 View
