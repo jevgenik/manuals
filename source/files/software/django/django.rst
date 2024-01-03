@@ -8,6 +8,7 @@ Django is a free and open-source, Python-based web framework that follows the Mo
 
 
 * `Official website <https://www.djangoproject.com/>`_
+* `Django documentation <https://docs.djangoproject.com/en/5.0/>`_
 * `Django Packages (directory of reusable apps, sites, tools, and more) <https://djangopackages.org/>`_
 * `Tutorial: Writing your first Django app <https://docs.djangoproject.com/en/5.0/intro/tutorial01/>`_
 
@@ -208,6 +209,31 @@ but have certain differences and advantages when compared to function-based view
 * Object oriented techniques such as mixins (multiple inheritance) can be used to factor code into reusable components.
 
 `Class-based views <https://docs.djangoproject.com/en/5.0/topics/class-based-views/>`_
+
+Forms
+=====
+* `Working with forms <https://docs.djangoproject.com/en/5.0/topics/forms/>`_
+* `Creating forms from models <https://docs.djangoproject.com/en/5.0/topics/forms/modelforms/>`_
+* `The Forms API <https://docs.djangoproject.com/en/5.0/ref/forms/api/>`_
+
+Form fields
+-----------
+A form’s fields are themselves classes; they manage form data and perform validation when a form is submitted. A *DateField* and a 
+*FileField* handle very different kinds of data and have to do different things with it.
+
+`Form fields <https://docs.djangoproject.com/en/5.0/ref/forms/fields/>`_
+
+Widgets
+-------
+A widget is Django’s representation of an HTML input element. The widget handles the rendering of the HTML, and the extraction of data from 
+a GET/POST dictionary that corresponds to the widget.
+
+Each form field has a corresponding Widget class, which in turn corresponds to an HTML form widget such as <input type="text">
+In most cases, the field will have a sensible default widget. For example, by default, a *CharField will have a TextInput widget*, 
+that produces an <input type="text">
+
+`Widgets <https://docs.djangoproject.com/en/5.0/ref/forms/widgets/>`_
+
 
 Admin site
 ==========	
