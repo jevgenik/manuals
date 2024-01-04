@@ -18,9 +18,9 @@ List is a collection of items that can be of different types (heterogeneous).
 
 Featues:
 
-- Lists are mutable, meaning that you can change their content after creation.
-- Lists are ordered, meaning that the items have a defined order, and that order will not change.
-- Lists allow duplicate values, meaning that you can have two items that are the same.
+* Lists are mutable, meaning that you can change their content after creation.
+* Lists are ordered, meaning that the items have a defined order, and that order will not change.
+* Lists allow duplicate values, meaning that you can have two items that are the same.
 
 Tuple
 =====
@@ -37,9 +37,9 @@ Tuple is a collection of items that can be of different types (heterogeneous).
   
 Featues:
 
-- Tuples are **immutable**, meaning that you can't change their content after creation.
-- Tuples are ordered, meaning that the items have a defined order, and that order will not change.
-- Tuples allow duplicate values, meaning that you can have two items that are the same.
+* Tuples are **immutable**, meaning that you can't change their content after creation.
+* Tuples are ordered, meaning that the items have a defined order, and that order will not change.
+* Tuples allow duplicate values, meaning that you can have two items that are the same.
 
 .. note::   
    Tuples are more memory efficient and faster (looking up values) than the lists. If you have data that shouldn't change,  
@@ -63,6 +63,29 @@ Dictionaries are useful for fast lookups and retrieval of values based on keys.
 
    # Accessing items
    print(my_dict["name"]) # John
+
+
+Set
+===
+Set is a collection of items that can be of different types (heterogeneous). Sets contain only **unique values**.
+Sets are used to store multiple items in a single variable.
+
+.. code-block:: python
+
+   my_set = {1, 2, 3, 4, 5}
+   my_set = {"Hello", "World"}
+   my_set = {1, "Hello", 3.4, True}
+
+   # Accessing items
+   for item in my_set:
+       print(item)
+
+Featues:
+
+* The elements of the set are immutable in nature, that is, they cannot be changed. However, a set itself is mutable (we can add or remove items from it)
+* Unordered
+* Duplicates Not Allowed. Sets cannot have two items with the same value.
+
 
 Array
 =====
