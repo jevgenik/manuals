@@ -25,12 +25,13 @@ Client sends keyboard and mouse events to the server, receives updates to the sc
 
 noVNC
 -----
-noVNC is both a HTML VNC client JavaScript library and an application built on top of that library.  
+noVNC - the open source VNC client - noVNC is both a VNC client JavaScript library as well as an application built on top of that library.  
 noVNC runs well in any modern browser including mobile browsers (iOS and Android).
 
 * RFB over WebSockets (RFC 6455) is used to communicate between the client and server.
 * Port 6080 is used by default for noVNC Websockify server.
 * Websockify is a WebSocket to TCP proxy/bridge. It accepts WebSocket connections and forwards them to a specified host and port, which is typically the VNC server.
+* Popular noVNC 
 
 
 .. figure:: images/novnc_architecture.png

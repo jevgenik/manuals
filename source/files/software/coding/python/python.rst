@@ -30,6 +30,7 @@ You can install, uninstall and upgrade packages with the help of ``pip`` command
 * ``py -m pip install --upgrade pip`` - upgrade pip
 * ``pip freeze > requirements.txt`` - save all installed packages in requirements.txt file
 * ``pip install -r requirements.txt`` - install all packages from requirements.txt file ``-r`` stands for requirements
+* ``py -m pip install <package_name>`` - install package (it is the same as ``pip install <package_name>``)
 
 Virtual environment
 ===================
