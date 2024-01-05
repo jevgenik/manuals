@@ -57,7 +57,7 @@ List containers
   
 * ``docker container ls -a`` - list all containers (running and stopped) it is alias for ``docker ps -a``
 
-* ``docker compose ps`` - list containers for a Compose project, with current status and exposed ports
+* ``docker compose ps`` - list containers for a Compose project, with current status and exposed ports (NB! should be run in the same directory where docker-compose.yml is located)
 
 
 Inspect (containers, networks, images, volumes)
