@@ -3,7 +3,7 @@ Linux
 #####
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    file_management
    text_manipulation

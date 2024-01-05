@@ -25,12 +25,21 @@ PIP
 PIP is a package manager for Python packages, or modules if you like. It is used to install and manage software packages written in Python.
 You can install, uninstall and upgrade packages with the help of ``pip`` command. It also helps to manage dependency between packages.
 
+* ``pip --version`` - check pip version
+* ``pip list`` - list installed packages
+* ``py -m pip install --upgrade pip`` - upgrade pip
+* ``pip freeze > requirements.txt`` - save all installed packages in requirements.txt file
+* ``pip install -r requirements.txt`` - install all packages from requirements.txt file ``-r`` stands for requirements
 
 Virtual environment
 ===================
 Virtual environment is a tool that helps to keep dependencies required by different projects separate by creating isolated 
-Python virtual environments for them. This is one of the most important tools that most of the Python developers use.
+Python virtual environments for them.
 
+Virtual environment can be created by using ``venv`` module. To create a virtual environment, decide upon a directory where you want 
+to place it, and run the venv module as a script with the directory path: ``python3 -m venv tutorial-env``. This will create the 
+tutorial-env directory. So virtual environment is a self-contained directory tree that contains a Python installation for a particular version 
+of Python, plus a number of additional packages.
 
 .. figure:: images/python_virtual_environment.png
    :alt: Python Virtual environment

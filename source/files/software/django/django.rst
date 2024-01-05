@@ -13,6 +13,21 @@ Django is a free and open-source, Python-based web framework that follows the Mo
 * `Tutorial: Writing your first Django app <https://docs.djangoproject.com/en/5.0/intro/tutorial01/>`_
 
 
+Installation
+============
+
+1. Install Python 3.6 or higher (e.g ``sudo apt-get install python3.6`` or on Windows `download <https://www.python.org/downloads/windows/>`_ and install)
+
+.. note::
+   It is recommended to install Django in a virtual environment:
+
+   #. ``py -m venv project-name-env`` - create a virtual environment 
+   #. Linux: ``project-name-env/bin/activate``, Windows: ``project-name-env\Scripts\activate`` - activate the virtual environment
+
+2. Install Django (e.g. ``py -m pip install Django``)
+3. Verify your Django installation by executing ``django-admin --version`` in the command prompt.
+
+
 Control flow in MVT architecture
 ================================
 
@@ -64,10 +79,13 @@ It can accept data from the view and render it using `jinja <https://jinja.palle
 * `Built-in template tags and filters <https://docs.djangoproject.com/en/5.0/ref/templates/builtins/#ref-templates-builtins-tags/>`_
 
 
-.. figure:: images/django_file_structure.png
+Django folder structure
+=====================
+
+.. figure:: images/django_folder_structure.png
    :alt: Django File Structure   
    
-   Django File Structure. `Source <https://www.tutorialspoint.com/django/django_file_structure.htm>`_
+   Django File Structure. `Source <https://medium.com/@sravyalavu503/django-create-app-e17239a6df70>`_
 
 
 Files in a Django project folder:
@@ -100,11 +118,6 @@ A project is a collection of configuration and apps for a particular website. A 
 
    To include the app in our project, we need to add a reference to its configuration class in the INSTALLED_APPS setting
 
-Installation
-============
-
-#. Install Python 3.6 or higher (e.g ``sudo apt-get install python3.6`` or on Windows `download <https://www.python.org/downloads/windows/>`_ and install)
-#. Install Django (e.g. ``pip install django``)
 
 Django сommands
 ===============
