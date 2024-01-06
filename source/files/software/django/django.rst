@@ -11,6 +11,7 @@ Django is a free and open-source, Python-based web framework that follows the Mo
 * `Django documentation <https://docs.djangoproject.com/en/5.0/>`_
 * `Django Packages (directory of reusable apps, sites, tools, and more) <https://djangopackages.org/>`_
 * `Tutorial: Writing your first Django app <https://docs.djangoproject.com/en/5.0/intro/tutorial01/>`_
+* `“How-to” guides <https://docs.djangoproject.com/en/5.0/howto/>`_
 
 
 Installation
@@ -258,3 +259,12 @@ Creating an admin user
 #. Run ``py manage.py createsuperuser`` and enter the username, email and password for the admin user.
 #. ``python manage.py runserver`` - start the development server
 #. Open in a web browser ``http://localhost:8000/admin`` and enter the username and password to login to the admin site.
+
+
+Python WSGI Applications
+========================
+
+.. figure:: images/wsgi.jpg
+   :alt: Python WSGI Application
+   
+   Python WSGI Applications. `Source <https://dev.to/afrazkhan/python-wsgi-applications-1kjb>`_
