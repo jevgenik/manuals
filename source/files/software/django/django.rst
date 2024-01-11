@@ -147,6 +147,8 @@ Django сommands
 * ``py manage.py shell`` - run the Python interactive interpreter, with Django already imported. It allows for executing arbitrary Python code for the purpose of 
   debugging, introspection, or testing Django code.
 
+* ``py manage.py test <app_name>`` - run the tests for the specified app(s). By default, this will run all the test cases in all the test files of the specified app(s).
+
 
 To create new app and add it to the project
 -------------------------------------------
@@ -182,6 +184,7 @@ Databse API
 * ``<ModelName>.objects.get(<field_name>=<value>)`` - returns a single object matching the given keyword arguments (e.g. ``Question.objects.get(id=1)``)
   (``SELECT * FROM Question WHERE id=1``)
 
+* ``print(<QuerySet>.query)`` - print the SQL query that will be executed by the QuerySet (e.g. ``print(Question.objects.all().query)``)
 
 Django shortcut functions
 =========================
@@ -248,6 +251,17 @@ In most cases, the field will have a sensible default widget. For example, by de
 that produces an <input type="text">
 
 `Widgets <https://docs.djangoproject.com/en/5.0/ref/forms/widgets/>`_
+
+
+Testing
+=======
+Django’s unit tests use a Python standard library module: ``unittest``. This module defines tests using a class-based approach.
+Unit tests are written in the tests.py file in each application directory. To run tests execute ``py manage.py test <app_name>``
+
+`Testing in Django <https://docs.djangoproject.com/en/5.0/topics/testing/>`_
+
+* ``TestCase`` - is a class that inherits from ``unittest.TestCase``. It provides methods that help you test different conditions for your code. 
+  E.g. ``class QuestionModelTests(TestCase):``
 
 
 Admin site
