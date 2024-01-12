@@ -18,3 +18,4 @@ and then changes its approach and tests it again, and again. It always tries to 
    model
    deep_learning
    computer_vision/computer_vision
+   finite_state_machine
