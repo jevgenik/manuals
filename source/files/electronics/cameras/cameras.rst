@@ -30,10 +30,11 @@ the parallax**.
 
 Camera calibration
 ==================
-Camera calibration is the process of estimating the intrinsic, extrinsic, and distortion parameters of a camera.
+Camera calibration is the process of estimating a camera's intrinsic and extrinsic parameters to correct distortions and ensure accurate measurements
+in computer vision tasks. It involves determining factors such as focal length, principal point, and lens distortion coefficients.
 To calibrate a camera, we need to take pictures of a calibration pattern from different angles and orientations.
 
-* The **intrinsic parameters** deal with the camera's internal characteristics, such as, its focal length, skew, distortion, and image center.  
+* The **intrinsic parameters** deal with the camera's internal characteristics, such as, principal point, focal length, distortion  
 * The **extrinsic parameters** deal with the camera's position and orientation in the world.  
 
 **Lens distortion** is caused by the lens of the camera. It causes straight lines to appear curved.
