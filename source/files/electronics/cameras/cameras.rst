@@ -16,7 +16,7 @@ Stereo cameras are used to capture 3D information about the scene.
 
 .. figure:: images/parallax.png
    :alt: Stereo camera setup
-   :width: 500px
+   :width: 400px
    
    `Source <https://www.researchgate.net/figure/Principle-drawing-of-a-stereo-camera-setup-Objects-1-2-in-various-depth-ranges-are_fig5_303307354>`_
 
@@ -28,6 +28,15 @@ To find distance to the object we need to know the baseline and the parallax. Th
 stereo image. The parallax is measured in pixels. The parallax is inversely proportional to the distance to the object. **The closer the object the larger
 the parallax**. 
 
+Camera parameters
+=================
+
+.. figure:: images/camera_parameters.png
+   :alt: Camera parameters
+   :width: 500px
+   
+   `Source <https://download.autodesk.com/us/maya/mayamatchmoveronlinehelp/index.html?url=WS1a9193826455f5ff-e569a012180ce5891-548a.htm,topicNumber=d0e2765>`_
+
 Camera calibration
 ==================
 Camera calibration is the process of estimating a camera's intrinsic and extrinsic parameters to correct distortions and ensure accurate measurements
@@ -35,7 +44,7 @@ in computer vision tasks. It involves determining factors such as focal length, 
 To calibrate a camera, we need to take pictures of a calibration pattern from different angles and orientations.
 
 * The **intrinsic parameters** deal with the camera's internal characteristics, such as, principal point, focal length, distortion  
-* The **extrinsic parameters** deal with the camera's position and orientation in the world.  
+* The **extrinsic parameters** deal with the camera's position and orientation in the world (rotation matrix and translation vector)
 
 **Lens distortion** is caused by the lens of the camera. It causes straight lines to appear curved.
 
