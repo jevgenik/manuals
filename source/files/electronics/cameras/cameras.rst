@@ -40,7 +40,7 @@ Camera parameters
 Camera calibration
 ==================
 Camera calibration is the process of estimating a camera's intrinsic and extrinsic parameters to correct distortions and ensure accurate measurements
-in computer vision tasks. It involves determining factors such as focal length, principal point, and lens distortion coefficients.
+in computer vision tasks. It involves determining factors such as Focal Length, Principal Point, and lens distortion coefficients.
 To calibrate a camera, we need to take pictures of a calibration pattern from different angles and orientations.
 
 * The **intrinsic parameters** deal with the camera's internal characteristics, such as, principal point, focal length, distortion  

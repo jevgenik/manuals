@@ -7,6 +7,8 @@ between robotics applications.
 
 The ROS goal is to provide a standard for robotics software development, that you can use on any robot.
 
+`ROS 2 Official Documentation: <https://docs.ros.org/en/iron/index.html>`_
+
 .. image:: images/what_is_ros.png
    :alt: What is ROS?
    :width: 100%
