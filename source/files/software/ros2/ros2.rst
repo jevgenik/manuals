@@ -16,6 +16,7 @@ The ROS goal is to provide a standard for robotics software development, that yo
 .. toctree::
    :maxdepth: 2
    
+   tf2
    services
    commands
    ros_graph
