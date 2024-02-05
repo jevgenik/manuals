@@ -21,6 +21,8 @@ Commands:
 * ``chown`` - change file owner and group (e.g. ``chown myuser:mygroup myfile.txt`` - change owner of myfile.txt to myuser and group to mygroup)
 
 * ``chmod u+x simple_velocity_publisher.py`` - make script executable for user (u - user, + - add permission, x - execute)
+
+* ``sudo usermod -aG <group name> <username>`` - add user to a group (e.g. ``sudo usermod -aG dialout myuser`` - add user myuser to dialout group)
   
 
 ``/home/username/.config`` - directory is typically used to store configuration files and settings specific to a user and their applications
