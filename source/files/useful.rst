@@ -10,6 +10,8 @@ Useful links
   
 * `Roboflow <https://roboflow.com/>`_ is a platform for building and deploying computer vision models. Good for annotating images
 
+* `Foxglove <https://foxglove.dev/>`_ is a tool for visualizing and debugging robotics data
+
 * `Fridzing <https://fritzing.org/>`_ is an electronics design and prototyping platform for makers, hobbyists, and educators
 
 * `Figma <https://www.figma.com/>`_  is a collaborative web application for interface design
