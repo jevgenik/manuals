@@ -274,6 +274,8 @@ Creating an admin user
 #. ``python manage.py runserver`` - start the development server
 #. Open in a web browser ``http://localhost:8000/admin`` and enter the username and password to login to the admin site.
 
+``python manage.py changepassword <username>`` - change the password for the specified user.
+
 
 Python WSGI Applications
 ========================
