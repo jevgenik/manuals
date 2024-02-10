@@ -63,6 +63,7 @@ Dictionaries are useful for fast lookups and retrieval of values based on keys.
 
    # Accessing items
    print(my_dict["name"]) # John
+   print(my_dict.get("name")) # John
 
 
 Set
