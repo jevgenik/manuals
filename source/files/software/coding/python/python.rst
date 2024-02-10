@@ -39,8 +39,15 @@ Python virtual environments for them.
 
 Virtual environment can be created by using ``venv`` module. To create a virtual environment, decide upon a directory where you want 
 to place it, and run the venv module as a script with the directory path: ``python3 -m venv tutorial-env``. This will create the 
-tutorial-env directory. So virtual environment is a self-contained directory tree that contains a Python installation for a particular version 
+``tutorial-env`` directory. So virtual environment is a self-contained directory tree that contains a Python installation for a particular version 
 of Python, plus a number of additional packages.
+
+Commands to work with virtual environment:
+
+* ``python3 -m venv tutorial-env`` - create virtual environment
+* ``source tutorial-env/bin/activate`` - activate virtual environment on Unix or MacOS
+* ``tutorial-env\Scripts\activate`` - activate virtual environment on Windows
+* ``deactivate`` - to deactivate virtual environment
 
 .. figure:: images/python_virtual_environment.png
    :alt: Python Virtual environment
