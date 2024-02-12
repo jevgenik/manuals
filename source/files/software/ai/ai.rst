@@ -8,8 +8,13 @@ Machine learning means that a computer program improves through experience; it d
 to alter the program for it to improve. The computer tests a way to complete a task, measures its success, 
 and then changes its approach and tests it again, and again. It always tries to improve on its measurement of success.
 
-.. image:: /files/images/ml_vs_trad_programming.jpg 
+.. image:: images/ml_vs_trad_programming.jpg 
    :alt: Machine Learning vs Traditional Programming
+
+.. figure:: images/types_of_machine_learning.png
+   :alt: Types Of Machine Learning
+   
+   Types of Machine Learning. `Source <https://towardsdatascience.com/machine-learning-for-beginners-d247a9420dab>`_
 
 .. toctree::
    :maxdepth: 2
