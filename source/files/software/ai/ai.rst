@@ -16,13 +16,13 @@ and then changes its approach and tests it again, and again. It always tries to 
    :width: 450px
    :alt: Types Of Machine Learning
    
-   Types of Machine Learning. `Source <https://towardsdatascience.com/machine-learning-for-beginners-d247a9420dab>`_
+   Types of Machine Learning. `Source. <https://towardsdatascience.com/machine-learning-for-beginners-d247a9420dab>`_
 
 .. figure:: images/types_of_machine_learning_2.png
    :width: 450px
    :alt: Types Of Machine Learning
    
-Types of Machine Learning. `Source <https://idapgroup.com/blog/types-of-machine-learning-out-there/>`_
+Types of Machine Learning. `Source. <https://idapgroup.com/blog/types-of-machine-learning-out-there/>`_
 
 .. toctree::
    :maxdepth: 2
@@ -32,3 +32,4 @@ Types of Machine Learning. `Source <https://idapgroup.com/blog/types-of-machine-
    deep_learning
    computer_vision/computer_vision
    finite_state_machine
+   rl
