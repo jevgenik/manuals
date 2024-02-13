@@ -5,6 +5,8 @@ Rosbridge is a :ref:`WebSocket <websocket>` interface to ROS functionality for n
 There are a variety of front ends that interface with rosbridge, including a JavaScript library for 
 the browser, and a JSON API, among others.
 
+`GitHub <https://github.com/RobotWebTools/rosbridge_suite>`_.
+
 .. figure:: images/rosbridge.png
    :width: 450px
    :alt: Rosbridge
