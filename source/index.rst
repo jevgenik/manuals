@@ -24,7 +24,9 @@ Guide into robotics
    files/software/coding/coding
    files/software/django/django
    files/software/databases/databases
+   files/software/networking/networking
    files/software/other/other
+
 
 .. toctree::
    :maxdepth: 2
