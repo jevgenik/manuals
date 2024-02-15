@@ -27,6 +27,8 @@ Janus WebRTC Server is needed when your real-time communication requirements go 
 involve scenarios such as multi-protocol support, multi-user conferences, broadcasting, or custom applications. 
 Janus has modular architecture, scalability, and support for various communication protocols.
 
+`Official Website <https://janus.conf.meetecho.com/>`_
+
 `GitHub <https://github.com/meetecho/janus-gateway>`_
 
 .. figure:: images/janus_architecture_video_room.png
