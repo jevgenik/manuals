@@ -39,6 +39,7 @@ Package commands
 * ``ros2 pkg create --build-type ament_python <package_name>`` - create package with python build system
 * ``ros2 pkg create --build-type ament_cmake  --dependencies urdf xacro <package_name>`` - create package with cmake build system and dependencies urdf and xacro
 * ``ros2 pkg prefix <package name>`` - get the installation location of package	
+* ``ros2 pkg list`` - list all installed packages
 
 ROS 2 params
 ============
@@ -84,6 +85,12 @@ rqt is a meta package that depends on all available e.g rqt_graph, rqt_image_vie
   - rqt_graph is a dynamic GUI plugin for visualizing the ROS computation graph (dynamic plugin is a plugin that can be loaded and unloaded at runtime)
 
 * ``ros2 run rqt_image_view rqt_image_view`` - show image from camera (rqt_image_view is a part of rqt_image_view package)
+
+* PlotJuggler - a tool for visualizing time series data from ROS. It is a Qt-based application that can be used to plot and analyze data from ROS topics. 
+  
+  - ``sudo apt-get install ros-$ROS_DISTRO-plotjuggler-ros`` - install PlotJuggler
+  
+  - ``ros2 run plotjuggler plotjuggler`` - run PlotJuggler
 
 
 Gazebo

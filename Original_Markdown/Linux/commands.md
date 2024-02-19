@@ -163,36 +163,6 @@ This is an indication that systemd is in use
   `sudo systemctl set-default multi-user.target` - set default target to multi-user.target (multi-user.target is a target that 
                                                    provides a console login and is the default target for non-graphical Raspberry Pi OS images)
 
-  --- Networking
-   -- Scan hosts in the network --
-    `nmap -sn 192.168.5.0/24` - performs a ping scan to find live hosts in the range 192.168.5.0
-                              -sn: Ping Scan - disable port scan  
-    `nmap -p 22 192.168.5.0/24` - scan for hosts with port 22 (SSH) open  
-
-   -- systemd-networkd is part of the systemd init system and offers a minimalistic approach to network configuration 
-      and management, often used in server environments
-    - `/etc/systemd/network/` - network configuration files are stored in this directory
-    - `systemctl status systemd-networkd.service` - show status of systemd-networkd service
-
-   -- NetworkManager is a daemon that sits on top of libudev and other Linux kernel interfaces and provides a 
-      high-level interface for the configuration of the network interfaces
-    - `/etc/NetworkManager/` - NetworkManager configuration files are stored in this directory
-    - `/etc/NetworkManager/system-connections/`: This directory holds configuration files for network connections, 
-      each represented as a separate file. These files are usually named after the connection's name.
-    - `systemctl status NetworkManager.service` - show status of NetworkManager service
-    - `mcli` is a command-line tool for controlling NetworkManager and reporting network status.
-    - `nmcli device show` - show all network interfaces
-    - `nmcli connection show` - show all connections
-    - `nmcli connection up <connection_name>` - activate connection
-    - `nmcli connection down <connection_name>` - deactivate connection
-    - `nmtui` - text user interface for NetworkManager
-   
-   -- Netplan is a network configuration utility for Linux. It is used to configure the network interfaces 
-      through YAML files. From YAML description Netplan will generate all the necessary configuration for your 
-      chosen renderer tool (NetworkManager or networkd).
-    - `/etc/netplan/` - config files (.yaml) are located in this directory
-    - `netplan apply` - apply changes
-
 === WSL2 ===
 -- Attach USB devices
 --- From an administrator command prompt on Windows, run this command. 
