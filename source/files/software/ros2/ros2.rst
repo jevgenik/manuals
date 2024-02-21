@@ -24,4 +24,6 @@ The ROS goal is to provide a standard for robotics software development, that yo
    navigation/navigation
    navigation/instructions
    rosweb
+   logging_debugging
+   parameters
    other

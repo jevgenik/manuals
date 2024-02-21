@@ -35,7 +35,9 @@ Tutorial: `Using rosbridge with ROS2 <https://foxglove.dev/blog/using-rosbridge-
 
 Foxglove
 ========
-observability platform for robotics developers
+`Foxglove Studio <https://foxglove.dev/studio>`_ is an open source visualization and debugging tool for your robotics data.
+
+It can be run as a standalone desktop app, accessed via your browser, or even self-hosted on your own domain.
 
 ROS Foxglove bridge
 -------------------
