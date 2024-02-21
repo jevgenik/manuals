@@ -14,6 +14,7 @@ Navigation
 
    nav2_architecture
    localization
+   odometry
    path_planning
    behavior_tree
    pointcloud
