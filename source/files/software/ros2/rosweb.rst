@@ -15,14 +15,21 @@ The message transport of rosbridge is JSON objects.
 
 `GitHub <https://github.com/RobotWebTools/rosbridge_suite>`_
 
+.. figure:: images/ros_and_websocket.png
+   :width: 450px
+   :alt: ROS and WebSocket
+   
+   ROS and WebSocket. `Source <https://picknik.ai/robotics/systems%20engineering/software%20system/moveit/trigger%20objective/network%20messages/json/rosbridge/roswebtools/python/rust/java/ports/factory%20controller/custom%20ui/ros/multi-robot/interoperability/fleet%20management/end-user/ui/python%20hardware/microserves/dds/tcpros/webapp/docker/ros2/2024/01/30/Systems-Engineering-Your-Robotics-Project.html>`_
+
 .. figure:: images/rosbridge.png
    :width: 450px
    :alt: Rosbridge
    
-   Rosbridge. `Source <https://foxglove.dev/blog/using-rosbridge-with-ros2>`_.
+Rosbridge. `Source <https://foxglove.dev/blog/using-rosbridge-with-ros2>`_.
 
 
 * **rosbridge_server** is a server which accepts websockets connections and implements the rosbridge protocol.
+
 
 Installation and Usage
 ----------------------
