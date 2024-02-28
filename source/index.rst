@@ -25,6 +25,7 @@ Guide into robotics
    files/software/django/django
    files/software/databases/databases
    files/software/networking/networking
+   files/software/nodejs/nodejs
    files/software/other/other
 
 
