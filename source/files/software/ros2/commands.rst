@@ -72,26 +72,6 @@ ROS 2 control commands
 * ``ros2 control list_hardware_components`` - list available hardware components
 * ``ros2 control list_hardware_interfaces`` - list available command and state interfaces
 
-RQT commands
-============
-
-RQT is a Qt-based framework for GUI development for ROS. Qt is a cross-platform application framework that is widely used for 
-developing application software with a graphical user interface (GUI)
-
-rqt is a meta package that depends on all available e.g rqt_graph, rqt_image_view, etc
-
-* ``ros2 run rqt_graph rqt_graph`` - show graph of nodes and topics (rqt_graph is a part of rqt_graph package)  
-  
-  - rqt_graph is a dynamic GUI plugin for visualizing the ROS computation graph (dynamic plugin is a plugin that can be loaded and unloaded at runtime)
-
-* ``ros2 run rqt_image_view rqt_image_view`` - show image from camera (rqt_image_view is a part of rqt_image_view package)
-
-* PlotJuggler - a tool for visualizing time series data from ROS. It is a Qt-based application that can be used to plot and analyze data from ROS topics. 
-  
-  - ``sudo apt-get install ros-$ROS_DISTRO-plotjuggler-ros`` - install PlotJuggler
-  
-  - ``ros2 run plotjuggler plotjuggler`` - run PlotJuggler
-
 
 Gazebo
 ======
