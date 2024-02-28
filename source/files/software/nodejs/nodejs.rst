@@ -17,8 +17,6 @@ packages of code with other developers.
 
 npm is the world's largest Software Registry.
 
-* ``npm install <package_name>`` - Install a package
-
 Installation and Usage
 ======================
 
@@ -27,6 +25,13 @@ To install Node.js and npm, run the following command:
 .. code-block:: bash
 
     sudo apt-get install nodejs npm
+
+
+To install a package, run the following command:
+
+.. code-block:: bash
+
+    npm install <package_name>
 
 
 Create Hello World Application
