@@ -11,7 +11,15 @@ The ROS goal is to provide a standard for robotics software development, that yo
 
 .. image:: images/what_is_ros.png
    :alt: What is ROS?
-   :width: 100%
+   :width: 75%
+
+
+.. figure:: images/ros2_architecture.png
+   :alt: ROS 2 Architecture
+   :width: 75%
+   
+
+   ROS 2 architecture. `Source <https://aws.amazon.com/blogs/robotics/ros-2-foxy-fitzroy-robot-development/>`_
 
 .. toctree::
    :maxdepth: 2
@@ -26,4 +34,5 @@ The ROS goal is to provide a standard for robotics software development, that yo
    rosweb
    logging_debugging
    parameters
+   computer_vision_in_ros
    other
