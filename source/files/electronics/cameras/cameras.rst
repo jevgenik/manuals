@@ -52,3 +52,19 @@ To calibrate a camera, we need to take pictures of a calibration pattern from di
    :alt: Lens distortion
 
 
+.. _intel_realsense:
+Intel RealSense depth cameras
+=============================
+The Intel RealSense Depth Camera D400-Series uses stereo vision to calculate depth. 
+
+`Official website <https://www.intelrealsense.com/>`_
+
+**Intel RealSense SDK 2.0** (librealsense) is a cross-platform library for Intel RealSense depth cameras (D400 & L500 series and the SR300).
+The SDK allows depth and color streaming, and provides intrinsic and extrinsic calibration information. 
+The library also offers synthetic streams (pointcloud, depth aligned to color and vise-versa), 
+and a built-in support for record and playback of streaming sessions.
+
+* `Intel RealSense on GitHub <https://github.com/IntelRealSense/librealsense>`_
+* `ROS wrapper for Intel RealSense on GitHub <https://github.com/IntelRealSense/realsense-ros>`_
+
+

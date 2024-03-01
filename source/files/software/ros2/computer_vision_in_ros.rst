@@ -32,6 +32,9 @@ using Nvidia hardware acceleration when available.
 
 `GitHub <https://github.com/ros-misc-utilities/ffmpeg_image_transport>`_
 
+Cameras
+=======
+:ref:`Cameras <intel_realsense>`
 
 
 
