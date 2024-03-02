@@ -36,6 +36,7 @@ Guide into robotics
    files/electronics/motors_and_actuators/index
    files/electronics/sensors/index
    files/electronics/cameras/cameras
+   files/electronics/embedded_systems/nvidia.rst
    files/electronics/relays/relays
 
 
