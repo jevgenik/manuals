@@ -85,6 +85,8 @@ Video4Linux is responsible for creating V4L2 device nodes aka a device file (/de
 and tracking data from these nodes
 
 * ``v4l2-ctl`` is a V4L2 utility that can be used to configure video for Linux devices.
-* ``v4l2-ctl --list-devices`` lists the available video devices. 
+
+  - ``v4l2-ctl --list-devices`` lists the available video devices. 
+  - ``v4l2-ctl --all`` lists all the controls for the video device.
 
 

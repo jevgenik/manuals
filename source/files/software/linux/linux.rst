@@ -8,6 +8,7 @@ Linux
    disk_management
    raid_management
    file_management
+   kernel
    text_manipulation
    grep
    networking

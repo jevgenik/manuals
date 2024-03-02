@@ -19,6 +19,11 @@ Text manipulation
   - ``sed 's/old/new/g' <filename>`` - replace all occurrences of old with new in file ``s`` - substitute, ``g`` - global  
   - ``sed '/start_pattern/,/end_pattern/d' <filename>`` - delete a line with start and end pattern use
 
+* ``tail`` - output the last part of files
+  
+  - ``tail -n 10 file.txt`` - output the last 10 lines of file.txt
+  - ``tail -f file.txt`` - output appended data as the file grows
+
 Vim 
 ===
 Vim is is a highly configurable text editor

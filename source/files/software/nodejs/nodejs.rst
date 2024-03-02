@@ -24,14 +24,14 @@ To install Node.js and npm, run the following command:
 
 .. code-block:: bash
 
-    sudo apt-get install nodejs npm
+   sudo apt-get install nodejs npm
 
 
 To install a package, run the following command:
 
 .. code-block:: bash
 
-    npm install <package_name>
+   npm install <package_name>
 
 
 Create Hello World Application
