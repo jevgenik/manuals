@@ -67,4 +67,24 @@ and a built-in support for record and playback of streaming sessions.
 * `Intel RealSense on GitHub <https://github.com/IntelRealSense/librealsense>`_
 * `ROS wrapper for Intel RealSense on GitHub <https://github.com/IntelRealSense/realsense-ros>`_
 
+UVC (USB Video Class)
+=====================
+UVC cameras (USB video class) are USB-powered devices that incorporate a standard video streaming functionality – 
+connecting seamlessly with the host machines.
+
+UVC is supported by the Linux kernel and is natively available in most Linux distributions.
+
+V4l
+===
+Video4Linux, V4L for short, is a collection of device drivers and an API for supporting realtime video capture on Linux systems.
+
+V42 is the fourth version of the Video4Linux API, which is the Linux kernel framework for supporting video 
+capture and output devices, including frame grabbers, cameras, and video output devices.
+
+Video4Linux is responsible for creating V4L2 device nodes aka a device file (/dev/videoX, /dev/vbiX and /dev/radioX) 
+and tracking data from these nodes
+
+* ``v4l2-ctl`` is a V4L2 utility that can be used to configure video for Linux devices.
+* ``v4l2-ctl --list-devices`` lists the available video devices. 
+
 
