@@ -25,12 +25,18 @@ stream, filter and play pretty much anything that humans and machines have creat
 `Official Website <https://ffmpeg.org/>`_
 
 
-ROS2 image transport for FFmpeg encoding
-========================================
+ROS 2 image transport for FFmpeg encoding
+=========================================
 This ROS 2 image transport supports encoding/decoding with the FFMpeg library. With this transport you can encode h264 and h265, 
 using Nvidia hardware acceleration when available.
 
 `GitHub <https://github.com/ros-misc-utilities/ffmpeg_image_transport>`_
+
+
+image_common (contains image_transport)
+=======================================
+
+`GitHub <https://github.com/ros-perception/image_common>`_
 
 Cameras
 =======

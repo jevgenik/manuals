@@ -74,14 +74,13 @@ connecting seamlessly with the host machines.
 
 UVC is supported by the Linux kernel and is natively available in most Linux distributions.
 
-V4l
+V4L
 ===
 Video4Linux, V4L for short, is a collection of device drivers and an API for supporting realtime video capture on Linux systems.
 
-V42 is the fourth version of the Video4Linux API, which is the Linux kernel framework for supporting video 
-capture and output devices, including frame grabbers, cameras, and video output devices.
+V4L2 (Video4Linux2) is the second version of V4L.
 
-Video4Linux is responsible for creating V4L2 device nodes aka a device file (/dev/videoX, /dev/vbiX and /dev/radioX) 
+Video4Linux2 is responsible for creating V4L2 device nodes aka a device file (/dev/videoX, /dev/vbiX and /dev/radioX) 
 and tracking data from these nodes
 
 * ``v4l2-ctl`` is a V4L2 utility that can be used to configure video for Linux devices.
