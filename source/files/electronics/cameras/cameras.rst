@@ -83,9 +83,21 @@ V4L2 (Video4Linux2) is the second version of V4L.
 Video4Linux2 is responsible for creating V4L2 device nodes aka a device file (/dev/videoX, /dev/vbiX and /dev/radioX) 
 and tracking data from these nodes
 
-* ``v4l2-ctl`` is a V4L2 utility that can be used to configure video for Linux devices.
+* ``v4l2-ctl`` is a V4L2 utility that can be used to configure video for Linux devices (installed as part of the ``v4l-utils`` package)
 
   - ``v4l2-ctl --list-devices`` lists the available video devices. 
   - ``v4l2-ctl --all`` lists all the controls for the video device.
+
+
+Libcamera
+=========
+Libcamera is a cross-platform camera support library that provides a generic way to access and control camera devices.
+Libcamera is designed to be a camera stack that is agnostic to the underlying hardware and supports multiple camera devices.
+Comparing to V4L2, libcamera provides a higher level of abstraction and a more consistent API across different camera devices.
+
+.. figure:: images/libcamera.jpg
+   :alt: Libcamera      
+
+   `Source <https://www.raspberrypi.com/news/an-open-source-camera-stack-for-raspberry-pi-using-libcamera/>`_
 
 
