@@ -7,7 +7,7 @@ that plugs into a computer monitor or TV, and uses a standard keyboard and mouse
 
 `Official Website <https://www.raspberrypi.org/>`_
 
-Commands in linux
+Commands in Linux
 =================
 
 * ``vcgencmd`` is a command-line utility used on Raspberry Pi devices that runs the VideoCore GPU on the Raspberry Pi.
