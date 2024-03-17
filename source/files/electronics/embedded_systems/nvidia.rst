@@ -12,3 +12,4 @@ Web resources
 
 * `NVIDIA Jetson <https://developer.nvidia.com/embedded-computing>`_
 * `Jetpack <https://developer.nvidia.com/embedded/jetpack>`_
+* `JetsonHacks <https://jetsonhacks.com/>`_
