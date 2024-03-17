@@ -36,9 +36,7 @@ Guide into robotics
    files/electronics/motors_and_actuators/index
    files/electronics/sensors/index
    files/electronics/cameras/cameras
-   files/electronics/embedded_systems/microcontrollers
-   files/electronics/embedded_systems/nvidia
-   files/electronics/embedded_systems/rpi
+   files/electronics/embedded_systems/embedded_systems
    files/electronics/relays/relays
 
 
