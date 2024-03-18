@@ -38,6 +38,25 @@ image_common (contains image_transport)
 
 `GitHub <https://github.com/ros-perception/image_common>`_
 
+cv_bridge
+=========
+cv_bridge is a ROS package that provides an interface between ROS and OpenCV. It is used to convert between ROS images and OpenCV images.
+
+`GitHub <https://github.com/ros-perception/vision_opencv>`_
+
+
+OpenCV
+======
+OpenCV (Open Source Computer Vision Library) is an open source computer vision and machine learning software library.
+It is used as a library for real-time computer vision. It is written in C++ and its primary interface is in C++, but it still has a
+full C API. There are bindings in Python, Java and MATLAB/Octave. 
+
+OpenCV is used for a wide range of applications, including
+medical image analysis, stitching street view images, surveillance video, detecting and recognizing faces, tracking moving objects,
+extracting 3D models, and much more.
+
+`Official Website <https://opencv.org/>`_
+
 Cameras
 =======
 :ref:`Cameras <intel_realsense>`
