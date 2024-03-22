@@ -22,13 +22,14 @@ ROS 2 topic commands
 * ``ros2 topic list -t`` - list active topics with their types
 * ``ros2 topic info <topic_name>`` - show information about topic (e.g. `ros2 topic info /turtle1/cmd_vel`)
 * ``ros2 topic type <topic_name>`` - show type of topic (e.g. `ros2 topic type /turtle1/cmd_vel`)
+* ``ros2 topic hz <topic_name>`` - show publishing rate of topic (e.g. `ros2 topic hz /turtle1/cmd_vel`)
 
 Name remapping
 ==============
 
 * ``ros2 run rplidar_ros rplidar_node --ros-args -r __ns:=scanner2``  
 * ``--ros args`` - allows you to pass arguments to the node  
-* ``-r __ns:=scanner2`` this changes the namespace of the node rplidar_node to 'scanner2' (/scanner/rplidar_node)   
+* ``-r __ns:=scanner2`` this changes the namespace of the node rplidar_node to 'scanner2' (/scanner/rplidar_node)  
 * ``-r __node:=<new node name>`` this renames the node to 'new_node_name'.  
 Namespace allows you to run multiple instances of the same node with separate parameter spaces. 
 
