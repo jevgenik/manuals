@@ -14,7 +14,7 @@ while it calls the next lower layer to send and receive packets that make up the
    OSI model. `Source <https://www.bmc.com/blogs/osi-model-7-layers/>`_.
 
 
-.. figure:: images/osi_model2.png
+.. figure:: images/osi_model_2.png
    :width: 400px
    :alt: OSI model
    
