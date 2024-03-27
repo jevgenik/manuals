@@ -12,3 +12,10 @@ while it calls the next lower layer to send and receive packets that make up the
    :alt: OSI model
    
    OSI model. `Source <https://www.bmc.com/blogs/osi-model-7-layers/>`_.
+
+
+.. figure:: images/osi_model2.png
+   :width: 400px
+   :alt: OSI model
+   
+   OSI model.
