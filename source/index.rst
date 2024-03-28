@@ -37,6 +37,7 @@ Guide into robotics
    files/electronics/sensors/index
    files/electronics/cameras/cameras
    files/electronics/embedded_systems/embedded_systems
+   files/electronics/microcontrollers/microcontrollers
    files/electronics/relays/relays
 
 
