@@ -2,7 +2,7 @@
 Software management
 ===================
 
-APT - Advanced Package Tool (apt is a command-line utility for installing, updating, removing, and otherwise managing  
+**APT** - Advanced Package Tool (apt is a command-line utility for installing, updating, removing, and otherwise managing  
 deb packages on Ubuntu, Debian, and related Linux distributions) apt is a newer command-line tool that provides 
 the same functionality as apt-get, and possibly more.  
 
@@ -34,7 +34,7 @@ the same functionality as apt-get, and possibly more.
 * ``dpkg -i <package_name>`` - install package (e.g. ``dpkg -i google-chrome-stable_current_amd64.deb``)
 
 
-dpkg - Debian package management system 
+**dpkg** - Debian package management system 
 it is a low-level tool for installing, removing, and inspecting deb packages.
 Comparing to apt, dpkg **does not resolve dependencies** and does not download packages from repositories.
 
