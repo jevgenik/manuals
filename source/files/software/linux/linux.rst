@@ -5,11 +5,12 @@ Linux
 .. toctree::
    :maxdepth: 1
 
-   disk_management
-   raid_management
+   disk_management   
    file_management
+   grep   
    kernel
-   text_manipulation
-   grep
    networking
-   users      
+   raid_management
+   software_management
+   text_manipulation      
+   users         
