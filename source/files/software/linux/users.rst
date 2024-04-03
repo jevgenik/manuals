@@ -18,7 +18,11 @@ Commands:
 
 * ``groups`` - show groups that current user is a member of
 
-* ``sudo usermod -aG <group name> <username>`` - add user to a group (e.g. ``sudo usermod -aG dialout myuser`` - add user myuser to dialout group)
+* ``sudo usermod -aG <group name> <username>`` - add user to a group (secondary or supplementary group) 
+  (e.g. ``sudo usermod -aG dialout myuser`` - add user myuser to dialout group)
+
+* ``sudo usermode -g <group name> <username>`` - change user's primary group 
+  (e.g. ``sudo usermod -g mygroup myuser`` - change user myuser's primary group to mygroup)
 
 * ``chown`` - change file owner and group (e.g. ``chown myuser:mygroup myfile.txt`` - change owner of myfile.txt to myuser and group to mygroup)
 
