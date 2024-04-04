@@ -75,11 +75,15 @@ Inspect (containers, networks, images, volumes)
 Free up disk space
 ------------------
 
+* ``docker system df`` - show docker disk usage
+  
+* ``docker builder du`` - show disk usage by build cache
+
 * ``docker system prune`` - cleans up dangling resources (unused data such as stopped containers, dangling images, networks, and more)
 
 * ``docker system prune -a`` -a removes all unused images (those that are not associated with any container) not just the dangling ones. NB! all images will be removed
 
-* ``docker builder du``
+* ``docker builder prune`` - remove build cache
 
 
 To capture docker build logs to a file
