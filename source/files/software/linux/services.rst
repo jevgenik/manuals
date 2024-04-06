@@ -42,8 +42,8 @@ Service manager is a background process that manages the life cycle of services 
 
 * ``systemctl get-default`` - show default target (default target is a special systemd unit that is loaded by default when 
   the system boots. It is similar to runlevel in the init system)
-  Target is a special kind of unit that does not do anything itself but instead acts as a
-  collection of other units. It is used to group units together and to simplify the boot process.
+  *Target is a special kind of unit that does not do anything itself but instead acts as a
+  collection of other units. It is used to group units together and to simplify the boot process.*
 
 * ``systemctl set-default <target_name>`` - set default target 
   (e.g. ``systemctl set-default multi-user.target`` - set default target to multi-user.target)
