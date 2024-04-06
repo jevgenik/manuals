@@ -11,6 +11,7 @@ Linux
    kernel
    networking
    raid_management
+   services
    software_management
    text_manipulation      
    users         
