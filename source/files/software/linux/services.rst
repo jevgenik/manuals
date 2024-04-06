@@ -2,6 +2,9 @@
 Linux Services
 ==============
 
+The ``/sbin/init`` program (also called init) coordinates the rest of the boot process and configures the environment for the user. 
+When the init command starts, it becomes the parent or grandparent of all of the processes that start up automatically on the system.
+
 Systemd is a replacement for init. It is intended to provide a better framework for expressing services' dependencies,
 allowing for faster boot times through parallelization. It replaces the init system inherited from UNIX System V and Berkeley 
 Software Distribution (BSD)
