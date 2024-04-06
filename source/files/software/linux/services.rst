@@ -16,16 +16,19 @@ Systemctl
 Systemctl is a systemd utility that is responsible for Controlling the systemd system and service manager.
 Service manager is a background process that manages the life cycle of services in the system.
 
+.. note::
+   In systemd , a **unit** refers to any resource that the system knows how to operate on and manage. This is the primary object that 
+   the systemd tools know how to deal with. These resources are defined using configuration files called unit files, which are stored 
+   in the ``/usr/lib/systemd/system/`` and ``/etc/systemd/system/`` directories.
+   They are merely configuration files that describe the unit and define its behavior 
+   (e.g. /etc/systemd/system/docker.service, .socket, .target, etc)                              
+
 * ``systemctl list-units``- lists all currently loaded in memory systemd units, which includes both active and inactive units
 
 * ``systemctl list-units --type=service`` - show list of services that are currently loaded
 
 * ``systemctl list-unit-files`` - lists all available systemd unit files on your system. Unit files define services, targets, 
   sockets, timers, and other systemd units that can be activated.
-
-units are represented by unit files, which are stored in the ``/usr/lib/systemd/system/`` and ``/etc/systemd/system/`` directories.
-They are merely configuration files that describe the unit and define its behavior 
-(e.g. /etc/systemd/system/docker.service, .socket, .target, etc)                              
 
 * ``systemctl status <service_name>`` - show status of service
 
