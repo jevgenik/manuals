@@ -5,10 +5,12 @@ Linux Services
 Systemd is a replacement for init. It is intended to provide a better framework for expressing services' dependencies,
 allowing for faster boot times through parallelization. It replaces the init system inherited from UNIX System V and Berkeley 
 Software Distribution (BSD)
+
 Init and Systemd are both init daemons but it is better to use the latter since it is commonly used in recent Linux Distros. 
 Init uses service whereas Systemd uses systemctl to manage Linux services
-The /sbin/init is a symbolic link to the actual init process. You can follow the symbolic link and see real process. 
-I am using the stat command and you can see that /sbin/init is linked to /lib/systemd/systemd in Ubuntu. 
+
+The ``/sbin/init`` is a symbolic link to the actual init process. You can follow the symbolic link and see real process. 
+I am using the ``stat`` command and you can see that ``/sbin/init`` is linked to ``/lib/systemd/systemd`` in Ubuntu. 
 This is an indication that systemd is in use.
 
 Systemctl 
