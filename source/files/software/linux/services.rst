@@ -18,7 +18,7 @@ This is an indication that systemd is in use.
 
 Systemctl 
 =========
-Systemctl is a systemd utility that is responsible for Controlling the systemd system and service manager.
+Systemctl is a systemd utility that is responsible for controlling the systemd system and service manager.
 Service manager is a background process that manages the life cycle of services in the system.
 
 .. note::
