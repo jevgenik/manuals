@@ -31,3 +31,46 @@ It has become an essential tool for navigation, mapping, tracking, and timing sy
    :width: 500px
    
    `Source <https://trakkitgps.com/how-gps-works/>`_
+
+
+  NMEA
+  ====
+  NMEA is an acronym for the National Marine Electronics Association. NMEA existed well before GPS was invented. 
+  According to the NMEA website, the association was formed in 1957 by a group of electronic dealers to create better 
+  communications with manufacturers. 
+  
+  Today in the world of GPS, NMEA is a standard data format supported by all GPS manufacturers, much like ASCII is the standard 
+  for digital computer characters in the computer world.
+
+  Example of NMEA sentence. Here is popular NMEA sentence GGA (there exist different types of NMEA sentences):
+
+  .. code-block:: bash
+
+    $GPGGA,123519,4807.038,N,01131.000,E,1,08,0.9,545.4,M,46.9,M,,*47
+
+  Where:
+
+  - GP           GPS position (GL would denote GLONASS). GGA is the NMEA sentence for GPS Fix Data.
+  - 123519       is the time stamp: UTC time in hours, minutes and seconds.
+  - 4807.038,N   Latitude 48 deg 07.038' N
+  - 01131.000,E  Longitude 11 deg 31.000' E
+  - 1            Fix quality: 0 = invalid
+                            1 = GPS fix (SPS)
+                            2 = DGPS fix
+                            3 = PPS fix
+                            4 = Real Time Kinematic
+                            5 = Float RTK
+                            6 = estimated (dead reckoning) (2.3 feature)
+                            7 = Manual input mode
+                            8 = Simulation mode
+  - 08           Number of satellites being tracked
+  - 0.9          Horizontal dilution of position (poition accuracy, the lower the better [<1 is Ideal])
+  - 545.4        Altitude above mean sea level
+  - M            Units of altitude (Meters)
+  - 46.9         Height of geoid (mean sea level) above WGS84 ellipsoid
+  - M            Units of geoidal height (Meters)
+  - (empty field) time in seconds since last DGPS update
+  - (empty field) DGPS station ID number
+  - *47          the checksum data, always begins with *  
+      
+
