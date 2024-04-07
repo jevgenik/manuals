@@ -10,7 +10,7 @@ Navigation
 * `Introduction to navigation and Nav2 <https://husarion.com/tutorials/ros2-tutorials/9-navigation/>`_
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    nav2_architecture
    localization
