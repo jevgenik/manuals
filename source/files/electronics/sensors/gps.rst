@@ -19,8 +19,15 @@ GPS works by using a network of satellites that orbit the Earth.
 It has become an essential tool for navigation, mapping, tracking, and timing synchronization in many industries and everyday activities.
 
 
-GPS systems consists of three main components:
+Compoments of GPS
 
-1. Space Segment: The space segment consists of a constellation of satellites that orbit the Earth and continuously transmit signals.
-2. Control Segment: The control segment consists of ground stations that monitor and control the satellites, ensuring they are functioning properly and providing accurate data.
-3. User Segment: The user segment consists of GPS receivers that receive and process the signals from the satellites to determine their own position and time.
+1. Satellites – They serve like stars in the constellation.
+2. Ground stations – They monitor and control satellites. Ground stations also identify their location.
+3. Receivers – Receivers are constantly listening for signals from the satellites. Highly advanced receivers can even identify the exact location within a fraction of an inch.
+
+
+.. figure:: ../images/gps_architecture.jpeg
+   :alt: GPS principle
+   :width: 400px
+   
+   `Source <https://trakkitgps.com/how-gps-works/>`_
