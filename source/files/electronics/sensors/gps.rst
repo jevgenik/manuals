@@ -42,7 +42,7 @@ It has become an essential tool for navigation, mapping, tracking, and timing sy
   Today in the world of GPS, NMEA is a standard data format supported by all GPS manufacturers, much like ASCII is the standard 
   for digital computer characters in the computer world.
 
-  Example of NMEA sentence. Here is popular NMEA sentence GGA (there exist different types of NMEA sentences):
+  Example of NMEA sentence (standardized data string). Here is popular NMEA sentence GGA (there exist different types of NMEA sentences):
 
   .. code-block:: bash
 
