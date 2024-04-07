@@ -52,8 +52,10 @@ Where:
 
 - **GP**           GPS position (GL would denote GLONASS). GGA is the NMEA sentence for GPS Fix Data.
 - **123519**       is the time stamp: UTC time in hours, minutes and seconds.
-- **4807.038,N**   Latitude 48 deg 07.038' N
-- **01131.000,E**  Longitude 11 deg 31.000' E
+- **4807.038**     Latitude 48 deg 07.038' (in format ddmm.mmm)
+- **N**            North latitude
+- **01131.000**    Longitude 11 deg 31.000' (in format dddmm.mmm)
+- **E**            East longitude
 - **1**            Quality Indicator (1 = GPS fix, or  uncorrected coordinate)                          
 - **08**           Number of satellites being tracked
 - **0.9**          Horizontal dilution of position (poition accuracy, the lower the better [<1 is Ideal])
