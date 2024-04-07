@@ -7,6 +7,7 @@ anywhere on or near the Earth where there is an unobstructed line of sight to fo
 The system is operated by the United States government and is freely accessible to anyone with a GPS receiver.
 
 GPS works by using a network of satellites that orbit the Earth. 
+================================================================
 
 #. These satellites continuously transmit signals that contain the satellite's position and the precise time the signal was transmitted. 
 
@@ -20,6 +21,7 @@ It has become an essential tool for navigation, mapping, tracking, and timing sy
 
 
 Compoments of GPS
+=================
 
 1. Satellites – They serve like stars in the constellation.
 2. Ground stations – They monitor and control satellites. Ground stations also identify their location.
