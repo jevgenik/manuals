@@ -30,6 +30,6 @@ Compoments of GPS
 
 .. figure:: ../images/gps_architecture.jpeg
    :alt: GPS principle
-   :width: 400px
+   :width: 500px
    
    `Source <https://trakkitgps.com/how-gps-works/>`_
