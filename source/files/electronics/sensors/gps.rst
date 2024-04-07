@@ -50,19 +50,19 @@ Example of NMEA sentence (standardized data string). Here is popular NMEA senten
 
 Where:
 
-- GP           GPS position (GL would denote GLONASS). GGA is the NMEA sentence for GPS Fix Data.
-- 123519       is the time stamp: UTC time in hours, minutes and seconds.
-- 4807.038,N   Latitude 48 deg 07.038' N
-- 01131.000,E  Longitude 11 deg 31.000' E
-- 1            Quality Indicator (1 = GPS fix, or  uncorrected coordinate)                          
-- 08           Number of satellites being tracked
-- 0.9          Horizontal dilution of position (poition accuracy, the lower the better [<1 is Ideal])
-- 545.4        Altitude above mean sea level
-- M            Units of altitude (Meters)
-- 46.9         Height of geoid (mean sea level) above WGS84 ellipsoid
-- M            Units of geoidal height (Meters)
+- **GP**           GPS position (GL would denote GLONASS). GGA is the NMEA sentence for GPS Fix Data.
+- **123519**       is the time stamp: UTC time in hours, minutes and seconds.
+- **4807.038,N**   Latitude 48 deg 07.038' N
+- **01131.000,E**  Longitude 11 deg 31.000' E
+- **1**            Quality Indicator (1 = GPS fix, or  uncorrected coordinate)                          
+- **08**           Number of satellites being tracked
+- **0.9**          Horizontal dilution of position (poition accuracy, the lower the better [<1 is Ideal])
+- **545.4**        Altitude above mean sea level
+- **M**            Units of altitude (Meters)
+- **46.9**         Height of geoid (mean sea level) above WGS84 ellipsoid
+- **M**            Units of geoidal height (Meters)
 - (empty field) time in seconds since last DGPS update
 - (empty field) DGPS station ID number
-- *47          the checksum data, always begins with *  
+- ***47**          the checksum data, always begins with *  
       
 
