@@ -54,15 +54,7 @@ Where:
 - 123519       is the time stamp: UTC time in hours, minutes and seconds.
 - 4807.038,N   Latitude 48 deg 07.038' N
 - 01131.000,E  Longitude 11 deg 31.000' E
-- 1            Fix quality: 0 = invalid
-                          1 = GPS fix (SPS)
-                          2 = DGPS fix
-                          3 = PPS fix
-                          4 = Real Time Kinematic
-                          5 = Float RTK
-                          6 = estimated (dead reckoning) (2.3 feature)
-                          7 = Manual input mode
-                          8 = Simulation mode
+- 1            Quality Indicator (1 = GPS fix, or  uncorrected coordinate)                          
 - 08           Number of satellites being tracked
 - 0.9          Horizontal dilution of position (poition accuracy, the lower the better [<1 is Ideal])
 - 545.4        Altitude above mean sea level
