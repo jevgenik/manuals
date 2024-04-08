@@ -73,6 +73,7 @@ Software, libraries to work with GPS data
 Python libraries
 ----------------
 
-* ``pynmea2`` - a Python library for parsing NMEA 0183 (GPS) data (``pip install pynmea2``)
+* ``pyserial`` - a library for reading and writing data to serial ports (``pip install pyserial``)
+* ``pynmea2`` - a library for parsing NMEA 0183 (GPS) data (``pip install pynmea2``)
       
 
