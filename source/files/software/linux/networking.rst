@@ -58,4 +58,6 @@ Some useful commands and utilities
   - ``netstat -tuln`` - show all listening sockets (``-tuln`` - tcp, udp, listening [omitting non-listening sockets], numeric [numberic means show IP addresses instead of hostnames])
 
   - ``netstat -a | grep 9090`` - show all connections and filter by port 9090 (``-a`` - show all all sockets)
+
+* ``hostname -I`` - show IP address of the host
   
