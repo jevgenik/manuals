@@ -75,5 +75,11 @@ Python libraries
 
 * ``pyserial`` - a library for reading and writing data to serial ports (``pip install pyserial``)
 * ``pynmea2`` - a library for parsing NMEA 0183 (GPS) data (``pip install pynmea2``)
+
+
+ROS 2
+-----
+
+* ``sensor_msgs/NavSatFix`` - message type for GPS data in ROS 2
       
 
