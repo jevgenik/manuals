@@ -66,5 +66,12 @@ Where:
 - (empty field) time in seconds since last DGPS update
 - (empty field) DGPS station ID number
 - ***47**          the checksum data, always begins with *  
+
+Software, libraries to work with GPS data
+=========================================
+
+Python libraries
+
+* ``pynmea2`` - a Python library for parsing NMEA 0183 (GPS) data.
       
 
