@@ -29,8 +29,6 @@
   `chmod u+x simple_velocity_publisher.py` - make script executable for user (u - user, + - add permission, x - execute)
 
 ### Process management
-- `ps aux` - show all running processes (a - show processes of all users, u - show processes of current user, 
-                                        x - show processes not attached to a terminal)
 - `top` - display Linux processes (top -  display Linux processes in real time)  
   `top -p <PID>` - display Linux process with specified PID  
   `top -u <username>` - display Linux processes of specified user    
