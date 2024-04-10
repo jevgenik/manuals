@@ -8,6 +8,8 @@ Process management
   - ``lsof -i`` - list all network connections.  
 
 * ``ps`` - (process status) report a snapshot of the current processes. It does not show the processes that have finished execution.
-
- - ``ps aux`` - show all running processes (a - show processes of all users, u - show processes of current user, 
-   x - show processes not attached to a terminal)
+  
+  - ``ps -f`` - show full format listing (more details about the processes)
+  - ``ps aux`` - show all running processes (a - show processes of all users, u - show processes of current user, 
+    x - show processes not attached to a terminal)
+  
