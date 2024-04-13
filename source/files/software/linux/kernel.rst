@@ -19,6 +19,8 @@ It is the last piece of software that is unloaded from memory when the system sh
 
   - ``dkms status`` - display the status of kernel modules managed by DKMS 
 
+* ``lspci`` - list PCI devices (e.g. graphics card) 
+
 * ``lsusb`` - list USB devices
   
   -  ``lsusb -t`` - show USB devices in a tree

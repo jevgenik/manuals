@@ -19,7 +19,7 @@ the same functionality as apt-get, and possibly more.
 
 * ``apt remove <package_name>`` - remove package (configuration files are not removed)
 
-* ``apt purge <package_name>`` - remove package and its configuration files
+* ``apt purge <package_name>`` - remove package and its configuration files (e.g ``apt purge nvidia-*`` - remove all nvidia packages)
 
 * ``apt autoremove`` - remove packages that were automatically installed to satisfy dependencies 
   for other packages and are now no longer needed
@@ -32,6 +32,10 @@ the same functionality as apt-get, and possibly more.
 * ``dpkg`` - install, remove, and inspect deb packages (dpkg is a low-level tool for installing, removing, and inspecting deb packages)
 
 * ``dpkg -i <package_name>`` - install package (e.g. ``dpkg -i google-chrome-stable_current_amd64.deb``)
+
+* ``ubuntu-drivers devices`` - list available drivers for hardware devices (data is fetched from Ubuntu's hardware database)
+
+* ``ubuntu-drivers autoinstall`` - install drivers for devices that were detected by ubuntu-drivers devices
 
 
 **dpkg** - Debian package management system 
