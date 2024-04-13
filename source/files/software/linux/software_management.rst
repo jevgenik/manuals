@@ -40,6 +40,8 @@ the same functionality as apt-get, and possibly more.
   
   - ``ubuntu-drivers list`` - Show all driver packages which apply to the current system.
 
+  - ``ubuntu-drivers install <package_name>`` - Install driver package (e.g. ``ubuntu-drivers install nvidia-driver-440``)
+
 
 **dpkg** - Debian package management system 
 it is a low-level tool for installing, removing, and inspecting deb packages.
