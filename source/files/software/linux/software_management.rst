@@ -33,9 +33,12 @@ the same functionality as apt-get, and possibly more.
 
 * ``dpkg -i <package_name>`` - install package (e.g. ``dpkg -i google-chrome-stable_current_amd64.deb``)
 
-* ``ubuntu-drivers devices`` - list available drivers for hardware devices (data is fetched from Ubuntu's hardware database)
+* ``ubuntu-drivers`` - command-line tool to install drivers for hardware components (e.g. graphics cards)
+  Drivers are provided by the Ubuntu repositories.
 
-* ``ubuntu-drivers autoinstall`` - install drivers for devices that were detected by ubuntu-drivers devices
+  - ``ubuntu-drivers devices`` - Show all devices which need drivers, and which packages are available for them.
+  
+  - ``ubuntu-drivers list`` - Show all driver packages which apply to the current system.
 
 
 **dpkg** - Debian package management system 
