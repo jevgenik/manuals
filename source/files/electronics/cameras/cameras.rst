@@ -126,3 +126,11 @@ Commands
 
 * ``ffmpeg -h encoder=libx264`` lists the options for the libx264 encoder
 
+* ``ffplay`` is a simple media player based on SDL and the FFmpeg libraries
+  
+  - ``ffplay -f v4l2 -i /dev/video0`` plays the video stream from the V4L2 device
+
+  - ``ffplay video.mp4`` plays the video file
+
+  - ``ffplay rtmp://localhost/live/stream`` plays the video stream from the RTMP server
+
