@@ -15,4 +15,7 @@ Web resources
 * `JetsonHacks <https://jetsonhacks.com/>`_
 
 
+Tools
+=====
+
 * ``nvidia-smi`` - NVIDIA System Management Interface program. Provides monitoring and management capabilities for NVIDIA GPUs
