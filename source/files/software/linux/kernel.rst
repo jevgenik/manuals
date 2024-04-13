@@ -13,6 +13,12 @@ It is the last piece of software that is unloaded from memory when the system sh
   -  ``dmesg --follow`` - print kernel messages as they are generated
   -  ``dmesg | tail`` - print last kernel messages (last 10 lines)
 
+* ``dkms`` - Dynamic Kernel Module Support (DKMS). It is a framework that allows for the installation of 
+  low-level system software on a running system. It is used to automatically build and install kernel modules 
+  that are not included in the mainline kernel.
+
+  - ``dkms status`` - display the status of kernel modules managed by DKMS 
+
 * ``lsusb`` - list USB devices
   
   -  ``lsusb -t`` - show USB devices in a tree
@@ -21,10 +27,23 @@ It is the last piece of software that is unloaded from memory when the system sh
 To debug USB camera, you can use the following commands:
 
 * ``lsusb`` - list USB devices
+
 * ``lsusb -t`` - show USB devices in a tree
+
 * ``lsusb -v`` - show USB devices in verbose mode
+
 * ``dmesg | grep usb`` - show USB messages
+
 * ``dmesg | grep video`` - show video messages
+
+* ``v4l2-ctl --list-devices`` - list video devices
+
+* ``v4l2-ctl --list-formats-ext`` - list video formats
+
+* ``cheese`` - open video device with Cheese application (it is a simple webcam viewer)
+
+* ``rtmpdump -r rtmp://localhost/live/1234 -o output.flv`` - record video stream from RTMP server to output.flv file
+
 
 udev
 ====

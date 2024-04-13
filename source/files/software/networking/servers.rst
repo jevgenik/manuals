@@ -9,3 +9,25 @@ Its architecture is asynchronous and event-driven to handle a large number of co
 The software was created by Igor Sysoev and first publicly released in 2004.
 
 `Official website <https://www.nginx.com/>`_
+
+
+Commands
+--------
+
+* ``nginx -h`` - Show help
+
+* ``nginx -V`` - Show version and loaded modules
+
+* ``nginx -s stop`` - Stop the server (*-s send signal*)
+
+* ``nginx -s quit`` - Graceful shutdown
+
+* ``nginx -s reload`` - Reload the configuration file
+
+* ``nginx -t`` - Test the configuration file
+
+* ``nginx -V 2>&1 | grep --color=auto rtmp`` - Check if the RTMP module is installed (2>&1 redirect stderr to stdout)
+
+* ``systemctl status nginx`` - Check the status of the service
+
+* ``systemctl start nginx`` - Start the service

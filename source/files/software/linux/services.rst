@@ -45,6 +45,8 @@ Service manager is a background process that manages the life cycle of services 
 
 * ``systemctl stop <service_name>`` - stop service
 
+* ``systemctl restart <service_name>`` - restart service
+
 * ``systemctl get-default`` - show default target (default target is a special systemd unit that is loaded by default when 
   the system boots. It is similar to runlevel in the init system)
 

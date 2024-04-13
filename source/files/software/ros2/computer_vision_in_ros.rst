@@ -17,13 +17,6 @@ Raw video data is required for editing processes and for viewing of the raw vide
 
    Video Encoding and Decoding. `Source <https://imagekit.io/blog/video-encoding/>`_
 
-FFmpeg
-======
-FFmpeg is the leading multimedia framework, able to decode, encode, transcode, mux, demux, 
-stream, filter and play pretty much anything that humans and machines have created.
-
-`Official Website <https://ffmpeg.org/>`_
-
 
 ROS 2 image transport for FFmpeg encoding
 =========================================

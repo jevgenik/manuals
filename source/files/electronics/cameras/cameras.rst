@@ -101,3 +101,28 @@ Comparing to V4L2, libcamera provides a higher level of abstraction and a more c
    `Source <https://www.raspberrypi.com/news/an-open-source-camera-stack-for-raspberry-pi-using-libcamera/>`_
 
 
+FFmpeg
+======
+FFmpeg is the leading multimedia framework, able to decode, encode, transcode, mux, demux, 
+stream, filter and play pretty much anything that humans and machines have created.
+
+`Official Website <https://ffmpeg.org/>`_
+
+
+Codecs
+------
+
+* ``libx264`` is a free software library and application for encoding video streams into the H.264/MPEG-4 AVC format.
+
+* ``h264_v4l2m2m`` is hardware accelerated H.264 encoder using V4L2 mem2mem API (for example, on Raspberry Pi)
+
+* ``h264_nvenc`` is NVIDIA GPU hardware accelerated H.264 encoder (nvenc means NVIDIA encoder)
+
+
+Commands
+--------
+
+* ``ffmpeg -codecs`` lists all the codecs supported by FFmpeg
+
+* ``ffmpeg -h encoder=libx264`` lists the options for the libx264 encoder
+
