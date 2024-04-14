@@ -74,6 +74,7 @@ connecting seamlessly with the host machines.
 
 UVC is supported by the Linux kernel and is natively available in most Linux distributions.
 
+
 V4L
 ===
 Video4Linux, V4L for short, is a collection of device drivers and an API for supporting realtime video capture on Linux systems.
@@ -87,6 +88,7 @@ and tracking data from these nodes
 
   - ``v4l2-ctl --list-devices`` lists the available video devices. 
   - ``v4l2-ctl --all`` lists all the controls for the video device.
+  - ``v4l2-ctl --device=/dev/video0 --list-formats-ext`` lists the available video formats for the video device.
 
 
 Libcamera
@@ -133,4 +135,7 @@ Commands
   - ``ffplay video.mp4`` plays the video file
 
   - ``ffplay rtmp://localhost/live/stream`` plays the video stream from the RTMP server
+
+  - ``ffplay -fflags nobuffer rtmp://localhost:1935/live/1234`` plays the video stream from the RTMP server with no buffering (for low latency)
+
 

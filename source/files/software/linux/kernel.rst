@@ -40,7 +40,7 @@ To debug USB camera, you can use the following commands:
 
 * ``v4l2-ctl --list-devices`` - list video devices
 
-* ``v4l2-ctl --list-formats-ext`` - list video formats
+* ``v4l2-ctl --device=/dev/video0 --list-formats-ext`` lists the available video formats for the video device.
 
 * ``cheese`` - open video device with Cheese application (it is a simple webcam viewer)
 
