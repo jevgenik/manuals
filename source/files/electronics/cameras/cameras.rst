@@ -89,7 +89,7 @@ and tracking data from these nodes
   - ``v4l2-ctl --list-devices`` lists the available video devices. 
   - ``v4l2-ctl --all`` lists all the controls for the video device.
   - ``v4l2-ctl --device=/dev/video0 --list-formats-ext`` lists the available video formats for the video device.
-  - ``v4l2-ctl --device=/dev/video0 --set-fmt-video=width=1920,height=1080 --verbose`` sets the video format for the video device.
+  - ``v4l2-ctl --device=/dev/video0 --set-fmt-video=width=1920,height=1080 --verbose`` sets resolution and pixel format for the video device.
 
 
 Libcamera
