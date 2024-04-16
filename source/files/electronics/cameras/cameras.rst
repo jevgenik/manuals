@@ -139,11 +139,10 @@ Commands
 
   - ``ffplay -fflags nobuffer rtmp://localhost:1935/live/1234`` plays the video stream from the RTMP server with no buffering (for low latency)
 
-* ``ffprobe`` is a command-line tool that gathers information (like codecs, bitrates, ...) from multimedia streams and prints 
-  it in human- and machine-readable fashion
+* ``ffprobe`` is a command-line tool that shows information (like codecs, bitrates, ...) about multimedia streams 
 
   - ``ffprobe video.mp4`` provides information about the video file
 
-  = ``ffprobe /dev/video0`` provides information about the V4L2 device
+  - ``ffprobe /dev/video0`` provides information about the V4L2 device
 
 
