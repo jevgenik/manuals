@@ -89,6 +89,7 @@ and tracking data from these nodes
   - ``v4l2-ctl --list-devices`` lists the available video devices. 
   - ``v4l2-ctl --all`` lists all the controls for the video device.
   - ``v4l2-ctl --device=/dev/video0 --list-formats-ext`` lists the available video formats for the video device.
+  - ``v4l2-ctl --device=/dev/video0 --set-fmt-video=width=1920,height=1080 --verbose`` sets the video format for the video device.
 
 
 Libcamera
@@ -137,5 +138,11 @@ Commands
   - ``ffplay rtmp://localhost/live/stream`` plays the video stream from the RTMP server
 
   - ``ffplay -fflags nobuffer rtmp://localhost:1935/live/1234`` plays the video stream from the RTMP server with no buffering (for low latency)
+
+* ``ffprobe`` is a simple multimedia stream analyzer
+
+  - ``ffprobe video.mp4`` provides information about the video file
+
+  = ``ffprobe /dev/video0`` provides information about the V4L2 device
 
 
