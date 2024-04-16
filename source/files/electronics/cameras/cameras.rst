@@ -125,9 +125,14 @@ Codecs
 Commands
 --------
 
-* ``ffmpeg -codecs`` lists all the codecs supported by FFmpeg
+* ``ffmpeg`` is a command-line tool that can be used to capture, convert, and stream audio and video
 
-* ``ffmpeg -h encoder=libx264`` lists the options for the libx264 encoder
+  - ``ffmpeg -f v4l2 -i /dev/video0 -c:v libx264 -f flv rtmp://localhost/live/stream`` captures video from the V4L2 device (camera), 
+    encodes it using libx264 codec, and streams it to the RTMP server
+
+  - ``ffmpeg -codecs`` lists all the codecs supported by FFmpeg
+
+  - ``ffmpeg -h encoder=libx264`` lists the options for the libx264 encoder
 
 * ``ffplay`` is a simple media player based on SDL and the FFmpeg libraries
   
