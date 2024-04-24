@@ -49,6 +49,8 @@ Run docker containers with GUI
   
    * ``--volume="/tmp/.X11-unix:/tmp/.X11-unix:rw"`` this volume is needed to share the X11 socket with the container. Read-write mode (i.e. the container can write as well as read files on the host)
 
+.. note::    
+   If a container was started in attached mode (``docker run -it``), you can detach from the container without stopping it by pressing ``Ctrl + P + Q``   
 
 List containers
 ---------------

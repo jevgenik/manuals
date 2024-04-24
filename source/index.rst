@@ -26,6 +26,7 @@ Guide into robotics
    files/software/databases/databases
    files/software/networking/networking
    files/software/nodejs/nodejs
+   files/software/node_red/node_red
    files/software/other/other
 
 
