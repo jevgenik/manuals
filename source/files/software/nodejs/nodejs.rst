@@ -66,7 +66,8 @@ Web application that prints "Hello, World!" to the browser.
 .. code-block:: javascript
 
     const http = require('http');
-    const hostname = '
+    const hostname = '';
+    const port = 3000;
 
     const server = http.createServer((req, res) => {
       res.statusCode = 200;
@@ -81,3 +82,19 @@ Web application that prints "Hello, World!" to the browser.
 3. ``node server.js`` - Run the file
 
 Open a web browser and navigate to http://localhost:3000. You should see the message "Hello, World!".
+
+Express.js
+==========
+Express.js is fast, unopinionated, minimalist web framework for Node.js
+It is used for building web applications and APIs.
+
+`Official Website <https://expressjs.com/>`_
+
+Installation and Usage
+----------------------
+
+To install Express.js, run the following command:
+
+.. code-block:: bash
+
+   npm install express

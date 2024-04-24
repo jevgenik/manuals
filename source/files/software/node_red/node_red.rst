@@ -15,3 +15,7 @@ Developed by IBM Emerging Technology and the open source community.
 * `Official Website <https://nodered.org/>`_
 
 * `Documentation <https://nodered.org/docs/>`_
+
+* `GitHub <https://github.com/node-red`_
+
+* `YouTube <https://www.youtube.com/channel/UCQaB8NXBEPod7Ab8PPCLLAA>`_
