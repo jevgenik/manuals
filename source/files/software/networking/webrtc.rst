@@ -17,6 +17,38 @@ The technologies behind WebRTC are implemented as an open web standard and avail
    
    How WebRTC works. `Source <https://www.techtarget.com/searchunifiedcommunications/definition/WebRTC-Web-Real-Time-Communications>`_.
 
+* STUN (Session Traversal Utilities for NAT) server helps devices behind NAT devices communicate with other devices across the internet by 
+  discovering their public IP address and opening communication channels between them.
+
+* TURN (Traversal Using Relays around NAT) server is similar to STUN, but it also acts as a relay server for devices that cannot establish a direct 
+  peer-to-peer connection due to symmetric NAT or firewall restrictions. Relay server means that all media traffic is relayed through the server,
+  which can increase latency.
+
+* Signaling server is used to exchange information between peers, such as session control messages, metadata, and media information. 
+  WebRTC signaling refers to the process of setting up, controlling, and terminating a communication session.
+  It is not part of the WebRTC standard, and developers can use any protocol or technology to implement signaling. 
+  The most common signaling protocols are SIP, XMPP, and WebSocket.
+
+
+WebRTC communication steps:
+---------------------------
+
+1. Get user media: The browser requests permission to access the user's camera and microphone.
+2. Create an RTCPeerConnection object: The browser creates an RTCPeerConnection object to manage the connection between peers.
+3. Create an offer: The browser creates an offer that includes information about the media tracks, codecs, and other connection parameters.
+4. Exchange SDP (Session Description Protocol): The offer is sent to the other peer using the signaling server. 
+   The other peer responds with an answer that includes its own media information.
+5. Establish a connection: The peers exchange ICE candidates to establish a direct connection between them.
+6. Exchange media: Once the connection is established, the peers can exchange media streams directly without going through a server.
+
+.. note::
+
+   ICE (Interactive Connectivity Establishment) is a framework used to establish a connection between peers by finding the best path for communication.
+
+.. note::
+
+   SDP (Session Description Protocol) is a protocol used to describe media streams and connection parameters between peers.
+  
 
 Janus Gateway
 =============
