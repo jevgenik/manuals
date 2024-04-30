@@ -151,3 +151,12 @@ Commands
   - ``ffprobe /dev/video0`` provides information about the V4L2 device
 
 
+GStreamer
+=========
+GStreamer is a pipeline-based multimedia framework that links together a wide variety of media processing systems to complete complex workflows.
+GStreamer is a framework for creating streaming media applications.
+For instance, GStreamer can be used to build a system that reads files in one format, processes them, and exports them in another.
+
+`Official Website <https://gstreamer.freedesktop.org/>`_
+
+
