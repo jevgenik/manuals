@@ -18,11 +18,12 @@ The technologies behind WebRTC are implemented as an open web standard and avail
    How WebRTC works. `Source <https://www.techtarget.com/searchunifiedcommunications/definition/WebRTC-Web-Real-Time-Communications>`_.
 
 * STUN (Session Traversal Utilities for NAT) server helps devices behind NAT devices communicate with other devices across the internet by 
-  discovering their public IP address and opening communication channels between them.
+  discovering their public IP address and opening communication channels between them. Google provides a free STUN server at `stun:stun.l.google.com:19302`.
 
 * TURN (Traversal Using Relays around NAT) server is similar to STUN, but it also acts as a relay server for devices that cannot establish a direct 
   peer-to-peer connection due to symmetric NAT or firewall restrictions. Relay server means that all media traffic is relayed through the server,
-  which can increase latency.
+  which can increase latency. Turn servers are used to route traffic from behind challenging networks.
+  Not always needed, but in some corporate environments it might be.
 
 * Signaling server is used to exchange information between peers, such as session control messages, metadata, and media information. 
   WebRTC signaling refers to the process of setting up, controlling, and terminating a communication session.
