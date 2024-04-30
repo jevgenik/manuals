@@ -38,6 +38,7 @@ WebRTC communication steps:
 3. Create an offer: The browser creates an offer that includes information about the media tracks, codecs, and other connection parameters.
 4. Exchange SDP (Session Description Protocol): The offer is sent to the other peer using the signaling server. 
    The other peer responds with an answer that includes its own media information.
+   Offer contains information about the data channels (if needed) that will be used, and how the peer can be reached (ICE candidates).
 5. Establish a connection: The peers exchange ICE candidates to establish a direct connection between them.
 6. Exchange media: Once the connection is established, the peers can exchange media streams directly without going through a server.
 
