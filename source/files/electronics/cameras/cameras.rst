@@ -160,3 +160,10 @@ For instance, GStreamer can be used to build a system that reads files in one fo
 `Official Website <https://gstreamer.freedesktop.org/>`_
 
 
+.. note::
+
+   GStreamer provides a more flexible and modular approach to multimedia processing. It allows developers to easily create custom pipelines and 
+   plug-in their own components. FFMPEG, on the other hand, focuses more on providing pre-built solutions and may have limited 
+   flexibility in terms of customization.
+
+
