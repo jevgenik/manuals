@@ -26,4 +26,6 @@ Dashboard 2.0
 Build your own UI using Node-RED. An easy to use collection of nodes for Node-RED that allows you to create data-driven 
 dashboards & data visualisations.
 
-`Website <https://dashboard.flowfuse.com/>`_
+* `Official Website <https://dashboard.flowfuse.com/>`_
+
+* `Documentation <https://dashboard.flowfuse.com/about.html/>`_
