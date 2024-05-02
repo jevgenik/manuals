@@ -28,4 +28,4 @@ dashboards & data visualisations.
 
 * `Official Website <https://dashboard.flowfuse.com/>`_
 
-* `Documentation <https://dashboard.flowfuse.com/getting-started.html/>`_
+* `Documentation <https://dashboard.flowfuse.com/about.html>`_
