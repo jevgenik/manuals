@@ -19,3 +19,5 @@ Useful links
 * `Google Colab <https://colab.research.google.com/>`_  is a hosted Jupyter Notebook service that requires no setup to use and provides free access to computing resources, including GPUs and TPUs.
 
 * `Imgur <https://imgur.com/>`_ is a free image hosting and sharing service
+
+* `Thingiverse <https://www.thingiverse.com/>`_ is a popular online platform for sharing digital designs for 3D printing
