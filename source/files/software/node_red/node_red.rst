@@ -21,8 +21,9 @@ Developed by IBM Emerging Technology and the open source community.
 * `YouTube <https://www.youtube.com/channel/UCQaB8NXBEPod7Ab8PPCLLAA>`_
 
 
-Dashboard 2.0 Build your own UI using Node-RED
-==============================================
-An easy to use collection of nodes for Node-RED that allows you to create data-driven dashboards & data visualisations.
+Dashboard 2.0
+=============
+Build your own UI using Node-RED. An easy to use collection of nodes for Node-RED that allows you to create data-driven 
+dashboards & data visualisations.
 
 `Website <https://dashboard.flowfuse.com/>`_
