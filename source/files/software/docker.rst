@@ -53,8 +53,8 @@ Run docker containers with GUI
 .. note::    
    If a container was started in attached mode (``docker run -it``), you can detach from the container without stopping it by pressing ``Ctrl + P + Q``   
 
-Commands related to container
------------------------------
+Commands related to containers
+------------------------------
   
 * ``docker ps -a`` - list all containers (running and stopped)
   
