@@ -15,7 +15,7 @@ settings that machine might have that could differ from the machine used for wri
    :alt: Docker Build and Run
 
 Docker commands
-================
+===============
 
 Commands related to images
 --------------------------
@@ -30,8 +30,8 @@ Commands related to images
 * ``docker pull <image name>`` - pull an image from a registry (e.g. Docker Hub). When is called after image already pulled, it will pull the latest version of the image.
 
 
-Run docker container
---------------------
+Commands related to containers
+------------------------------
 
 Run docker containers with GUI
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -53,8 +53,8 @@ Run docker containers with GUI
 .. note::    
    If a container was started in attached mode (``docker run -it``), you can detach from the container without stopping it by pressing ``Ctrl + P + Q``   
 
-Commands related to containers
-------------------------------
+Some more useful commands
+~~~~~~~~~~~~~~~~~~~~~~~~~
   
 * ``docker ps -a`` - list all containers (running and stopped)
   
@@ -102,7 +102,7 @@ Docker compose
 --------------
 
 Create. start, stop and remove containers
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 * ``docker compose -f docker-compose_lenovo.yml up``
 
