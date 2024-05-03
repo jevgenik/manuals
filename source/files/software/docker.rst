@@ -17,8 +17,8 @@ settings that machine might have that could differ from the machine used for wri
 Docker commands
 ================
 
-Buid image
-----------
+Commands related to images
+--------------------------
 
 * ``docker build -f Dockerfile.nav -t nav_cont:latest --build-arg BASE_IMAGE="nvidia_x86" ..`` - build image passing build-time variable BASE_IMAGE to docker file
 
@@ -27,7 +27,8 @@ Buid image
   
 * ``docker build --no-cache -t nav_cont:latest ..`` - rebuild image without cache (useful when you want to rebuild image with new dependencies)
 
-* ``docker exec -it <container-name/ID> bash`` - run bash in a running container
+* ``docker pull <image name>`` - pull an image from a registry (e.g. Docker Hub). When is called after image already pulled, it will pull the latest version of the image.
+
 
 Run docker container
 --------------------
@@ -52,14 +53,16 @@ Run docker containers with GUI
 .. note::    
    If a container was started in attached mode (``docker run -it``), you can detach from the container without stopping it by pressing ``Ctrl + P + Q``   
 
-List containers
----------------
+Commands related to container
+-----------------------------
   
 * ``docker ps -a`` - list all containers (running and stopped)
   
 * ``docker container ls -a`` - list all containers (running and stopped) it is alias for ``docker ps -a``
 
 * ``docker compose ps`` - list containers for a Compose project, with current status and exposed ports (NB! should be run in the same directory where docker-compose.yml is located)
+
+* ``docker exec -it <container-name/ID> bash`` - run bash in a running container
 
 
 Inspect (containers, networks, images, volumes)
