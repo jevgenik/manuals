@@ -14,9 +14,9 @@ Developed by IBM Emerging Technology and the open source community.
 
 * `Official Website <https://nodered.org/>`_
 
-* `Documentation <https://nodered.org/docs/>`_
+* `Documentation <https://nodered.org/docs>`_
 
-* `Node-RED Library <https://flows.nodered.org//>`_
+* `Node-RED Library <https://flows.nodered.org/>`_
 
 * `GitHub <https://github.com/node-red>`_
 
