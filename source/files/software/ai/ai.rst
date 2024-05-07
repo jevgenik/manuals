@@ -24,6 +24,10 @@ and then changes its approach and tests it again, and again. It always tries to 
    
 Types of Machine Learning. `Source. <https://idapgroup.com/blog/types-of-machine-learning-out-there/>`_
 
+.. image:: images/generative_ai.png
+   :width: 450px
+   :alt: Generative AI
+
 .. toctree::
    :maxdepth: 2
 
