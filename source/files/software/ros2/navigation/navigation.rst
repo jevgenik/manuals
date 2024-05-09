@@ -5,7 +5,7 @@ Navigation
 .. image:: ../images/robot_navigation.png
    :alt: Robot Navigation
 
-* `Nav2 documentation <https://navigation.ros.org>`_
+* `Nav2 Official Documentation <https://docs.nav2.org/>`_
 
 * `Introduction to navigation and Nav2 <https://husarion.com/tutorials/ros2-tutorials/9-navigation/>`_
 
