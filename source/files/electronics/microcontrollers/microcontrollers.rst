@@ -17,7 +17,9 @@ produced by Espressif Systems in Shanghai, China
 
 ESP32
 =====
+ESP32 is a successor of the ESP8266 microcontroller.
+
 ESP32 is a series of low-cost, low-power system on a chip microcontrollers with integrated Wi-Fi and dual-mode Bluetooth, 
 produced by Espressif Systems in Shanghai, China.
-ESP32 is a successor of the ESP8266 microcontroller.
+
 ESP32 is a dual-core 160MHz to 240MHz CPU, whereas the ESP8266 is a single-core processor that runs at 80MHz. Both CPUs are 32-bit.
