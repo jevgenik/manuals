@@ -98,3 +98,22 @@ To install Express.js, run the following command:
 .. code-block:: bash
 
    npm install express
+
+
+npm and node commands
+=====================
+
+* ``npm init`` - Create a new package.json file (initialize a new project)
+
+* ``npm i <package_name>`` - Install a package
+
+* ``npme i -D <package_name>`` - Install a package as a development dependency
+
+  - ``npm i -D typescript ts-node nodemon @types/express @types/socket.io`` 
+
+* ``npm run <script_name>`` - Run a script from the package.json file
+
+  - ``npm run dev`` - Run the script named "dev" from the package.json file
+  - ``npm run start`` - Run the script named "start" from the package.json file
+
+* ``node <file_name>`` - Run a JavaScript file (e.g. node index.js)
