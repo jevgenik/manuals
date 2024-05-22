@@ -116,4 +116,6 @@ npm and node commands
   - ``npm run dev`` - Run the script named "dev" from the package.json file
   - ``npm run start`` - Run the script named "start" from the package.json file
 
+* ``node -v`` - Check the installed version of Node.js
+
 * ``node <file_name>`` - Run a JavaScript file (e.g. node index.js)

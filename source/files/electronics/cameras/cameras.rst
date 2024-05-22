@@ -121,6 +121,9 @@ Codecs
 
 * ``h264_nvenc`` is NVIDIA GPU hardware accelerated H.264 encoder (nvenc means NVIDIA encoder)
 
+* ``libvpx-vp9`` is a free software video codec developed by Google (VP9 codec). It is part of the WebM project.
+  It is widely used in WebRTC and YouTube. Comparing to H.264, VP9 provides better compression and quality at the same bitrate.
+
 
 Commands
 --------
