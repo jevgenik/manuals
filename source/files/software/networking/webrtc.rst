@@ -18,10 +18,11 @@ The technologies behind WebRTC are implemented as an open web standard and avail
    How WebRTC works. `Source <https://www.techtarget.com/searchunifiedcommunications/definition/WebRTC-Web-Real-Time-Communications>`_.
 
 
-* Signaling server is used to exchange information between peers, such as session control messages, metadata, and media information. 
+* Signaling server (e.g. Node.js + Socket.IO) is used to exchange information between peers, such as session control messages, 
+  metadata, and media information. 
   WebRTC signaling refers to the process of setting up, controlling, and terminating a communication session.
   It is not part of the WebRTC standard, and developers can use any protocol or technology to implement signaling. 
-  The most common signaling protocols are SIP, XMPP, and WebSocket.
+  The most common signaling protocols are SIP, XMPP, and WebSocket (e.g. using Socket.IO).
 
 * STUN (Session Traversal Utilities for NAT) server helps devices behind NAT devices communicate with other devices across the internet by 
   discovering their public IP address and opening communication channels between them. Google provides a free STUN server at `stun:stun.l.google.com:19302`.
