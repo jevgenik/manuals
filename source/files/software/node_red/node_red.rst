@@ -25,6 +25,14 @@ Developed by IBM Emerging Technology and the open source community.
 * `YouTube <https://www.youtube.com/channel/UCQaB8NXBEPod7Ab8PPCLLAA>`_
 
 
+FlowFuse
+========
+FlowFuse provides a complete platform for building, scaling and securing your production Node-RED applications. 
+Accelerate digitizing your industrial processes with ease
+
+`Official Website <https://flowfuse.com/>`_
+
+
 Dashboard 2.0
 =============
 Build your own UI using Node-RED. An easy to use collection of nodes for Node-RED that allows you to create data-driven 
