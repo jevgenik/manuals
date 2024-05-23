@@ -28,5 +28,5 @@ Given a rectangular image, the image is rescaled and cropped out the central 256
 Useful resources:
 =================
 
-* `PandasAI <https://pandasai.com>`_ - PandasAI is a Python library that makes it easy to ask questions to your data in natural language.
+* `PandasAI <https://pandas-ai.com/>`_ - PandasAI is a Python library that makes it easy to ask questions to your data in natural language.
   PandasAI uses a generative AI model to understand and interpret natural language queries and translate them into python code and SQL queries. 
