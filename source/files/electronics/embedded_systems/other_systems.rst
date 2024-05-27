@@ -10,6 +10,7 @@ The LOGO! has a range of inputs and outputs, as well as communication options fo
 
 `Official Website <https://www.siemens.com/global/en/products/automation/systems/industrial/plc/logo.html>`_
 
+
 Siemens IOT2020
 ===============
 The Siemens IOT2020 is an industrial IoT gateway that is designed to connect industrial devices to the cloud.
