@@ -17,6 +17,3 @@ The Siemens IOT2020 is an industrial IoT gateway that is designed to connect ind
 
 `Official Website <https://www.siemens.com/global/en/products/automation/pc-based/iot-gateways/simatic-iot2050.html>`_
 
-
-Ciomparing to Siemens LOOGO!, Siemens IOT2020 is more powerful and can be used in more complex applications.
-
