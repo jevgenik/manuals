@@ -7,3 +7,4 @@ Embedded Systems
    
    nvidia
    rpi
+   other_systems
