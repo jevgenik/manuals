@@ -22,5 +22,4 @@ Useful links
 
 * `Thingiverse <https://www.thingiverse.com/>`_ is a popular online platform for sharing digital designs for 3D printing
 
-* `Kaggle <https://www.kaggle.com/>`_ is a platform for predictive modeling and analytics competitions in which companies and researchers post data and statisticians 
-  and data miners compete to produce the best models for predicting and describing the data.
+* `Kaggle <https://www.kaggle.com/>`_ is a data science competition platform and online community of data scientists and machine learning practitioners

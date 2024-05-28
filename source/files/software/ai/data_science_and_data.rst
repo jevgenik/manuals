@@ -30,3 +30,5 @@ Useful resources:
 
 * `PandasAI <https://pandas-ai.com/>`_ - PandasAI is a Python library that makes it easy to ask questions to your data in natural language.
   PandasAI uses a generative AI model to understand and interpret natural language queries and translate them into python code and SQL queries. 
+
+* `Kaggle <https://www.kaggle.com/>`_ - is the world's largest data science community. Here you can find datasets, notebooks, and competitions.
