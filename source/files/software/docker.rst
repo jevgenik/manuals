@@ -29,6 +29,8 @@ Commands related to images
 
 * ``docker pull <image name>`` - pull an image from a registry (e.g. Docker Hub). When is called after image already pulled, it will pull the latest version of the image.
 
+* ``docker history <image name>`` - show the history of an image (layers, size, etc)
+
 
 Commands related to containers
 ------------------------------
