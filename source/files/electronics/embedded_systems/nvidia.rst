@@ -10,7 +10,8 @@ Jetson is a low-power system and is designed for accelerating machine learning a
 Web resources
 ===========
 
-* `NVIDIA Jetson <https://developer.nvidia.com/embedded-computing>`_
+* `Official NVIDIA Jetson page <https://developer.nvidia.com/embedded-computing>`_
+* `Jetson Software Documentation <https://docs.nvidia.com/jetson/>`_
 * `Jetpack <https://developer.nvidia.com/embedded/jetpack>`_
 * `JetsonHacks <https://jetsonhacks.com/>`_
 
