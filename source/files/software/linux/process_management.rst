@@ -14,4 +14,7 @@ Process management
   - ``ps -f`` - show full format listing (more details about the processes)
   - ``ps aux`` - show all running processes (a - show processes of all users, u - show processes of current user, 
     x - [extended] show processes not attached to a terminal)
+
+* ``top`` - utility in Linux that provides a real-time, dynamic view of the system's performance. It displays information about CPU usage, 
+  memory usage, running processes, and more
   

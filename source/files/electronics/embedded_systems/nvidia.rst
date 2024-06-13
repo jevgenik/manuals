@@ -19,3 +19,5 @@ Tools
 =====
 
 * ``nvidia-smi`` - NVIDIA System Management Interface program. Provides monitoring and management capabilities for NVIDIA GPUs
+
+* ``jtop`` - Jetson System Monitoring Tool. A top-like tool for monitoring the system (CPU, GPU, RAM, etc.)
