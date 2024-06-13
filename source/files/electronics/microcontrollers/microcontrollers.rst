@@ -32,7 +32,7 @@ Useful resources
 * `Platformio <https://platformio.org/>`_ - an open-source ecosystem for embedded development. It allows working with various MCUs 
   (such as ARM Cortex, AVR, MSP430), development boards, frameworks, and environments (Arduino, ESP-IDF, and many others).
 
-* `MicroPyhton <https://micropython.org/>`_ - is a software implementation of a programming language largely compatible with Python 3, written in C,
+* `MicroPython <https://micropython.org/>`_ - is a software implementation of a programming language largely compatible with Python 3, written in C,
   that is optimized to run on a microcontroller. MicroPython consists of a Python compiler to bytecode and a runtime interpreter of that bytecode
 
 * `CircuitPython <https://circuitpython.org/>`_ -  is an open-source derivative of the MicroPython programming language targeted toward students and 
