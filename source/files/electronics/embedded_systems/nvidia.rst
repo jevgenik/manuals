@@ -14,6 +14,8 @@ Web resources
 * `Jetson Software Documentation <https://docs.nvidia.com/jetson/>`_
 * `Jetpack <https://developer.nvidia.com/embedded/jetpack>`_
 * `JetsonHacks <https://jetsonhacks.com/>`_
+* `NVIDIA Isaac ROS <https://nvidia-isaac-ros.github.io/>`_ - a collection of NVIDIA-accelerated, high performance, low latency 
+  ROS 2 packages for making autonomous robots which leverage the power of Jetson and other NVIDIA platforms.
 
 
 Tools
