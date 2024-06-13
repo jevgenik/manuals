@@ -7,8 +7,8 @@ Jetson devices carry a Tegra SoC from Nvidia that integrates an ARM architecture
 Jetson is a low-power system and is designed for accelerating machine learning applications
 
 
-Web resources
-===========
+Useful resources
+================
 
 * `Official NVIDIA Jetson page <https://developer.nvidia.com/embedded-computing>`_
 * `Jetson Software Documentation <https://docs.nvidia.com/jetson/>`_
