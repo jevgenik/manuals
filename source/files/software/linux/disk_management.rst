@@ -7,8 +7,9 @@ Commands:
 * ``fdisk -l`` - list disks and partitions
 * ``fdisk /dev/sdX`` - access the disk with fdisk utility
 * ``mount /dev/sdX1 /mnt/...`` - mount a partition
-* ``umount /dev/sdX1`` - unmount a partition
+* ``umount /mnt/...`` - unmount a partition
 * ``mkfs.ext4 /dev/sdX1`` - format a partition with ext4 file system
+* ``lsblk`` - list block devices (disks and partitions)
 
 .. tip:: 
    ``fdisk`` is a command-line utility that provides disk partitioning functions
