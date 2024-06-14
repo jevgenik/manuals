@@ -1,1 +1,1 @@
-Documentation website: https://jevgenik.github.io/manuals/
+Documentation is hosted here: https://jevgenik.github.io/manuals/
