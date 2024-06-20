@@ -36,7 +36,7 @@ npm commands
 
 * ``npm uninstall -D <package_name>`` - Uninstall a development dependency
 
-* ``npm run <script_name>`` - Run a script from the package.json file
+* ``npm run <script_name>`` - Run a script from the package.json file (e.g. ``npm run dev``)
 
 * ``npm list`` - List all locally installed packages
 
