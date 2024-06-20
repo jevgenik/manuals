@@ -28,6 +28,14 @@ npm commands
 
 * ``npm i -D <package_name>`` - Install a package as a development dependency
 
+* ``npm uninstall <package_name>`` - Uninstall a package
+
+* ``npm uninstall -g <package_name>`` - Uninstall a package globally
+
+* ``npm uninstall -D <package_name>`` - Uninstall a development dependency
+
+* ``npm run <script_name>`` - Run a script from the package.json file
+
 * ``npm list`` - List all locally installed packages
 
 * ``npm list -g`` - List all globally installed packages
@@ -35,6 +43,10 @@ npm commands
 * ``npm audit`` - Check for vulnerabilities in installed packages
 
 * ``npm audit fix`` - Fix vulnerabilities in installed packages
+
+* ``npm outdated`` - Check for outdated packages
+
+* ``npm update`` - Update all packages to the latest version
 
 
 Installation and Usage
