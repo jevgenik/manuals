@@ -24,6 +24,8 @@ npm commands
 
 * ``npm i <package_name>`` - Install a package (locally, folder node_modules will be created)
 
+* Running ``npm i`` will install all the dependencies listed in the package.json file
+
 * ``npm i -g <package_name>`` - Install a package globally
 
 * ``npm i -D <package_name>`` - Install a package as a development dependency
