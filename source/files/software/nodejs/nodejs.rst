@@ -17,6 +17,26 @@ packages of code with other developers.
 
 npm is the world's largest Software Registry.
 
+npm commands
+------------
+
+* `npm init` - Create a new package.json file (initialize a new project)
+
+* `npm i <package_name>` - Install a package (locally, folder node_modules will be created)
+
+* `npm i -g <package_name>` - Install a package globally
+
+* `npm i -D <package_name>` - Install a package as a development dependency
+
+* `npm list` - List all locally installed packages
+
+* `npm list -g` - List all globally installed packages
+
+* `npm audit` - Check for vulnerabilities in installed packages
+
+* `npm audit fix` - Fix vulnerabilities in installed packages
+
+
 Installation and Usage
 ======================
 
