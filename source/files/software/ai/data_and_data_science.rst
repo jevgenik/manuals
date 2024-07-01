@@ -45,6 +45,9 @@ uses embeddings could find a similar photo or document.
 For example we would expect the distance between the word *cat* and the word *dog* to be smaller than the distance between 
 the word *cat* and the word *helicopter*.
 
+For creating embeddings, we can use pre-trained models like Word2Vec, GloVe, FastText, BERT, etc. 
+These models take in text data and output embeddings for each word in the text.
+
 
 Vector Database
 ===============
