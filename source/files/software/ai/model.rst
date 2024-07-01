@@ -26,3 +26,11 @@ including feedforward neural networks, convolutional neural networks, and transf
 * MobileNetV2 is a convolutional neural network that is 53 layers deep. It is a very efficient model and is designed 
   for mobile and embedded vision applications.
 
+
+Large Language Models (LLMs)
+============================
+A Large Language Model (LLM) is a type of artificial intelligence (AI) program that can recognize and generate text, among other tasks. 
+LLMs are trained on huge sets of data — hence the name "large." LLMs are built on machine learning: specifically, a type of 
+neural network called a transformer model.
+
+
