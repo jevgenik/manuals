@@ -12,6 +12,7 @@ or neurons, where each layer of the model performs a specific function, such as 
 Popular model architectures include decision trees for smaller datasets, and deep neural networks for larger datasets, 
 including feedforward neural networks, convolutional neural networks, and transformers.
 
+**Some popular model architectures:**
 
 * VGG-16 is a convolutional neural network (CNN) architecture that was used to win the 2014 ImageNet competition. 
   It is considered to be one of the excellent vision model architectures till date.
