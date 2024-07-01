@@ -9,3 +9,11 @@ but also tells us where. Comparing to Classification with Localization, object d
 
 .. image:: /files/images/object_detection.png   
    :alt: Object Detection
+
+
+Useful Resources:
+=================
+
+* Edge Impulse FOMO (Faster Objects, More Objects) is a novel machine learning algorithm that brings object detection to highly constrained 
+  devices which lets you count multiple objects and find their location in an image in real-time using up to 30x less processing power 
+  and memory than MobileNet SSD or YOLOv5. `Link <https://docs.edgeimpulse.com/docs/edge-impulse-studio/learning-blocks/object-detection/fomo-object-detection-for-constrained-devices>`_
