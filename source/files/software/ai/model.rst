@@ -12,7 +12,7 @@ or neurons, where each layer of the model performs a specific function, such as 
 Popular model architectures include decision trees for smaller datasets, and deep neural networks for larger datasets, 
 including feedforward neural networks, convolutional neural networks, and transformers.
 
-`Source: <https://www.hopsworks.ai/dictionary/model-architecture>`_
+`Source <https://www.hopsworks.ai/dictionary/model-architecture>`_
 
 **Some popular model architectures:**
 
