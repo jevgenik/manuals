@@ -59,7 +59,7 @@ Cameras
 Useful Resources
 ================
 
-* ROS 2 package *depth_anything_v2_ros2* - is a ROS 2 wrapper for the depth_anything_v2 library. It provides a ROS2 node that subscribes 
+* ROS 2 package *depth_anything_v2_ros2* - is a ROS 2 wrapper for the *depth_anything_v2* library. It provides a ROS2 node that subscribes 
   to a camera topic and publishes the depth map of the scene. `GitHub <https://github.com/grupo-avispa/depth_anything_v2_ros2?tab=readme-ov-file>`_
 
 
