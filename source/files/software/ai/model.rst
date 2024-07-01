@@ -19,6 +19,10 @@ including feedforward neural networks, convolutional neural networks, and transf
 * VGG-16 is a convolutional neural network (CNN) architecture that was used to win the 2014 ImageNet competition. 
   It is considered to be one of the excellent vision model architectures till date.
 
+* YOLOv3 (You Only Look Once) is a state-of-the-art, real-time object detection system that is extremely fast and 
+  accurate. It is a single-stage object detection model that goes straight from image pixels to bounding box coordinates 
+  and class probabilities in one pass.
+
 * MobileNetV2 is a convolutional neural network that is 53 layers deep. It is a very efficient model and is designed 
   for mobile and embedded vision applications.
 
