@@ -49,6 +49,7 @@ For creating embeddings, we can use pre-trained models like Word2Vec, GloVe, Fas
 These models take in text data and output embeddings for each word in the text.
 For images we can use pre-trained models like ResNet, VGG, etc. These models take in images and output embeddings for each image.
 
+
 Vector Database
 ===============
 A vector database is a database that stores embeddings. It is used to store and retrieve embeddings for similarity search.
@@ -59,6 +60,12 @@ A vector database is a database that stores embeddings. It is used to store and 
 
 Vector Database. `Source. <https://www.linkedin.com/pulse/complete-guide-creating-storing-vector-embeddings-pavan-belagatti-5fyfc/>`_
 
+
+Data Augmentation
+=================
+Data augmentation is a technique used to artificially increase the size of a dataset by applying transformations to the data.
+This technique is commonly used in computer vision tasks to increase the diversity of the training data and improve the generalization 
+of the model.
 
 
 Useful resources
