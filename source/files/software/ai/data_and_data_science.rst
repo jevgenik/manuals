@@ -45,6 +45,7 @@ uses embeddings could find a similar photo or document.
 For example we would expect the distance between the word *cat* and the word *dog* to be smaller than the distance between 
 the word *cat* and the word *helicopter*.
 
+
 Vector Database
 ===============
 A vector database is a database that stores embeddings. It is used to store and retrieve embeddings for similarity search.
