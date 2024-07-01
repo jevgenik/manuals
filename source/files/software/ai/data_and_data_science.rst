@@ -47,7 +47,7 @@ the word *cat* and the word *helicopter*.
 
 For creating embeddings, we can use pre-trained models like Word2Vec, GloVe, FastText, BERT, etc. 
 These models take in text data and output embeddings for each word in the text.
-
+For images we can use pre-trained models like ResNet, VGG, etc. These models take in images and output embeddings for each image.
 
 Vector Database
 ===============
