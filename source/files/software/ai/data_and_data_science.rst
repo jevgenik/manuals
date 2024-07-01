@@ -53,8 +53,8 @@ A vector database is a database that stores embeddings. It is used to store and 
 .. figure:: images/vector_db.png
    :width: 450px
    :alt: Vector Database
-   
-   Vector Database. `Source. <https://www.linkedin.com/pulse/complete-guide-creating-storing-vector-embeddings-pavan-belagatti-5fyfc/>`_
+
+Vector Database. `Source. <https://www.linkedin.com/pulse/complete-guide-creating-storing-vector-embeddings-pavan-belagatti-5fyfc/>`_
 
 
 
