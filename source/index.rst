@@ -19,7 +19,6 @@ Guide into robotics
    files/software/linux/linux
    files/software/git/git
    files/software/ai/ai
-   files/software/ai/data_science_and_data
    files/software/ros2/ros2
    files/software/docker
    files/software/coding/coding

@@ -1,7 +1,3 @@
-======================
-AI/ML and Data Science
-======================
-
 Machine Learning
 ================
 Machine learning means that a computer program improves through experience; it does not need a programmer 
