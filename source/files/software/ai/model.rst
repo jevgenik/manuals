@@ -26,8 +26,9 @@ including feedforward neural networks, convolutional neural networks, and transf
 * *MobileNetV2* is a convolutional neural network that is 53 layers deep. It is a very efficient model and is designed 
   for mobile and embedded vision applications.
 
-* *Depth Anything* is trained on 1.5M labeled images and 62M+ unlabeled images jointly, providing the most capable 
-  Monocular Depth Estimation (MDE) foundation models
+* *Depth Anything* is an advanced AI model designed for Monocular Depth Estimation (MDE). It is notable for its ability to provide 
+  robust depth estimations from a single image, rather than requiring multiple viewpoints as in traditional stereoscopic methods.
+  Trained on 1.5M labeled images and 62M+ unlabeled images jointly.
 
 
 Large Language Models (LLMs)
