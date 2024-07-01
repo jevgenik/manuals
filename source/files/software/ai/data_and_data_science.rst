@@ -31,15 +31,19 @@ In all, there are roughly 1.2 million training images, 50,000 validation images,
 ImageNet consists of variable-resolution images. Therefore, the images have been down-sampled to a fixed resolution of 256 x 256. 
 Given a rectangular image, the image is rescaled and cropped out the central 256 x 256 patch from the resulting image.
 
+
 Embeddings
 ==========
-Embeddings are a type of data representation that can be used to represent categorical data in a continuous space.
+Embeddings are a type of data representation that can be used to represent categorical data in a continuous vector space.
 Embeddings are representations of values or objects like text, images, and audio that are designed to be consumed by machine learning 
-models and semantic search algorithms. They translate objects like these into a mathematical form according to the factors or traits 
-each one may or may not have, and the categories they belong to.
+models and semantic search algorithms. These vectors capture the semantic relationships between the objects, allowing similar objects 
+to be closer to each other in this space.
 
 Essentially, embeddings enable machine learning models to find similar objects. Given a photo or a document, a machine learning model that 
-uses embeddings could find a similar photo or documen
+uses embeddings could find a similar photo or document.
+
+For example we would expect the distance between the word *cat* and the word *dog* to be smaller than the distance between 
+the word *cat* and the word *helicopter*.
 
 
 Useful resources
