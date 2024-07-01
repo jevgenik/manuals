@@ -7,3 +7,4 @@ AI/ML and Data Science
 
    ai
    data_and_data_science
+   embeddings

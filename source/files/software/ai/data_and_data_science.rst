@@ -5,6 +5,13 @@ Data science is an interdisciplinary academic field that uses statistics, scient
 algorithms and systems to extract or extrapolate knowledge and insights from potentially noisy, structured, or unstructured data.
 
 
+.. figure:: images/structured_vs_unstructured_data.png
+   :width: 450px
+   :alt: Structured vs Unstructured Data
+   
+   Structured vs Unstructured Data. `Source. <https://www.pecan.ai/blog/what-is-structured-data/>`_
+
+
 Dataset
 =======
 Dataset is a collection of data that is used to train a machine learning model. The dataset is usually split into two parts:  
