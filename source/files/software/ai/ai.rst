@@ -31,7 +31,6 @@ Types of Machine Learning. `Source. <https://idapgroup.com/blog/types-of-machine
 .. toctree::
    :maxdepth: 2
 
-   data_science_and_data
    model
    deep_learning
    computer_vision/computer_vision
