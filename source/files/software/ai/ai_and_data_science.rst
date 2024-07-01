@@ -6,4 +6,4 @@ AI/ML and Data Science
    :maxdepth: 2
 
    ai
-   data_science_and_data
+   data_and_data_science
