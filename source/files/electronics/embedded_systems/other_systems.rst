@@ -13,7 +13,7 @@ It is like industrial Arduino.
 
 
 Siemens SIMATIC IOT2050
-===============
+=======================
 The Siemens SIMATIC IOT2050 is an industrial IoT gateway that is designed to connect industrial devices to the cloud.
 It is like industrial RPi.
 

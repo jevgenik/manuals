@@ -26,6 +26,11 @@ ESP32 is a dual-core 160MHz to 240MHz CPU, whereas the ESP8266 is a single-core 
 ESP32 has more RAM than ESP8266.
 
 
+Raspberry Pi Pico
+================
+The Raspberry Pi Pico is a microcontroller board based on the RP2040 microcontroller chip.
+
+
 Useful resources
 ================
 
