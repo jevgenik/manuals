@@ -16,6 +16,7 @@ IoT
 * `Grafana <https://grafana.com/>`_ is the open source analytics & monitoring solution for every database
 
 
+
 AI/ML and Robotics
 ==================
 
@@ -33,6 +34,7 @@ AI/ML and Robotics
 
 * `Google Colab <https://colab.research.google.com/>`_  is a hosted Jupyter Notebook service that requires no setup to use and provides free access 
   to computing resources, including GPUs and TPUs.
+
 
 
 Design and Prototyping
