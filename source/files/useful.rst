@@ -50,3 +50,12 @@ Design and Prototyping
 
 * `Imgur <https://imgur.com/>`_ is a free image hosting and sharing service
 
+
+
+Rapid Software Development
+==========================
+
+* `Replit <https://replit.com/>`_ is an AI-powered software development & deployment platform for building, sharing, and shipping software fast
+
+* `Voiceflow <https://www.voiceflow.com/>`_ is a platform for building AI agents (Chatbots)
+
