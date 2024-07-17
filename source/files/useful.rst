@@ -35,6 +35,9 @@ AI/ML and Robotics
 * `Google Colab <https://colab.research.google.com/>`_  is a hosted Jupyter Notebook service that requires no setup to use and provides free access 
   to computing resources, including GPUs and TPUs.
 
+* `Rerun <https://rerun.io/>`_ is an SDK, time-series database, and visualizer for temporal and multimodal data. It’s used in fields like robotics, 
+  spatial computing, 2D/3D simulation, and finance to verify, debug, and explain.
+
 
 
 Design and Prototyping
