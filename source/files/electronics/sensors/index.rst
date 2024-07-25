@@ -7,3 +7,4 @@ Sensors
 
    gps
    ultrasonic_sensors
+   imu
