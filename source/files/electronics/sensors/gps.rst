@@ -1,7 +1,6 @@
 ===
 GPS
 ===
-
 GPS (Global Positioning System) is a satellite-based navigation system that provides location and time information 
 anywhere on or near the Earth where there is an unobstructed line of sight to four or more GPS satellites. 
 The system is operated by the United States government and is freely accessible to anyone with a GPS receiver.
