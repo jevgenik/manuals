@@ -76,9 +76,9 @@ Python libraries
 * ``pynmea2`` - a library for parsing NMEA 0183 (GPS) data (``pip install pynmea2``)
 
 
-ROS 2
------
+ROS
+---
 
-* ``sensor_msgs/NavSatFix`` - message type for GPS data in ROS 2
+* `sensor_msgs/NavSatFix <https://docs.ros.org/en/melodic/api/sensor_msgs/html/msg/NavSatFix.html>`_ - message type for GPS data in ROS
       
 
