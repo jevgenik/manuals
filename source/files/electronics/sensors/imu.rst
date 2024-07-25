@@ -11,7 +11,6 @@ When the GPS signal is weak in some places, IMU can play its role, allowing the 
 information so as not to get lost.
 
 .. figure:: ../images/imu_sensor.png
-   :alt: IMU sensor
-   :width: 500px
+   :alt: IMU sensor   
 
    IMU sensor
