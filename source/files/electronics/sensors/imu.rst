@@ -12,5 +12,6 @@ information so as not to get lost.
 
 .. figure:: ../images/imu_sensor.png
    :alt: IMU sensor
+   :width: 500px
 
-   `IMU sensor`
+   IMU sensor
