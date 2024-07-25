@@ -13,3 +13,9 @@ information so as not to get lost.
    :alt: IMU sensor   
 
    IMU sensor
+
+
+ROS
+===
+
+* `sensor_msgs/Imu <https://docs.ros.org/en/noetic/api/sensor_msgs/html/msg/Imu.html>`_ - message type for IMU data in ROS
