@@ -8,4 +8,5 @@ Sensors
    gps   
    imu
    lidar
+   motor_encoder
    ultrasonic_sensors
