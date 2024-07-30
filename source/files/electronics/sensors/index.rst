@@ -5,6 +5,7 @@ Sensors
 .. toctree::
    :maxdepth: 1
 
-   gps
-   ultrasonic_sensors
+   gps   
    imu
+   lidar
+   ultrasonic_sensors
