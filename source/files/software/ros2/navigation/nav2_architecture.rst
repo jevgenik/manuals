@@ -6,7 +6,7 @@ Nav2 architecture
    :width: 100%
    :alt: Nav2 architecture   
    
-   `Source <https://navigation.ros.org/>`_
+   `Source <https://docs.nav2.org/index.html>`_
 
 * **BT Navigator Server** - behavioral tree determining the execution of the appropriate step of the algorithm (e.g. first determine the optimal path and then run the controller).
 * **Controller Server** - creates a local costmap and implements the server for handling the controller requests.
