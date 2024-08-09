@@ -15,5 +15,7 @@ continual updates, **services only provide data when they are specifically calle
 Commands
 ========
 
+* ``ros2 service list`` - list all services
+
 * ``ros2 service call <service_name> <service_type> <arguments>`` - call a service 
   (e.g. ros2 service call /spawn turtlesim_msgs/srv/Spawn "{x: 2, y: 2, theta: 0.2, name: ''}")
