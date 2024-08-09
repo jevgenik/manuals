@@ -28,9 +28,6 @@ ROS 2 Packages and Messages
   BehaviorTreeEngine class which uses the Behavior-Tree.CPP library to dynamically create and execute the BT. The BT XML can also be  
   specified on a per-task basis so that your robot may have many different types of navigation or autonomy behaviors on a per-task basis  
 
-* `nav_msgs/OccupancyGrid <https://docs.ros.org/en/melodic/api/nav_msgs/html/msg/OccupancyGrid.html>`_ - represents a 2-D grid map, in which each cell represents 
-  the probability of occupancy
-
 
 ROS 1
 -----
