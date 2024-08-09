@@ -15,3 +15,6 @@ Libraries and ROS packages
 ==========================
 
 * RTAB-Map (Real-Time Appearance-Based Mapping) is a RGB-D, Stereo and Lidar Graph-Based SLAM approach. `GitHub <https://introlab.github.io/rtabmap/>`_
+
+* `nav_msgs/OccupancyGrid <https://docs.ros.org/en/melodic/api/nav_msgs/html/msg/OccupancyGrid.html>`_ - represents a 2-D grid map, in which each cell represents 
+  the probability of occupancy
