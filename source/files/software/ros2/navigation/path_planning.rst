@@ -11,6 +11,7 @@ Path planning is the process of finding a path from a start point to a goal poin
    :width: 400
    :alt: Setting a goal for navigation
 
+
 Global planning
 ===============
 
@@ -18,14 +19,17 @@ Local planning
 ==============
 
 
-ROS 2 packages
---------------
+ROS packages and messages
+=========================
 
 * `nav2_bt_navigator <https://github.com/ros-planning/navigation2/tree/main/nav2_bt_navigator>`__ (replaces move_base)
   The BT Navigator receives a goal pose and navigates the robot to the specified destination(s). To do so,  
   the module reads an XML description of the Behavior Tree from a file, as specified by a Node parameter, and passes that to a generic  
   BehaviorTreeEngine class which uses the Behavior-Tree.CPP library to dynamically create and execute the BT. The BT XML can also be  
   specified on a per-task basis so that your robot may have many different types of navigation or autonomy behaviors on a per-task basis  
+
+* `nav_msgs/OccupancyGrid <https://docs.ros.org/en/melodic/api/nav_msgs/html/msg/OccupancyGrid.html>`_ - represents a 2-D grid map, in which each cell represents 
+  the probability of occupancy
 
 
 ROS 1
