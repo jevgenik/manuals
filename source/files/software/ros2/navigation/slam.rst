@@ -6,6 +6,11 @@ while simultaneously keeping track of the robot's location within it.
 This is a key technology for autonomous robots that need to operate in unknown environments.
 
 
+Mapping
+=======
+Mapping is the process of creating a map of the environment.
+
+
 Libraries and ROS packages
 ==========================
 
