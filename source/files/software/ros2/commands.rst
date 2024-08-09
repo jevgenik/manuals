@@ -12,8 +12,9 @@ General commands
 * ``ros2 wtf`` or ``ros2 doctor`` - show diagnostic information about the ROS 2 system
 * ``:=`` - remapping arguments (e.g. ``ros2 run turtlesim turtlesim_node __ns:=/turtle1`` - run turtlesim_node with namespace /turtle1)
 
+
 ROS 2 topic commands
-===================
+====================
 
 * ``ros2 topic echo <topic_name>`` - show messages published to topic
 * ``ros2 topic echo <topic_name> --no-arr`` - show messages published to topic without array brackets
@@ -33,6 +34,7 @@ Name remapping
 * ``-r __node:=<new node name>`` this renames the node to 'new_node_name'.  
 Namespace allows you to run multiple instances of the same node with separate parameter spaces. 
 
+
 Package commands
 ================
 
@@ -41,6 +43,7 @@ Package commands
 * ``ros2 pkg create --build-type ament_cmake  --dependencies urdf xacro <package_name>`` - create package with cmake build system and dependencies urdf and xacro
 * ``ros2 pkg prefix <package name>`` - get the installation location of package	
 * ``ros2 pkg list`` - list all installed packages
+
 
 ROS 2 params
 ============
