@@ -9,4 +9,4 @@ This is a key technology for autonomous robots that need to operate in unknown e
 Libraries and ROS packages
 ==========================
 
-* RTAB-Map (Real-Time Appearance-Based Mapping) is a RGB-D, Stereo and Lidar Graph-Based SLAM approach. `Link <https://introlab.github.io/rtabmap/>`_
+* RTAB-Map (Real-Time Appearance-Based Mapping) is a RGB-D, Stereo and Lidar Graph-Based SLAM approach. `GitHub <https://introlab.github.io/rtabmap/>`_
