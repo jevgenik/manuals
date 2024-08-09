@@ -19,7 +19,7 @@ Local planning
 ==============
 
 
-ROS packages and messages
+ROS 2 Packages and Messages
 =========================
 
 * `nav2_bt_navigator <https://github.com/ros-planning/navigation2/tree/main/nav2_bt_navigator>`__ (replaces move_base)
