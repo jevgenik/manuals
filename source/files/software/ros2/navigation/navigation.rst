@@ -14,9 +14,11 @@ Navigation
 .. toctree::
    :maxdepth: 1
 
-   nav2_architecture
+   behavior_tree
+   instructions
    localization
+   nav2_architecture
    odometry
    path_planning
-   behavior_tree
    pointcloud
+   slam
