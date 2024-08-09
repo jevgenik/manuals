@@ -12,8 +12,8 @@ continual updates, **services only provide data when they are specifically calle
    Source: `ROS 2 Documentation <https://docs.ros.org/en/rolling/Tutorials/Beginner-CLI-Tools/Understanding-ROS2-Services/Understanding-ROS2-Services.html>`_
 
 
-Commands and Messages
-=====================
+Commands
+========
 
-``ros2 service call <service_name> <service_type> <arguments>`` - call a service 
+* ``ros2 service call <service_name> <service_type> <arguments>`` - call a service 
   (e.g. ros2 service call /spawn turtlesim_msgs/srv/Spawn "{x: 2, y: 2, theta: 0.2, name: ''}")
