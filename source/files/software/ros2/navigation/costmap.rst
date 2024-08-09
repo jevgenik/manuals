@@ -17,3 +17,7 @@ The OctoMap library implements a 3D occupancy grid mapping approach, providing d
 mapping algorithms in C++ particularly suited for robotics. The map implementation is based on an octree.
 
 `Official Website <https://octomap.github.io/>`_
+
+
+ROS packages
+============
