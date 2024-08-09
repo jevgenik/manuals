@@ -15,6 +15,7 @@ Navigation
    :maxdepth: 1
 
    behavior_tree
+   costmap
    instructions
    localization
    nav2_architecture
