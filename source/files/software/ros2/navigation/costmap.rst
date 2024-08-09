@@ -30,3 +30,5 @@ mapping algorithms in C++ particularly suited for robotics. The map implementati
 
 ROS packages
 ============
+
+* nav2_costmap_2d
