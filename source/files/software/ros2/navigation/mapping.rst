@@ -58,7 +58,7 @@ than the exact distances.
    Topological Map
 
 
-ROS packages and interfaces
+ROS Packages and Interfaces
 ===========================
 
 * **depthimage_to_laserscan** - converts depth image to laser scan  
