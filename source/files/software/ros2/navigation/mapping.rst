@@ -6,6 +6,26 @@ the environment that a robot or sensor can perceive. The goal of mapping is to g
 2D or 3D representation, that captures the spatial layout, obstacles, and other relevant features of the surroundings. 
 [`Source <https://medium.com/@mansooralam129047/what-is-mapping-in-robotics-how-to-create-map-in-ros-8c002d409c07>`_]
 
+Robotic mapping is a discipline related to computer vision and cartography. The goal for an autonomous robot is to be able 
+to construct (or use) a map (outdoor use) or floor plan (indoor use) and to localize itself and its recharging bases or beacons 
+in it. 
+
+The internal representation of the map can be "metric" or "topological"
+
+
+Discrete Map (metric map)
+=========================
+Discrete map is like a grid, where the environment is divided into cells. Each cell represents a specific area, and the map is essentially  
+a collection of these cells, each with some attribute (like occupancy probability in a slam scenario).  
+It's like mapping the world with a bunch of tiny squares or hexagons. 
+This makes it computationally more tractable, especially for grid-based algorithms.
+
+.. figure:: images/occupancy_grid_map.png
+   :width: 450px
+   :alt: Occupancy Grid Map
+   
+   Occupancy Grid Map
+
 
 Topological Maps
 ================
@@ -20,20 +40,6 @@ than the exact distances.
    :alt: Topological Map
    
    Topological Map
-
-
-Discrete map (metric map)
-=========================
-Discrete map is like a grid, where the environment is divided into cells. Each cell represents a specific area, and the map is essentially  
-a collection of these cells, each with some attribute (like occupancy probability in a slam scenario).  
-It's like mapping the world with a bunch of tiny squares or hexagons. 
-This makes it computationally more tractable, especially for grid-based algorithms.
-
-.. figure:: images/occupancy_grid_map.png
-   :width: 450px
-   :alt: Occupancy Grid Map
-   
-   Occupancy Grid Map
 
 
 ROS packages and interfaces
