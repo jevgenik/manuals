@@ -3,11 +3,11 @@ Path planning
 =============
 Path planning is the process of finding a path from a start point to a goal point through obstacles. 
 
-.. image:: ../images/path_planning.png   
+.. image:: /images/path_planning.png   
    :width: 400
    :alt: Path planning
 
-.. image:: ../images/set_goal_for_nav.gif
+.. image:: /images/set_goal_for_nav.gif
    :width: 400
    :alt: Setting a goal for navigation
 

@@ -2,7 +2,7 @@
 Navigation
 ==========
 
-.. image:: ../images/robot_navigation.png
+.. image:: /images/robot_navigation.png
    :alt: Robot Navigation
 
 * `Nav2 Official Documentation <https://docs.nav2.org/>`_
