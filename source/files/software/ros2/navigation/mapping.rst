@@ -10,7 +10,23 @@ Robotic mapping is a discipline related to computer vision and cartography. The 
 to construct (or use) a map (outdoor use) or floor plan (indoor use) and to localize itself and its recharging bases or beacons 
 in it. [`Source <https://en.wikipedia.org/wiki/Robotic_mapping>`_]
 
+
+Map representation
+==================
 The internal representation of the map can be "metric" or "topological"
+
+* The metric framework is the most common for humans and considers a two-dimensional space in which it places the objects. 
+  The objects are placed with precise coordinates. This representation is very useful, but is sensitive to noise and it is 
+  difficult to calculate the distances precisely.
+
+* The topological framework only considers places and relations between them. Often, the distances between places are stored. 
+  The map is then a graph, in which the nodes corresponds to places and arcs correspond to the paths.
+  
+Many techniques use probabilistic representations of the map, in order to handle uncertainty.
+
+There are three main methods of map representations, i.e., free space maps, object maps, and composite maps. 
+These employ the notion of a grid, but permit the resolution of the grid to vary so that it can become finer 
+where more accuracy is needed and more coarse where the map is uniform.
 
 
 Discrete Map (metric map)
