@@ -3,10 +3,10 @@ Localization
 ============
 Localization is the process of determining where a mobile robot is located with respect to its environment.
 
-.. image:: /images/localization_discrete.png   
+.. image:: images/localization_discrete.png   
    :alt: Localization Discrete probability function
 
-.. image:: /images/localization_continuous.png   
+.. image:: images/localization_continuous.png   
    :alt: Localization Continuous probability function
 
 Algorithms
