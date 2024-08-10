@@ -6,7 +6,7 @@ the environment that a robot or sensor can perceive. The goal of mapping is to g
 2D or 3D representation, that captures the spatial layout, obstacles, and other relevant features of the surroundings.
 
 
-Topological maps
+Topological Maps
 ================
 Topological maps focus on the spatial relationships and connectivity between different locations, emphasizing the relative positions 
 of features rather than their precise geographic coordinates. These maps are often used in navigation systems  and robotics to plan  
@@ -21,15 +21,15 @@ than the exact distances.
    Topological Map
 
 
-Geometric maps
+Geometric Maps
 ==============
-are based on the **precise geographic coordinates of features**. They're useful for navigation systems that need to know the exact  
+Geometric maps are based on the **precise geographic coordinates of features**. They're useful for navigation systems that need to know the exact  
 distances between locations. They're also used in robotics to plan efficient routes and understand the layout of an area.
 
 
 Descrete map
 ============ 
-is like a grid, where the environment is divided into cells. Each cell represents a specific area, and the map is essentially  
+Descrete map is like a grid, where the environment is divided into cells. Each cell represents a specific area, and the map is essentially  
 a collection of these cells, each with some attribute (like occupancy probability in a slam scenario).  
 It's like mapping the world with a bunch of tiny squares or hexagons. 
 This makes it computationally more tractable, especially for grid-based algorithms.
