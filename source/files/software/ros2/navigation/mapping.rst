@@ -51,6 +51,14 @@ mapping algorithms in C++ particularly suited for robotics. The map implementati
 `Official Website <https://octomap.github.io/>`_
 
 
+Semantic Map (metric map)
+=========================
+Semantic map is a type of map that includes information about the meaning or semantics of the environment.
+For example, a semantic map might include information about the function of different areas in a building,
+such as "kitchen," "living room," or "bathroom." This type of map can be useful for robots that need to perform
+specific tasks in different areas, such as cleaning or delivering items.
+
+
 Topological Maps
 ================
 Topological maps focus on the spatial relationships and connectivity between different locations, emphasizing the relative positions 
