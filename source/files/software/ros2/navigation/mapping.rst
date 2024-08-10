@@ -8,7 +8,7 @@ the environment that a robot or sensor can perceive. The goal of mapping is to g
 
 Robotic mapping is a discipline related to computer vision and cartography. The goal for an autonomous robot is to be able 
 to construct (or use) a map (outdoor use) or floor plan (indoor use) and to localize itself and its recharging bases or beacons 
-in it. 
+in it. [`Source <https://en.wikipedia.org/wiki/Robotic_mapping>`_]
 
 The internal representation of the map can be "metric" or "topological"
 
