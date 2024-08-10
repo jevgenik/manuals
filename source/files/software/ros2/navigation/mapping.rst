@@ -58,7 +58,8 @@ of features rather than their precise geographic coordinates. These maps are oft
 efficient routes and understand the layout of an area. They're handy when you care more about the connections between places  
 than the exact distances. 
 
-> Origin of word "topology": Greek topos (place) + logos (study).*
+.. tip::
+   Origin of word "topology": Greek topos (place) + logos (study).*
 
 .. figure:: images/topological_map.jpg
    :width: 450px
