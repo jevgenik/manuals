@@ -22,8 +22,8 @@ than the exact distances.
    Topological Map
 
 
-Discrete map
-============ 
+Discrete map (metric map)
+=========================
 Discrete map is like a grid, where the environment is divided into cells. Each cell represents a specific area, and the map is essentially  
 a collection of these cells, each with some attribute (like occupancy probability in a slam scenario).  
 It's like mapping the world with a bunch of tiny squares or hexagons. 
