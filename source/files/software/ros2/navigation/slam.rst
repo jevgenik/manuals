@@ -20,4 +20,4 @@ Libraries and ROS packages
   the probability of occupancy
 
 * **gmapping** (g means grid because this algorithm uses a grid map) is a highly efficient Rao-Blackwellized particle filter to learn grid maps from laser range data  
-`GitHub <https://openslam-org.github.io/gmapping.html>`_
+  `GitHub <https://openslam-org.github.io/gmapping.html>`_
