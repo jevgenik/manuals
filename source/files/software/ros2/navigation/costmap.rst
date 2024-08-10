@@ -20,13 +20,6 @@ The Costmap 2D package implements a 2D grid-based costmap for environmental repr
 number of sensor processing plugins (AI outputs, depth sensor obstacle buffering, semantic information, etc)
 
 
-.. figure:: images/occupancy_grid_map.png
-   :width: 450px
-   :alt: Occupancy grid map
-   
-   Occupancy grid map.
-   
-
 OctoMap
 =======
 The OctoMap library implements a 3D occupancy grid mapping approach, providing data structures and 

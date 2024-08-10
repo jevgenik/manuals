@@ -18,6 +18,7 @@ Navigation
    costmap
    instructions
    localization
+   mapping
    nav2_architecture
    odometry
    path_planning
