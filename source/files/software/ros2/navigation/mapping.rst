@@ -19,7 +19,7 @@ than the exact distances.
    :alt: Topological Map
    
    Topological Map
-   
+
 
 Discrete map
 ============ 
@@ -35,8 +35,8 @@ This makes it computationally more tractable, especially for grid-based algorith
    Occupancy Grid Map
 
 
-ROS Packages
-============
+ROS packages and interfaces
+===========================
 
 * **depthimage_to_laserscan** - converts depth image to laser scan  
   `GitHub <https://github.com/ros-perception/depthimage_to_laserscan/tree/ros2>`_
