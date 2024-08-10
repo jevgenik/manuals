@@ -3,7 +3,8 @@ Mapping
 =======
 Mapping, in the context of robotics and ROS (Robot Operating System), refers to the process of creating a representation of 
 the environment that a robot or sensor can perceive. The goal of mapping is to generate a map, which is typically a 
-2D or 3D representation, that captures the spatial layout, obstacles, and other relevant features of the surroundings.
+2D or 3D representation, that captures the spatial layout, obstacles, and other relevant features of the surroundings. 
+[`Source <https://medium.com/@mansooralam129047/what-is-mapping-in-robotics-how-to-create-map-in-ros-8c002d409c07>`_]
 
 
 Topological Maps
