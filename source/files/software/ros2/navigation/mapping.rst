@@ -24,7 +24,7 @@ The internal representation of the map can be "metric" or "topological"
   
 Many techniques use probabilistic representations of the map, in order to handle uncertainty.
 
-There are three main methods of map representations, i.e., free space maps, object maps, and composite maps. 
+There are three main methods of map representations, i.e., free space maps (occupancy grids), object maps, and composite maps. 
 These employ the notion of a grid, but permit the resolution of the grid to vary so that it can become finer 
 where more accuracy is needed and more coarse where the map is uniform.
 
@@ -49,7 +49,7 @@ Topological maps focus on the spatial relationships and connectivity between dif
 of features rather than their precise geographic coordinates. These maps are often used in navigation systems  and robotics to plan  
 efficient routes and understand the layout of an area. They're handy when you care more about the connections between places  
 than the exact distances.  
-> Origin of word "topology": Greek topos (place) + logos (study).
+*Origin of word "topology": Greek topos (place) + logos (study).*
 
 .. figure:: images/topological_map.jpg
    :width: 450px

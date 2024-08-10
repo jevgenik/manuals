@@ -18,3 +18,6 @@ Libraries and ROS packages
 
 * `nav_msgs/OccupancyGrid <https://docs.ros.org/en/melodic/api/nav_msgs/html/msg/OccupancyGrid.html>`_ - represents a 2-D grid map, in which each cell represents 
   the probability of occupancy
+
+* **gmapping** (g means grid because this algorithm uses a grid map) is a highly efficient Rao-Blackwellized particle filter to learn grid maps from laser range data  
+`GitHub <https://openslam-org.github.io/gmapping.html>`_
