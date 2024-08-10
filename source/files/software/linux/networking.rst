@@ -5,7 +5,7 @@ Networking
 systemd-networkd
 ================
 systemd-networkd is a system daemon that manages network configurations.
-Is part of the systemd init system. Comapring to NetworkManager, systemd-networkd is a lightweight 
+Is part of the systemd init system. Comparing to NetworkManager, systemd-networkd is a lightweight 
 and low-level network configuration service (us)
 
 * ``/etc/systemd/network/`` - network configuration files are stored in this directory
@@ -22,7 +22,7 @@ and other Linux kernel interfaces and provides a high-level interface for the co
 
 * ``systemctl status NetworkManager.service`` - show status of NetworkManager service
     
-* ``mcli`` is a command-line tool for controlling NetworkManager and reporting network status.
+* ``nmcli`` is a command-line tool for controlling NetworkManager and reporting network status.
 
   -  ``nmcli device show`` - show all network interfaces
 
