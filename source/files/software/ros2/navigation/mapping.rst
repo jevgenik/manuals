@@ -29,8 +29,8 @@ These employ the notion of a grid, but permit the resolution of the grid to vary
 where more accuracy is needed and more coarse where the map is uniform.
 
 
-Discrete Map (metric map)
-=========================
+Occupancy Grid Map (metric map)
+===============================
 Discrete map is like a grid, where the environment is divided into cells. Each cell represents a specific area, and the map is essentially  
 a collection of these cells, each with some attribute (like occupancy probability in a slam scenario).  
 It's like mapping the world with a bunch of tiny squares or hexagons. 
