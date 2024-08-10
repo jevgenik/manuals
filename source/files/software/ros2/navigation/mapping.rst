@@ -19,17 +19,11 @@ than the exact distances.
    :alt: Topological Map
    
    Topological Map
+   
 
-
-Geometric Maps
-==============
-Geometric maps are based on the **precise geographic coordinates of features**. They're useful for navigation systems that need to know the exact  
-distances between locations. They're also used in robotics to plan efficient routes and understand the layout of an area.
-
-
-Descrete map
+Discrete map
 ============ 
-Descrete map is like a grid, where the environment is divided into cells. Each cell represents a specific area, and the map is essentially  
+Discrete map is like a grid, where the environment is divided into cells. Each cell represents a specific area, and the map is essentially  
 a collection of these cells, each with some attribute (like occupancy probability in a slam scenario).  
 It's like mapping the world with a bunch of tiny squares or hexagons. 
 This makes it computationally more tractable, especially for grid-based algorithms.
@@ -39,12 +33,6 @@ This makes it computationally more tractable, especially for grid-based algorith
    :alt: Occupancy Grid Map
    
    Occupancy Grid Map
-
-
-Continuous map
-==============
-represents the environment as a smooth, mathematical function. Instead of breaking the world into discrete cells, you model it  
-as a continuous surface. Continuous maps offer a more detailed representation, but they can be computationally demanding
 
 
 ROS Packages
