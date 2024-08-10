@@ -28,7 +28,11 @@ mapping algorithms in C++ particularly suited for robotics. The map implementati
 `Official Website <https://octomap.github.io/>`_
 
 
-ROS packages
-============
+ROS packages and Interfaces
+===========================
 
-* nav2_costmap_2d
+* *nav2_costmap_2d* is responsible for building a 2D costmap of the environment, consisting of several "layers" of data about the environment. 
+  `GitHub <https://github.com/ros-navigation/navigation2/blob/main/nav2_costmap_2d/README.md>`_
+
+* `nav_msgs/OccupancyGrid <https://docs.ros.org/en/melodic/api/nav_msgs/html/msg/OccupancyGrid.html>`_ - represents a 2-D grid map, in which each cell represents 
+  the probability of occupancy
