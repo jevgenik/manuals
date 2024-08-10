@@ -43,6 +43,14 @@ This makes it computationally more tractable, especially for grid-based algorith
    Occupancy Grid Map
 
 
+OctoMap
+=======
+The OctoMap library implements a 3D occupancy grid mapping approach, providing data structures and 
+mapping algorithms in C++ particularly suited for robotics. The map implementation is based on an octree.
+
+`Official Website <https://octomap.github.io/>`_
+
+
 Topological Maps
 ================
 Topological maps focus on the spatial relationships and connectivity between different locations, emphasizing the relative positions 
