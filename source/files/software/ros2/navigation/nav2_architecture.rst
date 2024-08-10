@@ -2,7 +2,7 @@
 Nav2 architecture
 =================
 
-.. figure:: /images/nav2_architecture.png
+.. figure:: images/nav2_architecture.png
    :width: 100%
    :alt: Nav2 architecture   
    
