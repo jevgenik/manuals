@@ -74,6 +74,16 @@ efficient routes and understand the layout of an area. They're handy when you ca
 than the exact distances. 
 
 
+.. tip::
+   Origin of word "topology": Greek topos (place) + logos (study).*
+
+.. figure:: images/topological_map.jpg
+   :width: 450px
+   :alt: Topological Map
+   
+   Topological Map
+   
+
 Topometric Map
 ==============
 Topometric maps are a combination of topological and metric maps, providing both spatial relationships and precise coordinates.
@@ -83,16 +93,6 @@ Semantic Topometric Map
 =======================
 Semantic topometric maps combine the spatial relationships of topological maps with the semantic information of semantic maps,
 providing a comprehensive representation of the environment that includes both the layout and the meaning of different areas.
-
-
-.. tip::
-   Origin of word "topology": Greek topos (place) + logos (study).*
-
-.. figure:: images/topological_map.jpg
-   :width: 450px
-   :alt: Topological Map
-   
-   Topological Map
 
 
 ROS Packages and Interfaces
