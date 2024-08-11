@@ -19,7 +19,7 @@ or refining that estimate as the robot moves.
 .. note::
    "Local" localization because uncertainty is local and confined to a region near the robot's true pose.
 
-Scope: It usually operates in a local coordinate frame (e.g. ``/odom`` frame ) and is often concerned with small adjustments or 
+Scope: It usually operates in a local coordinate frame (``/odom``) and is often concerned with small adjustments or 
 corrections in position and orientation as the robot moves.
 
 **Technologies/Methods:**
@@ -39,7 +39,7 @@ Global localization involves determining the robot’s position within a larger,
 any prior knowledge of the robot’s **starting position**. It is used when the robot needs to determine its location within an 
 entire environment, which could be a large building or outdoor area.
 
-Scope: It operates on a global coordinate frame, often involving a large map where the robot's position is initially unknown.
+Scope: It operates on a global coordinate frame (``/map`` or ``/world``), often involving a large map where the robot's position is initially unknown.
 
 **Technologies/Methods:**
 
