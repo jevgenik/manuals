@@ -65,4 +65,7 @@ Algorithms
 ROS Packages and Interfaces
 ===========================
 
+* **nav2_amcl** - Adaptive Monte Carlo Localization (AMCL) is a probabilistic localization module which estimates the position 
+  and orientation (i.e. Pose) of a robot in a given known map using a 2D laser scanner. `GitHub <https://github.com/ros-navigation/navigation2/tree/main/nav2_amcl>`_
+
 * `geometry_msgs/Pose <https://docs.ros.org/en/noetic/api/geometry_msgs/html/msg/Pose.html>`_ - a representation of pose in free space, composed of position and orientation
