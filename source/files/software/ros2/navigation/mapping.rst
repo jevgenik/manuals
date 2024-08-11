@@ -1,3 +1,5 @@
+.. _mapping:
+
 =======
 Mapping
 =======
@@ -82,7 +84,7 @@ than the exact distances.
    :alt: Topological Map
    
    Topological Map
-   
+
 
 Topometric Map
 ==============

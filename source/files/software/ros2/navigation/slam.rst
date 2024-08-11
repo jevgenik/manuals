@@ -5,9 +5,10 @@ SLAM (Simultaneous Localization and Mapping) is a technique used in robotics to 
 while simultaneously keeping track of the robot's location within it. 
 This is a key technology for autonomous robots that need to operate in unknown environments.
 
-Localization
 
-Mapping
+:ref:`localization`
+
+:ref:`mapping`
 
 
 Loop Closure [`Source <https://www.thinkautonomous.ai/blog/loop-closure/>`_]
