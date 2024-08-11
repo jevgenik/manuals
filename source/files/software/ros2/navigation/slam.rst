@@ -24,7 +24,7 @@ only to be released near the Eiffel Tower. Suddenly, you realize "Hey, I know th
    :width: 450px
    :alt: Loop Closure
    
-   Loop Closure. `Source <https://www.thinkautonomous.ai/blog/loop-closure/>`_
+   Loop Closure. `Source <https://www.youtube.com/watch?v=OV6wNr62nqQ>`_
 
 
 Libraries and ROS packages
