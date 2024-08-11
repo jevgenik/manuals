@@ -60,3 +60,9 @@ Algorithms
 * **AMCL (Adaptive Monte Carlo Localization)** is a probabilistic algorithm that uses a particle filter to estimate    
   a robot's 2D pose based on sensor data. The algorithm works by representing the robot's pose as a distribution  
   of particles, where each particle represents a possible pose of the robot  
+
+
+ROS Packages and Interfaces
+===========================
+
+* `geometry_msgs/Pose <https://docs.ros.org/en/noetic/api/geometry_msgs/html/msg/Pose.html>`_ - a representation of pose in free space, composed of position and orientation
