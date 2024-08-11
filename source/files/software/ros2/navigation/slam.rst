@@ -11,10 +11,10 @@ This is a key technology for autonomous robots that need to operate in unknown e
 :ref:`mapping`
 
 
-Loop Closure [`Source <https://www.thinkautonomous.ai/blog/loop-closure/>`_]
-============================================================================
+Loop Closure 
+============
 Loop Closure is what helps a robot understand that an object has already been visited, and therefore the robot will update 
-its location and the map accordingly. 
+its location and the map accordingly [`Source <https://www.thinkautonomous.ai/blog/loop-closure/>`_].
 
 Imagine being blindfolded, and then transported at the back of a car with armed kidnappers, 
 only to be released near the Eiffel Tower. Suddenly, you realize "Hey, I know this place!" and you're (somewhat) relieved.
