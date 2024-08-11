@@ -13,8 +13,9 @@ This is a key technology for autonomous robots that need to operate in unknown e
 
 Loop Closure 
 ============
-Loop Closure is what helps a robot understand that an object has already been visited, and therefore the robot will update 
-its location and the map accordingly.
+Loop Closure is the process by which a robot recognizes that it has returned to a previously visited location in its environment, 
+even after traveling a significant distance or through complex paths. Detecting loop closure is essential for **reducing drift** in the 
+robot’s estimated position and **improving the accuracy of the map** it is building.
 
 Imagine being blindfolded, and then transported at the back of a car with armed kidnappers, 
 only to be released near the Eiffel Tower. Suddenly, you realize "Hey, I know this place!" and you're (somewhat) relieved 
