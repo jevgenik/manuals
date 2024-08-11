@@ -16,6 +16,9 @@ Local localization involves determining the robot's position relative to a **kno
 well-defined area. It assumes that the robot has a good initial estimate of its position, and it focuses on maintaining 
 or refining that estimate as the robot moves.
 
+.. note::
+   "Local" localization because uncertainty is local and confined to a region near the robot's true pose.
+
 Scope: It usually operates in a local coordinate frame and is often concerned with small adjustments or 
 corrections in position and orientation as the robot moves.
 
