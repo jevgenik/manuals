@@ -32,8 +32,8 @@ corrections in position and orientation as the robot moves.
 
 Global Localization
 ===================
-Global localization involves determining the **robot’s position within** a larger, often **pre-defined, map** or environment **without 
-any prior knowledge of the robot’s starting position**. It is used when the robot needs to determine its location within an 
+Global localization involves determining the robot’s position within a larger, often **pre-defined, map** or environment **without** 
+any prior knowledge of the robot’s **starting position**. It is used when the robot needs to determine its location within an 
 entire environment, which could be a large building or outdoor area.
 
 Scope: It operates on a global coordinate frame, often involving a large map where the robot's position is initially unknown.
