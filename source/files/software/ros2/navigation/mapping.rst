@@ -43,12 +43,19 @@ This makes it computationally more tractable, especially for grid-based algorith
    Occupancy Grid Map
 
 
-OctoMap
-=======
+OctoMap (metric map)
+====================
 The OctoMap library implements a 3D occupancy grid mapping approach, providing data structures and 
 mapping algorithms in C++ particularly suited for robotics. The map implementation is based on an octree.
 
 `Official Website <https://octomap.github.io/>`_
+
+OctoMap vs 3D Occupancy Grid (Voxel Grid)
+-----------------------------------------
+1. Structure: Octomap uses an octree data structure, while voxel grids use a regular 3D grid.
+2. Resolution: Octomap can adapt its resolution based on sensor data, while voxel grids have a fixed resolution.
+3. Memory usage: Octomap can be more memory-efficient than voxel grids, especially for sparse environments, due to its hierarchical structure.
+4. Querying: Octomap allows for efficient querying of the map at different resolutions, while voxel grids provide direct access to individual voxels.
 
 
 Semantic Map (metric map)
