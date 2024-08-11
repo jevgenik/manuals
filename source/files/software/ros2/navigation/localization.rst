@@ -19,7 +19,7 @@ or refining that estimate as the robot moves.
 .. note::
    "Local" localization because uncertainty is local and confined to a region near the robot's true pose.
 
-Scope: It usually operates in a local coordinate frame and is often concerned with small adjustments or 
+Scope: It usually operates in a local coordinate frame (e.g. ``/odom`` frame ) and is often concerned with small adjustments or 
 corrections in position and orientation as the robot moves.
 
 **Technologies/Methods:**
