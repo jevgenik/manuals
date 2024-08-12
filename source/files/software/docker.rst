@@ -115,3 +115,13 @@ Create. start, stop and remove containers
 * ``docker compose start``- start the stopped containers, can't create new ones
 
 * ``docker compose down`` - stop and remove containers, networks, images, and volumes
+
+
+Install Docker Engine
+=====================
+
+1. `Docker Intallation Guide <https://docs.docker.com/engine/install/_>`_
+
+2. After installation, add your user to the docker group to avoid using sudo when you use the docker command. 
+
+   * ``sudo usermod -aG docker $USER``
