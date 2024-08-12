@@ -10,3 +10,5 @@ ROS Packages and Interfaces
 ===========================
 
 * **robot_state_publisher** - Publishes the state of a robot to the tf2 library. `GitHub <https://github.com/ros/robot_state_publisher/tree/rolling>`_
+
+* `sensor_msgs/JointState <https://docs.ros.org/en/noetic/api/sensor_msgs/html/msg/JointState.html>`_ - a message that represents the state of a set of joints
