@@ -122,5 +122,5 @@ Docker Installation
 
 1. `Docker Intallation Guide <https://docs.docker.com/engine/install/_>`_
 
-2. After installation, add your user to the docker group to avoid using sudo when you use the docker command. 
+2. After installation, add your user to the docker group to avoid using sudo when you use the docker command:  
    ``sudo usermod -aG docker $USER``
