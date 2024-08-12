@@ -13,7 +13,7 @@ Behaviour tree is a mathematical model of plan execution used in computer scienc
   that the main building block of a behavior is a task rather than a state
 
 
-.. figure:: /images/behavior_tree.png   
+.. figure:: images/behavior_tree.png   
    :alt: Behavior tree   
    
    `Source <https://www.gamedeveloper.com/programming/behavior-trees-for-ai-how-they-work/>`_
