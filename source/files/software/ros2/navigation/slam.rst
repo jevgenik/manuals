@@ -11,6 +11,7 @@ This is a key technology for autonomous robots that need to operate in unknown e
 :ref:`mapping`
 
 
+.. _loop_closure:
 Loop Closure 
 ============
 Loop Closure is the process by which a robot recognizes that it has returned to a previously visited location in its environment, 

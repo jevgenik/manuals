@@ -55,17 +55,12 @@ Scope: It operates on a global coordinate frame (``/map`` or ``/world``), often 
 
 * Map Matching: Matching sensor data (like LiDAR scans) with a global map to estimate position.
 
-* Loop Closure Detection in SLAM: Detecting when the robot revisits a known location to refine its global position estimate.
+* :ref:`loop_closure` Detection in SLAM: Detecting when the robot revisits a known location to refine its global position estimate.
 
 
 Local localization is precise and focused on the immediate surroundings, useful for fine-tuning the robot's movement and avoiding obstacles. 
 Global localization, on the other hand, is about finding the robot's place in the broader context of its environment, 
 which is crucial for overall navigation and task planning.
-
-
-Loop Closure
-============
-Loop closure is the process of detecting when a robot revisits a location it has previously seen or visited.
 
 
 Algorithms
