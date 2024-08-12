@@ -117,8 +117,8 @@ Create. start, stop and remove containers
 * ``docker compose down`` - stop and remove containers, networks, images, and volumes
 
 
-Install Docker Engine
-=====================
+Installation
+============
 
 1. `Docker Intallation Guide <https://docs.docker.com/engine/install/_>`_
 
