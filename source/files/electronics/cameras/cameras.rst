@@ -53,8 +53,8 @@ To calibrate a camera, we need to take pictures of a calibration pattern from di
 
 
 .. _intel_realsense:
-Intel RealSense depth cameras
-=============================
+Intel RealSense depth cameras (RGBD)
+====================================
 The Intel RealSense Depth Camera D400-Series uses stereo vision to calculate depth. 
 
 `Official website <https://www.intelrealsense.com/>`_
