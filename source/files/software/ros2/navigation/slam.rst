@@ -32,7 +32,7 @@ Loop Closure. `Source <https://www.thinkautonomous.ai/blog/loop-closure/>`_
 Libraries and ROS packages
 ==========================
 
-* **SLAM Toolbox** is a set of tools and capabilities for 2D SLAM `GitHub <https://github.com/SteveMacenski/slam_toolbox`_
+* **SLAM Toolbox** is a set of tools and capabilities for 2D SLAM `GitHub <https://github.com/SteveMacenski/slam_toolbox>`_
   It is also the currently supported ROS2-SLAM library. See tutorials for working with it in 
   `ROS 2 Nav2 here <https://docs.nav2.org/tutorials/docs/navigation2_with_slam.html>`_.
 
