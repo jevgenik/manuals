@@ -52,6 +52,12 @@ mapping algorithms in C++ particularly suited for robotics. The map implementati
 
 `Official Website <https://octomap.github.io/>`_
 
+.. figure:: images/octomap.png
+   :width: 450px
+   :alt: Octomap
+   
+   Octomap
+
 OctoMap vs 3D Occupancy Grid (Voxel Grid)
 -----------------------------------------
 1. Structure: Octomap uses an octree data structure, while voxel grids use a regular 3D grid.
