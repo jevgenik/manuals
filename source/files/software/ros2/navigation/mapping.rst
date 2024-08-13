@@ -110,6 +110,9 @@ ROS Packages and Interfaces
 * `nav_msgs/OccupancyGrid <https://docs.ros.org/en/melodic/api/nav_msgs/html/msg/OccupancyGrid.html>`_ - represents a 2-D grid map, in which each cell represents 
   the probability of occupancy
 
+* `Mapviz <https://swri-robotics.github.io/mapviz/>`_ is a highly customizable ROS-based visualization tool focused on large-scale 2D data, with a plugin 
+  system for extreme extensibility.
+
 
 
    
