@@ -32,10 +32,14 @@ Loop Closure. `Source <https://www.thinkautonomous.ai/blog/loop-closure/>`_
 Libraries and ROS packages
 ==========================
 
+* **SLAM Toolbox** is a set of tools and capabilities for 2D SLAM `GitHub <https://github.com/SteveMacenski/slam_toolbox`_
+  It is also the currently supported ROS2-SLAM library. See tutorials for working with it in 
+  `ROS 2 Nav2 here <https://docs.nav2.org/tutorials/docs/navigation2_with_slam.html>`_.
+
 * RTAB-Map (Real-Time Appearance-Based Mapping) is a RGB-D, Stereo and Lidar Graph-Based SLAM approach. `GitHub <https://introlab.github.io/rtabmap/>`_
 
 * `nav_msgs/OccupancyGrid <https://docs.ros.org/en/melodic/api/nav_msgs/html/msg/OccupancyGrid.html>`_ - represents a 2-D grid map, in which each cell represents 
   the probability of occupancy
 
-* **gmapping** (g means grid because this algorithm uses a grid map) is a highly efficient Rao-Blackwellized particle filter to learn grid maps from laser range data  
+* **GMapping** (G means grid because this algorithm uses a grid map) is a highly efficient Rao-Blackwellized particle filter to learn grid maps from laser range data  
   `GitHub <https://openslam-org.github.io/gmapping.html>`_

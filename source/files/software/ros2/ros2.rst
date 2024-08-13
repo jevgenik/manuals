@@ -1,6 +1,6 @@
-=====
-ROS 2
-=====
+====
+ROS2
+====
 
 The Robot Operating System (ROS) is an open-source framework that helps researchers and developers build and **reuse code** 
 between robotics applications.
@@ -19,7 +19,7 @@ The ROS goal is to provide a standard for robotics software development, that yo
    :width: 75%
    
 
-   ROS 2 architecture. `Source <https://aws.amazon.com/blogs/robotics/ros-2-foxy-fitzroy-robot-development/>`_
+   ROS2 architecture. `Source <https://aws.amazon.com/blogs/robotics/ros-2-foxy-fitzroy-robot-development/>`_
 
 .. toctree::
    :maxdepth: 2
