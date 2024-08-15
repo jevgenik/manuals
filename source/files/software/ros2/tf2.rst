@@ -50,6 +50,5 @@ ROS Packages and Interfaces
   expresses a transform from coordinate frame ``header.frame_id`` (parent frame)  to the coordinate frame ``child_frame_id`` 
   at the time of ``header.stamp``
 
-
-* `tf2_msgs/TFMessage <https://docs.ros.org/en/melodic/api/tf2_msgs/html/msg/TFMessage.html>`_ - a message that represents a list of transforms.
-  Each transform is represented as a ``geometry_msgs/TransformStamped`` message.
+* `tf2_msgs/TFMessage <https://docs.ros.org/en/melodic/api/tf2_msgs/html/msg/TFMessage.html>`_ - a message that represents a list of 
+  transforms corresponding to joints of a robot. Each transform is represented as a ``geometry_msgs/TransformStamped`` type.
