@@ -30,15 +30,23 @@ etc. between any two coordinate frames at any desired point in time.  \
    :width: 450px
    :alt: AMR tf2
 
-Message ``geometry_msgs/TransformStamped``
---------------------------------------  
-Expresses a transform from coordinate frame ``header.frame_id`` (parent frame)  
-to the coordinate frame ``child_frame_id`` at the time of ``header.stamp``
-
-`Message Definition <https://docs.ros2.org/latest/api/geometry_msgs/msg/TransformStamped.html>`_  
-
 tf2 commands
 ------------ 
 
 * ``ros2 run tf2_tools view_frames`` - generate pdf file with TF transform tree
 * ``ros2 run tf2_ros tf2_echo <parent frame> <child frame>`` - reports the transform between any two frames broadcast over ROS
+
+
+ROS Packages and Interfaces
+===========================
+
+* `geometry_msgs/TransformStamped <https://docs.ros2.org/latest/api/geometry_msgs/msg/TransformStamped.html>`_
+  Expresses a transform from coordinate frame ``header.frame_id`` (parent frame)  
+  to the coordinate frame ``child_frame_id`` at the time of ``header.stamp``
+  
+
+* **robot_state_publisher** - ROS package contains the Robot State Publisher, a node and a class to publish the state of a robot to tf2. 
+  At startup time, Robot State Publisher is supplied with a kinematic tree model (URDF) of the robot. It then subscribes to the 
+  joint_states topic (of type sensor_msgs/msg/JointState) to get individual joint states. 
+  These joint states are used to update the kinematic tree model, and the resulting 3D poses are then published to tf2
+  `GitHub <https://github.com/ros/robot_state_publisher/tree/rolling>`_
