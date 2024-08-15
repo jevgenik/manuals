@@ -40,9 +40,9 @@ tf2 commands
 ROS Packages and Interfaces
 ===========================
 
-* `geometry_msgs/TransformStamped <https://docs.ros2.org/latest/api/geometry_msgs/msg/TransformStamped.html>`_
-  Expresses a transform from coordinate frame ``header.frame_id`` (parent frame)  
-  to the coordinate frame ``child_frame_id`` at the time of ``header.stamp``
+* `geometry_msgs/TransformStamped <https://docs.ros2.org/latest/api/geometry_msgs/msg/TransformStamped.html>`_  - a message that
+  expresses a transform from coordinate frame ``header.frame_id`` (parent frame)  to the coordinate frame ``child_frame_id`` 
+  at the time of ``header.stamp``
   
 
 * **robot_state_publisher** - ROS package contains the Robot State Publisher, a node and a class to publish the state of a robot to tf2. 
