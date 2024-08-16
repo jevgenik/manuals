@@ -17,3 +17,7 @@ Behaviour tree is a mathematical model of plan execution used in computer scienc
    :alt: Behavior tree   
    
    `Source <https://www.gamedeveloper.com/programming/behavior-trees-for-ai-how-they-work/>`_
+
+
+**BehaviorTree.CPP** is a flexible C++ library that can be used to create complex and flexible behavior trees.
+`Website <https://www.behaviortree.dev/>`_
