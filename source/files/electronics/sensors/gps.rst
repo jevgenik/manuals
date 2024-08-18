@@ -79,6 +79,7 @@ Python libraries
 ROS
 ---
 
-* `sensor_msgs/NavSatFix <https://docs.ros.org/en/melodic/api/sensor_msgs/html/msg/NavSatFix.html>`_ - message type for GPS data in ROS
+* `sensor_msgs/NavSatFix <https://docs.ros.org/en/melodic/api/sensor_msgs/html/msg/NavSatFix.html>`_ - Navigation Satellite fix (position fix) 
+  for any Global Navigation Satellite System. Specified using the WGS 84 reference ellipsoid.
       
 

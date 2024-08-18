@@ -1,5 +1,5 @@
 =============
-Behavior tree
+Behavior Tree
 =============
 
 Behaviour tree is a mathematical model of plan execution used in computer science, robotics, control systems and video games. 
