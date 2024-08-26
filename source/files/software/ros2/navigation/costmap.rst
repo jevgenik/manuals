@@ -1,7 +1,7 @@
 =======
 Costmap
 =======
-A costmap is a representation of the robot environment that assigns a cost value to each cell 
+A costmap is a **representation of the robot environment** that assigns a cost value to each cell 
 based on the occupancy, obstacle distance, inflation radius, and other factors.
 
 A costmap consists of multiple layers that stack on top of each other and combine their cost values. 
