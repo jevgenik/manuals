@@ -12,7 +12,7 @@ is the last version that supports the old installation method, "python setup.py 
 and replaced by newer, standards-based tools, such as pip and ament.
 
 =========================
-Other Helpful information
+Other Helpful Information
 =========================
 
 * **FogROS 2** is an open-source cloud-robotics pilot platform from UC Berkeley. Cloud computing using commercial clusters 
