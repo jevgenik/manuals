@@ -47,7 +47,7 @@ ROS Packages and Interfaces
   `GitHub <https://github.com/ros/robot_state_publisher/tree/rolling>`_
 
 * `geometry_msgs/msg/Transform <https://docs.ros2.org/latest/api/geometry_msgs/msg/Transform.html>`_ - represents the transform between 
-  two coordinate frames in free space
+  two coordinate frames in free space.
 
 * `geometry_msgs/TransformStamped <https://docs.ros2.org/latest/api/geometry_msgs/msg/TransformStamped.html>`_  - a message that
   expresses a transform from coordinate frame ``header.frame_id`` (parent frame)  to the coordinate frame ``child_frame_id`` 
@@ -57,4 +57,4 @@ ROS Packages and Interfaces
   transforms corresponding to joints of a robot. Each transform is represented as a ``geometry_msgs/TransformStamped`` type.
 
 * `sensor_msgs/JointState <https://docs.ros.org/en/noetic/api/sensor_msgs/html/msg/JointState.html>`_ - a message that holds data to describe 
-  the state of a set of torque controlled joints
+  the state of a set of torque controlled joints.
