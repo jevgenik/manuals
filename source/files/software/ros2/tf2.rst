@@ -34,7 +34,14 @@ tf2 commands
 ------------ 
 
 * ``ros2 run tf2_tools view_frames`` - generate pdf file with TF transform tree
+* ``ros2 run tf2_ros static_transform_publisher 0.1 0 0.2 0 0 0 base_link base_laser`` - broadcast a static transform between two frames
+  Meaning tf2 system publishes the transform to a topic ``/tf_static`` and the transform is not expected to change over time
 * ``ros2 run tf2_ros tf2_echo <parent frame> <child frame>`` - reports the transform between any two frames broadcast over ROS
+  It continuously listens to the ``/tf`` and ``/tf_static`` topics to retrieve the transformation data between the specified frames. 
+  It then prints this information to the terminal in real-time.
+  This command is useful for debugging and verifying the correct setup of your coordinate frames in a ROS 2 system. For example, 
+  if you're integrating a new sensor or component on your robot and want to ensure that its position relative to the robot's base 
+  frame is correctly defined and broadcasted, you can use ``tf2_echo`` to check the transform in real-time
 
 
 ROS Packages and Interfaces
