@@ -53,7 +53,7 @@ ROS Packages and Interfaces
   These joint states are used to update the kinematic tree model, and the resulting 3D poses are then published to tf2
   `GitHub <https://github.com/ros/robot_state_publisher/tree/rolling>`_
 
-* **joint_state_publisher** This contains a package for publishing sensor_msgs/msg/JointState messages for a robot described with URDF. 
+* **joint_state_publisher** This contains a package for publishing ``sensor_msgs/msg/JointState`` messages for a robot described with URDF. 
   Given a URDF (either passed on the command-line or via the ``/robot_description topic``), this node will continually publish values for 
   all of the movable joints in the URDF to the ``/joint_states`` topic. In combination with robot_state_publisher, this ensures that there 
   is a valid transform for all joints even when the joint doesn't have encoder data.
