@@ -49,9 +49,15 @@ ROS Packages and Interfaces
 
 * **robot_state_publisher** - ROS package contains the Robot State Publisher, a node and a class to publish the state of a robot to tf2. 
   At startup time, Robot State Publisher is supplied with a kinematic tree model (URDF) of the robot. It then subscribes to the 
-  joint_states topic (of type sensor_msgs/msg/JointState) to get individual joint states. 
+  ``/joint_states`` topic (of type ``sensor_msgs/msg/JointState``) to get individual joint states. 
   These joint states are used to update the kinematic tree model, and the resulting 3D poses are then published to tf2
   `GitHub <https://github.com/ros/robot_state_publisher/tree/rolling>`_
+
+* **joint_state_publisher** This contains a package for publishing sensor_msgs/msg/JointState messages for a robot described with URDF. 
+  Given a URDF (either passed on the command-line or via the ``/robot_description topic``), this node will continually publish values for 
+  all of the movable joints in the URDF to the ``/joint_states`` topic. In combination with robot_state_publisher, this ensures that there 
+  is a valid transform for all joints even when the joint doesn't have encoder data.
+  `GitHub <https://github.com/ros/joint_state_publisher/tree/ros2>`_
 
 * `geometry_msgs/Transform <https://docs.ros.org/en/latest/api/geometry_msgs/html/msg/Transform.html>`_ - represents the transform between 
   two coordinate frames in free space.
