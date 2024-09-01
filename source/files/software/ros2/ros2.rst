@@ -33,6 +33,7 @@ The ROS goal is to provide a standard for robotics software development, that yo
    parameters   
    ros_graph   
    rosweb   
+   ros2_control
    services
    tf2
    urdf
