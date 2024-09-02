@@ -30,7 +30,8 @@ The ROS goal is to provide a standard for robotics software development, that yo
    moveit/index
    navigation/navigation
    other
-   parameters   
+   parameters
+   perception/perception   
    ros_graph   
    rosweb   
    ros2_control
