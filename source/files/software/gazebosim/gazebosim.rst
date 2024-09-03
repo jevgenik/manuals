@@ -13,6 +13,8 @@ Gazebo is an open-source 2D/3D robotics simulator that began development in 2002
 
 * `Gazebo for ROS 2 GitHub (roz_gz) <https://github.com/gazebosim/ros_gz/tree/ros2>`_
 
+* `ROS 2 integration <https://gazebosim.org/docs/latest/ros2_overview/>`_
+
 
 **ros_gz_bridge** - ROS 2 package that provides a network bridge which enables the exchange of messages 
 between ROS 2 and Gazebo Transport
@@ -26,4 +28,4 @@ SDFormat (Simulation Description Format), sometimes abbreviated as SDF, is an XM
 and environments for robot simulators, visualization, and control. Originally developed as part of the 
 Gazebo robot simulator, SDFormat was designed with scientific robot applications in mind.
 
-* `Official website <http://sdformat.org/>`_
+`Official website <http://sdformat.org/>`_
