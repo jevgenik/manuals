@@ -1,5 +1,5 @@
 ================
-Gazebo simulator
+Gazebo Simulator
 ================
 Gazebo is an open-source 2D/3D robotics simulator that began development in 2002.
 
