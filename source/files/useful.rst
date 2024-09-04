@@ -1,5 +1,5 @@
 ============
-Useful links
+Useful Links
 ============
 
 
@@ -61,6 +61,13 @@ Rapid Software Development
 * `Replit <https://replit.com/>`_ is an AI-powered software development & deployment platform for building, sharing, and shipping software fast
 
 * `Voiceflow <https://www.voiceflow.com/>`_ is a platform for building AI agents (Chatbots)
+
+
+Communities, Forums, and Blogs
+=============================
+
+* `Articulated Robotics <https://articulatedrobotics.xyz/>`_ is a place to learn about engineering, mathematics, and robotics.
+  It's run by Josh Newans, a mechatronics engineer from Newcastle, Australia.
 
 
 Other
