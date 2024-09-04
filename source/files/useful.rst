@@ -62,3 +62,9 @@ Rapid Software Development
 
 * `Voiceflow <https://www.voiceflow.com/>`_ is a platform for building AI agents (Chatbots)
 
+
+Other
+=====
+
+* `Docusaurus <https://docusaurus.io/>`_ is a modern static site generator that makes it easy to build and maintain open source project websites
+
