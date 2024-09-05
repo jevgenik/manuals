@@ -26,7 +26,7 @@ Nav2 is a production-grade and high-quality navigation framework trusted by 100+
 
 * `Autonomous Robot Navigation and Nav2 <https://foxglove.dev/blog/autonomous-robot-navigation-and-nav2>`_
 
-* ``
+* `Demo of Nav2 in action (Jackal UGV) <https://github.com/open-navigation/opennav_amd_demonstrations/tree/main/honeybee_demos>`_
 
 .. toctree::
    :maxdepth: 1
