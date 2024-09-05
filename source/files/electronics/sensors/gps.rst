@@ -74,6 +74,8 @@ navigation (GNSS) systems. It uses measurements of the phase of the signal's car
 content of the signal and relies on a single reference station or interpolated virtual station to provide real-time corrections, 
 providing up to centimetre-level accuracy (see DGPS).
 
+`Wikipedia <https://en.wikipedia.org/wiki/Real-time_kinematic_positioning>`_
+
 
 Software, libraries to work with GPS data
 =========================================
