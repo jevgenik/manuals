@@ -66,6 +66,15 @@ Where:
 - (empty field) DGPS station ID number
 - ***47**          the checksum data, always begins with *  
 
+
+RTK
+===
+Real-time kinematic positioning (RTK) is the application of surveying to correct for common errors in current satellite 
+navigation (GNSS) systems. It uses measurements of the phase of the signal's carrier wave in addition to the information 
+content of the signal and relies on a single reference station or interpolated virtual station to provide real-time corrections, 
+providing up to centimetre-level accuracy (see DGPS).
+
+
 Software, libraries to work with GPS data
 =========================================
 
