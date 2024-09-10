@@ -54,3 +54,12 @@ inserted into the simulation. They can be used to model sensors, actuators, or c
 Plugins are written in C++ and are loaded when the simulation starts. 
 
 `Tutorial <https://gazebosim.org/docs/latest/moving_robot/>`_
+
+
+Sensors
+-------
+Gazebo provides a suite of sensors that can be attached to models. These sensors can be used to simulate
+real-world sensors such as cameras, lidar, depth cameras, and GPS.
+
+* `Tutorial <https://gazebosim.org/docs/latest/sensors/>`_
+* `Library on GitHub <https://github.com/gazebosim/gz-sensors>`_
