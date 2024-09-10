@@ -35,7 +35,7 @@ Commands
 ========
 
 .. note::
-   ``ign`` is used only for versions Fortress and and Citadel for new versions use ``gz``
+   ``ign`` is used only for versions Fortress and and Citadel for new versions use ``gz`` e.g ``gz topic -l``
 
 Topics
 ------
@@ -45,3 +45,10 @@ Topics
 * ``ign tipic -t /topic_name -i`` - display information about a specific topic  
 
 * ``ign topic -t /topic_name -e`` - echo topic /topic_name (-t - topic name. -e -echo)
+
+
+Plugins
+=======
+Gazebo plugins are shared libraries (a chunk of code that is compiled as a shared library) that are 
+inserted into the simulation. They can be used to model sensors, actuators, or controllers. 
+Plugins are written in C++ and are loaded when the simulation starts. 
