@@ -24,6 +24,7 @@ The ROS goal is to provide a standard for robotics software development, that yo
 .. toctree::
    :maxdepth: 2
    
+   actions
    commands
    computer_vision_in_ros
    logging_debugging
