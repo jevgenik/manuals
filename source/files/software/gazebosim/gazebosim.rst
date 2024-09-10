@@ -59,7 +59,8 @@ Plugins are written in C++ and are loaded when the simulation starts.
 Sensors
 -------
 Gazebo provides a suite of sensors that can be attached to models. These sensors can be used to simulate
-real-world sensors such as cameras, lidar, depth cameras, and GPS.
+real-world sensors such as IMU, camera, LiDARs, depth camera, GPS and others.
 
 * `Tutorial <https://gazebosim.org/docs/latest/sensors/>`_
-* `Library on GitHub <https://github.com/gazebosim/gz-sensors>`_
+* `Library of sensors on GitHub <https://github.com/gazebosim/gz-sensors>`_
+* `Demo launch files for ROS 2 <https://github.com/gazebosim/ros_gz/tree/ros2/ros_gz_sim_demos/launch>`_
