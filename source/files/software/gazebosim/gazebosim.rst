@@ -52,3 +52,5 @@ Plugins
 Gazebo plugins are shared libraries (a chunk of code that is compiled as a shared library) that are 
 inserted into the simulation. They can be used to model sensors, actuators, or controllers. 
 Plugins are written in C++ and are loaded when the simulation starts. 
+
+`Tutorial <https://gazebosim.org/docs/latest/moving_robot/>`_
