@@ -24,18 +24,19 @@ The ROS goal is to provide a standard for robotics software development, that yo
 .. toctree::
    :maxdepth: 2
    
+   nodes
+   services
    actions
    commands
+   ros_graph   
+   parameters
    computer_vision_in_ros
    logging_debugging
    moveit/index
-   navigation/navigation
-   other
-   parameters
+   navigation/navigation   
    perception/perception   
-   ros_graph   
    rosweb   
    ros2_control
-   services
    tf2
    urdf
+   other
