@@ -13,6 +13,8 @@ Gazebo is an open-source 2D/3D robotics simulator that began development in 2002
 
 * `Gazebo for ROS 2 GitHub (roz_gz) <https://github.com/gazebosim/ros_gz/tree/ros2>`_
 
+* `Demos showing how to use Gazebo Sim with ROS <https://github.com/gazebosim/ros_gz/tree/ros2/ros_gz_sim_demos>`_
+
 * `ROS 2 integration <https://gazebosim.org/docs/latest/ros2_overview/>`_
 
 
