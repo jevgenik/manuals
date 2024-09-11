@@ -42,9 +42,9 @@ Topics
 
 * ``ign topic -l`` - list all of the topics that are currently available in the Ignition transport system 
 
-* ``ign topic -t /topic_name -i`` - display information about a specific topic  
+* ``ign topic -i -t /topic_name`` - display information about a specific topic  
 
-* ``ign topic -t /topic_name -e`` - echo topic /topic_name (-t - topic name. -e -echo)
+* ``ign topic -e -t /topic_name`` - echo topic /topic_name (-e -echo, -t - topic name)
 
 
 Plugins
