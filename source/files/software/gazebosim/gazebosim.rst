@@ -30,7 +30,9 @@ SDFormat (Simulation Description Format), sometimes abbreviated as SDF, is an XM
 and environments for robot simulators, visualization, and control. Originally developed as part of the 
 Gazebo robot simulator, SDFormat was designed with scientific robot applications in mind.
 
-`Official website <http://sdformat.org/>`_
+* `Official website <http://sdformat.org/>`_
+
+* `Gazebo worlds <https://github.com/gazebosim/gz-sim/tree/gz-sim9/examples/worlds>`_
 
 
 Commands
