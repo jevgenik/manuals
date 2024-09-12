@@ -30,9 +30,11 @@ SDFormat (Simulation Description Format), sometimes abbreviated as SDF, is an XM
 and environments for robot simulators, visualization, and control. Originally developed as part of the 
 Gazebo robot simulator, SDFormat was designed with scientific robot applications in mind.
 
-* `Official website <http://sdformat.org/>`_
+* `Official website of SDFormat <http://sdformat.org/>`_
 
-* `Gazebo worlds <https://github.com/gazebosim/gz-sim/tree/gz-sim9/examples/worlds>`_
+* `Gazebo SDF worlds GitHub <https://github.com/gazebosim/gz-sim/tree/gz-sim9/examples/worlds>`_
+
+* `Gazebo SDF worlds tutorial <https://gazebosim.org/docs/latest/sdf_worlds/>`_
 
 
 Commands
@@ -68,3 +70,9 @@ real-world sensors such as IMU, camera, LiDARs, depth camera, GPS and others.
 * `Tutorial <https://gazebosim.org/docs/latest/sensors/>`_
 * `Library of sensors on GitHub <https://github.com/gazebosim/gz-sensors>`_
 * `Demo launch files for ROS 2 <https://github.com/gazebosim/ros_gz/tree/ros2/ros_gz_sim_demos/launch>`_
+
+Moving the robot 
+----------------
+Gazebo provides plugins to simulate motor controllers.
+
+* `Tutorial <https://gazebosim.org/docs/latest/moving_robot/>`_
