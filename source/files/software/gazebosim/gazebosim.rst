@@ -71,10 +71,11 @@ real-world sensors such as IMU, camera, LiDARs, depth camera, GPS and others.
 * `Library of sensors on GitHub <https://github.com/gazebosim/gz-sensors>`_
 * `Demo launch files for ROS 2 <https://github.com/gazebosim/ros_gz/tree/ros2/ros_gz_sim_demos/launch>`_
 
+
 Moving the robot 
 ----------------
 Gazebo provides plugins to simulate motor controllers.
 
 * `Tutorial <https://gazebosim.org/docs/latest/moving_robot/>`_
 
-* `SDF file with a world and a robot <https://github.com/gazebosim/docs/blob/master/harmonic/tutorials/moving_robot/moving_robot.sdf>`_
+* `SDF file containing a world and a robot <https://github.com/gazebosim/docs/blob/master/harmonic/tutorials/moving_robot/moving_robot.sdf>`_
