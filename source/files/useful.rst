@@ -51,6 +51,8 @@ Design and Prototyping
 
 * `Figma <https://www.figma.com/>`_  is a collaborative web application for interface design
 
+* `Fusion360 <https://www.autodesk.com/products/fusion-360/overview>`_ is a cloud-based 3D CAD, CAM, and CAE platform for product design and manufacturing
+
 * `Imgur <https://imgur.com/>`_ is a free image hosting and sharing service
 
 
