@@ -76,3 +76,5 @@ Moving the robot
 Gazebo provides plugins to simulate motor controllers.
 
 * `Tutorial <https://gazebosim.org/docs/latest/moving_robot/>`_
+
+* `SDF file with a world and a robot <https://github.com/gazebosim/docs/blob/master/harmonic/tutorials/moving_robot/moving_robot.sdf>`_
