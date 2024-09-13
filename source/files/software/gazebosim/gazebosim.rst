@@ -79,3 +79,11 @@ Gazebo provides plugins to simulate motor controllers.
 * `Tutorial <https://gazebosim.org/docs/latest/moving_robot/>`_
 
 * `SDF file containing a world and a robot <https://github.com/gazebosim/docs/blob/master/harmonic/tutorials/moving_robot/moving_robot.sdf>`_
+
+
+Other Useful Information
+========================
+
+* Path to the default worlds: ``/usr/share/ignition/ignition-gazebo6/worlds`` (for Fortress)
+
+* Path to the resources downloaded from Fuel: ``~/.ignition/fuel``
