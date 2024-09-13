@@ -53,7 +53,7 @@ For images we can use pre-trained models like ResNet, VGG, etc. These models tak
    :width: 450px
    :alt: Vector Embedding (2D example)
    
-Vector Embeddings (2D example). `Source. <https://causewriter.ai/courses/ai-explainers/lessons/vector-embedding/>`_
+*Vector Embeddings (2D example). `Source. <https://causewriter.ai/courses/ai-explainers/lessons/vector-embedding/>`_*
 
 
 Vector Database
@@ -64,7 +64,7 @@ A vector database is a database that stores embeddings. It is used to store and 
    :width: 450px
    :alt: Vector Database
 
-Vector Database. `Source. <https://www.linkedin.com/pulse/complete-guide-creating-storing-vector-embeddings-pavan-belagatti-5fyfc/>`_
+*Vector Database. `Source. <https://www.linkedin.com/pulse/complete-guide-creating-storing-vector-embeddings-pavan-belagatti-5fyfc/>`_*
 
 
 Data Augmentation
