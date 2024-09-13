@@ -84,6 +84,9 @@ Gazebo provides plugins to simulate motor controllers.
 Other Useful Information
 ========================
 
+* `Gazebo Fuel <https://app.gazebosim.org/dashboard>`_ is a cloud service that provides a free library of robot models and environments. 
+  Models can easily be added to a world running in the Gazebo GUI.
+
 * Path to the default worlds: ``/usr/share/ignition/ignition-gazebo6/worlds`` (for Fortress)
 
 * Path to the resources downloaded from Fuel: ``~/.ignition/fuel``
