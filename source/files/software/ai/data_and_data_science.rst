@@ -53,7 +53,7 @@ For images we can use pre-trained models like ResNet, VGG, etc. These models tak
    :width: 450px
    :alt: Vector Embedding (2D example)
    
-  Vector Embeddings (2D example). `Source. <https://causewriter.ai/courses/ai-explainers/lessons/vector-embedding/>`_
+Vector Embeddings (2D example). `Source. <https://causewriter.ai/courses/ai-explainers/lessons/vector-embedding/>`_
 
 
 Vector Database
