@@ -32,3 +32,4 @@ Types of Machine Learning. `Source. <https://idapgroup.com/blog/types-of-machine
    computer_vision/computer_vision
    finite_state_machine
    rl
+   nvidia
