@@ -49,6 +49,12 @@ For creating embeddings, we can use pre-trained models like Word2Vec, GloVe, Fas
 These models take in text data and output embeddings for each word in the text.
 For images we can use pre-trained models like ResNet, VGG, etc. These models take in images and output embeddings for each image.
 
+.. figure:: images/vector_embeddings_2d.png
+   :width: 450px
+   :alt: Vector Embedding (2D example)
+   
+  Vector Embeddings (2D example). `Source. <https://causewriter.ai/courses/ai-explainers/lessons/vector-embedding/>`_
+
 
 Vector Database
 ===============
