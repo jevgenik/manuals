@@ -7,3 +7,6 @@ Nvidia Software
 
 * Metropolis NIM Workflows. This repository hosts reference workflows that show how to build applications using NVIDIA 
   Inference Microservices (NIMs). `GitHub <https://github.com/nvidia/metropolis-nim-workflows>`_
+
+
+Nvidia Metropolis is a platform that enables the development of AI applications for video analytics.
