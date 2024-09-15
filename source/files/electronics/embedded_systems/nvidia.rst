@@ -31,4 +31,4 @@ Tools
 
 * ``nvidia-settings`` - GUI tool to configure the NVIDIA graphics driver
 
-* ``glxinfo | grep "OpenGL renderer"`` - Command to check the OpenGL renderer to make sure the NVIDIA GPU is being used
+* ``glxinfo | grep "OpenGL renderer"`` - to check the OpenGL renderer (to make sure the NVIDIA GPU is being used)
