@@ -64,6 +64,9 @@ Rapid Software Development
 
 * `Voiceflow <https://www.voiceflow.com/>`_ is a platform for building AI agents (Chatbots)
 
+* `Gradio UI <https://www.gradio.app/>`_ Gradio is an open-source Python package that allows you to quickly create easy-to-use, customizable UI components 
+  for your ML model, any API, or even an arbitrary Python function using a few lines of code
+
 
 Communities, Forums, and Blogs
 =============================
