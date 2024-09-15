@@ -30,3 +30,5 @@ Tools
 * ``prime-select`` - Command-line tool to switch between Intel and NVIDIA graphics cards on Ubuntu
 
 * ``nvidia-settings`` - GUI tool to configure the NVIDIA graphics driver
+
+* ``glxinfo | grep "OpenGL renderer"`` - Command to check the OpenGL renderer to make sure the NVIDIA GPU is being used
