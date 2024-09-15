@@ -124,3 +124,19 @@ Docker Installation
 
 2. After installation, add your user to the docker group to avoid using sudo when you use the docker command:  
    ``sudo usermod -aG docker $USER``
+
+
+Acess Nvidia GPUs in Containers (GPU accelerated containers)
+============================================================
+
+1. Install Nvidia Container Toolkit:  
+   `Nvidia Container Toolkit Installation Guide <https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html>`_
+
+2. Restart Docker:  
+   ``sudo systemctl restart docker``
+
+3. Test Nvidia Container Toolkit:  
+   ``docker run -it --rm --gpus all ubuntu nvidia-smi``
+
+4. Run your container with GPU support:  
+   ``docker run -it --rm --gpus all <image name>``
