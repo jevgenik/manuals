@@ -126,8 +126,13 @@ Docker Installation
    ``sudo usermod -aG docker $USER``
 
 
-Acess Nvidia GPUs in Containers (GPU accelerated containers)
+Acess Nvidia GPUs in Containers (GPU-accelerated containers)
 ============================================================
+
+**NVIDIA Container Toolkit** enables users to build and run GPU-accelerated containers. The toolkit includes a container 
+runtime library and utilities to automatically configure containers to leverage NVIDIA GPUs.
+
+`Official documentation <https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/index.html>`_
 
 1. Install Nvidia Container Toolkit:  
    `Nvidia Container Toolkit Installation Guide <https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html>`_
