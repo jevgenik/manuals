@@ -20,6 +20,7 @@ integrating GPU-optimized software into workflows, accelerating the time to solu
 
 * `NGC Catalog <https://ngc.nvidia.com/catalog>`_
 
+
 nvcr.io
 -------
 NVIDIA Container Registry (nvcr.io) is a container registry provided by NVIDIA as part of 
