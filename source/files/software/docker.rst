@@ -147,4 +147,7 @@ runtime library and utilities to automatically configure containers to leverage 
    ``docker run -it --rm --gpus all <image name>``
 
 
-`Turn on GPU access with Docker Compose (Docker documentation) <https://docs.docker.com/compose/gpu-support/>`_
+* `Turn on GPU access with Docker Compose (Docker documentation) <https://docs.docker.com/compose/gpu-support/>`_
+
+* `Specialized Configurations with Docker (NVIDA docs) 
+<https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/docker-specialized.html>`_
