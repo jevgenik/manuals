@@ -145,3 +145,6 @@ runtime library and utilities to automatically configure containers to leverage 
 
 4. Run your container with GPU support:  
    ``docker run -it --rm --gpus all <image name>``
+
+
+`Turn on GPU access ith Docker Compose (Docker documentation) <https://docs.docker.com/compose/gpu-support/>`_
