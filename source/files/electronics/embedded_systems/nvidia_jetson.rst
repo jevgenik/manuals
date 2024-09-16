@@ -33,3 +33,4 @@ Tools
 
 * ``glxinfo | grep "OpenGL renderer"`` - to check the OpenGL renderer (to make sure the NVIDIA GPU is being used)
   (install: ``sudo apt install mesa-utils``)
+  - ``glxinfo -B`` - to get more detailed information about 3D acceleration setup
