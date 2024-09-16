@@ -103,7 +103,7 @@ and then | tee build.log pipes stdout to :ref:`tee <linux_text_manipulation>`, w
 Docker compose 
 --------------
 
-Create. start, stop and remove containers
+Create, start, stop and remove containers
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 * ``docker compose -f docker-compose_lenovo.yml up``
