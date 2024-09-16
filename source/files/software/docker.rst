@@ -145,9 +145,9 @@ runtime library and utilities to automatically configure containers to leverage 
 
 4. Run your container with GPU support:  
    
-... code-block:: bash      
-   
-    docker run -it --rm --runtime=nvidia \
+   .. code-block:: bash      
+      
+      docker run -it --rm --runtime=nvidia \
       -e DISPLAY \
       -e NVIDIA_VISIBLE_DEVICES=all \
       -e NVIDIA_DRIVER_CAPABILITIES=all \
