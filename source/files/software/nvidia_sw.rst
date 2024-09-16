@@ -19,3 +19,10 @@ The content provided by NVIDIA and third-party ISVs simplifies building, customi
 integrating GPU-optimized software into workflows, accelerating the time to solutions for users.
 
 * `NGC Catalog <https://ngc.nvidia.com/catalog>`_
+
+nvcr.io
+-------
+NVIDIA Container Registry (nvcr.io) is a container registry provided by NVIDIA as part of 
+the NVIDIA GPU Cloud (NGC) platform.
+Contains pre-built, GPU-accelerated Docker containers
+It's similar to Docker Hub but tailored for NVIDIA's GPU-accelerated containers.
