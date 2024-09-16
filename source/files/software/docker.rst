@@ -145,14 +145,14 @@ runtime library and utilities to automatically configure containers to leverage 
 
 4. Run your container with GPU support:  
    
-   ... code-block:: bash      
-      
-      docker run -it --rm --runtime=nvidia \
-        -e DISPLAY \
-        -e NVIDIA_VISIBLE_DEVICES=all \
-        -e NVIDIA_DRIVER_CAPABILITIES=all \
-        -v /tmp/.X11-unix:/tmp/.X11-unix:rw \
-        <image name>``
+... code-block:: bash      
+   
+    docker run -it --rm --runtime=nvidia \
+      -e DISPLAY \
+      -e NVIDIA_VISIBLE_DEVICES=all \
+      -e NVIDIA_DRIVER_CAPABILITIES=all \
+      -v /tmp/.X11-unix:/tmp/.X11-unix:rw \
+      <image name>``
 
 * `Turn on GPU access with Docker Compose (Docker documentation) <https://docs.docker.com/compose/gpu-support/>`_
 
