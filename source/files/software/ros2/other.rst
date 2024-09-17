@@ -16,8 +16,8 @@ Other Helpful Information
 =========================
 
 * **FogROS 2** is an open-source cloud-robotics pilot platform from UC Berkeley. Cloud computing using commercial clusters 
-  such as Amazon Web Services (AWS) is now fast enough to enable secure compute-intensive robot functions such as SLAM map 
-  building from video, grasp planning, and high dimensional motion planning to be performed in the Cloud using 
+  such as Amazon Web Services (AWS) is now fast enough to enable secure **compute-intensive robot functions such as SLAM map 
+  building from video**, grasp planning, and high dimensional motion planning to be **performed in the Cloud** using 
   high-performance hardware and GPUs in near real-time.
 
   `Website <https://berkeleyautomation.github.io/FogROS2/about>`_

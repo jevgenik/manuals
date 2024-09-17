@@ -103,7 +103,7 @@ and then | tee build.log pipes stdout to :ref:`tee <linux_text_manipulation>`, w
 Docker compose 
 --------------
 
-Create. start, stop and remove containers
+Create, start, stop and remove containers
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 * ``docker compose -f docker-compose_lenovo.yml up``
@@ -144,4 +144,16 @@ runtime library and utilities to automatically configure containers to leverage 
    ``docker run -it --rm --gpus all ubuntu nvidia-smi``
 
 4. Run your container with GPU support:  
-   ``docker run -it --rm --gpus all <image name>``
+   
+   .. code-block:: bash      
+      
+      docker run -it --rm --runtime=nvidia \
+      -e DISPLAY \
+      -e NVIDIA_VISIBLE_DEVICES=all \
+      -e NVIDIA_DRIVER_CAPABILITIES=all \
+      -v /tmp/.X11-unix:/tmp/.X11-unix:rw \
+      <image name>``
+
+* `Turn on GPU access with Docker Compose (Docker documentation) <https://docs.docker.com/compose/gpu-support/>`_
+
+* `Specialized Configurations with Docker (NVIDA docs) <https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/docker-specialized.html>`_

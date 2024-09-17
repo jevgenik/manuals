@@ -7,6 +7,6 @@ It includes not just a microcontroller or microprocessor, but also other hardwar
 .. toctree::
    :maxdepth: 1
    
-   nvidia
+   nvidia_jetson
    rpi
    other_systems

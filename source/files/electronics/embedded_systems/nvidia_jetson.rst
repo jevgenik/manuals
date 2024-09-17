@@ -26,3 +26,12 @@ Tools
 * ``nvidia-smi`` - NVIDIA System Management Interface program. Provides monitoring and management capabilities for NVIDIA GPUs
 
 * ``jtop`` - Jetson System Monitoring Tool. A ``top``-like tool for monitoring the system (CPU, GPU, RAM, etc.)
+
+* ``prime-select`` - Command-line tool to switch between Intel and NVIDIA graphics cards on Ubuntu (on hybrid systems)
+
+* ``nvidia-settings`` - GUI tool to configure the NVIDIA graphics driver
+
+* ``glxinfo | grep "OpenGL renderer"`` - to check the OpenGL renderer (to make sure the NVIDIA GPU is being used)
+  (install: ``sudo apt install mesa-utils``)
+  
+  - ``glxinfo -B`` - to get more detailed information about 3D acceleration setup

@@ -28,6 +28,7 @@ Guide into robotics
    files/software/networking/networking
    files/software/nodejs/nodejs
    files/software/node_red/node_red
+   files/software/nvidia_sw.rst
    files/software/other/other
 
 
