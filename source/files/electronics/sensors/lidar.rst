@@ -9,3 +9,9 @@ ROS Packages and Interfaces
 ===========================
 
 `sensor_msgs/LaserScan <https://docs.ros.org/en/melodic/api/sensor_msgs/html/msg/LaserScan.html>`_ - represents a single scan from a planar laser range-finder (array of ranges)
+
+
+Models
+======
+
+* LiDAR LD06 - `Link <https://www.inno-maker.com/product/lidar-ld06/>`_
