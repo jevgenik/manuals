@@ -38,6 +38,8 @@ AI/ML and Robotics
 * `Rerun <https://rerun.io/>`_ is an SDK, time-series database, and visualizer for temporal and multimodal data. It’s used in fields like robotics, 
   spatial computing, 2D/3D simulation, and finance to verify, debug, and explain.
 
+* `LM Studio <https://lmstudio.ai/>`_ is an easy to use desktop app for experimenting with local and open-source Large Language Models (LLMs)
+
 
 
 Design and Prototyping
