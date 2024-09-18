@@ -29,8 +29,10 @@ Contains pre-built, GPU-accelerated Docker containers
 It's similar to Docker Hub but tailored for NVIDIA's GPU-accelerated containers.
 
 
-* Nvidia NIM (Nvidia inference microservices) provides containers to self-host GPU-accelerated inferencing microservices 
-  for pretrained and customized AI models across clouds, data centers, and workstations. `Explore NINs <https://build.nvidia.com/explore/discover>`_
+Nvidia NIM (Nvidia inference microservices)
+===========================================
+Nvidia NIM (Nvidia inference microservices) provides containers to self-host GPU-accelerated inferencing microservices 
+for pretrained and customized AI models across clouds, data centers, and workstations. `Explore NINs <https://build.nvidia.com/explore/discover>`_
 
 * Metropolis NIM Workflows. This repository hosts reference workflows that show how to build applications using NVIDIA 
   Inference Microservices (NIMs). `GitHub <https://github.com/nvidia/metropolis-nim-workflows>`_
