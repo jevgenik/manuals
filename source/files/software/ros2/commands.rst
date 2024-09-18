@@ -24,6 +24,8 @@ ROS 2 topic commands
 * ``ros2 topic info <topic_name>`` - show information about topic (e.g. `ros2 topic info /turtle1/cmd_vel`)
 * ``ros2 topic type <topic_name>`` - show type of topic (e.g. `ros2 topic type /turtle1/cmd_vel`)
 * ``ros2 topic hz <topic_name>`` - show publishing rate of topic (e.g. `ros2 topic hz /turtle1/cmd_vel`)
+* ``ros2 topic pub /cmd_vel geometry_msgs/msg/Twist "{linear: {x: 1.0, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 0.0}}"`` - publish a message to a 
+  topic (move robot forward)
 
 Name remapping
 ==============
