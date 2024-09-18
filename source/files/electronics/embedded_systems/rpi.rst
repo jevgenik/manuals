@@ -25,11 +25,18 @@ Commands in Linux
   
   - ``vcgencm get_camera`` - show camera status (if supported, if detected, if enabled)
 
-* ``raspistill`` - capture images with the camera module
+* NB! Legacy. ``raspistill`` - capture images with the camera module
   - ``raspistill -o image.jpg`` - capture an image and save it to a file
   - ``raspistill -k`` - keep the preview window open (realtime preview of the camera module)
 
-* ``raspivid`` - capture video with the camera module
+* NB! Legacy. ``raspivid`` - capture video with the camera module
+
+* ``libcamera-still`` - capture images with the camera module
+  - ``libcamera-still -o image.jpg`` - capture an image and save it to a file
+  - ``libcamera-still -k`` - keep the preview window open (realtime preview of the camera module)
+
+* ``libcamera-vid`` - capture video with the camera module
+  - ``libcamera-vid -t 10000 -o video.h264`` - capture a 10-second video and save it to a file
 
 **To set RPi to boot to console (without GUI)**
   ``sudo systemctl set-default multi-user.target`` - set default target to multi-user.target (multi-user.target is a target that 
