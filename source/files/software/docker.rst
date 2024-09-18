@@ -134,6 +134,10 @@ runtime library and utilities to automatically configure containers to leverage 
 
 `Official documentation <https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/index.html>`_
 
+..note:
+  This installation guide is for Linux only. In Windows GPU support is included in Docker Desktop.
+  `Dockerdocs <https://docs.docker.com/desktop/gpu/>`_
+
 1. Install Nvidia Container Toolkit:  
    `Nvidia Container Toolkit Installation Guide <https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html>`_
 
