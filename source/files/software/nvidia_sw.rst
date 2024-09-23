@@ -37,6 +37,10 @@ for pretrained and customized AI models across clouds, data centers, and worksta
 * Metropolis NIM Workflows. This repository hosts reference workflows that show how to build applications using NVIDIA 
   Inference Microservices (NIMs). `GitHub <https://github.com/nvidia/metropolis-nim-workflows>`_
 
+* NVIDIA VIA Microservices are cloud-native building blocks to build AI agents capable of processing large amounts of live or archived videos 
+  and images with Vision-Language Models (VLM) - whether deployed at the edge or cloud. This new generation of visual AI agents will help nearly 
+  every industry summarize, search, and extract actionable insights from video using natural language.
+
 `Webinar Build Visual AI Agents With Generative AI and NVIDIA NIM <https://event.on24.com/eventRegistration/console/apollox/mainEvent?&eventid=4676776&sessionid=1&username=&partnerref=&format=fhvideo1&mobile=&flashsupportedmobiledevice=&helpcenter=&key=57089A8A66742C678071FE4152CA6CD1&newConsole=true&nxChe=true&newTabCon=true&consoleEarEventConsole=false&consoleEarCloudApi=false&text_language_id=en&playerwidth=748&playerheight=526&eventuserid=702670853&contenttype=A&mediametricsessionid=604518425&mediametricid=6584720&usercd=702670853&mode=launch>`_
 
 Use Cases
