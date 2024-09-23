@@ -41,7 +41,7 @@ for pretrained and customized AI models across clouds, data centers, and worksta
 
 Use Cases
 ---------
-* Semantic search among large database of images (e.g. 'show me all images with a red car')
+* Can create a workflow for semantic search among large set of images (e.g. 'show me all images with a red car')
 * Data instruction from images of documents (e.g. ID cards)
 * Creation of pipelines using sevaral models (e.g. OCR, VLM). For example can set an alarm by natural language
   prompt "is there a fire on the image?" And a camera video stream will be analyzed by the pipeline and if a fire is detected
