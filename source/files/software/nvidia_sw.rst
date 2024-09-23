@@ -39,5 +39,13 @@ for pretrained and customized AI models across clouds, data centers, and worksta
 
 `Webinar Build Visual AI Agents With Generative AI and NVIDIA NIM <https://event.on24.com/eventRegistration/console/apollox/mainEvent?&eventid=4676776&sessionid=1&username=&partnerref=&format=fhvideo1&mobile=&flashsupportedmobiledevice=&helpcenter=&key=57089A8A66742C678071FE4152CA6CD1&newConsole=true&nxChe=true&newTabCon=true&consoleEarEventConsole=false&consoleEarCloudApi=false&text_language_id=en&playerwidth=748&playerheight=526&eventuserid=702670853&contenttype=A&mediametricsessionid=604518425&mediametricid=6584720&usercd=702670853&mode=launch>`_
 
+Use Cases
+---------
+* Semantic search among large database of images (e.g. 'show me all images with a red car')
+* Data instruction from images of documents (e.g. ID cards)
+* Creation of pipelines using sevaral models (e.g. OCR, VLM). For example can set an alarm by natural language
+  prompt "is there a fire on the image?" And a camera video stream will be analyzed by the pipeline and if a fire is detected
+  an alarm will be triggered.
+
 **Nvidia Metropolis** is a platform that enables the development of AI applications for video analytics.
 `Website <https://www.nvidia.com/en-eu/autonomous-machines/intelligent-video-analytics-platform/>`_
