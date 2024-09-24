@@ -46,10 +46,11 @@ Nvidia NIM (Nvidia inference microservices) provides **containers** to self-host
 Use Cases
 ---------
 * Can create a workflow for semantic search among large set of images (e.g. "show me all images with a red car")
+  `Example on GitHub <https://github.com/NVIDIA/metropolis-nim-workflows/tree/main/workflows/nvclip_semantic_search>`_
 * Data instruction from images of documents (e.g. ID cards)
 * Creation of pipelines using several models (e.g. OCR, VLM). For example can set an alarm by natural language
   prompt "is there a fire on the image?" And a camera video stream will be analyzed by the pipeline and if a fire is detected
-  an alarm will be triggered (sent a request by a WebSocket) `Example on GitHUb <https://github.com/NVIDIA/metropolis-nim-workflows/blob/main/workflows/vlm_alerts/README.md>`_
+  an alarm will be triggered (sent a request by a WebSocket) `Example on GitHub <https://github.com/NVIDIA/metropolis-nim-workflows/blob/main/workflows/vlm_alerts/README.md>`_
 
 **Nvidia Metropolis** is a platform that enables the development of AI applications for video analytics.
 `Website <https://www.nvidia.com/en-eu/autonomous-machines/intelligent-video-analytics-platform/>`_
