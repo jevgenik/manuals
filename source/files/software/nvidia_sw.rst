@@ -47,7 +47,8 @@ Use Cases
 ---------
 * Can create a workflow for semantic search among large set of images (e.g. "show me all images with a red car")
   `Example on GitHub <https://github.com/NVIDIA/metropolis-nim-workflows/tree/main/workflows/nvclip_semantic_search>`_
-* Data instruction from images of documents (e.g. ID cards)
+* Structured text extraction from images (e.g. from ID cards). 
+  `Example on GitHub <https://github.com/NVIDIA/metropolis-nim-workflows/tree/main/workflows/vision_text_extraction>`_
 * Creation of pipelines using several models (e.g. OCR, VLM). For example can set an alarm by natural language
   prompt "is there a fire on the image?" And a camera video stream will be analyzed by the pipeline and if a fire is detected
   an alarm will be triggered (sent a request by a WebSocket) `Example on GitHub <https://github.com/NVIDIA/metropolis-nim-workflows/blob/main/workflows/vlm_alerts/README.md>`_
