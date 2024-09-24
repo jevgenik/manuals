@@ -156,8 +156,8 @@ runtime library and utilities to automatically configure containers to leverage 
       -e NVIDIA_VISIBLE_DEVICES=all \
       -e NVIDIA_DRIVER_CAPABILITIES=all \
       -v /tmp/.X11-unix:/tmp/.X11-unix:rw \
-      <image name>``
+      <image name>
 
 * `Turn on GPU access with Docker Compose (Docker documentation) <https://docs.docker.com/compose/gpu-support/>`_
 
-* `Specialized Configurations with Docker (NVIDA docs) <https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/docker-specialized.html>`_
+* `Specialized Configurations with Docker (NVIDIA docs) <https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/docker-specialized.html>`_
