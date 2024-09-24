@@ -45,11 +45,18 @@ Nvidia NIM (Nvidia inference microservices) provides **containers** to self-host
 
 Use Cases
 ---------
-* Can create a workflow for semantic search among large set of images (e.g. "show me all images with a red car")
+* Can create a workflow for **semantic search** among large set of images (e.g. "show me all images with a red car")
   `Example on GitHub <https://github.com/NVIDIA/metropolis-nim-workflows/tree/main/workflows/nvclip_semantic_search>`_
-* Structured text extraction from images (e.g. from ID cards). 
+
+* NVDINOv2 (general purpose vision embedding model) Few Shot Classification. By using the NVDINOv2 NIM API, you can quickly generate 
+  embeddings on a set of images. These embeddings can stored in a vector database, clustered and searched to build a few shot 
+  classification pipeline with no model training or local GPU required.
+  `Example on GitHub <https://github.com/NVIDIA/metropolis-nim-workflows/tree/main/workflows/nvdinov2_few_shot`_
+
+* **Structured text extraction from images** (e.g. from ID cards). 
   `Example on GitHub <https://github.com/NVIDIA/metropolis-nim-workflows/tree/main/workflows/vision_text_extraction>`_
-* Creation of pipelines using several models (e.g. OCR, VLM). For example can set an alarm by natural language
+
+* **VLM alerts**. For example can set an alarm by natural language
   prompt "is there a fire on the image?" And a camera video stream will be analyzed by the pipeline and if a fire is detected
   an alarm will be triggered (sent a request by a WebSocket) `Example on GitHub <https://github.com/NVIDIA/metropolis-nim-workflows/blob/main/workflows/vlm_alerts/README.md>`_
 
