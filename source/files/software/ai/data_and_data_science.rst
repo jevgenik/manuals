@@ -76,7 +76,14 @@ This technique is commonly used in computer vision tasks to increase the diversi
 of the model.
 
 
-Useful resources
+What is Retrieval-Augmented Generation (RAG)? 
+=============================================
+Retrieval-augmented generation enhances large language model prompts with relevant data for more practical, accurate responses.
+
+`More about RAG <https://www.nvidia.com/en-eu/glossary/retrieval-augmented-generation/>`_
+
+
+Useful Resources
 ================
 
 * `PandasAI <https://pandas-ai.com/>`_ - PandasAI is a Python library that makes it easy to ask questions to your data in natural language.
