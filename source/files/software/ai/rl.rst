@@ -15,3 +15,9 @@ function of the agent's state and the environment
    :alt: Reinforcement Learning
    
    Reinforcement Learning. `Source <https://ch.mathworks.com/discovery/reinforcement-learning.html>`_
+
+
+Useful Resources
+================
+
+* `NVIDIA Reinforcement Learning <https://www.nvidia.com/en-us/use-cases/reinforcement-learning/>`_
