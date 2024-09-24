@@ -14,7 +14,7 @@ deploy solutions on your preferred cloud, on-prem, and edge systems.
 
 NGC Catalog
 ------------
-NGC Catalogis is a curated set of GPU-optimized software for AI, HPC and Visualization. 
+NGC Catalog is a curated set of GPU-optimized software for AI, HPC and Visualization. 
 The content provided by NVIDIA and third-party ISVs simplifies building, customizing, and 
 integrating GPU-optimized software into workflows, accelerating the time to solutions for users.
 
