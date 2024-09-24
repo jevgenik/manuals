@@ -49,9 +49,9 @@ Use Cases
   `Example on GitHub <https://github.com/NVIDIA/metropolis-nim-workflows/tree/main/workflows/nvclip_semantic_search>`_
 
 * NVDINOv2 (general purpose vision embedding model) Few Shot Classification. By using the NVDINOv2 NIM API, you can quickly generate 
-  embeddings on a set of images. These embeddings can stored in a vector database, clustered and searched to build a few shot 
-  classification pipeline with no model training or local GPU required.
-  `Example on GitHub <https://github.com/NVIDIA/metropolis-nim-workflows/tree/main/workflows/nvdinov2_few_shot`_
+  embeddings on a set of images. These embeddings can stored in a vector database, clustered and searched to build a **few shot 
+  classification pipeline** with no model training or local GPU required.
+  `Example on GitHub <https://github.com/NVIDIA/metropolis-nim-workflows/tree/main/workflows/nvdinov2_few_shot>`_
 
 * **Structured text extraction from images** (e.g. from ID cards). 
   `Example on GitHub <https://github.com/NVIDIA/metropolis-nim-workflows/tree/main/workflows/vision_text_extraction>`_
