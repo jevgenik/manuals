@@ -64,3 +64,15 @@ Use Cases
 
 **Nvidia Metropolis** is a platform that enables the development of AI applications for video analytics.
 `Website <https://www.nvidia.com/en-eu/autonomous-machines/intelligent-video-analytics-platform/>`_
+
+
+NVIDIA TAO
+==========
+The open-source NVIDIA TAO (Train, Adapt, Optimize), built on TensorFlow and PyTorch, uses the power of transfer 
+learning while simultaneously simplifying the model training process and optimizing the model for inference throughput 
+on practically any platform. The result is an ultra-streamlined workflow. 
+
+Take one of the pretrained models, adapt them to your own real or synthetic data, then optimize for inference throughput. 
+All without needing AI expertise or large training datasets.
+
+`Official website <https://developer.nvidia.com/tao-toolkit>`_
