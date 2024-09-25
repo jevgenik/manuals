@@ -52,6 +52,15 @@ Commands to work with virtual environment:
 .. figure:: images/python_virtual_environment.png
    :alt: Python Virtual environment
 
+
+Juoypyter Notebook
+==================
+Jupyter Notebook is an open-source web application that allows you to create and share documents that contain 
+live code, equations, visualizations and narrative text.
+
+`Official website <https://jupyter.org/>`_
+
+
 Table of contents
 =================
 
