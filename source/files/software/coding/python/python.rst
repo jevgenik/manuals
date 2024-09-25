@@ -53,7 +53,7 @@ Commands to work with virtual environment:
    :alt: Python Virtual environment
 
 
-Juoypyter Notebook
+Jupyter Notebook
 ==================
 Jupyter Notebook is an open-source web application that allows you to create and share documents that contain 
 live code, equations, visualizations and narrative text.
