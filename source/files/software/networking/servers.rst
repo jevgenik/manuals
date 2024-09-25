@@ -39,4 +39,6 @@ Tornado is a Python web framework and asynchronous networking library, originall
 By using non-blocking network I/O, Tornado can scale to tens of thousands of open connections, making it 
 ideal for long polling, WebSockets, and other applications that require a long-lived connection to each user.
 
+Jupiter Notebook uses Tornado as its web server.
+
 `Official website <https://www.tornadoweb.org/en/stable/>`_
