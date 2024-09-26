@@ -31,3 +31,18 @@ high-availability storage and retrieval of time series data in fields such as op
 application metrics, Internet of Things sensor data, and real-time analytics.
 
 `Official Website <https://www.influxdata.com/>`_
+
+
+DuckDB
+======
+DuckDB is an open-source **column-oriented relational database** management system.
+Unlike other embedded databases (for example, SQLite) DuckDB is not focusing on transactional (OLTP) applications and 
+instead is specialized for online analytical processing **(OLAP) workloads**
+
+DuckDB in its OLAP niche does not compete with the traditional DBMS like MSSQL, PostgreSQL and Oracle database. 
+While using SQL for queries, DuckDB targets the serverless applications and provides extremely **fast responses using 
+Apache Parquet files for storage**. These attributes make it a popular choice for large dataset analysis in interactive mode, 
+but match poorly the requirements of the enterprise data storage.
+
+DuckDB also deviates from the traditional client–server model by **running inside a host process** (it has bindings, for example, 
+for a Python interpreter with the ability to directly place data into NumPy arrays).
