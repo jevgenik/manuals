@@ -35,7 +35,7 @@ application metrics, Internet of Things sensor data, and real-time analytics.
 
 DuckDB
 ======
-DuckDB is an open-source **column-oriented relational database** management system.
+DuckDB is an open-source **column-oriented relational database** management system. Is a fast in-process analytical database.
 Unlike other embedded databases (for example, SQLite) DuckDB is not focusing on transactional (OLTP) applications and 
 instead is specialized for online analytical processing **(OLAP) workloads**
 
@@ -46,3 +46,5 @@ but match poorly the requirements of the enterprise data storage.
 
 DuckDB also deviates from the traditional client–server model by **running inside a host process** (it has bindings, for example, 
 for a Python interpreter with the ability to directly place data into NumPy arrays).
+
+`Official Website <https://www.duckdb.org/>`_
