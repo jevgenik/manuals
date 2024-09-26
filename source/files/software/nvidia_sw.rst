@@ -84,7 +84,8 @@ NVIDIA AI Foundry is the end-to-end platform and service for building custom mod
 Just as TSMC manufactures chips designed by other companies, NVIDIA AI Foundry enables organizations to develop their own AI models.
 
 * NVIDIA Edify,  a multimodal AI architecture that can use simple text prompts to generate images, videos, 3D assets, 360-degree 
-  high-dynamic-range imaging and physically based rendering (PBR) materials.
+  high-dynamic-range imaging and physically based rendering (PBR) materials. Using AI Foundry, companies can train bespoke AI models 
+  to generate any of these assets
   `Test Edify models online <https://build.nvidia.com/nim?q=edify>`_
 
 `Official website <https://www.nvidia.com/en-us/ai/foundry/>`_
