@@ -76,3 +76,15 @@ Take one of the pretrained models, adapt them to your own real or synthetic data
 All without needing AI expertise or large training datasets.
 
 `Official website <https://developer.nvidia.com/tao-toolkit>`_
+
+
+NVIDIA AI Foundry
+=================
+NVIDIA AI Foundry is the end-to-end platform and service for building custom models for generative AI.
+Just as TSMC manufactures chips designed by other companies, NVIDIA AI Foundry enables organizations to develop their own AI models.
+
+* NVIDIA Edify,  a multimodal AI architecture that can use simple text prompts to generate images, videos, 3D assets, 360-degree 
+  high-dynamic-range imaging and physically based rendering (PBR) materials.
+  `Test Edify models online <https://build.nvidia.com/nim?q=edify>`_
+
+`Official website <https://www.nvidia.com/en-us/ai/foundry/>`_
