@@ -29,7 +29,7 @@ Contains pre-built, GPU-accelerated Docker containers
 It's similar to Docker Hub but tailored for NVIDIA's GPU-accelerated containers.
 
 
-Nvidia NIMs (Nvidia inference microservices)
+Nvidia NIMs (Nvidia Inference Microservices)
 ===========================================
 Nvidia NIMs (Nvidia inference microservices) are a collection of easy to use API driven microservices to interact with AI models. 
 `Explore NIMs <https://build.nvidia.com/explore/discover>`_
@@ -80,7 +80,7 @@ All without needing AI expertise or large training datasets.
 
 NVIDIA AI Foundry
 =================
-NVIDIA AI Foundry is the end-to-end platform and service for building custom models for generative AI.
+NVIDIA AI Foundry is the **end-to-end platform** and service **for building custom models for generative AI**.
 Just as TSMC manufactures chips designed by other companies, NVIDIA AI Foundry enables organizations to develop their own AI models.
 
 * NVIDIA Edify,  a multimodal AI architecture that can use simple text prompts to generate images, videos, 3D assets, 360-degree 
