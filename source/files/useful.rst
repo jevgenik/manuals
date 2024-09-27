@@ -40,6 +40,12 @@ AI/ML and Robotics
 
 * `LM Studio <https://lmstudio.ai/>`_ is an easy to use desktop app for experimenting with local and open-source Large Language Models (LLMs)
 
+* `LangChain <https://langchain.com/>`_ is a framework to build with LLMs by chaining interoperable components.
+
+* `LlamaIndex <https://llamaindex.com/>`_ is a simple, flexible data framework for connecting custom data sources to large language models.
+
+* `Chatbase <https://www.chatbase.co/>`_ Build a custom GPT, embed it on your website and let it handle customer support, lead generation, engage with your users, and more.
+
 
 
 Design and Prototyping
