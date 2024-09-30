@@ -48,3 +48,8 @@ DuckDB also deviates from the traditional client–server model by **running ins
 for a Python interpreter with the ability to directly place data into NumPy arrays).
 
 `Official Website <https://www.duckdb.org/>`_
+
+Milvus
+======
+MIlvus is the high-performance :ref:`vector database <vector_db>` built for scale
+

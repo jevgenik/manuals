@@ -56,6 +56,7 @@ For images we can use pre-trained models like ResNet, VGG, etc. These models tak
 *Vector Embeddings (2D example).* `Source. <https://causewriter.ai/courses/ai-explainers/lessons/vector-embedding/>`_
 
 
+.. _vector_db:
 Vector Database
 ===============
 A vector database is a database that stores embeddings. It is used to store and retrieve embeddings for similarity search.
