@@ -75,7 +75,7 @@ Rapid Software Development
 * `Gradio UI <https://www.gradio.app/>`_ Gradio is an open-source Python package that allows you to quickly create easy-to-use, customizable UI components 
   for your ML model, any API, or even an arbitrary Python function using a few lines of code
 
-* `Streamlit <https://streamlit.io/>`_ is an open-source Python framework for data scientists and AI/ML engineers to deliver interactive data apps – in only a few lines of code
+* `Streamlit <https://streamlit.io/>`_ is an open-source Python framework for data scientists and AI/ML engineers to deliver interactive data apps – in only a few lines of code.
   No front‑end experience required.
 
 
