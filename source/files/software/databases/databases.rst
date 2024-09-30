@@ -49,8 +49,24 @@ for a Python interpreter with the ability to directly place data into NumPy arra
 
 `Official Website <https://www.duckdb.org/>`_
 
+Vector Databases
+================
+:ref:`About vector databases <vector_db>`
+
 Milvus
-======
-Milvus is the high-performance open-source :ref:`vector database <vector_db>` built for GenAI applications.
+------
+Milvus is the high-performance open-source vector database built for scalable GenAI applications.
+Based on the Faiss library, focusing on highly optimized vector similarity searches 
+for demanding applications.
+
 `Official website <https://milvus.io/>`_
+
+Pinecone
+--------
+Pinecone is a cloud-based vector database for machine learning applications. Cloud-native, managed service that prioritizes 
+simplicity and rapid deployment. Its straightforward API and managed service approach eliminate the hassle of infrastructure management.
+This emphasis on ease of use enables quick setup and efficient utilization, making it an attractive option for businesses 
+seeking streamlined solutions.
+
+`Official website <https://www.pinecone.io/>`_
 
