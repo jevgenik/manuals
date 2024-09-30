@@ -67,8 +67,6 @@ A vector database is a database that stores embeddings. It is used to store and 
 
 *Vector Database.* `Source. <https://www.linkedin.com/pulse/complete-guide-creating-storing-vector-embeddings-pavan-belagatti-5fyfc/>`_
 
-**Milvus** is an open-source vector database built for GenAI applications. `Official website <https://milvus.io/>`_
-
 
 Data Augmentation
 =================

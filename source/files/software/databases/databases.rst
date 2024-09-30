@@ -51,5 +51,6 @@ for a Python interpreter with the ability to directly place data into NumPy arra
 
 Milvus
 ======
-MIlvus is the high-performance :ref:`vector database <vector_db>` built for scale
+Milvus is the high-performance open-source :ref:`vector database <vector_db>` built for GenAI applications.
+`Official website <https://milvus.io/>`_
 
