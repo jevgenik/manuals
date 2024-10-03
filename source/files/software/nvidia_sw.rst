@@ -62,6 +62,10 @@ Use Cases
   an alarm will be triggered (sent a request by a WebSocket) 
   `Example on GitHub <https://github.com/NVIDIA/metropolis-nim-workflows/tree/main/nim_workflows/vlm_alerts>`_
 
+* NVIDIA Database/Platform of Use Cases `Link <https://www.nvidia.com/en-us/use-cases>`_
+  
+  - `Generative AI-Powers Visual AI Agents <https://www.nvidia.com/en-us/use-cases/visual-ai-agents/>`_
+
 **Nvidia Metropolis** is a platform that enables the development of AI applications for video analytics.
 `Website <https://www.nvidia.com/en-eu/autonomous-machines/intelligent-video-analytics-platform/>`_
 
