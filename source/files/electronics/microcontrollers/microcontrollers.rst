@@ -42,3 +42,6 @@ Useful resources
 
 * `CircuitPython <https://circuitpython.org/>`_ -  is an open-source derivative of the MicroPython programming language targeted toward students and 
   beginners. Development of CircuitPython is supported by Adafruit Industries
+
+* `micro-ROS <https://micro.ros.org/>`_ - is an open source project to realize ROS2 on a microcontroller in various robot applications. 
+  By using a common framework, it enables interoperability with conventional robots, IoT sensors and devices.
