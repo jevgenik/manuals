@@ -90,6 +90,8 @@ and tracking data from these nodes
   - ``v4l2-ctl --all`` lists all the controls for the video device.
   - ``v4l2-ctl --device=/dev/video0 --list-formats-ext`` lists the available video formats for the video device.
   - ``v4l2-ctl --device=/dev/video0 --set-fmt-video=width=1920,height=1080 --verbose`` sets resolution and pixel format for the video device.
+  - ``v4l2-ctl --device=/dev/video0 --set-ctrl=focus_auto=0`` disables autofocus
+  - ``v4l2-ctl --device=/dev/video0 --set-ctrl=focus_absolute=<value>`` sets manual focus (value typically 0-255)
 
 
 Libcamera
