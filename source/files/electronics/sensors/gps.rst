@@ -68,7 +68,7 @@ Where:
 
 .. tip:: 
    To obtain orthometric height (height above mean sea level) from the GPS altitude, you need to subtract the geoid height from the GPS altitude.
-   orthometric height = GPS altitude - geoid height
+   orthometric height = GPS altitude - geoid height.
    So the orthometric height = 545,4 - 46,9 = 498,5 meters above mean sea level
 
 RTK
