@@ -58,7 +58,7 @@ Where:
 - **1**            Quality Indicator (1 = GPS fix, or  uncorrected coordinate)                          
 - **08**           Number of satellites being tracked
 - **0.9**          Horizontal dilution of position (poition accuracy, the lower the better [<1 is Ideal])
-- **545.4**        Altitude above mean sea level
+- **545.4**        Altitude in relation (from) to WGS84 ellipsoid
 - **M**            Units of altitude (Meters)
 - **46.9**         Height of geoid (mean sea level) above WGS84 ellipsoid
 - **M**            Units of geoidal height (Meters)
