@@ -60,7 +60,7 @@ Where:
 - **0.9**          Horizontal dilution of position (poition accuracy, the lower the better [<1 is Ideal])
 - **545.4**        Altitude in relation (from) to WGS84 ellipsoid
 - **M**            Units of altitude (Meters)
-- **46.9**         Height of geoid (mean sea level) above WGS84 ellipsoid
+- **46.9**         Height of geoid (mean sea level) above WGS84 ellipsoid. This means the geoid (mean sea level) is 46.9 meters below the WGS84 ellipsoid.
 - **M**            Units of geoidal height (Meters)
 - (empty field) time in seconds since last DGPS update
 - (empty field) DGPS station ID number
