@@ -46,6 +46,8 @@ AI/ML and Robotics
 
 * `Chatbase <https://www.chatbase.co/>`_ Build a custom GPT, embed it on your website and let it handle customer support, lead generation, engage with your users, and more.
 
+* `Flowiseai <https://flowiseai.com/>`_  is an open source low-code tool for developers to build customized LLM orchestration flow & AI agents
+
 
 
 Design and Prototyping
