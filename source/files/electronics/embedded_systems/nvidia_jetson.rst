@@ -27,7 +27,7 @@ Tools
 
 * ``jetson-stats`` (command ``jtop``) - A package to monitor and control your NVIDIA Jetson [Xavier NX, Nano, AGX Xavier, TX1, TX2] embedded board. 
   It is a collection of various tools to monitor the system, including CPU, GPU, and RAM usage, temperature, and power consumption.
-  Repository: https://github.com/rbonghi/jetson_stats
+  `Repository <https://github.com/rbonghi/jetson_stats>`_
 
 * ``prime-select`` - Command-line tool to switch between Intel and NVIDIA graphics cards on Ubuntu (on hybrid systems)
 
