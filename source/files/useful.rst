@@ -16,27 +16,19 @@ IoT
 * `Grafana <https://grafana.com/>`_ is the open source analytics & monitoring solution for every database
 
 
+AI/ML
+=====
 
-AI/ML and Robotics
-==================
+* `Hugging Face <https://huggingface.co/>`_ is a platform for sharing and deploying natural language processing models and datasets.
 
 * `Kaggle <https://www.kaggle.com/>`_ is a data science competition platform and online community of data scientists and machine learning practitioners
 
-* `Hugging Face <https://huggingface.co/>`_ is a platform for sharing and deploying natural language processing models and datasets
+* `Edge Impulse <https://www.edgeimpulse.com/>`_ is a platform for building and deploying machine learning models on edge devices.
 
-* `Roboflow <https://roboflow.com/>`_ is a platform for building and deploying computer vision models. Good for annotating images
-
-* `Foxglove <https://foxglove.dev/>`_ is a tool for visualizing and debugging robotics data
-
-* `Edge Impulse <https://www.edgeimpulse.com/>`_ is a platform for building and deploying machine learning models on edge devices
-
-* `AlwayAI <https://www.alwaysai.com/>`_ is a platform for building and deploying computer vision models on edge devices
+* `AlwayAI <https://www.alwaysai.com/>`_ is a platform for building and deploying computer vision models on edge devices.
 
 * `Google Colab <https://colab.research.google.com/>`_  is a hosted Jupyter Notebook service that requires no setup to use and provides free access 
   to computing resources, including GPUs and TPUs.
-
-* `Rerun <https://rerun.io/>`_ is an SDK, time-series database, and visualizer for temporal and multimodal data. It’s used in fields like robotics, 
-  spatial computing, 2D/3D simulation, and finance to verify, debug, and explain.
 
 * `LM Studio <https://lmstudio.ai/>`_ is an easy to use desktop app for experimenting with local and open-source Large Language Models (LLMs)
 
@@ -48,6 +40,28 @@ AI/ML and Robotics
 
 * `Flowiseai <https://flowiseai.com/>`_  is an open source low-code tool for developers to build customized LLM orchestration flow & AI agents
 
+* `Replicate <https://replicate.com/>`_ - run and fine-tune open-source models. Deploy custom models at scale. All with one line of code.
+
+Tools and Libraries
+-------------------
+
+* `Cog <https://cog.run/>`_  is an open-source tool that lets you package machine learning models in a standard, production-ready container (Docker) and deploy 
+  them anywhere e.g. on replicate.com
+
+* `Pydantic <https://docs.pydantic.dev/latest/>`_ is data validation library for Python.
+
+
+Robotics
+=========
+
+* `Foxglove <https://foxglove.dev/>`_ is a tool for visualizing and debugging robotics data.
+
+* `Rerun <https://rerun.io/>`_ is an SDK, time-series database, and visualizer for temporal and multimodal data. It’s used in fields like robotics, 
+  spatial computing, 2D/3D simulation, and finance to verify, debug, and explain.
+
+* `Roboflow <https://roboflow.com/>`_ is a platform for building and deploying computer vision models. Good for annotating images
+
+* `URDF Creator <https://www.roboeverything.com/>`_ online tool to create URDF files for ROS robots. Exports URDF files and complete ROS packages.
 
 
 Design and Prototyping
@@ -64,7 +78,6 @@ Design and Prototyping
 * `Fusion360 <https://www.autodesk.com/products/fusion-360/overview>`_ is a cloud-based 3D CAD, CAM, and CAE platform for product design and manufacturing
 
 * `Imgur <https://imgur.com/>`_ is a free image hosting and sharing service
-
 
 
 Rapid Software Development
