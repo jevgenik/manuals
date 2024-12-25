@@ -172,3 +172,9 @@ For instance, GStreamer can be used to build a system that reads files in one fo
    flexibility in terms of customization.
 
 
+Useful resources
+================
+
+* `List of 3D Sensors (depth cameras) for robotics applications <https://rosindustrial.org/3d-camera-survey>`_
+
+
