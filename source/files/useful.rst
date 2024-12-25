@@ -61,7 +61,8 @@ Robotics
 
 * `Roboflow <https://roboflow.com/>`_ is a platform for building and deploying computer vision models. Good for annotating images
 
-* `URDF Creator <https://www.roboeverything.com/>`_ online tool to create URDF files for ROS robots. Exports URDF files and complete ROS packages.
+* `URDF Creator <https://www.roboeverything.com/>`_ online tool to create URDF files for ROS robots. Exports URDF, SDF and complete ROS packages 
+  (robot_description, launch files, etc.)
 
 
 Design and Prototyping
