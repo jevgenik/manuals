@@ -46,7 +46,7 @@ Nvidia Jetson Xavier NX Setup
    Latest supported JetPack version is 5.1.4
    Easiest way to use SDK Manager in a Docker container. It can be downloaded `here <https://developer.nvidia.com/sdk-manager>`_ NB! Use image Ubuntu 18.04 or 20.04
 
-2. Install ``qemu-user-static`` and ``binfmt-support`` on the host,
+2. NB! When installing JetPack SDK using the SDK Manager Docker image install ``qemu-user-static`` and ``binfmt-support`` on the host,
    Then run following commands: ``sudo update-binfmts --enable`` and ``sudo killall adb``
 
 3. Load the docker image: ``docker load -i ./sdkmanager-[version].[build#]-[base_OS]_docker.tar.gz``,
