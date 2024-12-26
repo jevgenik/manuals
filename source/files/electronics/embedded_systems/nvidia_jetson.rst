@@ -37,3 +37,9 @@ Tools
   (install: ``sudo apt install mesa-utils``)
   
   - ``glxinfo -B`` - to get more detailed information about 3D acceleration setup
+
+
+Nvidia Jetson Xavier NX Setup
+=============================
+
+1. Install Nvidia SKD Manager on your host machine
