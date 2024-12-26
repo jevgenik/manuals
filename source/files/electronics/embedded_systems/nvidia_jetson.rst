@@ -45,3 +45,21 @@ Nvidia Jetson Xavier NX Setup
 1. Install Nvidia SDK Manager on your host machine. NB! Xavier NX requires a host machine with Ubuntu 18.04 LTS or Ubuntu 20.04 LTS (not newer)
    Latest supported JetPack version is 5.1.4
    Easiest way to use SDK Manager in a Docker container. It can be downloaded `here <https://developer.nvidia.com/sdk-manager>`_ NB! Use image Ubuntu 18.04 or 20.04
+
+2. Install ``qemu-user-static`` and ``binfmt-support`` on the host,
+   Then run following commands: ``sudo update-binfmts --enable`` and ``sudo killall adb``
+
+3. Load the docker image: ``docker load -i ./sdkmanager-[version].[build#]-[base_OS]_docker.tar.gz``,
+   Then tag the image: ``docker tag sdkmanager:[version].[build#] sdkmanager:latest``
+
+4. Run the Docker image: ``docker run -it --rm --privileged -v /dev/bus/usb:/dev/bus/usb/ -v /dev:/dev -v /media/$USER:/media/nvidia:slave
+   sdkmanager --cli``
+
+5. When ready to flash, connect Jetson's pins 9 and 10 to boot into force recovery mode. Connect Jetson to host via a USB cable. Turn on the Jetson.
+
+6. After flash is completed, remove the jump wire and reboot Jetson.
+
+.. note::
+   If SDK Manager can't detect Jetson, even though it is showing up on both host and inside the container when running ``lsusb``, try to do step 5 before running Docker.
+
+`Nvidia SDK Manager Docker docs <https://docs.nvidia.com/sdk-manager/docker-containers/index.html>`_
