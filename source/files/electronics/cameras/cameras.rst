@@ -184,7 +184,7 @@ How to use CSI camera with Nvidia Jetson
 4. View the video stream from the virtual video device: ``ffplay /dev/video1``
 
 .. note::
-   If the GStreamer pipeline fails, try to restart the nvargus service: ``sudo systemctl restart nvargus-daemon``
+   If the GStreamer pipeline fails, try to restart the nvargus service: ``sudo systemctl restart nvargus-daemon.service``
 
 Useful Resources
 ================
