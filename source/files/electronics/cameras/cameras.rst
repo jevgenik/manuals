@@ -179,7 +179,7 @@ How to use CSI camera with Nvidia Jetson
 2. Load the v4l2loopback module: ``sudo modprobe v4l2loopback devices=1`` which creates a virtual video device
 
 3. Stream the video frm the CSI camera (nvarguscamerasrc) to the virtual video device: 
-   ``gst-launch-1.0 nvarguscamerasrc ! 'video/x-raw(memory:NVMM),width=1280,height=720,framerate=30/1' ! nvvidconv ! 'video/x-raw,format=I420' ! queue ! videoconvert ! 'video/x-raw,format=YUY2' ! queue ! v4l2sink device=/dev/video1``
+   ``gst-launch-1.0 nvarguscamerasrc timeout=31536000 ! 'video/x-raw(memory:NVMM),width=1280,height=720,framerate=30/1' ! nvvidconv ! 'video/x-raw,format=I420' ! queue ! videoconvert ! 'video/x-raw,format=YUY2' ! queue ! v4l2sink device=/dev/video1``
 
 4. View the video stream from the virtual video device: ``ffplay /dev/video1``
 
