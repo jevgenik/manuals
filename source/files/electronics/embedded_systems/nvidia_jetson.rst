@@ -42,4 +42,6 @@ Tools
 Nvidia Jetson Xavier NX Setup
 =============================
 
-1. Install Nvidia SKD Manager on your host machine
+1. Install Nvidia SDK Manager on your host machine. NB! Xavier NX requires a host machine with Ubuntu 18.04 LTS or Ubuntu 20.04 LTS (not newer)
+   Latest supported JetPack version is 5.1.4
+   Easiest way to use SDK Manager in a Docker container. It can be downloaded `here <https://developer.nvidia.com/sdk-manager>`_ NB! Use image Ubuntu 18.04 or 20.04
