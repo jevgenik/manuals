@@ -56,11 +56,13 @@ Cameras
 :ref:`Cameras <intel_realsense>`
 
 
-Useful Resources
-================
+Useful Resources and ROS 2 packages
+=================================
 
-* ROS 2 package *depth_anything_v2_ros2* - is a ROS 2 wrapper for the *depth_anything_v2* library (Monocular Depth Estimation). It provides a ROS2 node 
+* ROS 2 package **depth_anything_v2_ros2** - is a ROS 2 wrapper for the *depth_anything_v2* library (Monocular Depth Estimation). It provides a ROS2 node 
   that subscribes to a camera topic and publishes the depth map of the scene. `GitHub <https://github.com/grupo-avispa/depth_anything_v2_ros2?tab=readme-ov-file>`_
+
+* **v4l2_camera** - a ROS 2 camera driver using Video4Linux2 (V4L2. `GitHub <https://github.com/masayuki-kono/ros2_v4l2_camera/tree/humble>`_
 
 
 
