@@ -181,7 +181,8 @@ How to use CSI camera with Nvidia Jetson
 3. Stream the video frm the CSI camera (nvarguscamerasrc) to the virtual video device: 
    ``gst-launch-1.0 nvarguscamerasrc sensor-mode=4 ! 'video/x-raw(memory:NVMM),width=1280,height=720,framerate=30/1' ! nvvidconv ! 'video/x-raw,format=I420' ! queue ! videoconvert ! 'video/x-raw,format=YUY2' ! v4l2sink device=/dev/video1``
 
-4. View the video stream from the virtual video device: ``ffplay /dev/video1``
+4. View the video stream from the virtual video device: ``ffplay /dev/video1`` or use ``cheese`` application
+   (is a simple webcam viewer for GNOME)
 
 .. note::
    If the GStreamer pipeline fails, try to restart the nvargus service: ``sudo systemctl restart nvargus-daemon.service``
