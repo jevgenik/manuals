@@ -19,9 +19,9 @@ ROS 2 topic commands
 * ``ros2 topic echo <topic_name>`` - show messages published to topic
 * ``ros2 topic echo <topic_name> --no-arr`` - show messages published to topic without array brackets
 * ``ros2 topic list`` - list active topics
-* ``ros2 topic list --verbose`` - list active topics with their types
+* ``ros2 topic list --verbose`` - list active topics with their types and count of publishers and subscribers
 * ``ros2 topic list -t`` - list active topics with their types
-* ``ros2 topic info <topic_name>`` - show information about topic (e.g. `ros2 topic info /turtle1/cmd_vel`)
+* ``ros2 topic info <topic_name> --verbose`` - show information about topic (e.g. `ros2 topic info /turtle1/cmd_vel`)
 * ``ros2 topic type <topic_name>`` - show type of topic (e.g. `ros2 topic type /turtle1/cmd_vel`)
 * ``ros2 topic hz <topic_name>`` - show publishing rate of topic (e.g. `ros2 topic hz /turtle1/cmd_vel`)
 * ``ros2 topic pub /cmd_vel geometry_msgs/msg/Twist "{linear: {x: 1.0, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 0.0}}"`` - publish a message to a 
