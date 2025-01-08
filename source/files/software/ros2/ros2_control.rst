@@ -8,4 +8,4 @@ ros2_control is a framework for (real-time) control of robots using ROS 2
 Useful Resources
 ================
 
-* ros2_control concept explained for beginners - `Link <ros2_control concept explained for beginners>`_
+* ros2_control concept explained for beginners - `Link <https://masum919.github.io/ros2_control_explained/>`_
