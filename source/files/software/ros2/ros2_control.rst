@@ -8,3 +8,5 @@ ros2_control is a framework for (real-time) control of robots using ROS2
 
 Useful Resources
 ================
+
+* `example of a custom hardware interface (Arduino) <https://github.com/masum919/ros2_control_custom_hardware_interface>`_
