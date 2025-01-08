@@ -40,7 +40,8 @@ AI/ML
 
 * `Flowiseai <https://flowiseai.com/>`_  is an open source low-code tool for developers to build customized LLM orchestration flow & AI agents
 
-* `Replicate <https://replicate.com/>`_ - run and fine-tune open-source models. Deploy custom models at scale. All with one line of code.
+* `Replicate <https://replicate.com/>`_ is a platform that collects various open-source large language models (LLMs). Platforms allows developers 
+  to use models via APIs, making it easy to integrate their applications or projects with AI services.
 
 Tools and Libraries
 -------------------
