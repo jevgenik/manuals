@@ -83,4 +83,4 @@ ROS Packages and Interfaces
 
 * `geometry_msgs/Pose <https://docs.ros.org/en/noetic/api/geometry_msgs/html/msg/Pose.html>`_ - a representation of pose in free space, composed of position and orientation
 
-* **roman_ros** - ROS package for ROMAN (Robust Object Map Alignment Anywhere) global localization method. `GitHub <https://github.com/mit-acl/roman_ros>`_
+* **roman_ros** - ROS wrapper for ROMAN (Robust Object Map Alignment Anywhere) global localization method. `GitHub <https://github.com/mit-acl/roman_ros>`_
