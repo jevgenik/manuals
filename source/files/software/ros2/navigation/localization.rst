@@ -57,6 +57,10 @@ Scope: It operates on a global coordinate frame (``/map`` or ``/world``), often 
 
 * :ref:`loop_closure` Detection in SLAM: Detecting when the robot revisits a known location to refine its global position estimate.
 
+* ROMAN(Robust Object Map Alignment Anywhere). ROMAN is a view-invariant global localization method that maps open-set objects and uses the geometry, 
+  shape, and semantics of objects to find the transformation between a current pose and previously created object map.
+  This enables loop closure between robots even when a scene is observed from opposite views. `More Information <https://acl.mit.edu/ROMAN/>`_
+
 
 Local localization is precise and focused on the immediate surroundings, useful for fine-tuning the robot's movement and avoiding obstacles. 
 Global localization, on the other hand, is about finding the robot's place in the broader context of its environment, 
@@ -78,3 +82,5 @@ ROS Packages and Interfaces
   and orientation (i.e. Pose) of a robot in a given known map using a 2D laser scanner. `GitHub <https://github.com/ros-navigation/navigation2/tree/main/nav2_amcl>`_
 
 * `geometry_msgs/Pose <https://docs.ros.org/en/noetic/api/geometry_msgs/html/msg/Pose.html>`_ - a representation of pose in free space, composed of position and orientation
+
+* **roman_ros** - ROS package for ROMAN (Robust Object Map Alignment Anywhere) global localization method. `GitHub <https://github.com/mit-acl/roman_ros>`_
