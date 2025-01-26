@@ -13,7 +13,7 @@ ros2_controllers
 Commonly used and generalized controllers for ros2-control framework that are ready to use 
 with many robots, MoveIt2 and Nav2
 
-* `Documentation <https://ros-controls.github.io/ros2_controllers/latest/index.html>`_
+* `Documentation <https://control.ros.org/rolling/doc/ros2_controllers/doc/controllers_index.html>`_
 * `GitHub <https://github.com/ros-controls/ros2_controllers>`_
 
 Useful Resources
