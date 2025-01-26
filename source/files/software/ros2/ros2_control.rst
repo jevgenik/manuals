@@ -11,7 +11,7 @@ ros2_control is a framework for (real-time) control of robots using ROS2
 ros2_controllers
 ================
 Commonly used and generalized controllers for ros2-control framework that are ready to use 
-with many robots, MoveIt2 and Nav2
+with many robots, MoveIt2 and Nav2 (e.g joint_trajectory_controller, diff_drive_controller, etc.)
 
 * `Documentation <https://control.ros.org/rolling/doc/ros2_controllers/doc/controllers_index.html>`_
 * `GitHub <https://github.com/ros-controls/ros2_controllers>`_
