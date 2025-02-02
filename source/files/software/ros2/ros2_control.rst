@@ -8,7 +8,6 @@ ros2_control is a framework for (real-time) control of robots using ROS2
 * `Command Line Interface <https://control.ros.org/rolling/doc/ros2_control/ros2controlcli/doc/userdoc.html>`_
 * `GitHub <https://github.com/ros-controls/ros2_control>`_
 
-
 ros2_controllers
 ================
 Commonly used and generalized controllers for ros2-control framework that are ready to use 
