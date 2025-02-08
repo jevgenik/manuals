@@ -44,6 +44,8 @@ Commands
    Starting from Gazebo Harmonic, ``gz`` is the standard command (older versions like Fortress and Citadel used ``ign``).
    For example: ``gz topic -l``
 
+* `gz sim --verbose 3` - run Gazebo with verbose output (3 is the default level)
+
 Topics
 ------
 
@@ -91,3 +93,8 @@ Other Useful Information
 * Path to the default worlds: ``/usr/share/gz/gz-sim/worlds`` (for Harmonic)
 
 * Path to the resources downloaded from Fuel: ``~/.gz/fuel``
+
+* To add a model to the world, click on three dots on the right top corner of the Gazebo GUI and 
+  type 'Resource Spawner', then type the name of the model you want to add and press download.
+
+* To save the world, click on the hamburger menu on the left top corner of the Gazebo GUI and select 'Save World'.
