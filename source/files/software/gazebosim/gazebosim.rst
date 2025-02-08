@@ -41,16 +41,17 @@ Commands
 ========
 
 .. note::
-   ``ign`` is used only for versions Fortress and and Citadel for new versions use ``gz`` e.g ``gz topic -l``
+   Starting from Gazebo Harmonic, ``gz`` is the standard command (older versions like Fortress and Citadel used ``ign``).
+   For example: ``gz topic -l``
 
 Topics
 ------
 
-* ``ign topic -l`` - list all of the topics that are currently available in the Ignition transport system 
+* ``gz topic -l`` - list all of the topics that are currently available in the Gazebo transport system 
 
-* ``ign topic -i -t /topic_name`` - display information about a specific topic  
+* ``gz topic -i -t /topic_name`` - display information about a specific topic  
 
-* ``ign topic -e -t /topic_name`` - echo topic /topic_name (-e -echo, -t - topic name)
+* ``gz topic -e -t /topic_name`` - echo topic /topic_name (-e -echo, -t - topic name)
 
 
 Plugins
@@ -87,6 +88,6 @@ Other Useful Information
 * `Gazebo Fuel <https://app.gazebosim.org/dashboard>`_ is a cloud service that provides a free library of robot models and environments. 
   Models can easily be added to a world running in the Gazebo GUI.
 
-* Path to the default worlds: ``/usr/share/ignition/ignition-gazebo6/worlds`` (for Fortress)
+* Path to the default worlds: ``/usr/share/gz/gz-sim/worlds`` (for Harmonic)
 
-* Path to the resources downloaded from Fuel: ``~/.ignition/fuel``
+* Path to the resources downloaded from Fuel: ``~/.gz/fuel``
