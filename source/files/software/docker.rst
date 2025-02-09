@@ -14,8 +14,12 @@ settings that machine might have that could differ from the machine used for wri
 .. image:: /files/images/docker_build_and_run.jpg
    :alt: Docker Build and Run
 
+
 Docker commands
 ===============
+
+* ``docker info`` - show docker system info
+
 
 Commands related to images
 --------------------------
@@ -161,3 +165,12 @@ runtime library and utilities to automatically configure containers to leverage 
 * `Turn on GPU access with Docker Compose (Docker documentation) <https://docs.docker.com/compose/gpu-support/>`_
 
 * `Specialized Configurations with Docker (NVIDIA docs) <https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/docker-specialized.html>`_
+
+
+Builix
+======
+plugin that alllows to build images for different architectures (e.g. amd64, arm64, etc.) on a single machine.
+
+* ``docker info | grep -i buildx`` - check if buildx plugin is installed
+
+* ``sudo apt update && apt install docker-buildx-plugin`` - install buildx plugin
