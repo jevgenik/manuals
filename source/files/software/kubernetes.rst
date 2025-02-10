@@ -30,12 +30,17 @@ Components and Terminology
 ==========================
 
 * `Namespace <https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/>`_ - a namespace is a 
-  logical grouping of resources in a cluster.
+  logical grouping of resources in a cluster
+
+* `Secret <https://kubernetes.io/docs/concepts/configuration/secret/>`_ - a secret is an object that contains sensitive 
+  information such as passwords, API keys, and certificates.
 
 
 Commands
 ========
+
 * ``kubectl get nodes`` - list all nodes in the cluster
+
 * ``kubectl create ns <namespace>`` - create a new namespace (`more info <https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/>`_)
 
 
