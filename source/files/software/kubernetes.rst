@@ -28,6 +28,7 @@ applications through the Kubernetes API.
 Commands
 ========
 * ``kubectl get nodes`` - List all nodes in the cluster
+* ``kubectl create ns <namespace>`` - Create a new namespace (`more info <https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/>`_)
 
 
 
