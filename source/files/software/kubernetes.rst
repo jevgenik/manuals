@@ -45,12 +45,12 @@ Commands
 
 * ``kubectl get nodes`` - list all nodes in the cluster
 
-* ``kubectl create namespace <namespace>`` - create a new namespace (`more info <https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/>`_)
+* ``kubectl create namespace <namespace>`` - create a new namespace (`more info <https://kubernetes.io/docs/reference/kubectl/generated/kubectl_create/>`_)
 
 * ``kubectl get namespace`` - list all namespaces in the cluster 
 
 * ``kubectl apply -n <namespace> -f <filename>`` - apply a configuration to a namespace 
-  (e.g. kubectl apply -n my-namespace -f configmaps/my-configmap.yaml) (`more info <https://kubernetes.io/docs/reference/kubectl/generated/kubectl_apply/>`_)
+  (*e.g. kubectl apply -n my-namespace -f configmaps/my-configmap.yaml*) (`more info <https://kubernetes.io/docs/reference/kubectl/generated/kubectl_apply/>`_)
 
 
 
