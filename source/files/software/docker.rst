@@ -173,4 +173,4 @@ plugin that alllows to build images for different architectures (e.g. amd64, arm
 
 * ``docker info | grep -i buildx`` - check if buildx plugin is installed
 
-* ``sudo apt update && apt install docker-buildx-plugin`` - install buildx plugin
+* ``sudo apt update && sudo apt install docker-buildx-plugin`` - install buildx plugin

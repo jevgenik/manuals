@@ -10,6 +10,8 @@ The primary group is stored in the /etc/passwd file.
 
 Commands:
 
+* ``id`` - show user and group information
+
 * ``groupadd`` - create a new group (e.g. ``groupadd --gid 1000 mygroup`` - create a new group with gid 1000 and name mygroup)
   
 * ``useradd`` - create a new user or update default new user information  
