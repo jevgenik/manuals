@@ -18,6 +18,10 @@ taking care of scaling and failover for your applications.
 Components and Terminology
 ==========================
 
+* `Pod <https://kubernetes.io/docs/concepts/workloads/pods/pod-overview/>`_ - a pod is the smallest deployable unit in Kubernetes, 
+  and is the basic building block of your application. A pod is a collection of one or more containers, 
+  with shared storage and network resources, and a specification for how to run the containers.
+
 * `Namespace <https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/>`_ - a namespace is a 
   logical grouping of resources in a cluster
 
@@ -26,6 +30,9 @@ Components and Terminology
 
 * `ConfigMap <https://kubernetes.io/docs/concepts/configuration/configmap/>`_ - a configmap is an object that contains configuration 
   information for an application (as key-value pairs)
+
+* `Deployment <https://kubernetes.io/docs/concepts/workloads/controllers/deployment/>`_ - a Deployment manages a set of Pods to run an 
+  application workload, usually one that doesn't maintain state
 
 
 Kubectl
