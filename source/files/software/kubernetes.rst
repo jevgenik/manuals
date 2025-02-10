@@ -22,12 +22,12 @@ applications through the Kubernetes API.
 
 * `Kubectl Documentation <https://kubernetes.io/docs/reference/kubectl/>`_ 
 
-.. tip::
+.. note::
    Kubernetes config files is stored in the ``.kube`` directory of the user's home directory.
 
 Commands
 ========
-* `kubectl get nodes` - List all nodes in the cluster
+* ``kubectl get nodes`` - List all nodes in the cluster
 
 
 
