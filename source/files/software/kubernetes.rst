@@ -15,6 +15,16 @@ taking care of scaling and failover for your applications.
    Kubernetes cluster architecture
 
 
+Components and Terminology
+==========================
+
+* `Namespace <https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/>`_ - a namespace is a 
+  logical grouping of resources in a cluster
+
+* `Secret <https://kubernetes.io/docs/concepts/configuration/secret/>`_ - a secret is an object that contains sensitive 
+  information such as passwords, API keys, and certificates.
+
+
 Kubectl
 =======
 Kubectl is a command-line tool for controlling the Kubernetes cluster. It allows you to manage your cluster and 
@@ -24,16 +34,6 @@ applications through the Kubernetes API.
 
 .. note::
    Kubernetes config files are stored in the ``.kube`` directory of the user's home directory.
-
-
-Components and Terminology
-==========================
-
-* `Namespace <https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/>`_ - a namespace is a 
-  logical grouping of resources in a cluster
-
-* `Secret <https://kubernetes.io/docs/concepts/configuration/secret/>`_ - a secret is an object that contains sensitive 
-  information such as passwords, API keys, and certificates.
 
 
 Commands
