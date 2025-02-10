@@ -22,13 +22,17 @@ Components and Terminology
   logical grouping of resources in a cluster
 
 * `Secret <https://kubernetes.io/docs/concepts/configuration/secret/>`_ - a secret is an object that contains sensitive 
-  information such as passwords, API keys, and certificates.
+  information such as passwords, API keys, and certificates
+
+* `ConfigMap <https://kubernetes.io/docs/concepts/configuration/configmap/>`_ - a configmap is an object that contains configuration 
+  information for an application
 
 
 Kubectl
 =======
 Kubectl is a command-line tool for controlling the Kubernetes cluster. It allows you to manage your cluster and 
 applications through the Kubernetes API.
+
 
 * `Kubectl Documentation <https://kubernetes.io/docs/reference/kubectl/>`_ 
 
@@ -41,7 +45,9 @@ Commands
 
 * ``kubectl get nodes`` - list all nodes in the cluster
 
-* ``kubectl create ns <namespace>`` - create a new namespace (`more info <https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/>`_)
+* ``kubectl create namespace <namespace>`` - create a new namespace (`more info <https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/>`_)
+
+* ``kubectl get namespace`` - list all namespaces in the cluster 
 
 
 
