@@ -25,7 +25,7 @@ Components and Terminology
   information such as passwords, API keys, and certificates
 
 * `ConfigMap <https://kubernetes.io/docs/concepts/configuration/configmap/>`_ - a configmap is an object that contains configuration 
-  information for an application
+  information for an application (as key-value pairs)
 
 
 Kubectl
@@ -48,6 +48,9 @@ Commands
 * ``kubectl create namespace <namespace>`` - create a new namespace (`more info <https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/>`_)
 
 * ``kubectl get namespace`` - list all namespaces in the cluster 
+
+* ``kubectl apply -n <namespace> -f <filename>`` - apply a configuration to a namespace 
+  (e.g. kubectl apply -n my-namespace -f configmaps/my-configmap.yaml) (`more info <https://kubernetes.io/docs/reference/kubectl/generated/kubectl_apply/>`_)
 
 
 
