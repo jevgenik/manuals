@@ -34,11 +34,16 @@ Components and Terminology
 * `Deployment <https://kubernetes.io/docs/concepts/workloads/controllers/deployment/>`_ - a Deployment manages a set of Pods to run an 
   application workload, usually one that doesn't maintain state
 
+* `Service <https://kubernetes.io/docs/concepts/services-networking/service/>`_ - a service is an object (the same way that a Pod or a 
+  ConfigMap is an object). Since Pods are ephemeral (they can be restarted, moved to another node, or replaced), a Service ensures 
+  that applications can always reach the right Pods even if their IP addresses change.
+
 
 Kubectl
 =======
 Kubectl is a command-line tool for controlling the Kubernetes cluster. It allows you to manage your cluster and 
 applications through the Kubernetes API.
+
 
 
 * `Kubectl Documentation <https://kubernetes.io/docs/reference/kubectl/>`_ 
