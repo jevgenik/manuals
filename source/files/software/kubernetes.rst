@@ -23,12 +23,20 @@ applications through the Kubernetes API.
 * `Kubectl Documentation <https://kubernetes.io/docs/reference/kubectl/>`_ 
 
 .. note::
-   Kubernetes config files is stored in the ``.kube`` directory of the user's home directory.
+   Kubernetes config files are stored in the ``.kube`` directory of the user's home directory.
+
+
+Components and Terminology
+==========================
+
+* `Namespace <https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/>`_ - a namespace is a 
+  logical grouping of resources in a cluster.
+
 
 Commands
 ========
-* ``kubectl get nodes`` - List all nodes in the cluster
-* ``kubectl create ns <namespace>`` - Create a new namespace (`more info <https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/>`_)
+* ``kubectl get nodes`` - list all nodes in the cluster
+* ``kubectl create ns <namespace>`` - create a new namespace (`more info <https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/>`_)
 
 
 
