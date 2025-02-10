@@ -12,4 +12,6 @@ taking care of scaling and failover for your applications.
    :alt: Kubernetes Architecture
    :width: 100%
 
-   Kubernetes architecture showing Control Plane managing multiple nodes with pods 
+   Kubernetes cluster architecture showing Control Plane (Master Node) components like API Server, etcd, Scheduler, 
+   and Controller Manager, along with Data Plane (Worker Nodes) components including kubelet, container runtime, 
+   and kube-proxy 
