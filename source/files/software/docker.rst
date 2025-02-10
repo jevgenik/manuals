@@ -167,7 +167,7 @@ runtime library and utilities to automatically configure containers to leverage 
 * `Specialized Configurations with Docker (NVIDIA docs) <https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/docker-specialized.html>`_
 
 
-Builix
+Buildx
 ======
 plugin that alllows to build images for different architectures (e.g. amd64, arm64, etc.) on a single machine.
 
