@@ -106,9 +106,11 @@ Communities, Forums, and Blogs
 CI/CD, Testing, Documentation, Project Management
 =================================================
 
-* `Swagger <https://swagger.io/>`_ is a tool for designing and documenting RESTful APIs
+* `Swagger <https://swagger.io/>`_ is a tool for designing and documenting RESTful APIs.
 
 * `TypeDoc <https://typedoc.org/>`_ is a documentation generator for TypeScript projects.
+
+* `Nx <https://nx.dev/>`_ is a build system with first class monorepo support and powerful integrations with frontend frameworks.
 
 
 Frontend
