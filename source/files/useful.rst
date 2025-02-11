@@ -125,10 +125,10 @@ Hosting
 =======
 
 * `Vercel <https://vercel.com/>`_ is a platform for building and deploying web applications.
-   Free tier available.
+  Free tier available.
 
 * `Netlify <https://www.netlify.com/>`_ deploy any modern frontend stack, from marketing sites to AI apps.
-   Free tier available.
+  Free tier available.
 
 
 Other
