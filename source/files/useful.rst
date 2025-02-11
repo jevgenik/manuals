@@ -111,6 +111,26 @@ CI/CD, Testing, Documentation, Project Management
 * `TypeDoc <https://typedoc.org/>`_ is a documentation generator for TypeScript projects.
 
 
+Frontend
+========
+
+* `Next.js <https://nextjs.org/>`_ is a React framework for building server-side rendered (SSR) web applications.
+
+* `Shadcn UI <https://ui.shadcn.com/>`_ is a library of pre-built components that you can drop into your apps.
+
+* `Tailwind CSS <https://tailwindcss.com/>`_ - styling library
+
+
+Hosting
+=======
+
+* `Vercel <https://vercel.com/>`_ is a platform for building and deploying web applications.
+   Free tier available.
+
+* `Netlify <https://www.netlify.com/>`_ deploy any modern frontend stack, from marketing sites to AI apps.
+   Free tier available.
+
+
 Other
 =====
 
