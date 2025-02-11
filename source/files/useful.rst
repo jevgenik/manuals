@@ -103,8 +103,41 @@ Communities, Forums, and Blogs
   It's run by Josh Newans, a mechatronics engineer from Newcastle, Australia.
 
 
+CI/CD, Testing, Documentation, Project Management
+=================================================
+
+* `Swagger <https://swagger.io/>`_ is a tool for designing and documenting RESTful APIs
+
+* `TypeDoc <https://typedoc.org/>`_ is a documentation generator for TypeScript projects.
+
+
 Other
 =====
 
-* `Docusaurus <https://docusaurus.io/>`_ is a modern static site generator that makes it easy to build and maintain open source project websites
+* `Docusaurus <https://docusaurus.io/>`_ is a modern static site generator that makes it easy to build and maintain 
+  open source project websites
 
+* `ngrok <https://ngrok.com/>` - a cross-platform application that creates secure tunnels (paths) to localhost machine. It enables 
+  developers to expose a local development server to the Internet with minimal effort
+
+
+Cursor tips and shortcuts
+=========================
+
+* `Ctrl + Alt + B` - to open side panel with chat and composer
+
+* Select code line and press `Ctrl + K` - to get a chat with the code (Pres button 'Generate' or 'Quick question')
+
+* In terminal `Ctrl + K` to get a chat with the terminal (e.g. ask to list files or to run a command)
+
+Rules for AI
+------------
+
+**Project rules** offers a powerful and flexible system with path specific configurations.
+Project rules are stored in the .cursor/rules directory and provide granular control over AI behavior in different parts of your project.
+
+
+**Global Rules** are stored in the .cursor/rules/global.yaml file and apply to all projects.
+
+
+https://cursor.directory/ - directory of Cursor rules
