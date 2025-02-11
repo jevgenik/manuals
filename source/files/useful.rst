@@ -137,7 +137,7 @@ Other
 * `Docusaurus <https://docusaurus.io/>`_ is a modern static site generator that makes it easy to build and maintain 
   open source project websites
 
-* `ngrok <https://ngrok.com/>` - a cross-platform application that creates secure tunnels (paths) to localhost machine. It enables 
+* `ngrok <https://ngrok.com/>`_ - a cross-platform application that creates secure tunnels (paths) to localhost machine. It enables 
   developers to expose a local development server to the Internet with minimal effort
 
 
