@@ -89,11 +89,11 @@ How-to
 
 * To add a model to the world, click on three dots on the right top corner of the Gazebo GUI and 
   type 'Resource Spawner', then type the name of the model you want to add and press download.
-  - Path to the resources downloaded from Fuel: ``~/.gz/fuel``
+  Path to the resources downloaded from Fuel: ``~/.gz/fuel``
 
 * To save the world, click on the hamburger menu on the left top corner of the Gazebo GUI and 
   select 'Save World'.
-  - Path to the default worlds: ``/usr/share/gz/gz-sim/worlds`` (for Harmonic)
+  Path to the default worlds: ``/usr/share/gz/gz-sim/worlds`` (for Harmonic)
 
 
 Other Useful Information
