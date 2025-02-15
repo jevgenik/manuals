@@ -84,17 +84,21 @@ Gazebo provides plugins to simulate motor controllers.
 * `SDF file containing a world and a robot <https://github.com/gazebosim/docs/blob/master/harmonic/tutorials/moving_robot/moving_robot.sdf>`_
 
 
+How-to
+======
+
+* To add a model to the world, click on three dots on the right top corner of the Gazebo GUI and 
+  type 'Resource Spawner', then type the name of the model you want to add and press download.
+  - Path to the resources downloaded from Fuel: ``~/.gz/fuel``
+
+* To save the world, click on the hamburger menu on the left top corner of the Gazebo GUI and 
+  select 'Save World'.
+  - Path to the default worlds: ``/usr/share/gz/gz-sim/worlds`` (for Harmonic)
+
+
 Other Useful Information
 ========================
 
 * `Gazebo Fuel <https://app.gazebosim.org/dashboard>`_ is a cloud service that provides a free library of robot models and environments. 
   Models can easily be added to a world running in the Gazebo GUI.
 
-* Path to the default worlds: ``/usr/share/gz/gz-sim/worlds`` (for Harmonic)
-
-* Path to the resources downloaded from Fuel: ``~/.gz/fuel``
-
-* To add a model to the world, click on three dots on the right top corner of the Gazebo GUI and 
-  type 'Resource Spawner', then type the name of the model you want to add and press download.
-
-* To save the world, click on the hamburger menu on the left top corner of the Gazebo GUI and select 'Save World'.
