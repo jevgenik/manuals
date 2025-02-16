@@ -23,6 +23,7 @@ Guide into robotics
    files/software/ros2/ros2
    files/software/docker
    files/software/kubernetes
+   files/software/nx
    files/software/coding/coding
    files/software/django/django
    files/software/databases/databases
