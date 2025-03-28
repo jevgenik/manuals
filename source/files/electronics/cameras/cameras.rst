@@ -193,5 +193,7 @@ Useful Resources
 ================
 
 * `List of 3D Sensors (depth cameras) for robotics applications <https://rosindustrial.org/3d-camera-survey>`_
+* `OpenMV Cams <https://openmv.io/>`_ - Machine Vision with Python. Our goal at OpenMV is to make building machine vision applications on high-performance, 
+  low-power microcontrollers easy.
 
 
