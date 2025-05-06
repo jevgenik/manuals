@@ -17,5 +17,8 @@ information so as not to get lost.
 
 ROS
 ===
-
 * `sensor_msgs/Imu <https://docs.ros.org/en/noetic/api/sensor_msgs/html/msg/Imu.html>`_ - message type for IMU data in ROS
+
+Useful Resources
+================
+* `ROS 2 IMU (ESP32 + micro-ROS + MPU9250) <https://github.com/syedmohiuddinzia/ros2_imu>`_
