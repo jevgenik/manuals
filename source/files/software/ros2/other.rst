@@ -21,3 +21,8 @@ Other Helpful Information
   high-performance hardware and GPUs in near real-time.
 
   `Website <https://berkeleyautomation.github.io/FogROS2/about>`_
+
+* **Aerial Robotic Landscape** is a repository/website is a collection of resources for aerial robotics. It is intended 
+  to be a comprehensive list of recourses for anyone interested in aerial robotics.
+
+  `Website <https://ros-aerial.github.io/aerial_robotic_landscape/>`_
